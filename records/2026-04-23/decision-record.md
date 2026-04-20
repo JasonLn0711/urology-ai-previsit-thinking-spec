@@ -14,7 +14,7 @@ This decision record is prepared before the meeting and must not be marked accep
 | Date | 2026-04-23 |
 | Decision owner | Jason |
 | Reviewers | 吳育德老師, 許富順醫師 / 泌尿科 |
-| Related capture note | `records/2026-04-23/meeting-capture.md` |
+| Related capture note | `meeting-capture.md` |
 | Current status | draft |
 
 ## Decision To Make

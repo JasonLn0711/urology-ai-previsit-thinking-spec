@@ -37,10 +37,10 @@ Recommended order:
 
 For the planned 2026-04-23 urology conversation, use the dated working packet:
 
-- `records/2026-04-23/pre-meeting-brief.md`
-- `records/2026-04-23/meeting-capture.md`
-- `records/2026-04-23/decision-record.md`
-- `records/2026-04-23/extraction-notes.md`
+- `../records/2026-04-23/pre-meeting-brief.md`
+- `../records/2026-04-23/meeting-capture.md`
+- `../records/2026-04-23/decision-record.md`
+- `../records/2026-04-23/extraction-notes.md`
 
 ## Step 1: Pre-Meeting Readiness
 

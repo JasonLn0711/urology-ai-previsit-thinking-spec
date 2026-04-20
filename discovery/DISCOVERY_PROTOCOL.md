@@ -27,11 +27,11 @@ One person may hold more than one role, but the responsibilities should remain s
 
 Before the meeting, read:
 
-- `THINKING_SPEC.md`
-- `WORKFLOW_LOGIC.md`
-- `SAFETY_BOUNDARY.md`
-- `EVALUATION.md`
-- `meta/open_questions.md`
+- `../core/THINKING_SPEC.md`
+- `../core/WORKFLOW_LOGIC.md`
+- `../core/SAFETY_BOUNDARY.md`
+- `../core/EVALUATION.md`
+- `../meta/open_questions.md`
 
 Bring only the reasoning frame:
 

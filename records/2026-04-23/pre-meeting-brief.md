@@ -177,10 +177,10 @@ Pause if:
 
 By 2026-04-24 11:00, create or update:
 
-- `records/2026-04-23/meeting-capture.md`
-- `records/2026-04-23/decision-record.md`
-- `records/2026-04-23/extraction-notes.md`
-- `meta/assumptions.md`
-- `meta/open_questions.md`
+- `meeting-capture.md`
+- `decision-record.md`
+- `extraction-notes.md`
+- `../../meta/assumptions.md`
+- `../../meta/open_questions.md`
 
 Do not update the full thinking spec unless a core assumption is invalidated.

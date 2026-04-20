@@ -33,7 +33,7 @@
 | 排空問題可問弱尿流、用力、斷斷續續、尿不乾淨、尿不出來；PVR/uroflow 留給臨床端。 | 【來源支持】 | AUA BPH 與 NICE CG97 支持 LUTS/IPSS 與臨床評估；AUA OAB / NICE NG123 指出 PVR 由臨床端在特定情境考慮。 |
 | 用藥題應聚焦「是否能提供藥單」與少數高影響藥物，而非要求病人精準分類所有藥理。 | 【來源支持】+【推論】 | NICE CG97 要 review current medication；OAB/BPH 指南也重視用藥脈絡；病人端採藥單/不清楚選項是可用性推論。 |
 | 護理端需要協助填答、缺漏補問、日誌教學、containment support 與回報觸發。 | 【來源支持】+【推論】 | NICE NG123 納入 continence nurse 與 containment review；ICS/ICIQ 支持 diary 與 pad use；具體護理 dashboard 欄位為工作流推論。 |
-| 系統摘要應顯示 patient-reported observations，不應顯示「低風險」「疑似診斷」「建議治療」。 | 【來源支持】+【推論】 | AUA/NICE 檢查與判斷均為臨床端工作；SAFETY_BOUNDARY.md 已定義描述性語句安全邊界。 |
+| 系統摘要應顯示 patient-reported observations，不應顯示「低風險」「疑似診斷」「建議治療」。 | 【來源支持】+【推論】 | AUA/NICE 檢查與判斷均為臨床端工作；`../core/SAFETY_BOUNDARY.md` 已定義描述性語句安全邊界。 |
 
 ## 3. 題目類別與來源支撐
 
