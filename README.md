@@ -50,6 +50,7 @@ It does not move, rename, or replace those materials.
 
 ## Primary Documents
 
+- `NEXT_STEP.md`: detailed meeting-to-decision workflow for using this thinking layer
 - `THINKING_SPEC.md`: full non-technical system specification
 - `DESIGN_PHILOSOPHY.md`: design values and reasoning
 - `WORKFLOW_LOGIC.md`: user journey and decision flow
