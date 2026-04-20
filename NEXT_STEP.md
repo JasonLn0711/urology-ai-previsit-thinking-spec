@@ -35,6 +35,13 @@ Recommended order:
 3. Write one copy of `DECISION_RECORD_TEMPLATE.md` after synthesis.
 4. Use `PAPER_PATENT_PRODUCT_EXTRACTION.md` to keep research, patent, and product conclusions separate.
 
+For the planned 2026-04-23 urology conversation, use the dated working packet:
+
+- `records/2026-04-23/pre-meeting-brief.md`
+- `records/2026-04-23/meeting-capture.md`
+- `records/2026-04-23/decision-record.md`
+- `records/2026-04-23/extraction-notes.md`
+
 ## Step 1: Pre-Meeting Readiness
 
 Enter the meeting with a discovery frame, not a product pitch.
