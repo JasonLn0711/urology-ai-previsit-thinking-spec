@@ -19,6 +19,22 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
+## Detailed Artifacts
+
+Use these documents to run the next step:
+
+- `DISCOVERY_PROTOCOL.md`: meeting runbook, question sequence, capture rules, and decision standard
+- `MEETING_CAPTURE_TEMPLATE.md`: structured note template for workflow facts, repeated questions, boundaries, and decision signals
+- `DECISION_RECORD_TEMPLATE.md`: post-meeting decision record for continue, revise, narrow, or pause
+- `PAPER_PATENT_PRODUCT_EXTRACTION.md`: separate extraction logic for paper framing, patent reasoning, and product adoption
+
+Recommended order:
+
+1. Read `DISCOVERY_PROTOCOL.md` before the meeting.
+2. Fill `MEETING_CAPTURE_TEMPLATE.md` during or immediately after the meeting.
+3. Write one copy of `DECISION_RECORD_TEMPLATE.md` after synthesis.
+4. Use `PAPER_PATENT_PRODUCT_EXTRACTION.md` to keep research, patent, and product conclusions separate.
+
 ## Step 1: Pre-Meeting Readiness
 
 Enter the meeting with a discovery frame, not a product pitch.

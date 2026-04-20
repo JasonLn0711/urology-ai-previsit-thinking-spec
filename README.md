@@ -57,6 +57,10 @@ It does not move, rename, rewrite, or replace anything in `planning-everything-t
 ## Supplemental Document
 
 - `NEXT_STEP.md`: meeting-to-decision workflow for using the thinking layer after a physician conversation
+- `DISCOVERY_PROTOCOL.md`: detailed discovery runbook for the next physician or clinic workflow conversation
+- `MEETING_CAPTURE_TEMPLATE.md`: structured capture template for workflow facts, repeated questions, boundaries, and decision signals
+- `DECISION_RECORD_TEMPLATE.md`: auditable post-meeting decision record template
+- `PAPER_PATENT_PRODUCT_EXTRACTION.md`: separation guide for paper framing, patent reasoning, and product decisions
 
 ## Operating Rule
 
