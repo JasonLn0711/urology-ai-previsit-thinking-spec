@@ -2,93 +2,117 @@
 
 ## Evolution Principle
 
-The system should grow only when the previous stage proves useful.
+The system should grow only when the previous stage proves useful and safe.
 
-Do not move from guided summary to clinical decision-making without a separate governance review.
+Do not move from previsit summary support to clinical decision support without a separate governance review. Growth should be evidence-driven, not excitement-driven.
 
 ## Stage 1: Thinking Layer
 
-Goal: clarify problem, workflow, safety boundaries, and evaluation logic.
+Goal: clarify the problem, user model, workflow logic, safety boundaries, evaluation criteria, and open questions.
 
-Output:
+Exit evidence:
 
-- thinking spec
-- workflow map
-- physician questions
-- safety boundary
-- evaluation criteria
+- complete thinking specification
+- explicit assumptions
+- explicit constraints
+- physician discovery questions
+- safety boundary written plainly
 
-## Stage 2: Synthetic Guided Demo
+## Stage 2: Discovery Walkthrough
 
-Goal: show the workflow without real patient data.
+Goal: show the intended interaction using non-real patient examples so reviewers can judge workflow usefulness without privacy exposure.
 
-Output:
+Exit evidence:
 
-- guided question flow
-- synthetic answers
-- missing-information prompts
-- clinician-review summary
+- clinician can understand the flow
+- safety boundary is visible
+- reviewers can identify useful, noisy, or missing fields
+- no real patient data is needed
 
 ## Stage 3: Clinician Feedback
 
-Goal: learn what is useful, noisy, unsafe, or missing.
+Goal: learn whether the summary would help a real urology visit.
 
-Output:
+Exit evidence:
 
-- revised question tree
-- revised summary format
-- workflow-fit judgment
-- go / no-go decision
+- list of repeated questions worth pre-collecting
+- list of physician-led topics
+- feedback on summary length and grouping
+- continue, revise, narrow, or pause decision
 
-## Stage 4: Assisted Workflow Trial
+## Stage 4: Revised Question Tree
 
-Goal: determine whether patient self-entry, nurse assistance, or family assistance is most realistic.
+Goal: turn feedback into a narrower and more accurate question set.
 
-Output:
+Exit evidence:
 
-- assisted-use protocol
-- staff burden estimate
-- completion and confusion points
+- removed noisy fields
+- added only high-value missing fields
+- simplified unclear wording
+- documented why each field remains
 
-## Stage 5: Summary Format Standardization
+## Stage 5: Assisted-Use Workflow Test
 
-Goal: make the summary more useful without increasing scope.
+Goal: decide whether self-filled, nurse-assisted, family-assisted, or mixed use is realistic.
 
-Output:
+Exit evidence:
 
-- one-page summary standard
-- missing-information section
-- clinician-review flags
-- patient constraint section
+- estimated staff burden
+- common assistance needs
+- patient confusion points
+- recommended operating mode
 
-## Stage 6: Governance Review
+## Stage 6: Summary Standardization
+
+Goal: make the clinician-review summary consistent, short, and safe.
+
+Exit evidence:
+
+- one-page summary structure
+- neutral review flags
+- visible missing-information section
+- language or accessibility needs section
+- clinician readability under one minute
+
+## Stage 7: Governance Review
 
 Goal: decide whether any real patient-data pilot is justified.
 
 Required before this stage:
 
-- privacy review
-- consent model
+- consent plan
 - data retention rule
+- deletion rule
+- access rule
 - clinician responsibility statement
-- patient communication text
+- patient-facing role explanation
 - failure reporting process
 
-## Stage 7: Limited Pilot
+## Stage 8: Limited Pilot
 
-Goal: test real workflow value under approved constraints.
+Goal: test real workflow value under explicit approval and narrow limits.
 
-Not allowed without explicit approval:
+Still not allowed without separate approval:
 
 - diagnosis
 - treatment suggestion
 - autonomous triage
-- silent storage
-- hidden data sharing
+- hidden storage
+- hidden sharing
 - production claims
 
-## Stage 8: Integration Discussion
+## Stage 9: Integration Discussion
 
-Goal: discuss hospital integration only after workflow value is proven.
+Goal: discuss connection to existing clinic workflows only after workflow value, safety, privacy, responsibility, and adoption are clear.
 
-Integration should remain downstream of workflow validation, privacy governance, and clinician acceptance.
+Integration is not proof of value. It is only justified after value is already visible.
+
+## Versioning Rule
+
+Each future version should explain:
+
+- what changed
+- why it changed
+- what evidence supported the change
+- which boundary was affected
+- which open question was answered

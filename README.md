@@ -1,61 +1,78 @@
 # Urology AI Previsit Thinking Spec
 
-This repository stores the non-technical thinking system behind the urology smart-previsit MVP.
+This repository stores the non-technical reasoning system behind a urology smart-previsit concept.
 
-It is not a code repository, product repository, or clinical deployment repository. It is a thinking-layer repository for product reasoning, workflow design, safety boundaries, evaluation logic, governance, and future decision-making.
+It is not a code repository, product repository, clinical protocol, or deployment plan. It is a thinking-layer repository: a place to make product intent, workflow reasoning, safety boundaries, evaluation logic, and future decisions explicit enough for review.
 
-## Purpose
+## Core Question
 
-The system asks a first-principles question:
-
-Can a guided previsit interview reduce repeated questioning and improve clinical readiness before a formal urology visit, without pretending to diagnose, triage, or replace a clinician?
+Can a guided previsit interview reduce repeated questioning and improve clinical readiness before a formal urology visit, while keeping diagnosis, triage, treatment advice, and final judgment with the clinician?
 
 ## Repository Role
 
-This repository captures:
+This repository exists so that reviewers can inspect the logic before anyone expands scope. It captures:
 
-- product intent
-- workflow reasoning
-- user interaction logic
-- information boundaries
-- safety philosophy
-- evaluation logic
-- trust and adoption strategy
-- trade-off analysis
-- failure analysis
-- evolution path
+- why the problem matters
+- who the system serves
+- where the workflow begins and ends
+- what information should and should not be collected
+- how the output should be shaped for clinician review
+- what safety boundaries are non-negotiable
+- how success and failure should be judged
+- what trade-offs were made
+- what must be answered before any real-world use
 
 ## What This Is Not
 
 This repository is not:
 
-- a codebase
-- a demo implementation
-- a medical device specification
-- a diagnosis system
+- a medical advice system
+- a diagnosis or triage system
+- a clinical decision system
+- a real patient data store
 - a hospital integration plan
-- a real patient data repository
-
-## Core Principle
-
-The first useful system is not an autonomous AI interviewer.
-
-The first useful system is a patient-friendly guided previsit workflow that collects repeated, high-value information and turns it into a clinician-review summary.
+- a regulatory submission
+- a claim that the concept is ready for deployment
 
 ## Source Relationship
 
-This repository depends on existing planning and demo materials as read-only sources.
+This repository is a sibling of `planning-everything-track`. It depends on existing planning and demo notes as read-only background.
 
-It does not move, rename, or replace those materials.
+It does not move, rename, rewrite, or replace anything in `planning-everything-track`.
 
-## Primary Documents
+## Required Documents
 
-- `NEXT_STEP.md`: detailed meeting-to-decision workflow for using this thinking layer
-- `THINKING_SPEC.md`: full non-technical system specification
-- `DESIGN_PHILOSOPHY.md`: design values and reasoning
-- `WORKFLOW_LOGIC.md`: user journey and decision flow
-- `SAFETY_BOUNDARY.md`: safety, privacy, and clinical boundaries
-- `EVALUATION.md`: success criteria and measurement logic
-- `TRADEOFF_ANALYSIS.md`: sacrifices, rejected alternatives, and counterfactuals
-- `FAILURE_ANALYSIS.md`: ways the system can fail and how to detect them
-- `EVOLUTION_PATH.md`: staged future growth without premature complexity
+- `THINKING_SPEC.md`: full non-technical thinking specification
+- `DESIGN_PHILOSOPHY.md`: design values, reasoning, and rejected instincts
+- `WORKFLOW_LOGIC.md`: encounter flow, decision points, and handoff logic
+- `SAFETY_BOUNDARY.md`: clinical, privacy, wording, and governance boundaries
+- `EVALUATION.md`: usefulness, safety, adoption, and decision metrics
+- `TRADEOFF_ANALYSIS.md`: sacrifices, rejected alternatives, counterfactuals, and reuse
+- `FAILURE_ANALYSIS.md`: likely failure modes, signals, and responses
+- `EVOLUTION_PATH.md`: staged growth rules for future versions
+- `meta/assumptions.md`: explicit assumptions behind the current spec
+- `meta/constraints.md`: repository, content, clinical, and governance constraints
+- `meta/open_questions.md`: unanswered questions for physician and workflow review
+
+## Supplemental Document
+
+- `NEXT_STEP.md`: meeting-to-decision workflow for using the thinking layer after a physician conversation
+
+## Operating Rule
+
+The first useful version should be modest, reviewable, and safe:
+
+1. collect repeated, high-value previsit information
+2. repair missing information before handoff
+3. let the patient, helper, or clinic staff review answers
+4. produce a short clinician-review summary
+5. leave interpretation and action with the clinician
+
+## Audit Rule
+
+Any future change should answer four questions:
+
+1. Does this reduce workflow friction without adding hidden burden?
+2. Does this preserve clinician authority?
+3. Does this avoid real patient data unless governance is explicit?
+4. Does this make the next decision clearer?

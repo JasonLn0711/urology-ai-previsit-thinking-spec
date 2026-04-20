@@ -2,72 +2,79 @@
 
 ## Core Trade-Off
 
-The system trades autonomy for safety.
+The system trades autonomy for safety and auditability.
 
-It does not try to be a smart medical interviewer. It tries to be a reliable previsit preparation aid.
+It does not try to be a smart medical interviewer. It tries to be a reliable previsit preparation aid. That choice makes the system less impressive at first glance, but easier to review, trust, and improve.
 
 ## What Was Sacrificed
 
-### Conversational Naturalness
+## Conversational Naturalness
 
 Structured questions are less flexible than open conversation.
 
-Reason: structure makes answers easier to review and safer to summarize.
+Why sacrificed: structured answers are easier for patients to review and easier for clinicians to scan. They also reduce the risk that open language will be over-interpreted.
 
-### Diagnostic Power
+## Diagnostic Power
 
-The system intentionally does not diagnose.
+The system intentionally avoids diagnosis.
 
-Reason: diagnosis belongs to the clinician.
+Why sacrificed: diagnosis belongs to the clinician. Adding diagnostic language would change the safety, trust, and governance profile of the whole concept.
 
-### Integration Ambition
+## Broad Medical Coverage
 
-The MVP does not begin with hospital system integration.
+The system does not try to collect a complete medical history.
 
-Reason: integration would add complexity before proving workflow value.
+Why sacrificed: the target problem is repeated previsit information, not total patient modeling. Broad capture would increase burden and reduce clarity.
 
-### Realism From Real Patient Data
+## Real-World Data Realism
 
-The MVP avoids real patient data.
+The discovery phase avoids real patient data.
 
-Reason: synthetic data enables faster, safer discovery.
+Why sacrificed: early learning should not create privacy exposure before workflow value is proven.
 
-### Voice-First Experience
+## Integration Ambition
 
-Voice is not the main path.
+The system does not begin by connecting to hospital record workflows.
 
-Reason: accent, noise, elderly speech, mixed language, and transcription uncertainty create early risk.
+Why sacrificed: integration can make a weak workflow look serious. Workflow value should be proven first.
+
+## Voice-First Convenience
+
+Voice is not treated as the main first path.
+
+Why sacrificed: noise, accents, mixed language, older-adult speech, and privacy concerns can shift attention away from the core workflow question.
 
 ## Rejected Alternatives
 
-| Alternative | Why Rejected |
+| Alternative | Why It Was Rejected |
 | --- | --- |
-| Voice-first AI interviewer | Too much early risk from speech errors, privacy, and overclaiming |
-| Autonomous triage | Crosses into clinical decision-making |
-| Full medical-history intake | Too burdensome and privacy-heavy for discovery |
-| EHR/HIS integration first | Solves technical routing before proving value |
-| Free-text transcript output | Gives clinicians more reading instead of a useful summary |
-| Real patient pilot first | Governance burden is too high before workflow value is proven |
+| Autonomous medical interviewer | Blurs responsibility and may create unsafe trust |
+| Voice-first main workflow | Speech capture risk may dominate early discovery |
+| Full medical-history intake | Too burdensome and too far from the repeated-question problem |
+| Hospital integration first | Solves operational routing before usefulness is proven |
+| Transcript output | Gives clinicians more reading rather than a concise starting point |
+| Real patient pilot first | Creates governance burden before the concept earns it |
 
-## Counterfactuals
+## Counterfactual Design
 
-If the system were voice-first, the meeting would focus on speech accuracy instead of workflow value.
+If the system were autonomous, the key question would become "Can it safely decide?" That is the wrong first question. The right first question is "Does this help the clinician prepare?"
 
-If the system diagnosed, safety and trust would become the central objections.
+If the system were voice-first, a failed test might reflect speech capture problems rather than workflow value.
 
-If the system stored real patient data, privacy governance would dominate discovery.
+If the system collected real patient data immediately, review would focus on privacy and consent before anyone knows whether the workflow helps.
 
-If the system integrated first, the team might build a technically impressive but clinically unused tool.
+If the system integrated first, effort could be spent on routing information that clinicians do not actually want.
 
-## Design Choice
+If the system produced transcripts, clinicians might receive more text and less clarity.
 
-The chosen MVP is deliberately modest:
+## Generalization
 
-```text
-guided questions
--> missing information
--> patient review
--> clinician-review summary
-```
+The same trade-off pattern applies to other expert-preparation contexts:
 
-This is the smallest structure that can test workflow usefulness without pretending to be clinical intelligence.
+- collect only repeated, useful pre-encounter facts
+- avoid pretending to make expert judgment
+- show missing information before handoff
+- keep outputs short and reviewable
+- evaluate workflow value before expanding
+
+This can apply to healthcare, legal consultations, insurance claims, education advising, support escalation, and other settings where better preparation helps but final judgment must stay with a human expert.

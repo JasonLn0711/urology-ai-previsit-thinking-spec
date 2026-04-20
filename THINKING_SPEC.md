@@ -1,68 +1,65 @@
-# Thinking Spec: Urology Smart-Previsit MVP
+# Thinking Spec: Urology Smart-Previsit System Logic
 
 ## 1. Problem Framing
 
-Urology visits often begin with repeated information gathering. The same patient may be asked similar questions by front-desk staff, nurses, and the physician.
+The starting problem is repeated and poorly timed information gathering before a urology visit. A patient may explain similar symptoms to clinic staff, nursing staff, and the physician, while key details can still be missing when the formal visit begins.
 
-The core problem is not lack of artificial intelligence. The core problem is workflow friction before the clinician enters the formal visit.
+The system is not motivated by a need to use artificial intelligence. It is motivated by a workflow question: can common previsit information be collected earlier, checked for completeness, and handed to the clinician in a form that saves time without weakening clinical judgment?
 
-The system exists to test whether a guided previsit interview can collect useful, repeated information earlier, reduce duplicated questioning, and produce a short summary that helps the clinician start faster.
-
-The problem must be framed as workflow discovery, not product deployment.
+The problem must be framed as discovery before deployment. A useful answer may be "continue", "revise", or "pause". The thinking system is successful if it makes that decision clearer.
 
 ## 2. Design Philosophy
 
-The system starts with guidance, not autonomy.
+The system should start with guidance, not autonomy.
 
-It should help patients explain their situation in a structured way, while preserving clinician judgment. The safest first version is a guided question flow with clear choices, large interaction targets, plain language, and a final review step.
+The safest early design is a structured previsit conversation that asks plain questions, repairs missing information, supports assisted use, and produces a short reviewable summary. It should not appear to know what disease the patient has or what treatment the patient needs.
 
-The design prefers:
+The design favors:
 
-- structured questions over open-ended conversation
+- restraint over impressive claims
+- structured answers over open-ended guessing
 - patient review before clinician review
-- summary over diagnosis
-- missing-information prompts over medical conclusions
-- human confirmation over automated decision-making
-- low-friction workflow learning over full hospital integration
+- neutral observations over medical conclusions
+- missing-information repair over diagnosis
+- workflow learning before expansion
+- explicit boundaries over hidden ambition
+
+This philosophy exists because a previsit tool can become unsafe if it sounds more authoritative than it is.
 
 ## 3. User Model
 
-Primary users are urology patients preparing for a visit. Some may be older adults, unfamiliar with phones, visually impaired, anxious, or more comfortable using Taiwanese, Mandarin, mixed language, or staff assistance.
+The primary user is a urology patient preparing for a visit. The patient may be older, anxious, visually impaired, unfamiliar with phones, unsure how to describe symptoms, or more comfortable with Mandarin, Taiwanese, mixed language, or help from another person.
 
-Secondary users are nurses, clinic staff, and physicians. Their need is not more raw text. Their need is a short, reviewable previsit summary that identifies the chief concern, symptom pattern, missing information, and review flags.
+The secondary users are clinic staff and clinicians. They do not need a long transcript. They need a short, trustworthy context layer that helps them see the chief concern, symptom pattern, missing information, and review flags before or during the visit.
 
-The system assumes user ability varies widely. Therefore, self-filled, nurse-assisted, and family-assisted paths must all remain conceptually valid.
+The system should assume uneven ability from the start. Self-filled, nurse-assisted, and family-assisted use are all valid. A design that works only for young, confident, digitally fluent patients is not adequate for this domain.
 
 ## 4. Workflow Logic
 
-The workflow begins before the physician-led encounter.
+The workflow begins before physician-led questioning and ends before clinical interpretation.
 
-The intended flow is:
+The intended sequence is:
 
-```text
-patient arrives or checks in
--> patient or helper opens guided previsit flow
--> patient identifies main concern
--> patient answers structured questions
--> system notices missing key information
--> patient or nurse reviews answers
--> system produces clinician-review summary
--> clinician confirms, edits, ignores, or asks follow-up questions
-```
+1. patient arrives or prepares for the visit
+2. patient, staff member, or helper starts the guided previsit flow
+3. patient identifies the main concern
+4. patient answers structured symptom and context questions
+5. missing key information is surfaced
+6. patient, staff member, or helper reviews the answers
+7. a clinician-review summary is prepared
+8. clinician confirms, edits, ignores, or asks follow-up questions
 
-The system does not attempt to close the clinical loop. It only prepares the encounter.
-
-The workflow is successful only if it fits the clinic's real sequence of check-in, waiting, nursing, physician review, and documentation.
+The system does not close the clinical loop. It prepares the encounter. Its value depends on whether this sequence fits the clinic's real check-in, waiting, nursing, and physician workflow.
 
 ## 5. Information Strategy
 
-The system should collect only information that is useful before the physician enters.
+The system should collect the smallest set of information that is useful before the physician enters.
 
-High-value information includes:
+Potentially useful information includes:
 
 - main urinary concern
-- duration
-- bother or severity
+- duration of symptoms
+- patient-rated bother or severity
 - daytime bathroom frequency
 - nighttime urination
 - leakage
@@ -70,135 +67,152 @@ High-value information includes:
 - blood in urine
 - fever or chills
 - inability to urinate
-- current medicines or medicine uncertainty
+- current medicines or uncertainty about medicines
 - preferred language
-- accessibility or phone-use needs
+- accessibility or help needs
 - optional patient context
 
-The system should avoid collecting identity details, sensitive identifiers, exact birth dates, real medical record numbers, or anything unnecessary for the discovery demo.
+The system should avoid collecting identity details, account details, exact birth dates, real medical record numbers, addresses, phone numbers, or anything not needed for the discovery decision.
 
-Information strategy is based on minimal useful information, not maximum capture.
+The information strategy is "minimum useful context", not "maximum capture". Collecting more information can make the system slower, more invasive, harder to review, and harder to govern.
 
 ## 6. Output Design Logic
 
-The output is a clinician-review summary.
+The output should be a clinician-review summary, not a medical conclusion.
 
-It should be readable quickly and should separate:
+The summary should separate:
 
 - safety notice
 - chief concern
 - symptom pattern
-- duration and severity
-- clinician-review flags
+- duration and patient-rated burden
+- neutral clinician-review flags
 - missing information
-- patient constraints
-- medicine context
+- medicine uncertainty
+- language or accessibility needs
 - optional patient note
 
-The summary must not sound like a diagnosis. It must preserve uncertainty and keep the clinician in charge.
+The summary should be short enough to review quickly. It should not require the clinician to read a long transcript. It should preserve uncertainty and make it clear that the information came from the patient or helper.
 
-A useful output is not a complete medical record. It is a short prepared context layer.
+The output is useful only if it helps the clinician begin the visit with better context while still leaving room to confirm, correct, or ignore it.
 
 ## 7. Safety And Boundary Design
 
-The system must never diagnose, triage, or recommend treatment.
+The core safety boundary is simple: the system may prepare information, but it must not make clinical decisions.
 
-Red-flag statements should be presented as observations only, such as:
+It must not:
 
-- Reports blood in urine.
-- Reports fever or chills.
-- Reports being unable to urinate.
+- diagnose
+- triage
+- recommend treatment
+- imply the patient is safe or unsafe
+- replace clinician questioning
+- hide uncertainty
+- claim clinical completeness
 
-The system should not say:
+Patient-reported red flags should be written as observations, not conclusions. For example:
 
-- likely infection
-- probable cancer
-- needs catheter
-- take medication
+- "Reports blood in urine."
+- "Reports fever or chills."
+- "Reports being unable to urinate."
 
-The boundary is clinician review, not clinical judgment.
+The system should not convert these into disease labels, urgency levels, or treatment suggestions.
 
-The system should also avoid real patient-data storage in the MVP. Privacy risk is reduced by using synthetic data and by keeping answers temporary during discovery.
+Privacy boundaries are also part of safety. During discovery, real patient data should not be used. Any future use of real patient data requires a separate consent, retention, access, responsibility, and review plan.
 
 ## 8. Trust And Adoption Strategy
 
-Trust comes from restraint.
+Trust comes from restraint, clarity, and clinician control.
 
-Patients should trust the system because it is simple, clear, and does not overclaim. Clinicians should trust it because it produces reviewable information and does not interfere with judgment.
+Patients are more likely to trust a system that asks understandable questions, allows review, and does not pretend to be a doctor. Clinicians are more likely to trust a system that produces short, neutral, editable summaries and clearly leaves interpretation to them.
 
-Adoption depends on whether the summary saves time, reduces repeated questions, and improves completeness without adding staff burden.
+Adoption depends on whether the system reduces repeated questions or missing context without adding work. A summary that clinicians ignore is evidence. A workflow that burdens nurses is evidence. A patient confusion point is evidence.
 
-The system should invite clinician correction. Ignoring or editing the summary is an acceptable workflow outcome.
+The system should invite correction. Editing or ignoring the summary is not failure by itself; it is part of discovering whether the summary format is useful.
 
 ## 9. Cognitive Load Design
 
-The system must reduce cognitive load for patients and clinicians.
+The system should lower cognitive load for both patients and clinicians.
 
-For patients:
+For patients, this means:
 
-- use short questions
-- use familiar choices
-- avoid medical jargon
-- provide large, clear controls
-- allow help from nurse or family
-- ask only the minimum useful follow-up questions
+- short questions
+- plain language
+- familiar answer choices
+- visible progress
+- review before handoff
+- help from staff or family when needed
+- no pressure to interpret medical meaning
 
-For clinicians:
+For clinicians, this means:
 
-- provide a compact summary
-- highlight missing information
-- flag patient-reported review items neutrally
-- avoid long transcripts unless specifically requested later
+- short summary
+- grouped information
+- clear missing fields
+- neutral review flags
+- no long transcript by default
+- no diagnostic tone
 
-The system should make the next action obvious at every step.
+Cognitive load is not just a usability issue. In this domain, excessive load can cause skipped answers, misunderstood symptoms, unsafe confidence, or clinician rejection.
 
 ## 10. Evaluation Metrics
 
-The system should be evaluated by workflow usefulness, not technical novelty.
+The system should be evaluated by workflow usefulness and safety, not novelty.
 
-Core evaluation metrics:
+Usefulness metrics:
 
 - completion rate
-- time required to complete
-- summary readability under 60 seconds
+- time needed to complete the previsit flow
 - number of repeated questions reduced
-- amount of missing information reduced
+- number of missing key fields reduced
+- clinician readability within one minute
 - clinician usefulness rating
-- patient or staff usability rating
-- proportion of summaries clinicians edit, ignore, or use
-- number of unsafe or misleading output cases
-- number of privacy-boundary violations
+- staff burden rating
+- patient confusion points
+- proportion of summaries used, edited, ignored, or rejected
 
-A successful MVP proves whether the workflow is worth deeper prototyping.
+Safety metrics:
+
+- diagnostic claims made by the summary
+- treatment suggestions made by the summary
+- unclear red-flag wording
+- privacy-boundary violations
+- patient misunderstanding of system role
+- clinician concern that the summary overstates certainty
+
+Decision metrics:
+
+- continue if workflow value is clear and safety boundaries hold
+- revise if value exists but the question tree, assisted mode, or summary format is wrong
+- pause if workflow fit, safety, privacy, or staff burden is unacceptable
 
 ## 11. Scope Control
 
-The MVP must remain narrow.
+The first discovery version should remain narrow.
 
 In scope:
 
 - guided previsit questions
-- patient or helper mode
-- missing-information prompts
-- patient review
+- self-filled or assisted completion
+- missing-information repair
+- patient or helper review
 - clinician-review summary
-- synthetic cases
-- safety and privacy boundaries
-- meeting discussion support
+- explicit safety and privacy boundaries
+- meeting and decision support
 
 Out of scope:
 
 - diagnosis
 - triage
-- treatment recommendation
+- treatment advice
 - real patient data
-- hospital system integration
-- autonomous interview
-- voice-first workflow
-- production deployment
-- complete medical history capture
+- production use
+- hospital record integration
+- voice-first use as the main path
+- complete medical-history capture
+- claims of clinical completeness
 
-Scope control protects the project from becoming unsafe or untestable too early.
+Scope control protects the project from becoming unsafe, expensive, or impossible to evaluate before the basic workflow question is answered.
 
 ## 12. System Identity
 
@@ -209,101 +223,112 @@ A guided previsit reasoning and summary aid for urology workflow discovery.
 It is not:
 
 - a doctor
-- a chatbot doctor
+- a medical advice agent
 - a diagnosis engine
-- a hospital system replacement
-- a medical decision system
+- a triage desk
+- a hospital record system
+- a replacement for nurse or physician judgment
 
-The system's role is to make repeated previsit information easier to collect and easier for clinicians to review.
+The system's legitimate role is to help collect repeated, high-value context and make that context easier for clinicians to review.
 
 ## 13. Failure Analysis
 
-The system fails if it creates false confidence, increases workload, confuses patients, produces misleading summaries, violates privacy expectations, or distracts from physician-led judgment.
+The system fails if it increases burden, creates false confidence, misleads patients, loses clinician trust, or hides risk behind polished output.
 
-Major failure modes:
+Major failure modes include:
 
 - patient misunderstands a question
-- patient skips key details
-- older adult cannot operate the interface
+- patient skips key information
+- older adult cannot complete the flow
+- assisted use consumes too much staff time
 - summary is too long
-- clinician does not trust the summary
-- staff workflow has no place to use it
-- red-flag language sounds diagnostic
-- privacy boundary is unclear
-- the system tries to integrate too early
-- the system solves a demo problem but not a clinic problem
+- summary sounds diagnostic
+- clinician finds the output irrelevant
+- no real clinic workflow slot exists
+- privacy expectations are unclear
+- the project expands before proof of value
 
-Failure should be treated as design evidence, not embarrassment.
+Failure should be treated as design evidence. A pause decision is acceptable if the workflow problem is weaker than expected or if the safety boundary cannot be preserved.
 
 ## 14. Evolution Path
 
-The system should evolve only after workflow value is proven.
+The system should evolve only after each prior stage proves useful.
 
-Possible stages:
+The staged path is:
 
-1. Thinking spec and meeting pack.
-2. Synthetic guided-flow demo.
-3. Clinician feedback on summary usefulness.
-4. Revised question tree.
-5. Nurse-assisted workflow test.
-6. Printable or exportable summary format.
-7. Limited real-world pilot only with explicit governance.
-8. Integration discussion only after clinical workflow and privacy rules are clear.
+1. thinking specification and meeting pack
+2. synthetic discovery walkthrough
+3. clinician feedback on workflow fit and summary usefulness
+4. revised question tree and summary format
+5. assisted-use workflow test
+6. standard one-page clinician-review summary
+7. governance review before any real patient data
+8. limited real-world pilot only under explicit approval
+9. integration discussion only after workflow value, safety, privacy, and responsibility are clear
 
-Evolution should remain evidence-driven. The project should not move from summary aid to clinical decision system without a separate safety, regulatory, and governance review.
+The system must not evolve from summary aid into clinical decision system without a separate governance review.
 
 ## Advanced Module: Trade-Off Analysis
 
-The system sacrifices conversational flexibility in order to gain safety, clarity, and auditability.
+The system sacrifices flexibility, automation, and early realism in order to gain safety, clarity, and auditability.
+
+What was sacrificed:
+
+- conversational naturalness, because structured answers are safer and easier to review
+- diagnostic ambition, because diagnosis belongs to clinicians
+- broad intake coverage, because excessive scope burdens patients and clinicians
+- real patient realism, because early discovery should not create privacy risk
+- integration ambition, because workflow value should be proven before operational complexity
+- voice-first convenience, because speech errors, noise, mixed language, and privacy concerns can distort early learning
 
 Rejected alternatives:
 
-- voice-first AI interview: rejected because accent, noise, elderly speech, privacy, and transcription errors create early risk
-- autonomous triage: rejected because it crosses into clinical judgment
-- hospital integration first: rejected because integration complexity would hide whether the workflow itself is useful
-- full medical-history intake: rejected because excessive capture increases burden and privacy risk
-- free-form transcript output: rejected because clinicians need summary, not another long document
+- autonomous medical interviewer, rejected because it blurs clinical responsibility
+- voice-first interaction as the main path, rejected because the first risk is miscapture, not lack of novelty
+- full medical-history intake, rejected because it expands burden beyond the repeated-question problem
+- hospital integration first, rejected because it solves routing before proving usefulness
+- transcript output, rejected because clinicians need concise review, not more reading
+- real patient pilot first, rejected because governance should follow evidence, not precede the basic workflow test
 
 The chosen design favors modest usefulness over impressive claims.
 
 ## Advanced Module: Counterfactual Design
 
-If the system were reversed into a voice-first autonomous interviewer, the project would likely break in several ways:
+If the design were reversed into an autonomous interviewer, the main failure would be responsibility confusion: patients might treat the system as medical judgment, and clinicians might reject summaries that appear to make hidden decisions.
 
-- patients with accents, mixed language, or quiet speech may be misunderstood
-- the system could appear to make clinical decisions
-- clinicians may distrust or ignore opaque summaries
-- privacy risk increases if audio is captured
-- implementation difficulty would distract from workflow learning
+If the design were voice-first from the start, the meeting could become a debate about speech capture instead of a test of whether previsit information is useful.
 
-If the system stored real patient data from the beginning, governance burden would rise before workflow value is proven.
+If the design collected real patient data immediately, privacy and consent concerns would dominate before the workflow problem is proven.
 
-If the system integrated with hospital systems first, the team might solve technical routing before confirming whether the summary is useful.
+If the design began with hospital-system integration, the team could spend effort on operational routing while never learning whether the summary helps the visit.
+
+If the design produced a full transcript, clinicians would receive more text rather than a clearer starting point.
+
+These counterfactuals show why the chosen system is intentionally smaller than the most ambitious version.
 
 ## Advanced Module: Generalization
 
-This thinking structure can be reused in other domains where repeated pre-encounter information gathering creates friction.
+This structure can be reused wherever repeated information is gathered before an expert encounter.
 
 Reusable domains include:
 
-- dermatology previsit symptom intake
-- orthopedic injury history capture
-- chronic disease follow-up preparation
+- dermatology visit preparation
+- orthopedic injury history intake
+- chronic disease follow-up
 - dental visit preparation
-- mental-health screening support
 - elder-care intake
+- mental-health screening support with strict boundaries
 - insurance claim preparation
 - legal consultation intake
 - customer-support escalation summaries
 - education advising pre-meeting forms
 
-The general pattern is:
+The reusable pattern is:
 
-```text
-before expert encounter
--> collect repeated information
--> detect missing context
--> let user review
--> generate expert-review summary
--> expert remains final decision-maker
-```
+1. identify repeated pre-encounter information
+2. collect only the minimum useful context
+3. repair missing information before handoff
+4. let the user review
+5. produce an expert-review summary
+6. keep final judgment with the expert
+7. evaluate usefulness before expanding scope
