@@ -19,6 +19,58 @@
 
 這個整理沒有刪除內容，只改變檔案路由。
 
+## Merge Decision: Keep Thinking And Demo Repos Separate
+
+Question: should the thinking repo be merged into the demo repo to make the project easier to understand?
+
+Decision: no, not now.
+
+First-principles reasoning:
+
+1. Different source-of-truth needs.
+   - The thinking repo answers: should this system exist, what should it ask, what must remain clinician-led, and what evidence supports each boundary?
+   - The demo repo answers: can a reviewer operate the current synthetic UI and inspect generated summaries?
+   - Combining them would make code changes and clinical-governance changes look like the same class of work, even though they require different review standards.
+
+2. Different change frequency.
+   - Demo UI, styling, test cases, and synthetic examples can change quickly during prototyping.
+   - Clinical-question governance should change slowly, with source evidence, reviewer rationale, and explicit safety review.
+   - A single repo would make it easier for quick UI iteration to quietly alter governed question logic.
+
+3. Different reviewer audiences.
+   - Clinical reviewers need a clean evidence and governance package without navigating app code.
+   - Product/demo reviewers need a runnable artifact without reading the full governance corpus first.
+   - Separate repos reduce cognitive load if each repo has a clear README and cross-link.
+
+4. Different risk profile.
+   - The demo repo can safely contain synthetic cases and UI tests.
+   - The thinking repo should remain non-implementation, audit-oriented, and suitable for paper/product/patent reasoning.
+   - Merging risks making the thinking layer look like product documentation rather than governance.
+
+Therefore the clearer architecture is not "one repo." The clearer architecture is "two sibling repos with explicit source-of-truth boundaries."
+
+## When To Reconsider Merging
+
+Reconsider a monorepo only if at least two of these conditions become true:
+
+1. Reviewers repeatedly fail to understand the sibling-repo boundary after README improvements.
+2. The same change must be committed to both repos on nearly every iteration.
+3. The governed question set becomes generated directly into the demo from a shared source file.
+4. There is a real deployment package that requires version-locking governance and implementation together.
+5. Maintaining separate issue/history context causes concrete errors, not just mild navigation inconvenience.
+
+If merging is reconsidered, the safer pattern would be a monorepo with top-level folders:
+
+```text
+urology-ai-previsit/
+├── governance/
+├── demo/
+├── records/
+└── README.md
+```
+
+Do not merge by dropping governance Markdown into the demo `docs/` folder. That would recreate the original ambiguity.
+
 ## Redundancy Review
 
 | 檔案或區域 | 是否 redundant | 判斷 |
@@ -35,6 +87,7 @@
 1. Demo repo 的 source verification 目前比 clinical governance 簡略，若未標示權威來源，可能讓 reviewer 以為 demo docs 是最高來源。
 2. Clinical governance pack 與 demo UI question flow 目前尚未完全同步；下一步若要改 MVP 問題，應先從 `../clinical-question-governance/question_candidates_matrix.md` 開始。
 3. Core 文件仍多為英文，clinical governance 為繁中；這不是錯誤，但若面向台灣臨床 reviewer，後續可建立繁中 reviewer brief。
+4. Two sibling repos require clear cross-links; otherwise the separation can feel like scattering. This is a navigation problem, not currently a merge-level architecture problem.
 
 ## Cut Rules
 
@@ -51,3 +104,4 @@
 1. Demo repo README 應清楚說明：clinical governance source of truth 在 sibling thinking repo。
 2. Demo repo `../../urology-ai-previsit-demo/docs/source-verification.md` 應改成 demo source trace，不與 detailed clinical evidence map 競爭。
 3. 若下一步要更新 UI 題目，先更新 `../clinical-question-governance/mvp_question_set_recommendation.md`，再同步 demo app。
+4. Add a short reviewer handoff note only if external reviewers still miss which repo to open first.

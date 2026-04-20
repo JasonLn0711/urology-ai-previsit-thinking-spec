@@ -75,6 +75,8 @@ It may read planning context as background, but it does not move, rename, rewrit
 
 The separate demo repository, `urology-ai-previsit-demo`, owns implementation, UI, synthetic cases, tests, and demo artifacts. This repository owns the reasoning and governance that should constrain that demo.
 
+Current architecture decision: keep the thinking/governance repo and demo repo separate. The rationale and revisit criteria are recorded in `meta/repo_architecture_review.md`.
+
 ## Current Useful Reading Paths
 
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
