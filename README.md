@@ -63,6 +63,15 @@ It does not move, rename, rewrite, or replace anything in `planning-everything-t
 - `PAPER_PATENT_PRODUCT_EXTRACTION.md`: separation guide for paper framing, patent reasoning, and product decisions
 - `records/`: dated pre-meeting briefs, capture notes, decision records, and extraction notes
 
+## Clinical Question Governance Pack
+
+- `clinical_question_governance.md`: evidence hierarchy, three-party needs analysis, inclusion rules, safety boundaries, and MVP direction
+- `question_candidates_matrix.md`: candidate question matrix with evidence, intended user, workflow value, risk, and inclusion decision
+- `doctor_needs.md`: physician-facing information needs, summary fields, red-flag observations, and missing-information priorities
+- `nurse_needs.md`: nurse-facing support needs for completion assistance, diary instruction, medication review, containment support, and escalation review
+- `mvp_question_set_recommendation.md`: recommended MVP question set by core, conditional, nurse-assisted, clinician-only, and deferred categories
+- `source_evidence_map.md`: source-to-conclusion map distinguishing direct source support from workflow inference
+
 ## Operating Rule
 
 The first useful version should be modest, reviewable, and safe:
