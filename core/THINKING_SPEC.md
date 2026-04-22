@@ -30,9 +30,9 @@ This philosophy exists because a previsit tool can become unsafe if it sounds mo
 
 The primary user is a urology patient preparing for a visit. The patient may be older, anxious, visually impaired, unfamiliar with phones, unsure how to describe symptoms, or more comfortable with Mandarin, Taiwanese, mixed language, or help from another person.
 
-The secondary users are clinic staff and clinicians. They do not need a long transcript. They need a short, trustworthy context layer that helps them see the chief concern, symptom pattern, missing information, and review flags before or during the visit.
+The secondary users are clinic staff and clinicians. They do not need a long transcript. Nurses need a missing-information repair surface. Clinicians need a short, trustworthy context layer that helps them see the chief concern, symptom pattern, missing information, source attribution, and review flags before or during the visit.
 
-The system should assume uneven ability from the start. Self-filled, nurse-assisted, and family-assisted use are all valid. A design that works only for young, confident, digitally fluent patients is not adequate for this domain.
+The system should assume uneven ability from the start. Self-filled, family-assisted, and nurse-repaired use are all valid. A design that works only for young, confident, digitally fluent patients is not adequate for this domain. Patient/family screens should not expose nurse or physician work screens.
 
 ## 4. Workflow Logic
 
@@ -41,13 +41,15 @@ The workflow begins before physician-led questioning and ends before clinical in
 The intended sequence is:
 
 1. patient arrives or prepares for the visit
-2. patient, staff member, or helper starts the guided previsit flow
+2. patient or helper starts the patient-facing guided previsit flow
 3. patient identifies the main concern
 4. patient answers structured symptom and context questions
 5. missing key information is surfaced
-6. patient, staff member, or helper reviews the answers
-7. a clinician-review summary is prepared
-8. clinician confirms, edits, ignores, or asks follow-up questions
+6. patient or helper reviews a patient-facing confirmation page
+7. nurse or clinic staff sees a separate missing-information repair workbench when needed
+8. nurse supplements missing answers without erasing the original answer source
+9. a clinician-review summary is prepared
+10. clinician confirms, edits, ignores, or asks follow-up questions
 
 The system does not close the clinical loop. It prepares the encounter. Its value depends on whether this sequence fits the clinic's real check-in, waiting, nursing, and physician workflow.
 
@@ -89,6 +91,7 @@ The summary should separate:
 - neutral clinician-review flags
 - missing information
 - medicine uncertainty
+- field-level answer source when patient, family, or nurse input differs
 - language or accessibility needs
 - optional patient note
 
@@ -141,7 +144,8 @@ For patients, this means:
 - familiar answer choices
 - visible progress
 - review before handoff
-- help from staff or family when needed
+- help from family when needed, with source labeling
+- staff repair through a separate workbench when needed
 - no pressure to interpret medical meaning
 
 For clinicians, this means:
@@ -193,9 +197,10 @@ The first discovery version should remain narrow.
 In scope:
 
 - guided previsit questions
-- self-filled or assisted completion
+- patient/family-facing self-filled or assisted completion
 - missing-information repair
-- patient or helper review
+- patient or helper confirmation
+- nurse missing-information workbench
 - clinician-review summary
 - explicit safety and privacy boundaries
 - meeting and decision support

@@ -6,7 +6,7 @@
 2. Which questions are repeated most often?
 3. Which information can be safely collected before the physician enters?
 4. Which topics must remain physician-led?
-5. Should the first realistic version be self-filled, nurse-assisted, family-assisted, or mixed?
+5. Should the first realistic version be patient self-entry, family-assisted operation with source labels, nurse repair, nurse-led selected cases, or mixed?
 6. Where would the workflow fit without slowing staff down?
 
 ## User Questions

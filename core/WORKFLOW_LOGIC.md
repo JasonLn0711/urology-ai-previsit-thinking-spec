@@ -11,13 +11,15 @@ The system is useful only if it fits a real clinical sequence: arrival, waiting,
 The intended encounter logic is:
 
 1. patient arrives or prepares for the visit
-2. patient, staff member, or helper begins the previsit flow
+2. patient or helper begins the patient-facing previsit flow
 3. patient identifies the main concern
 4. patient answers structured questions
 5. missing key information is identified
-6. patient, staff member, or helper reviews the answers
-7. a clinician-review summary is prepared
-8. clinician confirms, edits, ignores, or asks follow-up questions
+6. patient or helper reviews a patient-facing confirmation page
+7. nurse or clinic staff opens a separate missing-information repair workbench if needed
+8. nurse supplements missing answers without erasing the original source
+9. a clinician-review summary is prepared
+10. clinician confirms, edits, ignores, or asks follow-up questions
 
 This sequence is deliberately incomplete. It stops before diagnosis, triage, and treatment decisions.
 
@@ -26,6 +28,10 @@ This sequence is deliberately incomplete. It stops before diagnosis, triage, and
 ## Who Completes The Flow?
 
 The system must support self-filled and assisted use because patient ability varies. The workflow should not assume that every patient can read small text, type comfortably, understand medical terms, or use a phone without help.
+
+The patient/family flow and staff flow must be separate. The patient/family screen should help the patient answer calmly and confirm what will be handed off. It should not expose nurse worklists, physician summaries, reviewer controls, or staff-only wording.
+
+Family assistance is allowed, but answer source must remain visible. Patient feelings, family observations, and nurse supplements should not collapse into one unlabeled answer.
 
 ## What Gets Asked?
 
@@ -39,9 +45,13 @@ Missing information should be surfaced before the summary. The goal is not to fo
 
 Patient or helper review is required because answers may be misunderstood, skipped, or entered by someone else. Review protects both usefulness and trust.
 
+If the system finds missing or uncertain fields, the nurse workbench should convert them into concrete supplemental questions. The nurse can add a supplement, but the original source should remain visible.
+
 ## What Does The Clinician Receive?
 
 The clinician receives a short review summary. The summary should be neutral, editable in spirit, and easy to ignore if it is not useful.
+
+The clinician summary should include answer-source attribution when source matters, especially for subjective symptoms that were entered by family observation or later supplemented by staff.
 
 ## Discovery Questions
 

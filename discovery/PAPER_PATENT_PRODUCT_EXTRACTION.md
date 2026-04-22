@@ -84,7 +84,7 @@ The stronger reasoning is:
 | Patient input separated from clinician interpretation | how the system prevents patient answers from becoming conclusions | is this separation already standard? |
 | Missing-information repair before handoff | how the system identifies gaps without diagnosing | is this ordinary form validation or a distinct workflow rule? |
 | Neutral review flags | how red flags are displayed without urgency labels | how do existing intake systems phrase red flags? |
-| Assisted-use modes | how self-filled, nurse-assisted, and family-assisted paths remain governed | do existing systems handle this distinction? |
+| Assisted-use modes | how patient self-entry, family-assisted operation, source labeling, and nurse repair remain governed | do existing systems handle this distinction? |
 | Short clinician-review summary | how summary design supports rapid review without overclaiming | how common are similar clinician summaries? |
 
 ## Patent Reasoning Gate

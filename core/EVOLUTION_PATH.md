@@ -53,13 +53,14 @@ Exit evidence:
 
 ## Stage 5: Assisted-Use Workflow Test
 
-Goal: decide whether self-filled, nurse-assisted, family-assisted, or mixed use is realistic.
+Goal: decide whether patient self-entry, family-assisted operation, nurse repair, or nurse-led use for selected cases is realistic.
 
 Exit evidence:
 
 - estimated staff burden
 - common assistance needs
 - patient confusion points
+- source-label needs for family or nurse input
 - recommended operating mode
 
 ## Stage 6: Summary Standardization

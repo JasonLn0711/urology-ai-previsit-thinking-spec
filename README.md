@@ -62,7 +62,7 @@ urology-ai-previsit-thinking-spec/
 ## Folder Responsibilities
 
 - `core/`: stable system logic. Use this when checking product intent, workflow boundaries, safety philosophy, evaluation logic, and evolution rules.
-- `clinical-question-governance/`: evidence-based question governance. Use this when deciding which urology previsit questions belong in MVP, conditional modules, nurse-assisted review, or clinician-only workflows.
+- `clinical-question-governance/`: evidence-based question governance. Use this when deciding which urology previsit questions belong in MVP, conditional modules, family/source-labeled support, nurse repair, or clinician-only workflows.
 - `discovery/`: meeting and review operating pack. Use this before and after physician/nurse conversations.
 - `records/`: dated evidence trail. Use this for specific meeting briefs, captures, decision records, and extraction notes.
 - `meta/`: assumptions, constraints, open questions, and repository-level architecture review.
@@ -93,9 +93,11 @@ The first useful version should be modest, reviewable, and safe:
 
 1. collect repeated, high-value previsit information
 2. repair missing information before handoff
-3. let the patient, helper, or clinic staff review answers
-4. produce a short clinician-review summary
-5. leave interpretation and action with the clinician
+3. let the patient or helper review a patient-facing confirmation
+4. give clinic staff a separate missing-information repair workbench when needed
+5. preserve answer source when family or nurse input is involved
+6. produce a short clinician-review summary
+7. leave interpretation and action with the clinician
 
 ## Redundancy Rule
 
