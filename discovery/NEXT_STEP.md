@@ -42,6 +42,31 @@ For the planned 2026-04-23 urology conversation, use the dated working packet:
 - `../records/2026-04-23/decision-record.md`
 - `../records/2026-04-23/extraction-notes.md`
 
+After the 2026-04-23 meeting and 許醫師 LINE follow-up materials, the active next research step is no longer a generic discovery conversation. Use:
+
+- `V1_PHASE0_CLINICIAN_REVIEW_PROTOCOL.md`
+- `V1_PHASE0_EXECUTION_AND_ANALYSIS_PLAN.md`
+- `V1_PHASE0_PRIORITY_FLOW_SELECTION.md`
+
+This keeps the next work synthetic-only and asks clinician/nurse reviewers to judge v1 usefulness, unsafe wording, first three complaint flows, and governance gates before any real-data pilot.
+
+Before asking for reviewer time, run the demo repo readiness gate:
+
+```bash
+cd /home/jnln3799/every_on_git_ubuntu/urology-ai-previsit-demo
+UROLOGY_PREVISIT_BASE_URL=http://127.0.0.1:4176 npm run phase0:check
+```
+
+The gate must pass for the active local server, five synthetic cases, live capture sheet, priority-flow worksheet, scorecard, safety boundaries, smoke checks, and tests.
+
+Current proposed first-three default, pending 許醫師 confirmation:
+
+- `頻尿或夜尿`
+- `小便困難或尿不出來`
+- `血尿或健檢發現潛血`
+
+This default is a review scaffold, not a clinical priority claim.
+
 ## Step 1: Pre-Meeting Readiness
 
 Enter the meeting with a discovery frame, not a product pitch.

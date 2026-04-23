@@ -6,6 +6,28 @@ The first evaluation should answer whether the workflow is useful enough to cont
 
 It should not reward novelty, technical sophistication, or broad claims. It should reward usefulness, safety, clarity, and adoption realism.
 
+## Current Evaluation Phase
+
+After the 2026-04-23 meeting, the active evaluation is `Phase 0: synthetic clinician/nurse review`.
+
+Phase 0 may use only synthetic cases and local product-preview artifacts. It measures whether expert reviewers can understand the workflow, find useful summary lines, reject noisy or unsafe wording, and choose a narrow next research step. Live review notes should be captured in the demo repo's Phase 0 capture sheet before analysis. It does not measure clinical effectiveness, patient outcomes, real waiting time, or hospital production performance.
+
+Phase 0 is successful only if it produces an evidence-backed decision:
+
+- continue
+- revise
+- narrow
+- pause
+- governance review before any next step
+
+The detailed runbook lives in `../discovery/V1_PHASE0_CLINICIAN_REVIEW_PROTOCOL.md`. The execution and analysis loop lives in `../discovery/V1_PHASE0_EXECUTION_AND_ANALYSIS_PLAN.md`.
+
+Before reviewer time is requested, the demo repo readiness gate should pass:
+
+`UROLOGY_PREVISIT_BASE_URL=http://127.0.0.1:4176 npm run phase0:check`
+
+Latest 2026-04-23 run passed `76/76`, covering the live route, five synthetic cases, live capture sheet, scorecard, priority-flow worksheet, safety boundaries, smoke checks, and tests.
+
 ## Primary Success Criteria
 
 The concept is successful enough to continue only if:
@@ -32,6 +54,26 @@ Track:
 - summary sections used, edited, ignored, or rejected
 - physician estimate of time saved
 
+For Phase 0, use synthetic-review variants of these metrics:
+
+- summary read time per synthetic case
+- clinician usefulness rating from 1 to 5
+- nurse/staff burden rating from 1 to 5
+- safety clarity rating from 1 to 5
+- number of useful lines, noisy lines, missing fields, and unsafe phrases
+- first three complaint flows confirmed, revised, or narrowed for next review
+- fields accepted, revised, removed, or deferred for future export/HIS discussion
+
+The current proposed first-three review default is:
+
+- `頻尿或夜尿`
+- `小便困難或尿不出來`
+- `血尿或健檢發現潛血`
+
+Treat this as a reviewer-session scaffold only. It is not evidence of clinical priority until 許醫師 confirms or changes it.
+
+Demo support for the scaffold now covers five synthetic cases overall, including `synthetic-hematuria-occult-blood` for the hematuria / occult-blood flow. This improves review readiness but still does not create clinical validation.
+
 ## Safety Metrics
 
 Track:
@@ -43,6 +85,8 @@ Track:
 - number of privacy-boundary violations
 - number of summaries that sound more certain than the source answers
 - number of cases where the clinician says the summary could mislead
+
+For Phase 0, any real patient identifier, real queue/appointment data, live HIS behavior, diagnosis, treatment, triage, risk score, probability output, or autonomous exam-ordering phrase is a stop condition.
 
 ## Adoption Metrics
 
@@ -83,3 +127,5 @@ Pause if:
 ## Review Standard
 
 Every evaluation should produce a written decision: continue, revise, narrow, or pause. The decision should include the evidence, not just the conclusion.
+
+For v1 Phase 0, `governance review before next step` is also a valid written decision when the next proposal touches real patient data, hospital systems, IP/vendor rights, regulatory claims, or deployment ownership.
