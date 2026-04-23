@@ -12,16 +12,17 @@ The protocol defines what evidence matters. This file defines how to run the ses
 ## Execution Loop
 
 1. Run the pre-session readiness gate.
-2. Ask for review.
-3. Run the synthetic session.
-4. Capture live evidence.
-5. Fill the scorecard and flow worksheet.
-6. Analyze evidence.
-7. Write a decision memo.
-8. Update governance gates.
-9. Only then choose the next artifact.
+2. Prepare the current-system benchmark view with synthetic inputs or screenshots only.
+3. Ask for review.
+4. Run the synthetic session.
+5. Capture live evidence.
+6. Fill the scorecard and flow worksheet.
+7. Analyze evidence.
+8. Write a decision memo.
+9. Update governance gates.
+10. Only then choose the next artifact.
 
-If any step proposes real patient data, hospital integration, clinical-use claims, or unresolved IP/vendor use, stop and switch to governance review.
+If any step proposes real patient data, hospital integration, clinical-use claims, copying current Argon app internals, or unresolved IP/vendor use, stop and switch to governance review.
 
 ## Pre-Session Readiness Gate
 
@@ -54,6 +55,22 @@ Ask 許醫師 for:
 The practical draft lives in:
 
 `/home/jnln3799/every_on_git_ubuntu/urology-ai-previsit-demo/docs/research/v1-phase0-reviewer-ask.md`
+
+## Current-System Benchmark Add-On
+
+Use the doctor-provided links as comparison evidence before the v1 walkthrough:
+
+- `聯醫小幫手`: `https://chat.argon.chat/visitor?guid=rmw6oqqxgy`
+- `陽明小幫手`: `https://chat.argon.chat/visitor?guid=avp6dg160g`
+
+Public metadata is enough to create review questions, but not enough to copy behavior. The session should ask:
+
+- what v1 must match from the current systems
+- what v1 should omit because it belongs to Phase 1, HIS/registration work, or a vendor/IP boundary
+- whether `初步建議` / `檢查方向` wording is clinically and regulatorily safe for a synthetic v1 preview
+- whether local/on-prem deployment is a Phase 1 requirement or a later architecture option
+
+Use only synthetic inputs or screenshots approved by 許醫師. Do not enter real patient data.
 
 ## Priority Flow Default
 
@@ -88,6 +105,7 @@ Capture live notes in:
 Minimum required evidence:
 
 - boundary clarity judgment
+- current-system benchmark match/omit/permission notes
 - intake/waiting-room fit comments
 - nurse repair usefulness and burden comments
 - timed physician summary read
@@ -143,6 +161,7 @@ Continue only if:
 - nurse/staff burden is acceptable
 - three flows have safe confirmation-only wording direction
 - no safety boundary breaks
+- current-system benchmark review does not force a v1 scope expansion beyond safe-local synthetic review
 
 Revise if:
 
@@ -161,7 +180,7 @@ Pause if:
 
 Governance review if:
 
-- the next step needs real data, HIS, IP/vendor clearance, regulatory classification, IRB, cloud, or hospital operational approval
+- the next step needs real data, HIS, IP/vendor clearance, regulatory classification, IRB, cloud, local/on-prem hospital deployment, hardware procurement, or hospital operational approval
 
 ## Research Discipline
 
@@ -173,5 +192,6 @@ Do not let Phase 0 become:
 - a regulatory conclusion
 - a commercial launch plan
 - a new broad feature sprint
+- a clone of the current Argon app
 
 The output is one decision and one next artifact.

@@ -4,7 +4,7 @@
 
 Status: synthesized
 
-The morning meeting did not complete the original four-case clinician review. It did produce enough workflow, funding, IP, vendor, and source-material evidence to continue as a safe-local v1 product preview and to run a Phase 0 synthetic clinician/nurse review before any real-data pilot.
+The morning meeting did not complete the original four-case clinician review. It did produce enough workflow, funding, IP, vendor, and source-material evidence to continue as a safe-local v1 product preview and to run a Phase 0 synthetic clinician/nurse review before any real-data pilot. The later doctor-provided Argon links and 吳老師 follow-up discussion add a current-system benchmark requirement, but do not justify expanding v1 beyond the safe-local boundary.
 
 ## Decision Identity
 
@@ -30,6 +30,8 @@ Do not proceed to production deployment, real patient data, live HIS/registratio
 | Current workflow has repeated questioning and physician-time pressure | Meeting transcript, 許醫師 slides, Gemini synthesis routed as hypothesis | Medium | Throughput is a valid research framing, but minutes-saved claims still need measurement. |
 | Clinician can name useful previsit-safe information | 許醫師 QA/rules file and meeting discussion | Strong | v1 should center on initial/return visit history, medication/allergy/surgery/chronic disease, symptom-specific forms, and confirmation-only exam-prep reminders. |
 | Waiting-room `陽明小幫手` has a clearer v1 workflow slot than registration support | 許醫師 QA/rules file | Strong | Lead with already-registered waiting-room flow; keep `聯醫AI小幫手` registration support as future scope. |
+| Current `聯醫小幫手` / `陽明小幫手` links exist | Doctor-provided Argon links and public metadata | Medium | Add benchmark comparison questions before changing v1; do not copy current app internals. |
+| Same-day 吳老師 follow-up supports productization and actual-operation review | 16:00 follow-up transcript/audio | Medium | Next major work should observe/review current operation with synthetic data and define Phase 1 gates. |
 | One-minute clinician-review summary would be read | Meeting signal was positive but not case-level | Medium | Build/read a summary in Phase 0; do not claim validated adoption yet. |
 | Staff burden is acceptable | Not directly validated | Weak | Nurse review must be tested explicitly in Phase 0. |
 | Patient or assisted completion is realistic | Discussed, not tested | Weak | Keep family/source labels and nurse repair; patient usability remains a future test. |
@@ -48,6 +50,8 @@ Do not proceed to production deployment, real patient data, live HIS/registratio
 | Clinician review required | unchanged | The product prepares a summary for review; it does not decide. |
 | Regulatory status not determined | strengthened | TFDA/FDA positioning is a formal review gate. |
 | No live HIS/registration/messaging | strengthened | Export/mock API is discussion material only. |
+| No copying current Argon internals | added | Current links are benchmark references only until permission/IP/vendor boundaries are clear. |
+| No local/on-prem deployment in v1 | added | Future architecture may need encryption, logging, maintenance, hardware, and hospital IT review. |
 
 If any boundary changes, stop and create a governance review before continuing.
 
@@ -75,6 +79,8 @@ If any boundary changes, stop and create a governance review before continuing.
 | Which operating mode is realistic? | Revised | Prefer already-registered waiting-room QR preview over registration-helper mode. |
 | What summary format would be read? | Still open | Needs timed physician review of v1 summaries. |
 | What would make the concept unsafe or unacceptable? | Partly answered | Real data, identifiers, live integration, ordering language, risk/probability outputs, vendor/IP conflict. |
+| What should v1 match from the current Argon systems? | Still open | Needs synthetic walkthrough or screenshots and a match/omit/defer table. |
+| Does current wording around preliminary suggestions or exam direction fit v1? | Still open | Treat as review risk; keep v1 stricter until 許醫師 approves exact wording. |
 
 ## Next Small Artifact
 
@@ -92,7 +98,11 @@ Follow-on implementation support: the demo repo now includes `synthetic-hematuri
 
 Live evidence capture support: the demo repo now includes `docs/research/v1-phase0-review-capture.md` to collect boundary checks, five-case read times, first-three-flow decisions, nurse burden, exam-prep wording, export concerns, governance gates, and one decision during the review.
 
-Readiness-gate support: the demo repo now exposes `npm run phase0:check`. The latest run against `http://127.0.0.1:4176/app/v1/` passed `76/76`, covering route availability, five synthetic cases, live capture, scorecard, worksheet, safety boundaries, smoke checks, and tests.
+Readiness-gate support: the demo repo now exposes `npm run phase0:check`. The latest run against `http://127.0.0.1:4176/app/v1/` passed `81/81`, covering route availability, five synthetic cases, live capture, current-system benchmark table, scorecard, worksheet, safety boundaries, smoke checks, and tests.
+
+Current-system benchmark support: the project now records the doctor-provided `聯醫小幫手` and `陽明小幫手` links as Phase 0 comparison inputs. The next artifact should include a benchmark-difference table before any v1 scope expansion.
+
+Same-day 吳老師 follow-up support: the product direction should move toward a v1 MVP package and then Phase 1 pilot-readiness gates. Local/on-prem deployment and hardware/RAG acceleration are legitimate research questions, but they are not requirements for the April 30 v1 package.
 
 ## Paper Implication
 
@@ -143,7 +153,9 @@ Rejection or blocker signal:
 - No completed four-case review yet.
 - Nurse burden not validated.
 - IP/vendor/institution ownership unresolved.
+- Current-system match/omit boundary not validated.
 - Privacy/security/HIS/regulatory gates unresolved.
+- Local/on-prem deployment owner and maintenance model unresolved.
 
 ## Phase 0 Protocol
 
@@ -168,6 +180,8 @@ Pause or re-review if:
 - clinicians would not read the output
 - no workflow slot exists
 - IP/vendor boundary blocks implementation
+- current Argon app behavior would need to be copied before permission is clear
+- local/on-prem deployment is requested before security and maintenance owners are named
 - next artifact becomes broader than the evidence supports
 
 ## Final Reviewer Note

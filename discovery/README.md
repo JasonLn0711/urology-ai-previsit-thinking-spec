@@ -23,6 +23,6 @@ Before using reviewer time for v1 Phase 0, run the demo repo readiness gate:
 
 `UROLOGY_PREVISIT_BASE_URL=http://127.0.0.1:4176 npm run phase0:check`
 
-The 2026-04-23 gate passed `76/76`; rerun it if files or the local server route change.
+The 2026-04-23 gate passed `81/81`; rerun it if files or the local server route change.
 
 If a discovery result changes stable system logic, update `../core/`. If it changes question inclusion, update `../clinical-question-governance/`.

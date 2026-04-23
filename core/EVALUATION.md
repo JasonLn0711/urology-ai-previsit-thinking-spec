@@ -10,7 +10,7 @@ It should not reward novelty, technical sophistication, or broad claims. It shou
 
 After the 2026-04-23 meeting, the active evaluation is `Phase 0: synthetic clinician/nurse review`.
 
-Phase 0 may use only synthetic cases and local product-preview artifacts. It measures whether expert reviewers can understand the workflow, find useful summary lines, reject noisy or unsafe wording, and choose a narrow next research step. Live review notes should be captured in the demo repo's Phase 0 capture sheet before analysis. It does not measure clinical effectiveness, patient outcomes, real waiting time, or hospital production performance.
+Phase 0 may use only synthetic cases, local product-preview artifacts, and approved current-system benchmark screenshots or synthetic walkthroughs. It measures whether expert reviewers can understand the workflow, find useful summary lines, reject noisy or unsafe wording, compare v1 against the current `聯醫小幫手` / `陽明小幫手` boundary, and choose a narrow next research step. Live review notes should be captured in the demo repo's Phase 0 capture sheet before analysis. It does not measure clinical effectiveness, patient outcomes, real waiting time, or hospital production performance.
 
 Phase 0 is successful only if it produces an evidence-backed decision:
 
@@ -26,7 +26,7 @@ Before reviewer time is requested, the demo repo readiness gate should pass:
 
 `UROLOGY_PREVISIT_BASE_URL=http://127.0.0.1:4176 npm run phase0:check`
 
-Latest 2026-04-23 run passed `76/76`, covering the live route, five synthetic cases, live capture sheet, scorecard, priority-flow worksheet, safety boundaries, smoke checks, and tests.
+Latest 2026-04-23 run passed `81/81`, covering the live route, five synthetic cases, live capture sheet, current-system benchmark table, scorecard, priority-flow worksheet, safety boundaries, smoke checks, and tests.
 
 ## Primary Success Criteria
 
@@ -63,6 +63,7 @@ For Phase 0, use synthetic-review variants of these metrics:
 - number of useful lines, noisy lines, missing fields, and unsafe phrases
 - first three complaint flows confirmed, revised, or narrowed for next review
 - fields accepted, revised, removed, or deferred for future export/HIS discussion
+- current-system benchmark decisions: match, omit, defer, or governance review
 
 The current proposed first-three review default is:
 
@@ -86,7 +87,7 @@ Track:
 - number of summaries that sound more certain than the source answers
 - number of cases where the clinician says the summary could mislead
 
-For Phase 0, any real patient identifier, real queue/appointment data, live HIS behavior, diagnosis, treatment, triage, risk score, probability output, or autonomous exam-ordering phrase is a stop condition.
+For Phase 0, any real patient identifier, real queue/appointment data, live HIS behavior, diagnosis, treatment, triage, risk score, probability output, autonomous exam-ordering phrase, or copied current-vendor behavior without permission is a stop condition.
 
 ## Adoption Metrics
 
@@ -129,3 +130,5 @@ Pause if:
 Every evaluation should produce a written decision: continue, revise, narrow, or pause. The decision should include the evidence, not just the conclusion.
 
 For v1 Phase 0, `governance review before next step` is also a valid written decision when the next proposal touches real patient data, hospital systems, IP/vendor rights, regulatory claims, or deployment ownership.
+
+Current-system benchmark review can change the next artifact, but it should not expand v1 automatically. If the benchmark shows a gap, the preferred next artifact is a comparison table and reviewer decision, not an immediate feature sprint.

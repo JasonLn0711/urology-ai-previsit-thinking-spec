@@ -15,7 +15,7 @@ This is not a clinical trial, not a hospital deployment, not a real patient pilo
 
 The review starts from five layers:
 
-1. Source: meeting transcript, 許醫師 QA/rules, 2024 TUA guideline, and public regulatory/privacy references.
+1. Source: meeting transcript, 許醫師 QA/rules, 2024 TUA guideline, current `聯醫小幫手` / `陽明小幫手` Argon links, 吳老師 same-day follow-up discussion, and public regulatory/privacy references.
 2. Boundary: synthetic data only; physician review required; no real identifiers; no live HIS, registration, messaging, diagnosis, treatment, triage, or autonomous exam orders.
 3. Artifact: local browser v1 route, handoff packet, and source-derived exam-prep mockup.
 4. Measurement: reviewer task performance, usefulness ratings, safety wording issues, missing/noisy fields, and workflow fit.
@@ -46,6 +46,9 @@ Use:
 - review scorecard: `/home/jnln3799/every_on_git_ubuntu/urology-ai-previsit-demo/docs/research/v1-review-scorecard.md`
 - live capture sheet: `/home/jnln3799/every_on_git_ubuntu/urology-ai-previsit-demo/docs/research/v1-phase0-review-capture.md`
 - source materials archived in planning and copied in the demo repo
+- current-system benchmark links, reviewed only with synthetic inputs or screenshots:
+  - `聯醫小幫手`: `https://chat.argon.chat/visitor?guid=rmw6oqqxgy`
+  - `陽明小幫手`: `https://chat.argon.chat/visitor?guid=avp6dg160g`
 
 Do not use:
 
@@ -54,6 +57,7 @@ Do not use:
 - real queue, ID, birthday, phone, or hospital identifiers
 - real HIS writeback
 - current vendor internals beyond materials that 許醫師 is permitted to share
+- current Argon runtime behavior as a copied specification unless 許醫師 confirms it is permitted, non-confidential, and safe to use without real patient data
 
 ## Review Tasks
 
@@ -91,6 +95,27 @@ Capture:
 Pass condition:
 
 - reviewer can identify which information is useful before physician entry and which should be hidden or moved.
+
+### Task 2.5: Current-System Benchmark
+
+Review the two doctor-provided Argon links as comparison points, not as implementation specs.
+
+Public metadata suggests:
+
+- `聯醫小幫手`: broader patient-facing help for urinary abnormalities, stones, health-check abnormalities, and preliminary suggestions / exam direction.
+- `陽明小幫手`: outpatient physician-assistant framing for registration, return-visit questioning, and waiting-flow explanation.
+
+Capture:
+
+- which current-system functions v1 must match for the 2026-04-30 MVP
+- which current-system functions v1 should intentionally omit
+- whether `初步建議` or `檢查方向` wording is acceptable only as physician-review context, or should be removed from v1
+- whether registration help, return-visit questioning, or waiting-flow explanation belongs in v1, Phase 1, or later
+- whether any part of the current app flow is vendor/IP/confidential and must not be copied
+
+Pass condition:
+
+- reviewers can name at least one function to match, one function to omit, and one permission/governance question before any team-owned implementation mirrors the current system.
 
 ### Task 3: Nurse Review
 
@@ -199,6 +224,7 @@ Continue if:
 - at least three priority complaint flows can be reviewed with confirmation-only wording
 - no real-data or clinical-use boundary is broken
 - next artifact is narrow
+- current-system benchmark review does not reveal a must-have v1 function that breaks the safe-local boundary
 
 Revise if:
 
@@ -225,6 +251,8 @@ Governance review before next step if:
 - anyone proposes live HIS, registration, messaging, analytics, or cloud storage
 - anyone proposes clinician-facing recommendations, risk scores, probability outputs, triage, or autonomous orders
 - IP/vendor scope is unclear enough that implementation should stop
+- anyone proposes copying the current Argon app flow, prompt logic, or vendor-specific behavior without permission
+- anyone proposes local/on-prem hospital deployment, encryption claims, device procurement, RAG acceleration hardware, or hospital-network installation as a Phase 0 deliverable
 
 ## Regulatory And Privacy Review Frame
 
@@ -236,6 +264,7 @@ Use official sources only as gate-setting references:
 - Taiwan electronic medical record rules create additional security, audit, contract, cloud-location, and exchange requirements once electronic medical records or hospital systems are involved.
 - TFDA AI/ML SaMD guidance is relevant if the project becomes AI/ML medical-device software or seeks registration; it does not settle this v1 product preview classification.
 - FDA CDS guidance/FAQ shows why basis-visible clinician review and avoiding risk/probability/time-critical directives matters, but US guidance does not decide Taiwan deployment status.
+- Current public wording around preliminary suggestions or exam direction should be treated as a review risk, not as permission for v1 to provide autonomous guidance.
 
 ## Done Definition
 

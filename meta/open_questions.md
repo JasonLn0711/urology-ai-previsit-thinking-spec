@@ -12,6 +12,9 @@ These are the highest-priority questions after the 2026-04-23 meeting and 許醫
 6. Does the current vendor relationship create exclusivity, data ownership, derivative-work, or confidentiality limits?
 7. Who at 聯醫 owns privacy/security/HIS review before any real patient data, cloud storage, messaging, or writeback is discussed?
 8. What metric would make 吳老師 and 許醫師 say v1 is worth moving from synthetic review to pilot-readiness review?
+9. Which functions from the current `聯醫小幫手` and `陽明小幫手` must v1 match, and which must it intentionally omit?
+10. Is `初步建議` / `檢查方向` wording acceptable only as physician-review context, or should v1 avoid that wording entirely?
+11. Is local/on-prem deployment a Phase 1 requirement, or a later architecture experiment after workflow value is proven?
 
 Do not treat these as product backlog items. They are gates that decide whether the next artifact should continue, revise, narrow, pause, or go to governance review.
 
@@ -23,6 +26,8 @@ Do not treat these as product backlog items. They are gates that decide whether 
 4. Which topics must remain physician-led?
 5. Should the first realistic version be self-filled, nurse-assisted, family-assisted, or mixed?
 6. Where would the workflow fit without slowing staff down?
+7. What does the current `陽明小幫手` actually do between registration/check-in and physician entry?
+8. Does the current `聯醫小幫手` include patient-facing advice or exam-direction language that v1 must avoid?
 
 ## User Questions
 
@@ -46,6 +51,7 @@ Do not treat these as product backlog items. They are gates that decide whether 
 3. What would make clinicians trust it?
 4. What would make clinicians ignore it?
 5. What is the smallest useful next artifact?
+6. Should the next artifact be a benchmark-difference table before any additional app build?
 
 ## Safety Questions
 
@@ -54,6 +60,8 @@ Do not treat these as product backlog items. They are gates that decide whether 
 3. What consent language would be required?
 4. What failure reporting process would be needed in any future pilot?
 5. What misunderstanding would be most dangerous for patients?
+6. What current-app wording would make a patient think the system is giving advice instead of preparing a physician-reviewed note?
+7. Who approves cloud vs local/on-prem deployment, encryption, logging, and maintenance before any hospital-network installation?
 
 ## Decision Questions
 

@@ -4,7 +4,7 @@
 
 Status: captured
 
-This is a synthesized capture from the 2026-04-23 meeting transcript, post-meeting source archive, and 許醫師 LINE follow-up materials. The original four-case product review was not completed, so case-level usefulness remains pending Phase 0 review.
+This is a synthesized capture from the 2026-04-23 meeting transcript, post-meeting source archive, 許醫師 LINE follow-up materials, doctor-provided current Argon links, and the same-day 16:00 吳老師 follow-up discussion. The original four-case product review was not completed, so case-level usefulness remains pending Phase 0 review.
 
 No real patient identifiers, identifying patient stories, diagnosis, triage, treatment advice, or production commitments are recorded here.
 
@@ -19,6 +19,12 @@ No real patient identifiers, identifying patient stories, diagnosis, triage, tre
 | Primary question | Does guided previsit collection solve a real workflow problem? |
 | Actual meeting shape | Shifted from four-case demo review into current workflow, vendor/funding, IP, privacy/security, and team-owned platform strategy. |
 | Decision needed | Continue / revise / narrow / pause for next artifact, not deployment. |
+
+Follow-up sources added later on 2026-04-23:
+
+- `聯醫小幫手`: `https://chat.argon.chat/visitor?guid=rmw6oqqxgy`
+- `陽明小幫手`: `https://chat.argon.chat/visitor?guid=avp6dg160g`
+- 16:00 吳老師 discussion transcript/audio, archived in the planning repo source bundle.
 
 ## 1. Current Workflow Facts
 
@@ -132,6 +138,8 @@ Capture labels:
 | Workflow slot exists | Waiting-room `陽明小幫手` is plausible. | Continue with narrow scope. |
 | Existing process already sufficient | Not shown. | Unknown. |
 | IP/vendor/funding blockers | Strong unresolved signals. | Governance gate before real build/deployment. |
+| Current Argon links exist | Doctor-provided links expose current public app framing. | Add benchmark review before changing v1 scope. |
+| Same-day 吳老師 follow-up emphasized productization and actual operation review | Follow-up transcript is noisy but directionally consistent. | See current app operation with synthetic/no-real-data walkthrough before Phase 1. |
 
 ## 9. Rejected Assumptions
 
@@ -155,6 +163,9 @@ Capture labels:
 | Does vendor agreement restrict team-owned implementation? | Prevents vendor conflict. | 許醫師 / hospital/vendor owner | Contract/SOW review. |
 | Who owns privacy/security/HIS review at 聯醫? | Required before real pilot. | 聯醫 operations/info office | Identify named owners. |
 | Can a nurse/staff reviewer join Phase 0? | Staff burden is untested. | 許醫師 / clinic team | Request reviewer. |
+| Which current-system functions must v1 match or intentionally omit? | Prevents blind copying and scope creep. | 許醫師 / current-system owner | Review Argon links/screenshots using synthetic inputs only. |
+| Is `初步建議` / `檢查方向` wording allowed in v1? | Patient-facing advice may create clinical/regulatory risk. | 許醫師 / governance reviewers | Keep v1 stricter until approved. |
+| Is local/on-prem deployment required for Phase 1? | Affects security, maintenance, encryption, and hardware owner. | 吳老師 / 許醫師 / hospital IT | Treat as architecture gate, not v1 dependency. |
 
 ## 11. Initial Decision
 
@@ -171,7 +182,11 @@ Follow-on implementation support: `synthetic-hematuria-occult-blood` was added t
 
 Follow-on evidence-capture support: `docs/research/v1-phase0-review-capture.md` was added to the demo repo so the next review can produce structured evidence before analysis and decision memo writing.
 
-Follow-on readiness support: `npm run phase0:check` was added in the demo repo so Phase 0 can verify the live v1 route, five synthetic cases, capture sheet, scorecard, priority-flow worksheet, safety boundaries, smoke checks, and tests before reviewer time is used. Latest run against `http://127.0.0.1:4176/app/v1/` passed `76/76`.
+Follow-on readiness support: `npm run phase0:check` was added in the demo repo so Phase 0 can verify the live v1 route, five synthetic cases, capture sheet, current-system benchmark table, scorecard, priority-flow worksheet, safety boundaries, smoke checks, and tests before reviewer time is used. Latest run against `http://127.0.0.1:4176/app/v1/` passed `81/81`.
+
+Follow-on benchmark support: the doctor-provided current Argon links were added to the Phase 0 review path. They should be used to create a match/omit/defer table, not to copy vendor behavior or expand v1 into registration, advice, exam direction, HIS, or local/on-prem deployment.
+
+Follow-on strategy support: the same-day 16:00 吳老師 discussion supports productization, actual-operation review, possible future local/on-prem architecture, and scale via hospital/community-clinic networks. These are Phase 1 or later gates, not v1 deliverables.
 
 ## 12. Same-Day Summary Draft
 

@@ -4,7 +4,7 @@
 
 Status: synthesized
 
-These notes separate research, patent, and product implications from the 2026-04-23 meeting, 許醫師 LINE follow-up QA file, and 2024 TUA guideline. They do not assert patentability, clinical effectiveness, regulatory status, or hospital adoption.
+These notes separate research, patent, and product implications from the 2026-04-23 meeting, 許醫師 LINE follow-up QA file, 2024 TUA guideline, doctor-provided current Argon app links, and same-day 吳老師 follow-up discussion. They do not assert patentability, clinical effectiveness, regulatory status, or hospital adoption.
 
 ## Paper Extraction
 
@@ -26,6 +26,8 @@ Safer current version:
 | Safety objections | Yes | No diagnosis, treatment, triage, real identifiers, live HIS, autonomous orders, or regulatory certainty. |
 | Summary format preference | Partly | Existing current-platform summary concept is useful, but v1 summary order still needs physician review. |
 | Patient or staff constraints | Partly | Older-adult and assisted-use assumptions remain; nurse burden needs Phase 0 review. |
+| Current-system benchmark | Partly | Public metadata confirms distinct `聯醫小幫手` and `陽明小幫手` framings; runtime details require synthetic walkthrough or screenshots. |
+| Productization / deployment direction | Partly | 吳老師 follow-up supports productization and actual-operation review, but local/on-prem and hardware paths require governance. |
 
 ## Limitation Statement
 
@@ -55,6 +57,8 @@ The system logic to investigate is the separation of:
 | Is the one-minute clinician-review summary meaningfully different from ordinary intake notes? | Needs line-level review and comparison. |
 | What has 許醫師 already filed or plans to file? | Must clarify before public disclosure or implementation claims. |
 | Does 創智動能 have any vendor/IP/exclusivity constraint? | Must clarify before team-owned build promises. |
+| What current Argon behavior can be used as benchmark evidence without copying protected implementation? | Needs explicit permission and synthetic/no-real-data review. |
+| Does local/on-prem deployment create a separate patent, security, maintenance, or procurement boundary? | Needs hospital IT/security and project-owner review. |
 
 ## What Not To Claim
 
@@ -88,6 +92,8 @@ Would a real urology clinic adopt this because it saves time or improves readine
 | Safety boundary acceptable | Partly | Boundary is designed; reviewers must still check wording. |
 | Funding path exists | No | Hospital innovation/deep-cultivation or company/hybrid funding remains open. |
 | HIS path exists | No | Export/mock API only before information-office review. |
+| Current-system benchmark exists | Partly | Doctor provided links; v1 must now compare match/omit/defer before expanding scope. |
+| Local/on-prem architecture path exists | No | Discussed as possible future path; not a v1 dependency. |
 
 ## Product Decision
 
@@ -104,9 +110,9 @@ Reason:
 | Field | Notes |
 | --- | --- |
 | Artifact | Phase 0 clinician/nurse review packet and scorecard |
-| Why this artifact | It converts enthusiasm into measurable evidence without real patient data or production claims. |
+| Why this artifact | It converts enthusiasm and current-system comparison into measurable evidence without real patient data or production claims. |
 | Reviewer | 許醫師, nurse/staff workflow reviewer, 吳老師 |
-| Done definition | Filled scorecard, first three flows confirmed/revised, per-flow worksheet notes, unsafe/noisy wording list, and explicit continue/revise/narrow/pause/governance-review decision. |
+| Done definition | Filled scorecard, current-system match/omit/defer table, first three flows confirmed/revised, per-flow worksheet notes, unsafe/noisy wording list, and explicit continue/revise/narrow/pause/governance-review decision. |
 | What not to include | Real data, HIS integration, vendor internals, diagnosis/treatment/triage/order claims, regulatory classification conclusions. |
 
 Proposed first-three review scaffold: `頻尿或夜尿`, `小便困難或尿不出來`, and `血尿或健檢發現潛血`. Treat this as a planning default only until 許醫師 confirms, replaces, or reorders it.
@@ -115,4 +121,6 @@ The demo repo now has runnable synthetic support for the scaffold, including `sy
 
 The demo repo also now has a live Phase 0 capture sheet so review evidence is collected before analysis rather than reconstructed from memory.
 
-The demo repo now has a pre-session readiness gate, `npm run phase0:check`. Latest run against `http://127.0.0.1:4176/app/v1/` passed `76/76`, so Phase 0 is ready to request reviewer time from an artifact/boundary/verification standpoint.
+The demo repo now has a pre-session readiness gate, `npm run phase0:check`. Latest run against `http://127.0.0.1:4176/app/v1/` passed `81/81`, so Phase 0 is ready to request reviewer time from an artifact/boundary/verification standpoint.
+
+The current Argon links add one required review artifact before Phase 1: a benchmark-difference table that says what v1 should match, omit, defer, or send to governance. This is the safest way to learn from `聯醫小幫手` / `陽明小幫手` without copying vendor behavior or expanding into clinical advice.
