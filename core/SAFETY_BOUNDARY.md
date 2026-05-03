@@ -82,3 +82,13 @@ Every patient-facing or reviewer-facing explanation should make these points cle
 ## Governance Boundary
 
 Any expansion beyond previsit summary support requires explicit review. Expansion includes real patient data, clinical recommendations, production claims, automated urgency labels, or connection to hospital record workflows.
+
+## 2026-05-03 Urgent-Care Triage Reference
+
+The 2026-05-03 余總 image/message names `Urgent care intake kiosk with AI triage` as a possible ultimate target and says the practical start can be `協助醫生問診`.
+
+For this thinking repo, that means:
+
+- `協助醫生問診` is aligned with the current previsit summary aid boundary.
+- `AI triage`, risk scoring, queue reprioritization, and HIS connection are outside the current boundary.
+- A future triage-adjacent version needs a new governance decision before any urgency label, risk score, patient-routing behavior, or HIS data flow is specified.

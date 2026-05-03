@@ -108,6 +108,19 @@ Goal: discuss connection to existing clinic workflows only after workflow value,
 
 Integration is not proof of value. It is only justified after value is already visible.
 
+## 2026-05-03 Future Triage Signal
+
+余總's `Urgent care intake kiosk with AI triage` image/message is a future-direction signal for an advanced version of the current urology MVP.
+
+It supports a product ladder, not a scope jump:
+
+1. `協助醫生問診`: current urology previsit MVP scope.
+2. Visit-readiness summary and nurse/clinician review triggers: still governed summary support.
+3. Triage-adjacent workflow discussion: requires explicit definition of what `triage` means.
+4. Urgent-care kiosk / AI prioritization / HIS connection: requires separate clinical, privacy/security, hospital-integration, and regulatory governance.
+
+Do not skip directly from Stage 2-6 discovery evidence to risk scores, queue reprioritization, or HIS integration.
+
 ## Versioning Rule
 
 Each future version should explain:

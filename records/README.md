@@ -24,6 +24,7 @@ Use:
 - `YYYY-MM-DD/meeting-capture.md`
 - `YYYY-MM-DD/decision-record.md`
 - `YYYY-MM-DD/extraction-notes.md`
+- `YYYY-MM-DD/<source-or-topic>-reference.md` for dated external reference material that changes product routing but is not a meeting capture.
 
 ## Status Labels
 

@@ -40,6 +40,14 @@
 4. What failure reporting process would be needed in any future pilot?
 5. What misunderstanding would be most dangerous for patients?
 
+## 2026-05-03 Urgent-Care Triage Direction
+
+1. Does `triage` mean previsit information readiness, queue prioritization, risk scoring, urgent-care triage, or another workflow?
+2. Is the next artifact a product ladder from `協助醫生問診` to future AI triage, or a company-internal sandbox demo using the current urology MVP?
+3. What HIS connection is being imagined: export, copy/paste, mock API, read-only lookup, writeback, or real queue/registration integration?
+4. Which region is the first business context: Taiwan, US, Thailand, Malaysia, Central Asia, Middle East, or another market?
+5. Who owns privacy/security, clinical responsibility, and regulatory language if the system moves beyond physician history-taking support?
+
 ## Decision Questions
 
 1. Should the project continue after the physician conversation?
