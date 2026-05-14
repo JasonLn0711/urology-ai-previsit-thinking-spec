@@ -6,7 +6,7 @@
 2. Which questions are repeated most often?
 3. Which information can be safely collected before the physician enters?
 4. Which topics must remain physician-led?
-5. Should the first realistic version be self-filled, nurse-assisted, family-assisted, or mixed?
+5. Should the first realistic version be patient self-entry, family-assisted operation with source labels, nurse repair, nurse-led selected cases, or mixed?
 6. Where would the workflow fit without slowing staff down?
 
 ## User Questions
@@ -39,6 +39,14 @@
 3. What consent language would be required?
 4. What failure reporting process would be needed in any future pilot?
 5. What misunderstanding would be most dangerous for patients?
+
+## 2026-05-03 Urgent-Care Triage Direction
+
+1. Does `triage` mean previsit information readiness, queue prioritization, risk scoring, urgent-care triage, or another workflow?
+2. Is the next artifact a product ladder from `協助醫生問診` to future AI triage, or a company-internal sandbox demo using the current urology MVP?
+3. What HIS connection is being imagined: export, copy/paste, mock API, read-only lookup, writeback, or real queue/registration integration?
+4. Which region is the first business context: Taiwan, US, Thailand, Malaysia, Central Asia, Middle East, or another market?
+5. Who owns privacy/security, clinical responsibility, and regulatory language if the system moves beyond physician history-taking support?
 
 ## Decision Questions
 

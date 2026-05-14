@@ -53,13 +53,14 @@ Exit evidence:
 
 ## Stage 5: Assisted-Use Workflow Test
 
-Goal: decide whether self-filled, nurse-assisted, family-assisted, or mixed use is realistic.
+Goal: decide whether patient self-entry, family-assisted operation, nurse repair, or nurse-led use for selected cases is realistic.
 
 Exit evidence:
 
 - estimated staff burden
 - common assistance needs
 - patient confusion points
+- source-label needs for family or nurse input
 - recommended operating mode
 
 ## Stage 6: Summary Standardization
@@ -106,6 +107,19 @@ Still not allowed without separate approval:
 Goal: discuss connection to existing clinic workflows only after workflow value, safety, privacy, responsibility, and adoption are clear.
 
 Integration is not proof of value. It is only justified after value is already visible.
+
+## 2026-05-03 Future Triage Signal
+
+余總's `Urgent care intake kiosk with AI triage` image/message is a future-direction signal for an advanced version of the current urology MVP.
+
+It supports a product ladder, not a scope jump:
+
+1. `協助醫生問診`: current urology previsit MVP scope.
+2. Visit-readiness summary and nurse/clinician review triggers: still governed summary support.
+3. Triage-adjacent workflow discussion: requires explicit definition of what `triage` means.
+4. Urgent-care kiosk / AI prioritization / HIS connection: requires separate clinical, privacy/security, hospital-integration, and regulatory governance.
+
+Do not skip directly from Stage 2-6 discovery evidence to risk scores, queue reprioritization, or HIS integration.
 
 ## Versioning Rule
 

@@ -2,7 +2,7 @@
 
 日期：2026-04-20
 文件目的：定義泌尿科 previsit interview MVP 建議題組，並說明核心必問、條件跳題、護理補問、臨床端保留與暫不納入項目。
-重要邊界：MVP 只做 guided question flow、missing-information prompts、patient/nurse review、clinician-facing summary。不可做診斷、治療建議或自動分流。
+重要邊界：MVP 只做 patient/family guided question flow、missing-information prompts、nurse repair workbench、clinician-facing summary。不可做診斷、治療建議或自動分流。
 
 ## 1. MVP 設計原則
 
@@ -14,6 +14,8 @@
 
 - 核心必問控制在 10 到 14 題。
 - 條件模組只在相關症狀出現後顯示。
+- 病人/家屬端只顯示安心填答、來源標記與確認頁，不顯示護理師或醫師工作畫面。
+- 家屬可協助操作或補充觀察，但主觀感受與家屬觀察必須分欄位標示來源。
 - 護理頁顯示協助需求、缺漏、日誌 cue、用藥 cue、需 review observations。
 - 醫師頁顯示整理後的 patient-reported observations，不顯示診斷或治療建議。
 

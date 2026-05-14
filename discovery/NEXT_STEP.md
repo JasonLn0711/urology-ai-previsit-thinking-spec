@@ -166,7 +166,7 @@ Possible reasoning areas:
 - separating patient input from clinician interpretation
 - identifying missing previsit information before handoff
 - generating neutral review flags rather than diagnostic claims
-- supporting self-filled, nurse-assisted, and family-assisted intake
+- supporting patient self-entry, family-assisted operation with source labeling, and nurse repair of missing information
 - producing a constrained summary for rapid clinical review
 
 Do not assert patentability without prior-art review.
