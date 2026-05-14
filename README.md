@@ -1,5 +1,6 @@
 # Urology AI Previsit Thinking Spec
 
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=JasonLn0711&repo=urology-ai-previsit-thinking-spec&countColor=%237B1E7B" alt="Visitor count"/>
 This repository is the thinking and governance layer for a urology previsit interview system.
 
 It is not a code repo, demo repo, clinical protocol, diagnosis engine, real patient data store, hospital integration plan, or regulatory submission.
