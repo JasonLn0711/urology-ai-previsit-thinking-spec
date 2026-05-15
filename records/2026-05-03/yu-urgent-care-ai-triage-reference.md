@@ -9,6 +9,12 @@
   - `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/projects/2026-04-urology-ai-previsit-interview/2026-05-03-yu-urgent-care-ai-triage-reference.md`
   - `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/healthcare/urology/previsit-interview/assets/2026-05-03-yu-urgent-care-ai-triage/README.md`
 
+Follow-up company sync:
+
+- `2026-05-12` 慧誠智醫 business / PM sync about AI triage and vital-sign kiosk integration.
+- Planning source bundle: `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/personal/sources/2026-05-12-huicheng-company-ai-triage-sync/`
+- Thinking record: `../2026-05-12/huicheng-company-ai-triage-sync.md`
+
 ## Exact Text
 
 ```text
@@ -24,6 +30,7 @@ This source clarifies the May 2 `台灣版 triage` language:
 - The current urology MVP is the start point, because it already supports `協助醫生問診`.
 - HIS connection is a later integration target, not current discovery scope.
 - US cybersecurity barriers are business-development context, not a reason to lower safety or privacy standards.
+- The `2026-05-12` sync further clarifies that the likely commercial path is tied to 慧誠's vital-sign kiosk, Windows all-in-one deployment constraints, RESTful/FHIR/HIS/EMR integration context, English voice input, and broad urgent-care symptom intake.
 
 ## Boundary
 Current thinking boundary remains unchanged:
