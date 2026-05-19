@@ -88,6 +88,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
 - For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- For the current official-format subproject draft v0.1: `discovery/DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`
 - For scoring a Health Taiwan deep-cultivation draft objectively: `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`
 - For the expanded MOHW format/application-compliance score: `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 - For safety boundaries: `core/SAFETY_BOUNDARY.md`
@@ -105,24 +106,45 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For whether to include this repo and the demo repo in the proposal: `records/2026-05-19/repo-inclusion-recommendation.md`
 - For the imported 北市聯醫 deep-cultivation working note: `records/2026-05-19/taipei-city-hospital-deep-cultivation-working-note.md`
 - For the 2026-05-19 deep-cultivation decision and CRM/service-flow framing: `records/2026-05-19/deep-cultivation-decision-record.md`
+- For the 2026-05-19 expert-review narrowing decision: `records/2026-05-19/expert-review-revise-and-narrow.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
 
 ## Current Planning Signal
 
 The latest dated planning evidence is the 2026-05-19 北市聯醫 deep-cultivation meeting.
 
+The latest expert-review decision after that meeting is `Revise + Narrow`.
+
+Current proposal name:
+
+```text
+泌尿科門診前問診與醫師覆核摘要支持系統
+```
+
+Safe descriptive boundary:
+
+```text
+泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程
+```
+
 Near-term framing should emphasize:
 
-- PSA / community screening as the clinical entry point
-- SOP, return-to-hospital flow, case management, and CRM as the service backbone
-- urology previsit / visit-readiness / clinician-review summary as the current system role
+- urology previsit symptom collection and clinician-review summary as the current system role
+- primary Health Taiwan fit under `範疇三：導入智慧科技醫療`, with `範疇一：優化醫療工作條件` as secondary support
+- first-version narrowing to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream
+- after-registration / waiting-room QR code or tablet completion by patient or family as the first workflow hypothesis
+- partial summary is acceptable if the patient does not finish every field
+- CRM follow-up is parked until a future confirmed step
+- ASR remains an optional multilingual input layer, not the core clinical claim
+- SOAP / EMR wording must stay as `醫師覆核用 SOAP 架構參考摘要`; no automatic EMR writeback or formal medical-record generation
+- blood in urine, fever/chills, flank pain, and currently being unable to urinate are `patient-reported red-flag observations`, not triage or risk judgments
 - APP, AI, ASR, kiosk, API, and reminders as workflow tools, not autonomous clinical decision tools
 - proposal writing should start from clinical workflow pain, service landing, KPI, governance, and budget mapping, not from model novelty
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
 - the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist
 - Aging Clock as research-adjacent until the data source, aging definition, biomarker scope, intervention, and service fit are clarified
-- the concise strategic label: `AI Systems Engineering for Healthcare Deployment`
+- the concise strategic label may remain `AI Systems Engineering for Healthcare Deployment`, but the concrete proposal label should be `泌尿科門診前問診與醫師覆核摘要支持系統`
 - policy alignment with `健康台灣深耕計畫(114-118年)`: smart healthcare, working-condition improvement, talent training, and sustainable/social-responsibility healthcare
 - related examples support the pattern: workflow improvement, staff-burden reduction, AI as a tool, system integration, governance, and KPI
 
