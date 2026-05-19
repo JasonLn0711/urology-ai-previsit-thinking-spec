@@ -121,6 +121,24 @@ It supports a product ladder, not a scope jump:
 
 Do not skip directly from Stage 2-6 discovery evidence to risk scores, queue reprioritization, or HIS integration.
 
+## 2026-05-19 Local ASR-Ready Adaptive Demo Evidence
+
+The 2026-05-19 local demo check moved the runnable artifact from a fixed
+questionnaire emphasis toward an ASR-ready adaptive-questioning emphasis.
+
+The governance interpretation is narrow:
+
+1. ASR is an input layer, not the clinical claim.
+2. Adaptive next-question selection is useful only when it remains inside the
+   governed previsit question bank.
+3. Role-separated clinician surfaces are readiness evidence, not proof of
+   clinician adoption.
+4. Local RTX/CUDA readiness is not evidence of clinic microphone reliability.
+
+This supports continued Stage 2-6 discovery evidence. It does not move the
+project to Stage 7 real patient-data governance or Stage 9 integration
+discussion.
+
 ## Versioning Rule
 
 Each future version should explain:

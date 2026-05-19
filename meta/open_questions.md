@@ -23,6 +23,7 @@
 3. Should missing information, review flags, or both be shown?
 4. Is a one-page summary enough?
 5. Which wording would make clinicians distrust the output?
+6. In the adaptive demo, does the clinician prefer seeing why the next question was selected, or only the final summarized answer?
 
 ## Adoption Questions
 
@@ -31,6 +32,7 @@
 3. What would make clinicians trust it?
 4. What would make clinicians ignore it?
 5. What is the smallest useful next artifact?
+6. Does optional ASR reduce patient burden in practice, or does microphone setup and correction create a new workflow burden?
 
 ## Safety Questions
 
@@ -39,6 +41,7 @@
 3. What consent language would be required?
 4. What failure reporting process would be needed in any future pilot?
 5. What misunderstanding would be most dangerous for patients?
+6. Which ASR errors would be most dangerous if they were silently converted into structured answers?
 
 ## 2026-05-03 Urgent-Care Triage Direction
 

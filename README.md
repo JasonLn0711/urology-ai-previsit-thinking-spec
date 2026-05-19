@@ -88,6 +88,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the recommended MVP question set: `clinical-question-governance/mvp_question_set_recommendation.md`
 - For the next physician/nurse discovery conversation: `discovery/NEXT_STEP.md`
 - For the 2026-05-03 urgent-care AI triage future-direction signal: `records/2026-05-03/yu-urgent-care-ai-triage-reference.md`
+- For the 2026-05-19 local ASR-ready adaptive demo readiness record: `records/2026-05-19/demo-asr-readiness-record.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
 
 ## Operating Rule
