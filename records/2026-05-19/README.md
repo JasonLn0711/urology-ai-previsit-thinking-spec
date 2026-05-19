@@ -54,6 +54,8 @@ The repository inclusion recommendation is `repo-inclusion-recommendation.md`.
   - Paper, product, grant, and research-boundary extraction notes.
 - `jason-work-scope-from-deep-cultivation-meeting.md`
   - Jason-specific work-scope interpretation from the recording, with attribution boundaries.
+- `expert-review-revise-and-narrow.md`
+  - Accepted expert-review direction: Revise + Narrow, use `泌尿科門診前問診與醫師覆核摘要支持系統`, park CRM follow-up, keep ASR as optional multilingual input, and start with non-acute LUTS / OAB-like outpatients.
 - `sources/`
   - Archived ASR and intermediate transcript files.
 
@@ -97,3 +99,33 @@ MOHW format compliance and application completeness
 ```
 
 Do not collapse those four scores into a single impression score. A draft with strong technical content but weak MOHW format compliance still carries submission risk.
+
+## Latest Expert-Review Direction
+
+After the same-day expert review, the current direction is:
+
+```text
+Revise + Narrow.
+```
+
+The proposal-facing name is:
+
+```text
+泌尿科門診前問診與醫師覆核摘要支持系統
+```
+
+The safe descriptive boundary is:
+
+```text
+泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程
+```
+
+Operational implications:
+
+- Do not write this as an `AI medical system`.
+- CRM follow-up is parked until a future confirmed step.
+- ASR is only an optional multilingual input layer.
+- First-version scope should prioritize non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream.
+- Visible blood, retention/current inability to urinate, fever/chills, and flank pain remain patient-reported red-flag observations, not triage or risk judgments.
+- The clinician-facing output should be called `醫師覆核用 SOAP 架構參考摘要`, not `SOAP 病歷草稿`, `自動病歷`, or `自動產生 EMR`.
+- Health Taiwan positioning should lead with `範疇三：導入智慧科技醫療`, with `範疇一：優化醫療工作條件` as secondary support.

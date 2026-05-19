@@ -1,17 +1,53 @@
 # Open Questions
 
+## 2026-05-19 Expert Review Result
+
+Current decision:
+
+```text
+Revise + Narrow.
+```
+
+Accepted near-term narrowing:
+
+- Use `泌尿科門診前問診與醫師覆核摘要支持系統` as the proposal-facing name.
+- Use `泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程` as the safe descriptive boundary.
+- Lead with Health Taiwan `範疇三：導入智慧科技醫療`; use `範疇一：優化醫療工作條件` as secondary support.
+- Do not write the work as an `AI medical system`.
+- Park CRM follow-up until a future confirmed next step.
+- Treat ASR as an optional multilingual input layer only.
+- Start with non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream.
+- Treat visible blood, retention/current inability to urinate, fever/chills, and flank pain as patient-reported red-flag observations, not triage or risk judgments.
+- Use `醫師覆核用 SOAP 架構參考摘要`, not `SOAP 病歷草稿`, `自動病歷`, or `自動產生 EMR`.
+
+Resolved or parked items:
+
+- CRM execution is parked for now.
+- First workflow hypothesis is after registration / while waiting, completed by patient or family with QR code or tablet.
+- Partial summary is acceptable if the patient does not complete every field.
+- Do not require nurses to complete all missing fields in the first version; nursing should only handle incomplete, conflicting, or red-flag-observation cases.
+
+Still requires clinical confirmation:
+
+- Whether the after-registration / waiting-room workflow slot is accepted by Duobao and clinical stakeholders.
+- Whether physicians will read a one-page or 60-second summary.
+- Whether the first version should show red-flag observations to nurses first, physicians first, or both.
+- Which five fields must appear at the top of the clinician summary.
+- Which summary fields are noise and should be hidden in a governance/reviewer view only.
+- Whether `SOAP 架構之醫師覆核參考摘要` is safe wording for the hospital audience.
+
 ## 2026-05-19 Deep-Cultivation Grant Questions
 
-1. For 子計畫二, what is the exact service workflow from guided intake to CRM follow-up?
-2. Which CRM functions are required for the first proposal: reminders, lab-draw prompts, return-visit tracking, case-management status, medication reminders, or all of these?
-3. Will CRM / APP / API work be outsourced, staffed internally, or split into a hybrid plan?
-4. What procurement threshold applies to CRM, APP, questionnaire, platform, or API outsourcing?
+1. For 子計畫二, what is the exact service workflow from registration to waiting-room intake to clinician-review summary, with CRM follow-up explicitly parked?
+2. If CRM is mentioned, what wording clearly marks it as a later governed phase rather than current execution?
+3. Will APP / ASR / API work be outsourced, staffed internally, or split into a hybrid plan if it moves beyond documentation?
+4. What procurement threshold applies to APP, questionnaire, platform, API, or ASR-related outsourcing?
 5. Which MOUs are required: community, clinics, 忠孝院區, 衛生局, university team, or vendors?
 6. Who must complete nine-hour IRB training before touching research or patient data?
 7. What security-governance documents or self-check forms are required for AI, APP, CRM, API, or patient-data flows?
-8. Which KPI justify each budget line in the smart-healthcare / CRM subproject?
+8. Which KPI justify each budget line in the smart-healthcare previsit-summary subproject?
 9. Should Aging Clock be excluded, included as a research appendix, or reframed as a biomarker follow-up service workflow?
-10. Before 2026-06-02, what draft content is needed for the 20-23 page smart-healthcare / AI / CRM subproject section?
+10. Before 2026-06-02, what draft content is needed for the 20-23 page smart-healthcare / AI previsit-summary subproject section?
 11. What portion of 子計畫二 is Jason personally drafting versus coordinating with 吳老師團隊, vendors, or hospital stakeholders?
 12. Which Aging Clock items, if any, are Jason's responsibility rather than 冠宇's research responsibility?
 13. Does Jason need to complete nine-hour IRB training before the next data-facing phase, or only before actual patient/research-data access?
