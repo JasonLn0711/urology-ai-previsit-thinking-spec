@@ -4,6 +4,8 @@
 
 - The first useful version is a guided previsit workflow, not an autonomous medical interviewer.
 - The main value is reducing repeated questions and improving visit readiness.
+- After the 2026-05-19 deep-cultivation meeting, the stronger near-term value frame is visit readiness plus patient-management / CRM follow-up, not AI model novelty.
+- The deep-cultivation upgrade should be described as `urology previsit / visit-readiness / clinician-review summary / CRM follow-up support`, not AI triage.
 - Clinicians need a short review summary, not a full transcript.
 - Patients may need nurse or family assistance.
 - Older adults and mixed-language users are normal users, not edge cases.
@@ -22,8 +24,17 @@
 
 - The first physician conversation should test usefulness, not promise deployment.
 - The smallest valid next artifact is a refined question tree plus a summary format.
+- The next grant-facing artifact should map PSA/community screening, SOP, CRM, APP/AI support, KPI, budget, procurement, and security/IRB gates before adding implementation detail.
+- The proposal-writing sequence should start from clinical pain, workflow fit, KPI, governance, and budget logic; AI/ASR/LLM method details should come after the service story is clear.
+- Proposal scoring should be evidence-based and separated into clinical workflow value, technical engineering, governance, and MOHW format-compliance scores rather than collapsed into a reviewer impression.
 - The project should pause if the clinic has no practical workflow slot.
 - A negative or narrowing decision is still useful learning.
+
+## Research-Adjacency Assumptions
+
+- Aging Clock is not yet a core deep-cultivation claim.
+- Aging Clock becomes proposal-ready only if the team defines its data source, aging definition, biomarker panel, intervention, follow-up interval, and service workflow fit.
+- If Aging Clock uses PSA/community blood-draw infrastructure, it needs separate IRB and data-governance framing rather than being implied by the screening workflow.
 
 ## Safety Assumptions
 

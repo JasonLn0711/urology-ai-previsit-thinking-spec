@@ -24,6 +24,10 @@ Use:
 - `YYYY-MM-DD/meeting-capture.md`
 - `YYYY-MM-DD/decision-record.md`
 - `YYYY-MM-DD/extraction-notes.md`
+- `YYYY-MM-DD/<source-or-topic>-reference.md` for dated external reference material that changes product routing but is not a meeting capture.
+- `YYYY-MM-DD/<demo-or-review>-readiness-record.md` for dated demo-readiness evidence that changes governance interpretation but not the safety boundary.
+- `YYYY-MM-DD/<meeting-topic>-transcript.md` for corrected meeting transcripts assembled from ASR or notes.
+- `YYYY-MM-DD/<meeting-topic>-summary-and-signals.md` for concise meeting summaries and strategic interpretation notes.
 
 ## Current Records
 

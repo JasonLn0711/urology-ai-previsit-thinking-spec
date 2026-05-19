@@ -32,7 +32,7 @@ The clinician remains the final interpreter. The system prepares context; it doe
 
 ## Assisted Access
 
-Older adults, low-literacy patients, mixed-language patients, and patients who need help are normal users. The design must allow self-filled, nurse-assisted, and family-assisted use.
+Older adults, low-literacy patients, mixed-language patients, and patients who need help are normal users. The design must allow patient self-entry, family-assisted operation, and nurse repair. Patient/family screens should stay separate from nurse and physician work screens.
 
 ## Low Burden
 

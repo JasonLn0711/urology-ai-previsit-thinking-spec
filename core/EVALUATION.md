@@ -99,6 +99,25 @@ Track:
 - whether clinicians would actually read the output
 - whether the output format fits the visit rhythm
 
+## Deep-Cultivation KPI Layer
+
+For the Health Taiwan deep-cultivation framing, evaluation should also support KPI-to-budget reasoning. These indicators should be treated as draft targets until confirmed by hospital stakeholders.
+
+| KPI area | Candidate measure | Boundary |
+| --- | --- | --- |
+| Visit readiness | Clinician can review summary in under one minute | Measures handoff usefulness, not diagnostic accuracy |
+| Missing-information repair | Fewer missing key previsit fields after guided prompts | Use synthetic or governance-approved data only |
+| Repeated work reduction | Fewer repeated history questions in walkthrough or pilot | Compare against current workflow |
+| Completion feasibility | Patient/helper/staff-assisted completion rate reaches an agreed target | Target needs clinical workflow calibration |
+| Staff burden | Nurse or staff burden remains acceptable | Do not shift physician work into hidden staff work |
+| Clinician usefulness | Clinician usefulness score reaches an agreed threshold | The summary remains editable and rejectable |
+| Safety boundary | Zero diagnosis, treatment, or autonomous triage claims | Non-negotiable safety KPI |
+| Auditability | 100% of outputs preserve source and review-status metadata in pilot-ready design | Required before real pilot use |
+| CRM readiness | SOP exists for reminder, lab-draw, return-visit, or case-management follow-up | Follow-up remains governed and clinician/service-owned |
+| Governance readiness | IRB, privacy, security, procurement, and MOU gates have named owners | Proposal-execution KPI, not a clinical outcome |
+
+Budget lines should map to one of these KPI areas. If a feature has no KPI and no governance owner, it should not be treated as a core deep-cultivation deliverable.
+
 ## Decision Rules
 
 Continue if:

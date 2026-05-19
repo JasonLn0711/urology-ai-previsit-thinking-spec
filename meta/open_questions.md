@@ -18,13 +18,80 @@ These are the highest-priority questions after the 2026-04-23 meeting and 許醫
 
 Do not treat these as product backlog items. They are gates that decide whether the next artifact should continue, revise, narrow, pause, or go to governance review.
 
+## 2026-05-19 Expert Review Result
+
+Current decision:
+
+```text
+Revise + Narrow.
+```
+
+Accepted near-term narrowing:
+
+- Use `泌尿科門診前問診與醫師覆核摘要支持系統` as the proposal-facing name.
+- Use `泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程` as the safe descriptive boundary.
+- Lead with Health Taiwan `範疇三：導入智慧科技醫療`; use `範疇一：優化醫療工作條件` as secondary support.
+- Do not write the work as an `AI medical system`.
+- Park CRM follow-up until a future confirmed next step.
+- Treat ASR as an optional multilingual input layer only.
+- Start with non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream.
+- Treat visible blood, retention/current inability to urinate, fever/chills, and flank pain as patient-reported red-flag observations, not triage or risk judgments.
+- Use `醫師覆核用 SOAP 架構參考摘要`, not `SOAP 病歷草稿`, `自動病歷`, or `自動產生 EMR`.
+
+Resolved or parked items:
+
+- CRM execution is parked for now.
+- First workflow hypothesis is after registration / while waiting, completed by patient or family with QR code or tablet.
+- Partial summary is acceptable if the patient does not complete every field.
+- Do not require nurses to complete all missing fields in the first version; nursing should only handle incomplete, conflicting, or red-flag-observation cases.
+
+Still requires clinical confirmation:
+
+- Whether the after-registration / waiting-room workflow slot is accepted by Duobao and clinical stakeholders.
+- Whether physicians will read a one-page or 60-second summary.
+- Whether the first version should show red-flag observations to nurses first, physicians first, or both.
+- Which five fields must appear at the top of the clinician summary.
+- Which summary fields are noise and should be hidden in a governance/reviewer view only.
+- Whether `SOAP 架構之醫師覆核參考摘要` is safe wording for the hospital audience.
+
+## 2026-05-19 Deep-Cultivation Grant Questions
+
+1. For 子計畫二, what is the exact service workflow from registration to waiting-room intake to clinician-review summary, with CRM follow-up explicitly parked?
+2. If CRM is mentioned, what wording clearly marks it as a later governed phase rather than current execution?
+3. Will APP / ASR / API work be outsourced, staffed internally, or split into a hybrid plan if it moves beyond documentation?
+4. What procurement threshold applies to APP, questionnaire, platform, API, or ASR-related outsourcing?
+5. Which MOUs are required: community, clinics, 忠孝院區, 衛生局, university team, or vendors?
+6. Who must complete nine-hour IRB training before touching research or patient data?
+7. What security-governance documents or self-check forms are required for AI, APP, CRM, API, or patient-data flows?
+8. Which KPI justify each budget line in the smart-healthcare previsit-summary subproject?
+9. Should Aging Clock be excluded, included as a research appendix, or reframed as a biomarker follow-up service workflow?
+10. Before 2026-06-02, what draft content is needed for the 20-23 page smart-healthcare / AI previsit-summary subproject section?
+11. What portion of 子計畫二 is Jason personally drafting versus coordinating with 吳老師團隊, vendors, or hospital stakeholders?
+12. Which Aging Clock items, if any, are Jason's responsibility rather than 冠宇's research responsibility?
+13. Does Jason need to complete nine-hour IRB training before the next data-facing phase, or only before actual patient/research-data access?
+14. Are kiosk / chronic-disease-system adaptation and smart-pharmacy components part of Jason's June 2 draft, or should they be parked as optional expansions?
+15. Which official Health Taiwan category should lead 子計畫二: 導入智慧科技醫療 alone, or a combined 智慧科技醫療 + 優化醫療工作條件 framing?
+16. Should the proposal explicitly include a 多元人才培訓 component for 吳老師團隊 / student cross-domain AI-healthcare work?
+17. Which KPI demonstrate alignment with official deep-cultivation performance logic rather than only local project ambition?
+18. Which external example is the closest comparison for 子計畫二: nursing voice AI, clinical documentation support, mobile service vehicle, integrated HIS/app, or AI governance/FHIR readiness?
+19. Which example patterns should be explicitly cited in the June 2 draft, and which should remain background inspiration only?
+20. When updating the sibling `urology-ai-previsit-demo` repo, which surfaces should say "deep-cultivation visit-readiness support" and which should remain demo-only?
+21. What wording best separates `SOAP-like draft support for clinician review` from formal medical-record documentation?
+22. Which integration language is acceptable for June 2: CRM readiness, API readiness, FHIR/TW Core IG readiness, mock export, or direct hospital-system connection?
+23. Which KPI targets are realistic enough to include in the draft, and which should remain placeholders until hospital workflow review?
+24. Which sections of `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md` are required by the official blank proposal form, and which should be compressed into appendices?
+25. Which KPI can be measured during synthetic walkthrough versus only after IRB/security-approved pilot use?
+26. Which budget lines can Jason estimate now, and which require hospital procurement or vendor quotes?
+27. If repository evidence is included, should reviewers receive GitHub URLs, a curated zip snapshot, selected PDFs/screenshots, or all three?
+28. Which exact commit IDs from `urology-ai-previsit-thinking-spec` and `urology-ai-previsit-demo` should be cited in the proposal evidence package?
+
 ## Workflow Questions
 
 1. What is the current patient flow from check-in to physician entry?
 2. Which questions are repeated most often?
 3. Which information can be safely collected before the physician enters?
 4. Which topics must remain physician-led?
-5. Should the first realistic version be self-filled, nurse-assisted, family-assisted, or mixed?
+5. Should the first realistic version be patient self-entry, family-assisted operation with source labels, nurse repair, nurse-led selected cases, or mixed?
 6. Where would the workflow fit without slowing staff down?
 7. What does the current `陽明小幫手` actually do between registration/check-in and physician entry?
 8. Does the current `聯醫小幫手` include patient-facing advice or exam-direction language that v1 must avoid?
@@ -43,6 +110,7 @@ Do not treat these as product backlog items. They are gates that decide whether 
 3. Should missing information, review flags, or both be shown?
 4. Is a one-page summary enough?
 5. Which wording would make clinicians distrust the output?
+6. In the adaptive demo, does the clinician prefer seeing why the next question was selected, or only the final summarized answer?
 
 ## Adoption Questions
 
@@ -52,6 +120,7 @@ Do not treat these as product backlog items. They are gates that decide whether 
 4. What would make clinicians ignore it?
 5. What is the smallest useful next artifact?
 6. Should the next artifact be a benchmark-difference table before any additional app build?
+7. Does optional ASR reduce patient burden in practice, or does microphone setup and correction create a new workflow burden?
 
 ## Safety Questions
 
@@ -62,6 +131,15 @@ Do not treat these as product backlog items. They are gates that decide whether 
 5. What misunderstanding would be most dangerous for patients?
 6. What current-app wording would make a patient think the system is giving advice instead of preparing a physician-reviewed note?
 7. Who approves cloud vs local/on-prem deployment, encryption, logging, and maintenance before any hospital-network installation?
+8. Which ASR errors would be most dangerous if they were silently converted into structured answers?
+
+## 2026-05-03 Urgent-Care Triage Direction
+
+1. Does `triage` mean previsit information readiness, queue prioritization, risk scoring, urgent-care triage, or another workflow?
+2. Is the next artifact a product ladder from `協助醫生問診` to future AI triage, or a company-internal sandbox demo using the current urology MVP?
+3. What HIS connection is being imagined: export, copy/paste, mock API, read-only lookup, writeback, or real queue/registration integration?
+4. Which region is the first business context: Taiwan, US, Thailand, Malaysia, Central Asia, Middle East, or another market?
+5. Who owns privacy/security, clinical responsibility, and regulatory language if the system moves beyond physician history-taking support?
 
 ## Decision Questions
 

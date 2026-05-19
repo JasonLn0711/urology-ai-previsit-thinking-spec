@@ -7,6 +7,10 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 ## Files
 
 - `NEXT_STEP.md`: meeting-to-decision workflow
+- `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / CRM service-flow draft
+- `DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`: official-format subproject draft for `泌尿科門診前問診與醫師覆核摘要支持系統`
+- `DEEP_CULTIVATION_SCORING_RUBRIC.md`: four-layer 100-point scoring rubric for clinical value, engineering maturity, governance, and MOHW application-format compliance; includes A/B/C evidence gates, score caps, reviewer micro-comments, and urology previsit / CRM interpretation rules
+- `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`: expanded fourth 100-point layer for MOHW format, attachment, budget, submission, governance-checklist, and reporting compliance
 - `DISCOVERY_PROTOCOL.md`: discovery runbook and conversation sequence
 - `V1_PHASE0_CLINICIAN_REVIEW_PROTOCOL.md`: synthetic-only v1 clinician/nurse review protocol after the 2026-04-23 meeting
 - `V1_PHASE0_EXECUTION_AND_ANALYSIS_PLAN.md`: reviewer ask, session, live capture, analysis, and decision-memo loop for running Phase 0

@@ -53,13 +53,14 @@ Exit evidence:
 
 ## Stage 5: Assisted-Use Workflow Test
 
-Goal: decide whether self-filled, nurse-assisted, family-assisted, or mixed use is realistic.
+Goal: decide whether patient self-entry, family-assisted operation, nurse repair, or nurse-led use for selected cases is realistic.
 
 Exit evidence:
 
 - estimated staff burden
 - common assistance needs
 - patient confusion points
+- source-label needs for family or nurse input
 - recommended operating mode
 
 ## Stage 6: Summary Standardization
@@ -106,6 +107,65 @@ Still not allowed without separate approval:
 Goal: discuss connection to existing clinic workflows only after workflow value, safety, privacy, responsibility, and adoption are clear.
 
 Integration is not proof of value. It is only justified after value is already visible.
+
+## 2026-05-03 Future Triage Signal
+
+余總's `Urgent care intake kiosk with AI triage` image/message is a future-direction signal for an advanced version of the current urology MVP.
+
+It supports a product ladder, not a scope jump:
+
+1. `協助醫生問診`: current urology previsit MVP scope.
+2. Visit-readiness summary and nurse/clinician review triggers: still governed summary support.
+3. Triage-adjacent workflow discussion: requires explicit definition of what `triage` means.
+4. Urgent-care kiosk / AI prioritization / HIS connection: requires separate clinical, privacy/security, hospital-integration, and regulatory governance.
+
+Do not skip directly from Stage 2-6 discovery evidence to risk scores, queue reprioritization, or HIS integration.
+
+## 2026-05-19 Local ASR-Ready Adaptive Demo Evidence
+
+The 2026-05-19 local demo check moved the runnable artifact from a fixed
+questionnaire emphasis toward an ASR-ready adaptive-questioning emphasis.
+
+The governance interpretation is narrow:
+
+1. ASR is an input layer, not the clinical claim.
+2. Adaptive next-question selection is useful only when it remains inside the
+   governed previsit question bank.
+3. Role-separated clinician surfaces are readiness evidence, not proof of
+   clinician adoption.
+4. Local RTX/CUDA readiness is not evidence of clinic microphone reliability.
+
+This supports continued Stage 2-6 discovery evidence. It does not move the
+project to Stage 7 real patient-data governance or Stage 9 integration
+discussion.
+
+## 2026-05-19 Deep-Cultivation / CRM Service-Flow Signal
+
+The 2026-05-19 北市聯醫 deep-cultivation meeting adds a separate planning signal:
+the proposal is more fundable and executable when framed as service-flow
+improvement rather than AI novelty.
+
+The detailed accepted positioning is in `DEEP_CULTIVATION_SYSTEM_POSITIONING.md`.
+
+The near-term path is:
+
+```text
+PSA / community screening -> SOP -> return-to-hospital flow -> case management -> CRM -> clinician review
+```
+
+APP, AI, ASR, kiosk, API, reminders, and adaptive questioning can support that
+path, but they do not by themselves justify a scope jump.
+
+This supports Stage 3-6 refinement and a grant-facing subproject draft. It does
+not authorize:
+
+- real patient data
+- clinical pilot
+- diagnosis
+- treatment advice
+- autonomous triage
+- HIS / EMR / EHR integration
+- Aging Clock claims without a separate research and governance definition
 
 ## Versioning Rule
 

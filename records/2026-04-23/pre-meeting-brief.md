@@ -53,7 +53,7 @@ By the end of the meeting, capture:
 2. repeated questions or repeated information gaps
 3. information that can be collected before physician entry
 4. information that must remain physician-led
-5. realistic operating mode: self-filled, nurse-assisted, family-assisted, or mixed
+5. realistic operating mode: patient self-entry, family-assisted operation, nurse repair, nurse-led selected cases, or mixed
 6. useful clinician summary format
 7. safety or privacy objections
 8. decision: continue, revise, narrow, or pause

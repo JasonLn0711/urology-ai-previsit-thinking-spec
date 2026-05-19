@@ -19,6 +19,11 @@
 - No diagnosis or treatment advice.
 - No claims that the concept is clinically complete.
 - No vague "AI magic" explanations.
+- No AI-first grant framing when the evidence supports service flow, CRM, and clinician-reviewed readiness instead.
+- No deep-cultivation wording that upgrades the current urology previsit design into AI triage, autonomous risk scoring, or direct HIS/EMR/EHR writeback.
+- No proposal budget line without a matching objective, KPI, owner, and governance path.
+- No high proposal score without traceable evidence for the scored item.
+- No scoring credit for autonomous triage, diagnosis, treatment recommendation, or direct HIS/EMR/EHR writeback unless a future separately governed scope explicitly authorizes it.
 
 ## Clinical Constraints
 
@@ -33,6 +38,17 @@
 - Discovery materials should use non-real examples only.
 - Real patient identifiers are not allowed.
 - Any future real patient-data use requires consent, retention, access, deletion, and responsibility rules.
+
+## 2026-05-19 Deep-Cultivation Constraints
+
+- Participants who handle research, papers, human-subject content, or patient data need IRB training before entering that workstream.
+- Cross-unit cooperation should be backed by appropriate MOU or written collaboration records.
+- KPI and budget must match; no budget line should appear without a corresponding plan objective and KPI.
+- CRM, APP, platform, API, questionnaire, or vendor work may require procurement / tender review before execution.
+- AI, APP, CRM, API, and patient-data flows require security-governance review before real deployment or real patient-data use.
+- Aging Clock must not be treated as an accepted service claim until data source, aging definition, biomarker scope, intervention, and governance are defined.
+- Health Taiwan policy alignment should be explicit: claims should map to smart healthcare, working-condition improvement, talent training, or sustainable/social-responsibility healthcare instead of using generic `AI innovation` language.
+- External examples are pattern evidence only. Do not imply the urology proposal has the same approval status, outcomes, or clinical validation unless separately verified.
 
 ## Use Constraints
 
