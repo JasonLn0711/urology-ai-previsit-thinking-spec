@@ -107,6 +107,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the imported 北市聯醫 deep-cultivation working note: `records/2026-05-19/taipei-city-hospital-deep-cultivation-working-note.md`
 - For the 2026-05-19 deep-cultivation decision and CRM/service-flow framing: `records/2026-05-19/deep-cultivation-decision-record.md`
 - For the 2026-05-19 expert-review narrowing decision: `records/2026-05-19/expert-review-revise-and-narrow.md`
+- For 陳美如主任's stakeholder introduction and likely proposal-review priorities: `records/2026-05-19/chen-meiru-stakeholder-profile.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
 - For the 2026-05-19 deep-cultivation repo-routing decision:
   `records/2026-05-19/deep-cultivation-repo-routing.md`
@@ -149,6 +150,7 @@ Near-term framing should emphasize:
 - the concise strategic label may remain `AI Systems Engineering for Healthcare Deployment`, but the concrete proposal label should be `泌尿科門診前問診與醫師覆核摘要支持系統`
 - policy alignment with `健康台灣深耕計畫(114-118年)`: smart healthcare, working-condition improvement, talent training, and sustainable/social-responsibility healthcare
 - related examples support the pattern: workflow improvement, staff-burden reduction, AI as a tool, system integration, governance, and KPI
+- 陳美如主任's stakeholder lens should be treated as a service-system review lens: real workflow landing, staff burden, cross-system continuity, governance, KPI, budget-to-owner mapping, and sustainable operations matter more than model novelty
 
 This does not change the core safety boundary: no diagnosis, no treatment advice, no autonomous triage, no real patient data during discovery, and no HIS/EMR/EHR integration without separate governance.
 

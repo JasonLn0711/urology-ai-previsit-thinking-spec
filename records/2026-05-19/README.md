@@ -56,6 +56,8 @@ The repository inclusion recommendation is `repo-inclusion-recommendation.md`.
   - Jason-specific work-scope interpretation from the recording, with attribution boundaries.
 - `expert-review-revise-and-narrow.md`
   - Accepted expert-review direction: Revise + Narrow, use `泌尿科門診前問診與醫師覆核摘要支持系統`, park CRM follow-up, keep ASR as optional multilingual input, and start with non-acute LUTS / OAB-like outpatients.
+- `chen-meiru-stakeholder-profile.md`
+  - Introduction and proposal-review lens for 陳美如主任: public-hospital service-system leadership, community/family-medicine background, likely priorities around workflow landing, staff-burden reduction, governance, KPI, cross-system continuity, and sustainable operations.
 - `sources/`
   - Archived ASR and intermediate transcript files.
 
@@ -129,3 +131,16 @@ Operational implications:
 - Visible blood, retention/current inability to urinate, fever/chills, and flank pain remain patient-reported red-flag observations, not triage or risk judgments.
 - The clinician-facing output should be called `醫師覆核用 SOAP 架構參考摘要`, not `SOAP 病歷草稿`, `自動病歷`, or `自動產生 EMR`.
 - Health Taiwan positioning should lead with `範疇三：導入智慧科技醫療`, with `範疇一：優化醫療工作條件` as secondary support.
+
+## 陳美如主任 Stakeholder Lens
+
+For proposal writing, treat 陳美如主任 as a public-hospital service-system reviewer rather than as a model-accuracy reviewer.
+
+Likely top priorities:
+
+- real workflow landing in 北市聯醫, not demo-only AI
+- measurable reduction of physician, nursing, or administrative burden
+- cross-system continuity across outpatient workflow, community health, case management, CRM, and future HIS/EMR readiness
+- governance: human-in-the-loop, data boundary, IRB/privacy/security, audit trail, staff safety, and responsibility
+- KPI, annual checkpoints, owner, budget, and maintenance plan
+- executive-readable service value

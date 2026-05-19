@@ -181,6 +181,16 @@ The proposed distinction from traditional Aging Clock work is to avoid relying o
 
 Until those are answered, Aging Clock should not be the center of the deep-cultivation proposal.
 
+Her broader stakeholder lens should be treated as:
+
+```text
+Can this enter the real 北市聯醫 service workflow, reduce burden, stay governable, and produce measurable service value?
+```
+
+Based on her family-medicine, community-health, health-management, older-adult care, home-care, and hospital-administration background, she is likely to care more about workflow landing, staff burden, community / CRM continuity, KPI, governance, owner, budget, and maintenance than about AI model novelty. The proposal should therefore introduce the urology module as a service-system and workflow-improvement component, not as a standalone AI model.
+
+Detailed stakeholder profile: `chen-meiru-stakeholder-profile.md`.
+
 ## Final Direction
 
 The most coherent structure is:

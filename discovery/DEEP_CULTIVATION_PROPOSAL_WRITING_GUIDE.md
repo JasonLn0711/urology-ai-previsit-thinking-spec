@@ -48,6 +48,14 @@ It should not primarily answer:
 Which AI model is newest?
 ```
 
+For 陳美如主任 and similar 北市聯醫 service-system stakeholders, the practical review question is even sharper:
+
+```text
+Can this enter the real hospital / community-care workflow, reduce work, stay governable, and survive after the demo year?
+```
+
+That means the proposal should make workflow slot, staff burden, cross-system continuity, KPI, owner, budget, governance, and maintenance visible before it explains AI model details.
+
 For this repo, the correct story is:
 
 ```text
@@ -94,6 +102,26 @@ AI triage / autonomous risk scoring / AI diagnosis / direct EMR writeback
 | 11. Budget and procurement | Money maps to KPI | Personnel, APP/tablet intake work, ASR/cloud or server if used, security review, governance support, vendor/procurement assumptions |
 | 12. Expected outcomes | The hospital receives durable value | Evaluated reduction of repeated work, better visit readiness, and governance-ready smart-healthcare workflow |
 | 13. Risk and boundary | The proposal does not overclaim | No diagnosis, treatment advice, autonomous triage, production deployment, or real patient-data use without governance |
+
+## 陳美如主任 Reviewer Lens
+
+Use `../records/2026-05-19/chen-meiru-stakeholder-profile.md` when preparing materials for 北市聯醫.
+
+Likely priorities:
+
+- real workflow landing: registration, waiting-room intake, clinician summary, and human review must be operationally plausible
+- staff-burden reduction: the system must not become another nursing or administrative workload
+- cross-system continuity: outpatient workflow, community screening, case management, future CRM, and future HIS/EMR readiness should not become disconnected islands
+- governance and responsibility: human-in-the-loop, no AI diagnosis, no AI triage, no automatic EMR writeback, data boundary, security, auditability, and error handling
+- KPI and owner mapping: each claim should have a metric, annual checkpoint, responsible owner, and matching budget logic
+- sustainability: maintenance, question-bank updates, vendor/internal ownership, and post-project operations must be credible
+- executive readability: the value proposition should be explainable as workflow improvement and public-hospital service value, not model novelty
+
+One-sentence stakeholder-safe framing:
+
+```text
+本子計畫先在非急性泌尿科門診導入受治理的門診前症狀蒐集與醫師覆核摘要流程，評估是否能減少重複問診、提升資料完整性，並建立未來智慧醫療與病人管理延伸所需的治理基礎。
+```
 
 ## Storyline To Use
 
