@@ -20,6 +20,34 @@ It is not a legal guarantee that no newer document exists after this date. Befor
 https://htsprout.nhri.org.tw/download.html
 ```
 
+## Live Refresh Note
+
+Checked on `2026-05-19` while expanding the D-layer compliance rubric:
+
+- The live HTSprout download page still lists application, execution, funding,
+  and meeting-QA document groups.
+- The live application list includes the `0909` first-stage proposal format,
+  first-stage application guidelines, online platform manual, official plan
+  page, and QA set.
+- The live execution list includes Scope 3 execution information, AI
+  governance self-check, cybersecurity governance self-check, data governance
+  self-check, management/checkpoint/final-report/site-visit files, and the
+  Scope 3 smart-healthcare governance guide.
+- The live funding list includes the second-revision funding standards,
+  funding-use principles, negative-list / restricted-item documents, receipt
+  format, and budget-preparation notes.
+- The AI Center governance page continues to emphasize cybersecurity
+  governance, data governance, AI governance, and FHIR / TW Core IG as core
+  Scope 3 smart-healthcare drafting requirements.
+
+Refresh rule:
+
+```text
+Before any formal submission or hospital-circulated draft, re-check the live
+HTSprout / MOHW / AI Center pages and update the source manifest if any file,
+template version, or rule has changed.
+```
+
 ## Folder Map
 
 | Folder | Contents | Use |

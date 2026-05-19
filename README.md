@@ -120,6 +120,7 @@ Near-term framing should emphasize:
 - proposal writing should start from clinical workflow pain, service landing, KPI, governance, and budget mapping, not from model novelty
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
+- the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist
 - Aging Clock as research-adjacent until the data source, aging definition, biomarker scope, intervention, and service fit are clarified
 - the concise strategic label: `AI Systems Engineering for Healthcare Deployment`
 - policy alignment with `健康台灣深耕計畫(114-118年)`: smart healthcare, working-condition improvement, talent training, and sustainable/social-responsibility healthcare

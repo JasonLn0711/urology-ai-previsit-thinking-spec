@@ -497,10 +497,15 @@ Expanded D-layer file:
 - `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 
 Use that file when doing official-format, attachment, budget, governance-checklist, submission, and reporting preflight.
+It now includes a non-scored `D0` source-freshness and official-document
+crosswalk gate. Before a formal submission, refresh the live HTSprout / MOHW /
+AI Center source pages and verify that the proposal still uses the current
+official template and required forms.
 
 ## Required Official References For D
 
-Use these local documents:
+Use these local documents as the working archive, but re-check the live official
+download pages before formal submission:
 
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf`
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx`

@@ -12,6 +12,48 @@ This layer does not judge whether the proposal idea is good. It judges whether t
 
 ## Official Reference Set
 
+Live official source refresh:
+
+- Last checked for this rubric update: `2026-05-19`.
+- Current primary source: `https://htsprout.nhri.org.tw/download.html`.
+- Current smart-healthcare governance source:
+  `https://aicenter.mohw.gov.tw/AC/cp-7200-82982-208.html`.
+- Current MOHW policy source:
+  `https://dep.mohw.gov.tw/TDU/cp-1567-82247-121.html`.
+
+Observed current-source facts on `2026-05-19`:
+
+- The HTSprout download page still groups official files into application,
+  execution, funding, and meeting-QA sections.
+- The application section lists the `0909` first-stage proposal format, the
+  first-stage application guidelines, the online platform manual, the official
+  `114-118` plan page, and the official QA.
+- The execution section lists the Scope 3 execution information file, AI
+  governance self-check, cybersecurity governance self-check, data governance
+  self-check, management/control-point documents, checkpoint record, final
+  report templates, site-visit form, and Scope 3 smart-healthcare governance
+  guide.
+- The funding section lists funding standards, funding-use principles,
+  negative-list / restricted-item documents, receipt format, and budget
+  preparation notes.
+- The meeting-QA section includes checkpoint reporting QA, procurement QA, and
+  business briefing QA.
+- The AI Center source emphasizes that Scope 3 smart-healthcare drafting should
+  handle cybersecurity governance, data governance, AI governance, and
+  FHIR / TW Core IG readiness as core requirements.
+- The MOHW policy page continues to frame `健康台灣深耕計畫(114-118年)` around four
+  categories: improving medical working conditions, cultivating diverse talent,
+  introducing smart healthcare technology, and sustainable / socially
+  responsible healthcare.
+
+Reference hierarchy for formal submission:
+
+1. Latest live HTSprout / MOHW / AI Center pages.
+2. Latest downloaded official files from those pages.
+3. Hospital or applicant-specific written instructions, if they are stricter or
+   later than the public files.
+4. This rubric as an internal scoring and preflight tool.
+
 Refresh these sources before formal submission:
 
 ```text
@@ -49,6 +91,9 @@ Apply these gates before calculating a polished score:
 
 | Gate | Result |
 | --- | --- |
+| Latest official source list not checked before formal submission | Maximum D score: 89 |
+| A newer official template/guideline is found but the draft still uses an older structure | Maximum D score: 69 |
+| Proposal cites official requirements but cannot point to the exact current source file or URL | Maximum D score: 79 |
 | No official proposal format used | Maximum D score: 49 |
 | Required self-check / declaration set missing | Maximum D score: 59 |
 | Budget table missing or not tied to work packages | Maximum D score: 59 |
@@ -91,6 +136,38 @@ Example:
 If the proposal says "合作機構同意參與" but has no signed participation consent,
 D4-5 is capped at 40%.
 ```
+
+# D0. Source Freshness And Official-Document Crosswalk: Non-Scored Gate
+
+D0 is not part of the 100 points. It is the precondition that makes the 100-point
+D score meaningful.
+
+If D0 is weak, reviewers may still fill D1-D10 for internal learning, but the
+proposal should not be treated as formally submission-ready.
+
+| Item | Evidence required | Full-credit standard | Cap if missing |
+| --- | --- | --- | ---: |
+| D0-1 Latest source refresh | Refresh log with date, URLs, and reviewer. | HTSprout download page, MOHW policy page, and AI Center governance page checked before formal submission. | 89 |
+| D0-2 Official file inventory | Source manifest or proposal appendix table. | Proposal team knows which official application, execution, funding, QA, and governance files control the draft. | 79 |
+| D0-3 Template version check | Template filename and date in working notes. | Draft uses the latest proposal format or records why a hospital-provided version controls. | 69 |
+| D0-4 Local archive vs live source check | Diff or manual checklist. | Local archive filenames match the live source list; missing or newer files are downloaded or flagged. | 79 |
+| D0-5 Hospital instruction override check | Meeting note, email, or admin instruction. | Any hospital-specific rule is recorded and reconciled with public MOHW rules. | 79 |
+| D0-6 Source-to-score mapping | D-layer scoring sheet. | Each D1-D10 score points to a source file, official URL, form field, or submission artifact. | 79 |
+| D0-7 Submission-stage distinction | Draft label. | Draft distinguishes first-stage application, revised approved plan, execution report, checkpoint report, and final report requirements. | 79 |
+| D0-8 Urology proposal boundary | Proposal evidence map. | Demo / synthetic evidence, future pilot, and real clinical deployment are not mixed. | 69 |
+
+Required D0 source groups:
+
+| Source group | Must answer |
+| --- | --- |
+| Application guidelines | Who may apply, how many cases/modes are allowed, what must be submitted, what correction window applies, and what review route applies. |
+| Proposal format | What fields, section order, tables, signatures, and page/layout rules the proposal must follow. |
+| Online platform manual | How platform entry, upload, PDF export, and version consistency are controlled. |
+| QA set | Which ambiguous rules have official clarifications. |
+| Funding standards and principles | What can be budgeted, how capital/current categories work, what the negative list forbids, and what evidence is needed for reimbursement. |
+| Scope 3 governance guide | What AI, cybersecurity, data governance, FHIR, TW Core IG, and SMART on FHIR readiness should mean. |
+| AI/cybersecurity/data governance self-checks | Which official self-check artifacts must exist for smart-healthcare software/data work. |
+| Monitoring/checkpoint/final-report templates | Whether proposed KPI and deliverables can survive execution monitoring and closeout. |
 
 # D1. Applicant Eligibility And Application Mode: 10
 
@@ -275,7 +352,9 @@ Before circulating a formal draft, collect this packet:
 
 | Evidence | Owner to assign | Required before |
 | --- | --- | --- |
+| Live official source refresh log | Proposal coordinator | First full draft and final submission |
 | Official proposal template version | Proposal coordinator | First full draft |
+| Source-to-score crosswalk for D1-D10 | Proposal coordinator | Internal review |
 | Applicant eligibility proof | Hospital admin | First full draft |
 | Main applicant / partner identity table | PI / admin | First full draft |
 | Scope category map | Proposal lead | First full draft |
