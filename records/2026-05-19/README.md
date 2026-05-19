@@ -13,6 +13,12 @@ The evergreen system-design supplement created from this evidence is `../../core
 
 The evergreen proposal-writing guide created from this evidence is `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`.
 
+The deep-cultivation scoring rubric created from this evidence and the downloaded official requirements is `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`.
+
+The local official-policy archive is `policy-documents/`.
+
+The repository inclusion recommendation is `repo-inclusion-recommendation.md`.
+
 ## Files
 
 - `demo-asr-readiness-record.md`
@@ -27,6 +33,12 @@ The evergreen proposal-writing guide created from this evidence is `../../discov
   - Official policy-context reference for the Health Taiwan Deep-Cultivation Plan and how it maps to this repo.
 - `health-taiwan-related-examples.md`
   - Source-backed related examples and proposal patterns found online.
+- `taipei-city-hospital-deep-cultivation-working-note.md`
+  - Imported and normalized working note from the original `北市聯合醫院 深耕計畫 2026 3650ad7cf431807cb930eec129f0d3f5.md` file.
+- `policy-documents/`
+  - Downloaded official Health Taiwan Deep-Cultivation policy, application, execution, governance, budget, QA, approved-list, and related briefing files.
+- `repo-inclusion-recommendation.md`
+  - Recommendation for how to include this thinking spec repo and the sibling demo repo in the proposal evidence package.
 - `deep-cultivation-decision-record.md`
   - Decision record for how the meeting changes the thinking repo.
 - `deep-cultivation-extraction-notes.md`
@@ -65,3 +77,14 @@ workflow improvement + staff-burden reduction + AI as tool + system integration 
 ```
 
 Proposal writing should therefore start from clinical workflow pain, service landing, KPI, governance, and budget mapping. It should introduce AI/ASR/LLM methods only after the workflow and service value are clear.
+
+Before a formal draft is circulated, score it with:
+
+```text
+clinical value and workflow integration
+technical system and AI engineering
+governance, security, regulation, and sustainability
+MOHW format compliance and application completeness
+```
+
+Do not collapse those four scores into a single impression score. A draft with strong technical content but weak MOHW format compliance still carries submission risk.

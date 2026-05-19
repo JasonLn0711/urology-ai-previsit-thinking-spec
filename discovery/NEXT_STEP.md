@@ -26,12 +26,15 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Transcript: `../records/2026-05-19/taipei-city-hospital-deep-cultivation-meeting-transcript.md`
 - Summary and signals: `../records/2026-05-19/deep-cultivation-summary-and-signals.md`
 - Policy reference: `../records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
+- Downloaded policy archive: `../records/2026-05-19/policy-documents/README.md`
 - Related examples: `../records/2026-05-19/health-taiwan-related-examples.md`
 - Capture: `../records/2026-05-19/deep-cultivation-meeting-capture.md`
 - Decision record: `../records/2026-05-19/deep-cultivation-decision-record.md`
 - Extraction notes: `../records/2026-05-19/deep-cultivation-extraction-notes.md`
 - System positioning: `../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - Proposal writing guide: `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- Scoring rubric: `DEEP_CULTIVATION_SCORING_RUBRIC.md`
+- Repo inclusion recommendation: `../records/2026-05-19/repo-inclusion-recommendation.md`
 
 Prepare for the tentative 2026-06-02 10:00 follow-up by drafting the smart-healthcare / AI / CRM subproject around service deployment, not model novelty.
 
@@ -47,9 +50,11 @@ The next draft should answer:
 - Which parts belong to APP, guided intake, ASR, reminders, API, or CRM?
 - How should the existing urology previsit demo be described as visit-readiness and clinician-review support, not AI triage?
 - Which KPI justify each budget line?
+- How does the draft score under the four independent 100-point layers: clinical workflow value, technical engineering, governance, and MOHW format compliance?
 - Which work is internal, outsourced, or hybrid?
 - What IRB, MOU, procurement, and security-governance gates apply?
 - Is Aging Clock excluded, appended as research, or reframed as a biomarker follow-up service?
+- Which repository evidence should be attached or referenced, and which should remain internal?
 
 Jason-specific work scope:
 
@@ -59,10 +64,12 @@ For Jason's June 2 preparation, prioritize:
 
 - 子計畫二 narrative
 - proposal skeleton and section order from `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- objective scoring and format-compliance checks from `DEEP_CULTIVATION_SCORING_RUBRIC.md`
 - first-year / second-year / third-year KPI
 - KPI-to-budget mapping
 - IRB and privacy prerequisites
 - internal vs outsourced system components
+- proposal evidence package: thinking spec repo vs demo repo, selected appendices, and exact boundary wording
 - whether kiosk / chronic-disease-system adaptation and smart-pharmacy ideas are core scope or optional expansion
 
 Policy-alignment paragraph to prepare:
@@ -85,6 +92,7 @@ Example-pattern paragraph to prepare:
 Use these documents to run the next step:
 
 - `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: proposal section structure, story line, KPI/budget logic, and June 2 draft package
+- `DEEP_CULTIVATION_SCORING_RUBRIC.md`: A/B/C/D 100-point scoring system, evidence requirements, penalties, and MOHW format-compliance checklist
 - `DISCOVERY_PROTOCOL.md`: meeting runbook, question sequence, capture rules, and decision standard
 - `MEETING_CAPTURE_TEMPLATE.md`: structured note template for workflow facts, repeated questions, boundaries, and decision signals
 - `DECISION_RECORD_TEMPLATE.md`: post-meeting decision record for continue, revise, narrow, or pause

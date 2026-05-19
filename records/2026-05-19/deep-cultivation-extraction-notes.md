@@ -11,6 +11,10 @@ Status: synthesized
 - Related examples: `health-taiwan-related-examples.md`
 - Evergreen positioning: `../../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - Proposal writing guide: `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- Scoring rubric: `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`
+- Downloaded policy archive: `policy-documents/README.md`
+- Repo inclusion recommendation: `repo-inclusion-recommendation.md`
+- Imported working note: `taipei-city-hospital-deep-cultivation-working-note.md`
 
 ## Paper Extraction
 
@@ -136,6 +140,21 @@ Budget lines must map to KPI. Candidate categories:
 - security review / governance documentation
 - procurement / outsourcing cost
 - biomarker testing only if Aging Clock is included with defined scope
+
+## Evaluation / Scoring Extraction
+
+Use the four-layer rubric as a pre-submission gate rather than a single impression score:
+
+```text
+A. clinical value and workflow integration
+B. technical system and AI engineering
+C. governance, security, regulation, and sustainability
+D. MOHW format compliance and application completeness
+```
+
+Layer D is intentionally separate. It checks the official application mode, proposal format, self-check forms, declarations, annual checkpoints, budget tables, AI/cybersecurity/data-governance self-checklists, and platform/paper-version consistency.
+
+For this urology previsit scope, do not award points for autonomous triage. Score safety under visit-readiness, clinician review, red-flag observation handling, fallback, and escalation boundaries.
 
 ## Aging Clock Extraction
 
