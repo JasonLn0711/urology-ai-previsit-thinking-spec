@@ -34,6 +34,26 @@ Program-case pattern references:
 - `../records/2026-05-19/health-taiwan-related-examples.md`
 - `../records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
 
+## Case-Derived Calibration
+
+The score weights are calibrated from public Health Taiwan / deep-cultivation examples and official smart-healthcare guidance. The goal is not to copy another hospital's project. The goal is to extract what reviewers and program designers repeatedly reward: workflow value, staff-burden reduction, service deployment, governance, interoperability, and measurable outcomes.
+
+| Public pattern | What it shows | Rubric impact |
+| --- | --- | --- |
+| MOHW-reported nursing voice AI assistant, e-paper bedside card, and smart medication cabinet | AI and digital tools are strongest when they reduce clinical documentation, handoff, medication, or nursing burden. | Raises the weight of A4 staff-burden reduction, A8 KPI, B5 summary/handoff quality, and C3 AI governance. |
+| Official plan guidance on voice AI, clinical-record drafting, workflow efficiency, data sharing/security, and smart hospitals | Official direction favors workflow automation and governed smart-healthcare infrastructure rather than standalone model novelty. | Justifies the A/B/C split and the rule that AI methods cannot substitute for workflow mapping. |
+| Tainan Municipal Hospital ALL-IN-ONE mobile smart-healthcare service pattern | Strong cases combine field deployment, community care, telecare, chronic-disease management, data exchange, and service tracking. | Raises the weight of A3 workflow, A10 stakeholder value, B11 interoperability readiness, C8 deployment plan, and C10 scale. |
+| Jen-Ai / Mercy Hospital AI imaging + HIS + health app + green-hospital pattern | AI is paired with information-system modernization, patient-facing app support, operational integration, and measurable sustainability outcomes. | Supports scoring AI together with integration, KPI, hospital-management value, and ESG/sustainability alignment. |
+| MOHW AI Center guidance on cybersecurity governance, data governance, AI governance, FHIR, and TW Core IG | Governance is a core requirement for smart-healthcare maturity, not an appendix. | Raises the weight of C1, C2, C3, C7, and D9. |
+
+Scoring implication:
+
+```text
+High scores require evidence that the proposal improves a real healthcare workflow.
+An AI model, demo screen, or technical architecture without workflow, governance, KPI,
+and official-format compliance must be capped even if the technology looks impressive.
+```
+
 ## Four Independent 100-Point Layers
 
 | Layer | Name | Core Question |
@@ -76,6 +96,39 @@ No comment, no high score.
 ```
 
 For any subscore above 80% of its maximum, the reviewer should state what evidence supports the score.
+
+## Evidence-Capped Scoring
+
+Each subitem has a maximum score based on the evidence level available. This prevents reviewers from awarding full points because a sentence sounds persuasive.
+
+| Evidence level | Description | Maximum credit for that subitem |
+| --- | --- | ---: |
+| E0 | No evidence. | 0% |
+| E1 | Claim only. The proposal says it will do something but gives no artifact, source, plan, or owner. | 40% |
+| E2 | Design artifact. A diagram, table, SOP draft, schema, mockup, role map, or governance draft exists. | 70% |
+| E3 | Measured or tested evidence. Baseline, simulation result, prototype test, clinician review, run log, or pilot-like rehearsal exists. | 90% |
+| E4 | Governed external evidence. IRB-approved data, hospital-approved workflow, signed partner evidence, procurement-ready spec, or formal governance review exists. | 100% |
+
+Example:
+
+```text
+If a proposal claims "SOAP drafting time will decrease" but has no baseline or
+measurement plan, A8-2 is capped at E1 even if the wording is strong.
+```
+
+## Reviewer Evidence Card
+
+For each high score, reviewers should be able to fill this card:
+
+```text
+Criterion:
+Score:
+Evidence level: E0 / E1 / E2 / E3 / E4
+Evidence pointer: page / section / table / figure / file / source
+Why this score is justified:
+What would raise the score:
+What would lower or cap the score:
+```
 
 ## Not-Applicable Handling
 

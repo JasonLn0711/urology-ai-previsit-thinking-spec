@@ -185,6 +185,26 @@ More persuasive framing:
 We use AI, ASR, APP, CRM, and governed data flow to improve a real healthcare workflow and reduce avoidable burden while preserving clinician authority.
 ```
 
+## How These Examples Calibrate The Scoring Rubric
+
+These examples should be used to calibrate `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`.
+
+| Example pattern | Strong scoring signal | Rubric areas |
+| --- | --- | --- |
+| Nursing voice AI / e-paper bedside card / smart medication cabinet | Workload reduction and clinical operation support are concrete program values. | A4, A8, B5, C3 |
+| Clinical-note drafting / handoff-summary guidance | AI-generated text is acceptable only as clinician-reviewed draft support. | A6, B3, B5, C4 |
+| ALL-IN-ONE mobile smart-healthcare vehicle | High-maturity projects are service systems with field deployment and partner workflows. | A3, A10, B11, C8, C10 |
+| AI imaging + HIS + health app + green-hospital metrics | AI gains proposal strength when paired with integration, patient-facing app workflow, and measurable outcomes. | A2, A8, B11, C9, C10 |
+| AI Center governance / FHIR / TW Core IG guidance | Governance and interoperability are explicit maturity requirements. | C1, C2, C3, C7, D9 |
+
+The scoring rule should therefore be:
+
+```text
+Do not score by AI novelty alone.
+Score by evidence that the proposal can improve a named healthcare workflow,
+measure the improvement, govern the system, and satisfy official application rules.
+```
+
 ## Direct Implications For Urology Smart-Previsit
 
 The current urology direction is closest to:
