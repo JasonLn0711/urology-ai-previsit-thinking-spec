@@ -10,6 +10,7 @@ Status: synthesized
 - Policy reference: `health-taiwan-deep-cultivation-policy-reference.md`
 - Related examples: `health-taiwan-related-examples.md`
 - Evergreen positioning: `../../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
+- Proposal writing guide: `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 
 ## Paper Extraction
 

@@ -47,6 +47,7 @@ urology-ai-previsit-thinking-spec/
 ├── discovery/
 │   ├── README.md
 │   ├── NEXT_STEP.md
+│   ├── DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md
 │   ├── DISCOVERY_PROTOCOL.md
 │   ├── MEETING_CAPTURE_TEMPLATE.md
 │   ├── DECISION_RECORD_TEMPLATE.md
@@ -86,6 +87,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
 - For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
+- For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For safety boundaries: `core/SAFETY_BOUNDARY.md`
 - For clinical question governance: `clinical-question-governance/clinical_question_governance.md`
 - For the candidate question matrix: `clinical-question-governance/question_candidates_matrix.md`
@@ -110,6 +112,7 @@ Near-term framing should emphasize:
 - SOP, return-to-hospital flow, case management, and CRM as the service backbone
 - urology previsit / visit-readiness / clinician-review summary as the current system role
 - APP, AI, ASR, kiosk, API, and reminders as workflow tools, not autonomous clinical decision tools
+- proposal writing should start from clinical workflow pain, service landing, KPI, governance, and budget mapping, not from model novelty
 - Aging Clock as research-adjacent until the data source, aging definition, biomarker scope, intervention, and service fit are clarified
 - the concise strategic label: `AI Systems Engineering for Healthcare Deployment`
 - policy alignment with `健康台灣深耕計畫(114-118年)`: smart healthcare, working-condition improvement, talent training, and sustainable/social-responsibility healthcare

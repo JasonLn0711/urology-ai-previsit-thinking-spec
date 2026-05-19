@@ -11,6 +11,8 @@ These records should be read as governance and planning evidence. They do not au
 
 The evergreen system-design supplement created from this evidence is `../../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`.
 
+The evergreen proposal-writing guide created from this evidence is `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`.
+
 ## Files
 
 - `demo-asr-readiness-record.md`
@@ -61,3 +63,5 @@ Related examples suggest the stronger proposal pattern is:
 ```text
 workflow improvement + staff-burden reduction + AI as tool + system integration + governance + KPI
 ```
+
+Proposal writing should therefore start from clinical workflow pain, service landing, KPI, governance, and budget mapping. It should introduce AI/ASR/LLM methods only after the workflow and service value are clear.

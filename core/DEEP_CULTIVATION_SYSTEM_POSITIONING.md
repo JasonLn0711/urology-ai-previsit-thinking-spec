@@ -8,6 +8,8 @@ This note records how the existing urology previsit design should be framed afte
 
 The system is no longer only a standalone demo for guided urology intake. It is now a candidate component in a Health Taiwan Deep-Cultivation smart-healthcare subproject.
 
+For proposal section order, KPI-to-budget writing, and the June 2 draft package, use `../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`.
+
 The important correction is scope:
 
 ```text

@@ -25,6 +25,9 @@
 21. What wording best separates `SOAP-like draft support for clinician review` from formal medical-record documentation?
 22. Which integration language is acceptable for June 2: CRM readiness, API readiness, FHIR/TW Core IG readiness, mock export, or direct hospital-system connection?
 23. Which KPI targets are realistic enough to include in the draft, and which should remain placeholders until hospital workflow review?
+24. Which sections of `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md` are required by the official blank proposal form, and which should be compressed into appendices?
+25. Which KPI can be measured during synthetic walkthrough versus only after IRB/security-approved pilot use?
+26. Which budget lines can Jason estimate now, and which require hospital procurement or vendor quotes?
 
 ## Workflow Questions
 

@@ -25,6 +25,7 @@
 - The first physician conversation should test usefulness, not promise deployment.
 - The smallest valid next artifact is a refined question tree plus a summary format.
 - The next grant-facing artifact should map PSA/community screening, SOP, CRM, APP/AI support, KPI, budget, procurement, and security/IRB gates before adding implementation detail.
+- The proposal-writing sequence should start from clinical pain, workflow fit, KPI, governance, and budget logic; AI/ASR/LLM method details should come after the service story is clear.
 - The project should pause if the clinic has no practical workflow slot.
 - A negative or narrowing decision is still useful learning.
 

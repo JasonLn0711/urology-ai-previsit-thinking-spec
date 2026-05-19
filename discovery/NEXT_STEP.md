@@ -31,6 +31,7 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Decision record: `../records/2026-05-19/deep-cultivation-decision-record.md`
 - Extraction notes: `../records/2026-05-19/deep-cultivation-extraction-notes.md`
 - System positioning: `../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
+- Proposal writing guide: `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 
 Prepare for the tentative 2026-06-02 10:00 follow-up by drafting the smart-healthcare / AI / CRM subproject around service deployment, not model novelty.
 
@@ -57,6 +58,7 @@ Jason-specific work scope:
 For Jason's June 2 preparation, prioritize:
 
 - 子計畫二 narrative
+- proposal skeleton and section order from `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - first-year / second-year / third-year KPI
 - KPI-to-budget mapping
 - IRB and privacy prerequisites
@@ -82,6 +84,7 @@ Example-pattern paragraph to prepare:
 
 Use these documents to run the next step:
 
+- `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: proposal section structure, story line, KPI/budget logic, and June 2 draft package
 - `DISCOVERY_PROTOCOL.md`: meeting runbook, question sequence, capture rules, and decision standard
 - `MEETING_CAPTURE_TEMPLATE.md`: structured note template for workflow facts, repeated questions, boundaries, and decision signals
 - `DECISION_RECORD_TEMPLATE.md`: post-meeting decision record for continue, revise, narrow, or pause

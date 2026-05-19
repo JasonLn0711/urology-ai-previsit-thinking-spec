@@ -21,6 +21,7 @@
 - No vague "AI magic" explanations.
 - No AI-first grant framing when the evidence supports service flow, CRM, and clinician-reviewed readiness instead.
 - No deep-cultivation wording that upgrades the current urology previsit design into AI triage, autonomous risk scoring, or direct HIS/EMR/EHR writeback.
+- No proposal budget line without a matching objective, KPI, owner, and governance path.
 
 ## Clinical Constraints
 
