@@ -58,6 +58,8 @@ The repository inclusion recommendation is `repo-inclusion-recommendation.md`.
   - Accepted expert-review direction: Revise + Narrow, use `泌尿科門診前問診與醫師覆核摘要支持系統`, park CRM follow-up, keep ASR as optional multilingual input, and start with non-acute LUTS / OAB-like outpatients.
 - `chen-meiru-stakeholder-profile.md`
   - Introduction and proposal-review lens for 陳美如主任: public-hospital service-system leadership, community/family-medicine background, likely priorities around workflow landing, staff-burden reduction, governance, KPI, cross-system continuity, and sustainable operations.
+- `crm-prm-concept-note.md`
+  - Standalone exploratory CRM / PRM / HIS / EMR concept note. It records patient follow-up CRM MVP thinking and diagrams as background only; it is not linked to the current accepted previsit scope.
 - `sources/`
   - Archived ASR and intermediate transcript files.
 

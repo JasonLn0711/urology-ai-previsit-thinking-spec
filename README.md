@@ -106,6 +106,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For whether to include this repo and the demo repo in the proposal: `records/2026-05-19/repo-inclusion-recommendation.md`
 - For the imported 北市聯醫 deep-cultivation working note: `records/2026-05-19/taipei-city-hospital-deep-cultivation-working-note.md`
 - For the 2026-05-19 deep-cultivation decision and CRM/service-flow framing: `records/2026-05-19/deep-cultivation-decision-record.md`
+- For the standalone CRM / PRM / HIS / EMR concept note, not linked to current scope: `records/2026-05-19/crm-prm-concept-note.md`
 - For the 2026-05-19 expert-review narrowing decision: `records/2026-05-19/expert-review-revise-and-narrow.md`
 - For 陳美如主任's stakeholder introduction and likely proposal-review priorities: `records/2026-05-19/chen-meiru-stakeholder-profile.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
