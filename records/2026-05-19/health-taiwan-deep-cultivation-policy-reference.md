@@ -18,6 +18,25 @@ Verified on 2026-05-19 from official/public program sources:
   `https://htsprout.nhri.org.tw/dhplan.html`
 - 健康台灣深耕計畫網站：簡介 / 四大範疇
   `https://htsprout.nhri.org.tw/introduce.html`
+- 健康台灣深耕計畫網站：下載專區
+  `https://htsprout.nhri.org.tw/download.html`
+- 臺灣智慧醫療三大中心：健康台灣深耕計畫智慧醫療規範更新
+  `https://aicenter.mohw.gov.tw/AC/cp-7200-82982-208.html`
+
+## Local Official Document Archive
+
+Downloaded official materials are stored under:
+
+```text
+records/2026-05-19/policy-documents/
+```
+
+Key local index files:
+
+- `policy-documents/README.md`
+- `policy-documents/manifest.md`
+
+The archive includes the official download-page materials for application, execution, governance checklists, budget rules, QA, approved lists, source-page snapshots, and related briefing files as available on 2026-05-19.
 
 ## What The Plan Is
 
