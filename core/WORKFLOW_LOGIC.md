@@ -23,6 +23,33 @@ The intended encounter logic is:
 
 This sequence is deliberately incomplete. It stops before diagnosis, triage, and treatment decisions.
 
+## Deep-Cultivation Service Placement
+
+For the 2026-05-19 deep-cultivation framing, the same workflow should be placed inside a broader service path:
+
+```text
+PSA / community screening -> SOP -> urology visit preparation -> guided previsit intake -> clinician-review summary -> clinician-owned follow-up decision -> CRM reminder or case-management support
+```
+
+This service path changes the proposal story from a demo-only tool to a smart-healthcare workflow component. It does not turn the system into AI triage.
+
+The system may support:
+
+- visit-readiness intake before a urology encounter
+- patient, family, or staff-assisted completion
+- missing-information repair
+- short clinician-review summary or SOAP-like draft support
+- CRM follow-up readiness after clinician or SOP confirmation
+
+The system still must not:
+
+- assign urgency
+- score risk
+- reprioritize queues
+- decide whether a patient should return
+- write directly into HIS / EMR / EHR
+- trigger patient-facing medical instructions by itself
+
 ## Decision Points
 
 ## Who Completes The Flow?

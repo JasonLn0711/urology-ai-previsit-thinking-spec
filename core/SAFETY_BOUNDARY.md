@@ -92,3 +92,22 @@ For this thinking repo, that means:
 - `協助醫生問診` is aligned with the current previsit summary aid boundary.
 - `AI triage`, risk scoring, queue reprioritization, and HIS connection are outside the current boundary.
 - A future triage-adjacent version needs a new governance decision before any urgency label, risk score, patient-routing behavior, or HIS data flow is specified.
+
+## 2026-05-19 Deep-Cultivation Meeting Boundary
+
+The 北市聯醫 deep-cultivation meeting supports CRM, APP, AI, reminders, PSA/community screening, and case-management planning only as a governed service workflow.
+
+It does not relax the safety boundary.
+
+The accepted system-positioning supplement is `DEEP_CULTIVATION_SYSTEM_POSITIONING.md`; it should be used when wording grant text or updating the sibling demo repo so that "deep-cultivation upgrade" does not drift into AI triage, autonomous risk scoring, or direct EMR integration.
+
+Before any real patient-data work, the project needs explicit review for:
+
+- IRB training and approval path
+- consent and privacy model
+- MOU or collaboration records
+- security-governance documents
+- procurement / vendor responsibility if outsourced
+- clinician responsibility and review workflow
+
+Aging Clock and biomarker follow-up must remain research-adjacent until data source, aging definition, biomarker scope, intervention, and review responsibility are defined.

@@ -19,6 +19,65 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
+## Current Active Follow-Up: 2026-06-02 Deep-Cultivation Draft Review
+
+The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivation meeting:
+
+- Transcript: `../records/2026-05-19/taipei-city-hospital-deep-cultivation-meeting-transcript.md`
+- Summary and signals: `../records/2026-05-19/deep-cultivation-summary-and-signals.md`
+- Policy reference: `../records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
+- Related examples: `../records/2026-05-19/health-taiwan-related-examples.md`
+- Capture: `../records/2026-05-19/deep-cultivation-meeting-capture.md`
+- Decision record: `../records/2026-05-19/deep-cultivation-decision-record.md`
+- Extraction notes: `../records/2026-05-19/deep-cultivation-extraction-notes.md`
+- System positioning: `../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
+
+Prepare for the tentative 2026-06-02 10:00 follow-up by drafting the smart-healthcare / AI / CRM subproject around service deployment, not model novelty.
+
+Strategic label for the draft:
+
+```text
+AI Systems Engineering for Healthcare Deployment
+```
+
+The next draft should answer:
+
+- How does PSA/community screening route into SOP, return flow, case management, and CRM?
+- Which parts belong to APP, guided intake, ASR, reminders, API, or CRM?
+- How should the existing urology previsit demo be described as visit-readiness and clinician-review support, not AI triage?
+- Which KPI justify each budget line?
+- Which work is internal, outsourced, or hybrid?
+- What IRB, MOU, procurement, and security-governance gates apply?
+- Is Aging Clock excluded, appended as research, or reframed as a biomarker follow-up service?
+
+Jason-specific work scope:
+
+- `../records/2026-05-19/jason-work-scope-from-deep-cultivation-meeting.md`
+
+For Jason's June 2 preparation, prioritize:
+
+- 子計畫二 narrative
+- first-year / second-year / third-year KPI
+- KPI-to-budget mapping
+- IRB and privacy prerequisites
+- internal vs outsourced system components
+- whether kiosk / chronic-disease-system adaptation and smart-pharmacy ideas are core scope or optional expansion
+
+Policy-alignment paragraph to prepare:
+
+- How 子計畫二 maps to `導入智慧科技醫療`
+- How CRM / reminders / summary workflow reduce repeated work and support `優化醫療工作條件`
+- How community PSA screening and MOU support `社會責任醫療永續`
+- Whether student / cross-domain work should be explicitly framed under `規劃多元人才培訓`
+- Why `urology previsit / visit-readiness / clinician-review summary / CRM follow-up support` is the correct current scope
+
+Example-pattern paragraph to prepare:
+
+- Compare 子計畫二 to MOHW examples of AI voice assistant / documentation burden reduction.
+- Use the Tainan mobile-service pattern as evidence that deep-cultivation proposals can be service-system and deployment oriented.
+- Use AI Center guidance to add cybersecurity governance, data governance, AI governance, FHIR/TW Core IG, and human-in-the-loop language.
+- Avoid claiming direct equivalence to AI triage or diagnosis examples.
+
 ## Detailed Artifacts
 
 Use these documents to run the next step:
@@ -201,6 +260,15 @@ Do not add real patient data.
 Do not add technical implementation details.
 
 Do not rewrite the entire thinking spec unless the meeting invalidates a core assumption.
+
+For the 2026-05-19 deep-cultivation meeting, the repo update is complete when:
+
+- the corrected transcript is archived
+- source ASR/transcript files are preserved under `records/2026-05-19/sources/`
+- the capture, decision record, and extraction notes exist
+- `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md` records the accepted deep-cultivation system-design supplement
+- `README.md`, `meta/open_questions.md`, assumptions, constraints, and evolution/safety docs point to the CRM/service-flow framing
+- Aging Clock remains explicitly bounded until definition and governance are clarified
 
 ## Acceptance Criteria
 

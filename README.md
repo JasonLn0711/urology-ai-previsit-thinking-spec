@@ -28,6 +28,7 @@ urology-ai-previsit-thinking-spec/
 ├── core/
 │   ├── README.md
 │   ├── THINKING_SPEC.md
+│   ├── DEEP_CULTIVATION_SYSTEM_POSITIONING.md
 │   ├── DESIGN_PHILOSOPHY.md
 │   ├── WORKFLOW_LOGIC.md
 │   ├── SAFETY_BOUNDARY.md
@@ -53,7 +54,9 @@ urology-ai-previsit-thinking-spec/
 ├── records/
 │   ├── README.md
 │   ├── 2026-04-23/
-│   └── 2026-05-03/
+│   ├── 2026-05-03/
+│   ├── 2026-05-12/
+│   └── 2026-05-19/
 └── meta/
     ├── assumptions.md
     ├── constraints.md
@@ -82,6 +85,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 ## Current Useful Reading Paths
 
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
+- For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - For safety boundaries: `core/SAFETY_BOUNDARY.md`
 - For clinical question governance: `clinical-question-governance/clinical_question_governance.md`
 - For the candidate question matrix: `clinical-question-governance/question_candidates_matrix.md`
@@ -89,7 +93,31 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the next physician/nurse discovery conversation: `discovery/NEXT_STEP.md`
 - For the 2026-05-03 urgent-care AI triage future-direction signal: `records/2026-05-03/yu-urgent-care-ai-triage-reference.md`
 - For the 2026-05-19 local ASR-ready adaptive demo readiness record: `records/2026-05-19/demo-asr-readiness-record.md`
+- For the 2026-05-19 北市聯醫 deep-cultivation meeting transcript: `records/2026-05-19/taipei-city-hospital-deep-cultivation-meeting-transcript.md`
+- For the 2026-05-19 北市聯醫 concise summary and strategic signal: `records/2026-05-19/deep-cultivation-summary-and-signals.md`
+- For the official Health Taiwan Deep-Cultivation policy reference: `records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
+- For related Health Taiwan examples and proposal patterns: `records/2026-05-19/health-taiwan-related-examples.md`
+- For the 2026-05-19 deep-cultivation decision and CRM/service-flow framing: `records/2026-05-19/deep-cultivation-decision-record.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
+
+## Current Planning Signal
+
+The latest dated planning evidence is the 2026-05-19 北市聯醫 deep-cultivation meeting.
+
+Near-term framing should emphasize:
+
+- PSA / community screening as the clinical entry point
+- SOP, return-to-hospital flow, case management, and CRM as the service backbone
+- urology previsit / visit-readiness / clinician-review summary as the current system role
+- APP, AI, ASR, kiosk, API, and reminders as workflow tools, not autonomous clinical decision tools
+- Aging Clock as research-adjacent until the data source, aging definition, biomarker scope, intervention, and service fit are clarified
+- the concise strategic label: `AI Systems Engineering for Healthcare Deployment`
+- policy alignment with `健康台灣深耕計畫(114-118年)`: smart healthcare, working-condition improvement, talent training, and sustainable/social-responsibility healthcare
+- related examples support the pattern: workflow improvement, staff-burden reduction, AI as a tool, system integration, governance, and KPI
+
+This does not change the core safety boundary: no diagnosis, no treatment advice, no autonomous triage, no real patient data during discovery, and no HIS/EMR/EHR integration without separate governance.
+
+The accepted system-positioning supplement is `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`. Use it when updating the sibling `urology-ai-previsit-demo` repo or drafting the June 2 deep-cultivation subproject, especially to avoid drifting from previsit support into AI triage claims.
 
 ## Operating Rule
 

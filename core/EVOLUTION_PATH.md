@@ -139,6 +139,34 @@ This supports continued Stage 2-6 discovery evidence. It does not move the
 project to Stage 7 real patient-data governance or Stage 9 integration
 discussion.
 
+## 2026-05-19 Deep-Cultivation / CRM Service-Flow Signal
+
+The 2026-05-19 北市聯醫 deep-cultivation meeting adds a separate planning signal:
+the proposal is more fundable and executable when framed as service-flow
+improvement rather than AI novelty.
+
+The detailed accepted positioning is in `DEEP_CULTIVATION_SYSTEM_POSITIONING.md`.
+
+The near-term path is:
+
+```text
+PSA / community screening -> SOP -> return-to-hospital flow -> case management -> CRM -> clinician review
+```
+
+APP, AI, ASR, kiosk, API, reminders, and adaptive questioning can support that
+path, but they do not by themselves justify a scope jump.
+
+This supports Stage 3-6 refinement and a grant-facing subproject draft. It does
+not authorize:
+
+- real patient data
+- clinical pilot
+- diagnosis
+- treatment advice
+- autonomous triage
+- HIS / EMR / EHR integration
+- Aging Clock claims without a separate research and governance definition
+
 ## Versioning Rule
 
 Each future version should explain:

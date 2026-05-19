@@ -8,7 +8,30 @@ The system is not motivated by a need to use artificial intelligence. It is moti
 
 The problem must be framed as discovery before deployment. A useful answer may be "continue", "revise", or "pause". The thinking system is successful if it makes that decision clearer.
 
-## 2. Design Philosophy
+## 2. 2026-05-19 Deep-Cultivation Positioning
+
+After the 2026-05-19 北市聯醫 deep-cultivation meeting, the system should also be read as a candidate smart-healthcare component under `健康台灣深耕計畫(114-118年)`.
+
+The accepted positioning is:
+
+```text
+urology previsit / visit-readiness / clinician-review summary / CRM follow-up support
+```
+
+This positioning expands the grant-facing context, not the clinical authority of the system. It connects the existing urology previsit design to PSA/community screening, SOP, return-to-hospital flow, case management, reminders, and CRM, while preserving the same safety boundary.
+
+It is not:
+
+- AI triage
+- diagnosis
+- treatment recommendation
+- autonomous risk scoring
+- direct HIS / EMR / EHR writeback
+- production clinical use
+
+The detailed positioning and KPI logic live in `DEEP_CULTIVATION_SYSTEM_POSITIONING.md`.
+
+## 3. Design Philosophy
 
 The system should start with guidance, not autonomy.
 
@@ -26,7 +49,7 @@ The design favors:
 
 This philosophy exists because a previsit tool can become unsafe if it sounds more authoritative than it is.
 
-## 3. User Model
+## 4. User Model
 
 The primary user is a urology patient preparing for a visit. The patient may be older, anxious, visually impaired, unfamiliar with phones, unsure how to describe symptoms, or more comfortable with Mandarin, Taiwanese, mixed language, or help from another person.
 
@@ -34,7 +57,7 @@ The secondary users are clinic staff and clinicians. They do not need a long tra
 
 The system should assume uneven ability from the start. Self-filled, family-assisted, and nurse-repaired use are all valid. A design that works only for young, confident, digitally fluent patients is not adequate for this domain. Patient/family screens should not expose nurse or physician work screens.
 
-## 4. Workflow Logic
+## 5. Workflow Logic
 
 The workflow begins before physician-led questioning and ends before clinical interpretation.
 
@@ -53,7 +76,7 @@ The intended sequence is:
 
 The system does not close the clinical loop. It prepares the encounter. Its value depends on whether this sequence fits the clinic's real check-in, waiting, nursing, and physician workflow.
 
-## 5. Information Strategy
+## 6. Information Strategy
 
 The system should collect the smallest set of information that is useful before the physician enters.
 
@@ -78,7 +101,7 @@ The system should avoid collecting identity details, account details, exact birt
 
 The information strategy is "minimum useful context", not "maximum capture". Collecting more information can make the system slower, more invasive, harder to review, and harder to govern.
 
-## 6. Output Design Logic
+## 7. Output Design Logic
 
 The output should be a clinician-review summary, not a medical conclusion.
 
@@ -99,7 +122,7 @@ The summary should be short enough to review quickly. It should not require the 
 
 The output is useful only if it helps the clinician begin the visit with better context while still leaving room to confirm, correct, or ignore it.
 
-## 7. Safety And Boundary Design
+## 8. Safety And Boundary Design
 
 The core safety boundary is simple: the system may prepare information, but it must not make clinical decisions.
 
@@ -123,7 +146,7 @@ The system should not convert these into disease labels, urgency levels, or trea
 
 Privacy boundaries are also part of safety. During discovery, real patient data should not be used. Any future use of real patient data requires a separate consent, retention, access, responsibility, and review plan.
 
-## 8. Trust And Adoption Strategy
+## 9. Trust And Adoption Strategy
 
 Trust comes from restraint, clarity, and clinician control.
 
@@ -133,7 +156,7 @@ Adoption depends on whether the system reduces repeated questions or missing con
 
 The system should invite correction. Editing or ignoring the summary is not failure by itself; it is part of discovering whether the summary format is useful.
 
-## 9. Cognitive Load Design
+## 10. Cognitive Load Design
 
 The system should lower cognitive load for both patients and clinicians.
 
@@ -159,7 +182,7 @@ For clinicians, this means:
 
 Cognitive load is not just a usability issue. In this domain, excessive load can cause skipped answers, misunderstood symptoms, unsafe confidence, or clinician rejection.
 
-## 10. Evaluation Metrics
+## 11. Evaluation Metrics
 
 The system should be evaluated by workflow usefulness and safety, not novelty.
 
@@ -190,7 +213,7 @@ Decision metrics:
 - revise if value exists but the question tree, assisted mode, or summary format is wrong
 - pause if workflow fit, safety, privacy, or staff burden is unacceptable
 
-## 11. Scope Control
+## 12. Scope Control
 
 The first discovery version should remain narrow.
 
@@ -219,7 +242,7 @@ Out of scope:
 
 Scope control protects the project from becoming unsafe, expensive, or impossible to evaluate before the basic workflow question is answered.
 
-## 12. System Identity
+## 13. System Identity
 
 The system identity is:
 
@@ -236,7 +259,7 @@ It is not:
 
 The system's legitimate role is to help collect repeated, high-value context and make that context easier for clinicians to review.
 
-## 13. Failure Analysis
+## 14. Failure Analysis
 
 The system fails if it increases burden, creates false confidence, misleads patients, loses clinician trust, or hides risk behind polished output.
 
@@ -255,7 +278,7 @@ Major failure modes include:
 
 Failure should be treated as design evidence. A pause decision is acceptable if the workflow problem is weaker than expected or if the safety boundary cannot be preserved.
 
-## 14. Evolution Path
+## 15. Evolution Path
 
 The system should evolve only after each prior stage proves useful.
 
