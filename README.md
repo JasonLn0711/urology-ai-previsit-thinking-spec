@@ -86,6 +86,8 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the recommended MVP question set: `clinical-question-governance/mvp_question_set_recommendation.md`
 - For the next physician/nurse discovery conversation: `discovery/NEXT_STEP.md`
 - For repository architecture decisions: `meta/repo_architecture_review.md`
+- For the 2026-05-19 deep-cultivation repo-routing decision:
+  `records/2026-05-19/deep-cultivation-repo-routing.md`
 
 ## Operating Rule
 

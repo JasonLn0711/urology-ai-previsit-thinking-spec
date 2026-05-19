@@ -25,6 +25,13 @@ Use:
 - `YYYY-MM-DD/decision-record.md`
 - `YYYY-MM-DD/extraction-notes.md`
 
+## Current Records
+
+- `2026-05-19/deep-cultivation-repo-routing.md`: decision record for including
+  both the demo repo and this thinking-spec repo in the Health Taiwan
+  deep-cultivation proposal workflow while keeping the official source archive
+  in planning.
+
 ## Status Labels
 
 Use one of:
