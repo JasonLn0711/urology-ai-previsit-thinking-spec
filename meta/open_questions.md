@@ -28,6 +28,8 @@
 24. Which sections of `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md` are required by the official blank proposal form, and which should be compressed into appendices?
 25. Which KPI can be measured during synthetic walkthrough versus only after IRB/security-approved pilot use?
 26. Which budget lines can Jason estimate now, and which require hospital procurement or vendor quotes?
+27. If repository evidence is included, should reviewers receive GitHub URLs, a curated zip snapshot, selected PDFs/screenshots, or all three?
+28. Which exact commit IDs from `urology-ai-previsit-thinking-spec` and `urology-ai-previsit-demo` should be cited in the proposal evidence package?
 
 ## Workflow Questions
 
