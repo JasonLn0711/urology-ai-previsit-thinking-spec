@@ -14,6 +14,10 @@ The evergreen system-design supplement created from this evidence is `../../core
 The evergreen proposal-writing guide created from this evidence is `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`.
 
 The deep-cultivation scoring rubric created from this evidence and the downloaded official requirements is `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`.
+It now includes A/B/C micro-scoring controls: live-source spot checks,
+first-principles review questions, cross-validation gates, score caps,
+reviewer micro-comment requirements, and urology previsit / CRM interpretation
+rules.
 
 The expanded MOHW format/application-compliance rubric is `../../discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`.
 It includes the fourth 100-point D layer plus a non-scored D0 source-freshness

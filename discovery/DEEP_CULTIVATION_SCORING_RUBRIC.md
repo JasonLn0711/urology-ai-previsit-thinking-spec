@@ -34,6 +34,17 @@ Program-case pattern references:
 - `../records/2026-05-19/health-taiwan-related-examples.md`
 - `../records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
 
+Live source spot-check, 2026-05-19:
+
+| Live source | What it confirms | Rubric use |
+| --- | --- | --- |
+| MOHW Health Taiwan Deep-Cultivation special page, `https://dep.mohw.gov.tw/tdu/cp-1567-82709-121.html` | Four program scopes, 18 goals, and scope 3 goals including AI-assisted clinical care, workflow efficiency, medical data sharing/security, and smart hospitals. | Supports A2, A8, B11, C1-C3, C7, and D-source refresh. |
+| HTSprout plan page, `https://htsprout.nhri.org.tw/dhplan.html` | The plan asks applicants to deep-dig system problems, propose concrete strategies, define performance indicators, and keep a long-term deep-cultivation view. | Supports evidence-required scoring instead of idea-only scoring. |
+| MOHW 2026-04-27 outcome news, `https://mohw.gov.tw/cp-2704-86226-1.html` | Public examples include nursing voice AI, e-paper bedside cards, smart medication cabinets, mobile/field services, FHIR data exchange, and AI imaging centers. | Calibrates workflow, burden reduction, deployment, interoperability, and sustainability patterns. |
+| Health Taiwan scope-3 smart-healthcare guide, `https://htsprout.nhri.org.tw/UploadFile/HDPlan_fund_1140702_17.pdf` | Scope 3 writing should explicitly address cybersecurity governance, data governance, AI governance, and FHIR/TW Core IG integration. | Supports C1, C2, C3, C7, D9, and cross-layer caps. |
+
+For formal submission, refresh these live pages and the HTSprout download page again. The local archive is the working evidence base, not a substitute for the latest official template.
+
 ## Case-Derived Calibration
 
 The score weights are calibrated from public Health Taiwan / deep-cultivation examples and official smart-healthcare guidance. The goal is not to copy another hospital's project. The goal is to extract what reviewers and program designers repeatedly reward: workflow value, staff-burden reduction, service deployment, governance, interoperability, and measurable outcomes.
@@ -116,6 +127,91 @@ If a proposal claims "SOAP drafting time will decrease" but has no baseline or
 measurement plan, A8-2 is capped at E1 even if the wording is strong.
 ```
 
+## First-Principles Review Model For A/B/C
+
+For every proposal claim, reduce the claim to five questions before assigning points:
+
+| Question | Why it matters | Evidence expected |
+| --- | --- | --- |
+| What healthcare operation changes? | Prevents scoring a generic AI feature as clinical value. | Before/after workflow, service map, role map, SOP, or visit flow. |
+| Who changes behavior? | Prevents assuming adoption without user burden analysis. | Patient, physician, nurse, admin, case manager, IT/security, and management role table. |
+| What measurable state improves? | Prevents adjective-only KPI such as "better" or "more efficient". | Baseline, numerator/denominator, target, measurement window, and data owner. |
+| What can fail or harm patients/workflow? | Forces review of AI, system, security, data, and clinical-safety risks. | Failure mode table, fallback SOP, escalation rule, audit log, or risk register. |
+| Who owns the system after launch? | Separates pilot theater from operational deployment. | Maintenance owner, budget owner, governance committee, update process, and training plan. |
+
+If a proposal cannot answer these five questions with evidence, do not award high A/B/C scores even if the technology is impressive.
+
+## A/B/C Cross-Validation Gates
+
+The three content layers must be scored independently, then cross-checked. A high score in one layer cannot compensate for missing evidence in another layer.
+
+| Gate | Required evidence | Related criteria | Cap if missing |
+| --- | --- | --- | --- |
+| Clinical workflow gate | Before workflow, after workflow, role interaction, data flow, human review point, and exception flow. | A3, A4, A6, A7, B3, C4 | A capped at 69; B capped at 79 if workflow assumptions drive architecture. |
+| KPI gate | Baseline or baseline-collection plan, formula, annual target, owner, and review cadence. | A8, A9, B10, C10, D6 | A capped at 79; D penalties apply if official KPI table is incomplete. |
+| Human-in-the-loop gate | Clinician review, edit/reject path, responsibility boundary, and no autonomous diagnosis claim. | A6, A7, B3, B5, C3, C4, C6 | A -10 and C -10; C capped at 79 for any clinical-output system. |
+| AI safety gate | Hallucination control, missing-data handling, low-confidence labeling, versioning, and serious-error reporting. | B3, B7, B10, C3, C4, C11 | B capped at 79; C capped at 79. |
+| Data/security gate | Consent or IRB path, de-identification, retention, RBAC, access log, incident response, and use limitation. | C1, C2, C5, C7, D9 | C capped at 59 if patient data use is claimed without legal/data-governance path. |
+| Interoperability gate | EMR/HIS touchpoint boundary, FHIR/TW Core IG awareness, integration risk, and non-overclaim. | B11, C7, D9 | B -5 and C -5 where data-sharing or cross-site claims are made. |
+| Deployment gate | Site, timeline, owner, training, maintenance, budget, and exit/degrade path. | A9, A10, B8, B12, C8, C9, C10 | C capped at 69 if the proposal cannot name a pilot field, owner, or maintenance plan. |
+
+Gate interpretation:
+
+```text
+A/B/C are not a weighted average of impressions.
+They are three independent maturity tests that must agree with each other.
+```
+
+## Layer-Level Score Caps
+
+Use these caps after item-level scoring. The cap is applied to the final layer score, not to a single row.
+
+| Layer | Cap trigger | Maximum score |
+| --- | --- | ---: |
+| A | No named clinical site, user group, or workflow pain. | 59 |
+| A | No before/after workflow map. | 69 |
+| A | KPI are only adjectives or slogans. | 79 |
+| A | Workflow depends on clinicians or nurses doing significant new work that is not acknowledged. | 79 |
+| B | Architecture is only a model, chatbot, or demo screen. | 69 |
+| B | No fallback for ASR/model/system failure. | 79 |
+| B | No explicit AI task boundary or output schema. | 79 |
+| B | Hardware, latency, or integration assumptions are incompatible with a realistic hospital setting. | 69 |
+| C | Uses identifiable or real patient data without consent/IRB/de-identification/use-limitation path. | 59 |
+| C | Scope 3 smart-healthcare proposal omits cybersecurity, data, or AI governance. | 69 |
+| C | Clinical output exists but no physician override/edit/reject/audit path is defined. | 79 |
+| C | Claims autonomous diagnosis, treatment, or clinician replacement. | 59, and apply penalty. |
+
+Caps should be documented in the final review. A reviewer may give a lower score than the cap, but cannot exceed it without evidence that removes the trigger.
+
+## Reviewer Micro-Comment Requirement
+
+For every criterion, reviewers should record:
+
+```text
+Criterion:
+Raw score:
+Evidence level: E0 / E1 / E2 / E3 / E4
+Evidence pointer:
+Cap trigger, if any:
+Why the score is not higher:
+Specific artifact needed to raise the score:
+```
+
+This forces the review to name artifacts, not impressions.
+
+## Urology Previsit / CRM-Screening Interpretation
+
+For this repository's likely proposal direction, do not score the system as an autonomous triage or diagnosis system unless that scope is explicitly added and governed. Score the urology proposal as a governed service-flow and visit-readiness system:
+
+| Proposal component | Strong scoring interpretation | Weak scoring interpretation |
+| --- | --- | --- |
+| PSA / community screening | Entry point into a governed follow-up and return-to-hospital workflow. | A disconnected screening activity with no CRM or clinician-review loop. |
+| Adaptive intake | Reduces repeated history-taking and captures missing fields before the visit. | A chatbot framed as a diagnosis engine. |
+| ASR / voice input | Low-friction input and staff-burden reduction, especially for older adults or assisted workflows. | Voice interface novelty with no workflow slot. |
+| Summary / SOAP-like draft | Clinician-reviewed draft support with visible missing fields and uncertainty. | Final medical record or plan generated by AI. |
+| CRM follow-up | Service backbone for reminders, case management, return visit, and completion tracking. | Marketing-style CRM wording without patient-flow accountability. |
+| FHIR / TW Core IG | Future interoperability readiness and data-governance design. | Overclaimed live HIS/EMR integration without permission, security, or owner. |
+
 ## Reviewer Evidence Card
 
 For each high score, reviewers should be able to fill this card:
@@ -146,6 +242,8 @@ Do not reward a proposal for adding unsafe scope just to satisfy a rubric item.
 
 ## A1. Clinical Pain Definition: 10
 
+Scoring intent: A1 should answer why this clinical service problem exists before any AI method is introduced. A proposal that starts from a model capability and then searches for a clinical use case should be scored low here.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A1-1 Specific clinical field / site / patient group | 2 | Names the department, setting, and target users. |
@@ -158,6 +256,8 @@ Low-score signal: "AI can improve healthcare" without a local workflow problem.
 
 ## A2. Policy And Clinical Need Alignment: 8
 
+Scoring intent: A2 is not a citation-counting item. The proposal must show how the project operationalizes the official direction: smarter clinical care, reduced workload, workflow efficiency, data safety, and sustainable service improvement.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A2-1 Smart healthcare alignment | 2 | Maps to `導入智慧科技醫療`. |
@@ -166,6 +266,8 @@ Low-score signal: "AI can improve healthcare" without a local workflow problem.
 | A2-4 Medical data sharing / safety awareness | 2 | Addresses data security and governed sharing. |
 
 ## A3. Before / After Workflow: 12
+
+Scoring intent: A3 is the main anti-impression criterion. If the reviewer cannot trace patient, staff, clinician, system, and data movement through the proposed workflow, the proposal is not yet deployment-ready.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -180,6 +282,8 @@ High-score standard: hospital staff can understand the workflow without an engin
 
 ## A4. Staff Burden Reduction Design: 10
 
+Scoring intent: Staff-burden reduction must be scored as net burden, not feature count. A tool that generates summaries but adds extra logins, correction work, or duplicate data entry should lose points.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A4-1 Reduces repeated questions | 2 | Collects repeated, safe previsit information earlier. |
@@ -189,6 +293,8 @@ High-score standard: hospital staff can understand the workflow without an engin
 | A4-5 Avoids hidden new burden | 2 | Does not add another tool with no workflow slot. |
 
 ## A5. Patient Usability: 8
+
+Scoring intent: Patient usability is part of clinical feasibility. A previsit system that frail, older, anxious, low-literacy, or assisted patients cannot complete will not deliver the promised workflow value.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -200,6 +306,8 @@ High-score standard: hospital staff can understand the workflow without an engin
 
 ## A6. Clinician Usability: 8
 
+Scoring intent: Clinician usability is scored by fit with visit rhythm. The best evidence is not a pretty screen; it is a reviewer-facing summary that a clinician can quickly accept, correct, ignore, or escalate.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A6-1 Rapid review | 2 | Summary readable in 30-60 seconds. |
@@ -208,6 +316,8 @@ High-score standard: hospital staff can understand the workflow without an engin
 | A6-4 Visit rhythm fit | 2 | Does not force clinicians into an impractical tool path. |
 
 ## A7. Safety Flag / Escalation Boundary: 8
+
+Scoring intent: This criterion rewards safe boundary design, not aggressive automation. A conservative escalation rule is stronger than an unsupported diagnosis or triage claim.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -220,6 +330,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 
 ## A8. Clinical KPI Design: 12
 
+Scoring intent: A8 prevents vague value claims. Each KPI should have an owner, baseline or baseline-collection plan, formula, target, and review cadence.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A8-1 Time metric | 2 | Measures previsit, review, or documentation time. |
@@ -230,6 +342,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 | A8-6 Safety KPI | 2 | Tracks unsafe claims, escalation misses, or mandatory human-review compliance. |
 
 ## A9. Clinical Evaluation Design: 12
+
+Scoring intent: A9 asks whether the proposal can learn from deployment. High scores require a comparison structure and an error/improvement loop, not only a one-time demo.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -242,6 +356,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 
 ## A10. Cross-Stakeholder Value: 12
 
+Scoring intent: High-maturity deep-cultivation proposals should create value for more than one role. A patient-only app or physician-only dashboard is weaker unless it explains why the broader workflow still improves.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | A10-1 Patient value | 3 | Less repetition, clearer preparation, better follow-up continuity. |
@@ -253,6 +369,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 # B. Technical System And AI Engineering: 100
 
 ## B1. Architecture Completeness: 10
+
+Scoring intent: B1 checks whether the proposal is a system, not only an AI component. Architecture should expose enough surfaces for security, audit, monitoring, and maintenance to be assessed.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -269,6 +387,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 
 ## B2. Technical Justification: 10
 
+Scoring intent: Technical choices should be justified by clinical workflow, safety, privacy, latency, cost, and maintainability. "Latest model" is not a justification.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B2-1 ASR justification | 2 | Tied to patient/staff burden, not novelty. |
@@ -279,6 +399,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 
 ## B3. AI Task Boundary: 8
 
+Scoring intent: B3 separates useful clinical-support automation from unsafe medical automation. The output boundary should be visible in product copy, workflow diagrams, and system schema.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B3-1 AI responsibilities | 2 | Clear task list. |
@@ -287,6 +409,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 | B3-4 Output schema | 2 | Summary, JSON, SOAP-like draft, or other fixed output format is defined. |
 
 ## B4. Dynamic Questioning / Guided Intake: 8
+
+Scoring intent: Dynamic questioning earns points only when it is bounded, explainable, and safer than a fixed questionnaire. It should stop when useful information is collected and escalate when risk or ambiguity appears.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -297,6 +421,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 
 ## B5. Summary / SOAP-Like Draft Quality: 8
 
+Scoring intent: Summary quality is scored by clinical reviewability and boundary safety, not by length or fluency. Missing data and uncertainty should remain visible.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B5-1 Subjective context | 2 | Chief concern, history, symptom timeline included. |
@@ -305,6 +431,8 @@ For urology previsit scope, this replaces autonomous triage scoring.
 | B5-4 Physician-editable plan | 2 | Plan is draft/reference only; no automatic orders. |
 
 ## B6. Optional Device / Vitals / PSA Integration: 8
+
+Scoring intent: Device, vitals, PSA, or lab data should improve workflow meaning. Raw values without ownership, normal/abnormal handling, and missing-value treatment should not receive high points.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -317,6 +445,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## B7. Failure Handling And Fallback: 10
 
+Scoring intent: B7 is a realism check. A healthcare system proposal should say what happens when speech recognition fails, the model times out, fields are missing, or output confidence is low.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B7-1 ASR error | 2 | Review/correction or fallback path. |
@@ -327,6 +457,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## B8. Performance And Deployment Feasibility: 8
 
+Scoring intent: Performance targets should match the clinical setting. A system that works only with unrealistic GPU, network, or latency assumptions should be capped even if the demo works.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B8-1 Latency target | 2 | Reasonable response-time target. |
@@ -335,6 +467,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | B8-4 Offline/degraded mode | 2 | Basic flow survives model/network failure where needed. |
 
 ## B9. Modularity And Maintainability: 8
+
+Scoring intent: Maintainability matters because deep-cultivation projects are multi-year. Question banks, thresholds, prompts, rules, and interfaces should be replaceable without rewriting the whole system.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -345,6 +479,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## B10. Monitoring And Quality Improvement: 8
 
+Scoring intent: Monitoring converts a demo into an operational system. High scores require metrics that can detect degradation, adoption failure, safety events, and update risk.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B10-1 Error-rate monitoring | 2 | ASR/model/API/system errors tracked. |
@@ -354,6 +490,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## B11. Interoperability Readiness: 7
 
+Scoring intent: B11 rewards honest integration design. A proposal should distinguish current export/import, future FHIR/TW Core IG readiness, and unapproved direct EMR/HIS writeback.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | B11-1 Hospital-system touchpoint | 2 | Defines read/export/writeback boundary. |
@@ -362,6 +500,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | B11-4 Integration-risk statement | 2 | Addresses permission, synchronization, format, ownership, and security. |
 
 ## B12. Engineering Maturity Evidence: 7
+
+Scoring intent: B12 gives credit for evidence that the system has been made concrete. Screenshots, synthetic runs, test data, logs, and issue lists are stronger than architectural promises.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -376,6 +516,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C1. Cybersecurity Governance: 12
 
+Scoring intent: Cybersecurity is scored as operational control, not as a generic statement that data will be secure. The review should be able to identify access rules, logs, and response ownership.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C1-1 RBAC | 2 | Role-based access model. |
@@ -387,6 +529,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C2. Data Governance: 12
 
+Scoring intent: Data governance must say what data is used, why it is legal to use it, how long it is retained, who may access it, and whether it can be reused for training or evaluation.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C2-1 Legal data source | 2 | Consent/IRB/institutional basis stated. |
@@ -397,6 +541,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | C2-6 Standardized format | 2 | FHIR/TW Core IG readiness when relevant. |
 
 ## C3. AI Governance: 15
+
+Scoring intent: AI governance creates traceability from input to model/prompt/rule version to output to clinician action. Without traceability, learning and accountability are weak.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -411,6 +557,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C4. Clinical Safety Design: 10
 
+Scoring intent: C4 ensures that clinical safety is designed into the workflow, not appended as a disclaimer. Safety observations, uncertainty, use limits, and responsibility boundaries should be visible to users.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C4-1 Safety observation rules | 2 | Red-flag reports shown neutrally. |
@@ -421,6 +569,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C5. Legal / Ethics Awareness: 8
 
+Scoring intent: Legal and ethics scoring should match the actual deployment stage. Research, demo, pilot, and clinical use have different IRB, medical-record, data-use, and SaMD/TFDA implications.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C5-1 IRB decision path | 2 | IRB need and timing stated. |
@@ -429,6 +579,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | C5-4 SaMD/TFDA awareness | 2 | If applicable, software medical-device path acknowledged; if not, demo/research status explicit. |
 
 ## C6. Clinical AI Validation Path: 8
+
+Scoring intent: Validation should test usefulness and safety in context. Accuracy alone is insufficient if the system changes clinical workload, documentation, or follow-up behavior.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -439,6 +591,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C7. SMART on FHIR / Interoperability Governance: 8
 
+Scoring intent: C7 is about governed interoperability. FHIR/TW Core IG and SMART on FHIR should be treated as a standardization path with data ownership and security, not as buzzwords.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C7-1 FHIR resource mapping | 2 | Patient, Observation, MedicationRequest, Condition, QuestionnaireResponse, etc. considered when relevant. |
@@ -447,6 +601,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | C7-4 Cross-site scalability | 2 | Avoids single-hospital data lock-in. |
 
 ## C8. Deployment And Operation Plan: 10
+
+Scoring intent: Deployment scoring asks whether the proposal can leave the slide deck. Site, role, timeline, training, support, and maintenance responsibility must be concrete.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
@@ -458,6 +614,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C9. Budget Realism: 5
 
+Scoring intent: Budget realism links resources to operational value. Costs should map to work packages, owners, and maintenance instead of appearing as generic equipment or cloud spend.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C9-1 Personnel cost | 1 | Engineering, clinical, PM, RA allocation realistic. |
@@ -468,6 +626,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 
 ## C10. Sustainability And Scale: 7
 
+Scoring intent: Sustainability is scored by governed continuation or exit. A strong plan can scale, update, monitor, or stop safely based on evidence.
+
 | Item | Points | Standard |
 | --- | ---: | --- |
 | C10-1 Specialty expansion | 2 | Clear path beyond initial specialty if evidence supports. |
@@ -477,6 +637,8 @@ If not in current scope, score based on explicit future-boundary clarity.
 | C10-5 Exit/degrade strategy | 1 | Stop or downgrade if ineffective. |
 
 ## C11. Risk Register: 5
+
+Scoring intent: The risk register is an audit object. A high-score proposal names risks early and gives owners and mitigation paths instead of hiding uncertainty.
 
 | Item | Points | Standard |
 | --- | ---: | --- |
