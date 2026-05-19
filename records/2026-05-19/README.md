@@ -15,6 +15,8 @@ The evergreen proposal-writing guide created from this evidence is `../../discov
 
 The deep-cultivation scoring rubric created from this evidence and the downloaded official requirements is `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`.
 
+The expanded MOHW format/application-compliance rubric is `../../discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`.
+
 The local official-policy archive is `policy-documents/`.
 
 The repository inclusion recommendation is `repo-inclusion-recommendation.md`.

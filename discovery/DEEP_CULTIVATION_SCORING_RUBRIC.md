@@ -492,6 +492,12 @@ This layer evaluates whether the proposal follows official MOHW Health Taiwan De
 
 It evaluates administrative and document compliance, not whether the idea is clinically good.
 
+Expanded D-layer file:
+
+- `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
+
+Use that file when doing official-format, attachment, budget, governance-checklist, submission, and reporting preflight.
+
 ## Required Official References For D
 
 Use these local documents:

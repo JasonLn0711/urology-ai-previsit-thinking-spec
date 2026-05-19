@@ -64,6 +64,7 @@ It supports:
 - AI, cybersecurity, and data-governance planning
 - procurement and vendor-risk questions
 - proposal-format and reporting readiness
+- the expanded MOHW format/application-compliance rubric at `../../../discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 
 It does not authorize:
 

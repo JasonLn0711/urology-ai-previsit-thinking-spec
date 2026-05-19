@@ -89,6 +89,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For scoring a Health Taiwan deep-cultivation draft objectively: `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`
+- For the expanded MOHW format/application-compliance score: `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 - For safety boundaries: `core/SAFETY_BOUNDARY.md`
 - For clinical question governance: `clinical-question-governance/clinical_question_governance.md`
 - For the candidate question matrix: `clinical-question-governance/question_candidates_matrix.md`

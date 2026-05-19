@@ -12,6 +12,7 @@ Status: synthesized
 - Evergreen positioning: `../../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - Proposal writing guide: `../../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - Scoring rubric: `../../discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`
+- MOHW compliance rubric: `../../discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 - Downloaded policy archive: `policy-documents/README.md`
 - Repo inclusion recommendation: `repo-inclusion-recommendation.md`
 - Imported working note: `taipei-city-hospital-deep-cultivation-working-note.md`
@@ -155,6 +156,8 @@ D. MOHW format compliance and application completeness
 Layer D is intentionally separate. It checks the official application mode, proposal format, self-check forms, declarations, annual checkpoints, budget tables, AI/cybersecurity/data-governance self-checklists, and platform/paper-version consistency.
 
 For this urology previsit scope, do not award points for autonomous triage. Score safety under visit-readiness, clinician review, red-flag observation handling, fallback, and escalation boundaries.
+
+Use the expanded D-layer rubric before circulating a formal proposal draft. It converts MOHW application rules into a pre-submission evidence packet: applicant proof, official template version, self-check forms, declarations, partner consent, KPI/checkpoint table, budget table, governance self-checks, platform/PDF/paper consistency, and correction-window ownership.
 
 ## Aging Clock Extraction
 
