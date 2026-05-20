@@ -103,6 +103,8 @@ Track:
 
 For the Health Taiwan deep-cultivation framing, evaluation should also support KPI-to-budget reasoning. These indicators should be treated as draft targets until confirmed by hospital stakeholders.
 
+For the current proposal-prep working table, use `../discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`. For annual monitoring, use `../discovery/DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`.
+
 | KPI area | Candidate measure | Boundary |
 | --- | --- | --- |
 | Visit readiness | Clinician can review summary in under one minute | Measures handoff usefulness, not diagnostic accuracy |
@@ -110,6 +112,8 @@ For the Health Taiwan deep-cultivation framing, evaluation should also support K
 | Repeated work reduction | Fewer repeated history questions in walkthrough or pilot | Compare against current workflow |
 | Completion feasibility | Patient/helper/staff-assisted completion rate reaches an agreed target | Target needs clinical workflow calibration |
 | Staff burden | Nurse or staff burden remains acceptable | Do not shift physician work into hidden staff work |
+| Clinical friction budget | Extra clicks, system switches, training time, and exception-handling burden remain acceptable | Do not make clinicians or nurses work harder for the AI system |
+| Workforce burden reduction | Evidence suggests reduced repeated questioning, documentation preparation, or unnecessary interruptions | Measures Health Taiwan workforce value, not model novelty |
 | Clinician usefulness | Clinician usefulness score reaches an agreed threshold | The summary remains editable and rejectable |
 | Safety boundary | Zero diagnosis, treatment, or autonomous triage claims | Non-negotiable safety KPI |
 | Auditability | 100% of outputs preserve source and review-status metadata in pilot-ready design | Required before real pilot use |

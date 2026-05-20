@@ -14,6 +14,34 @@ Use it when drafting the Health Taiwan deep-cultivation section for the urology 
 
 The proposal should not read like an AI model report. It should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority. CRM follow-up is a parked future phase, not the first-version claim.
 
+All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
+
+The proposal should be confident, direct, and non-defensive. Safety boundaries remain mandatory, but they must be written as deliberate design choices, not as apologies, disclaimers, or weakness.
+
+Before circulating a draft section, run `ASSERTIVE_WRITING_GATE.md`.
+
+For the 2026-05-20 postdoctoral strategy review of what to adopt, modify, or defer before a Health Taiwan proposal, use `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`. Its practical next-step order is:
+
+```text
+freeze intended use -> freeze demo scope -> prepare reviewer evidence
+-> define governance gates -> map KPI to budget
+```
+
+For the clinical friction and workforce-burden reduction principle, use `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`. This principle should be treated as a proposal-writing gate: the project must reduce medical-staff burden and must not turn clinicians or nurses into routine AI labelers, extra-form fillers, or workflow-change victims.
+
+For the current official-format drafting package, use:
+
+- `INTENDED_USE_FREEZE.md`
+- `DEMO_SCOPE_FREEZE.md`
+- `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+- `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`
+- `DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`
+
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton. The current writing entrypoint is v0.3 because it follows the official section order more closely and separates institutional blanks from draftable proposal content.
+
 2026-05-19 expert-review update:
 
 ```text
@@ -33,6 +61,26 @@ Safe descriptive boundary:
 ```
 
 Do not write this as an `AI medical system`. Park CRM follow-up until a future confirmed next step. Keep ASR as an optional multilingual input layer. Narrow the first version to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream. Blood in urine, fever/chills, flank pain, and currently being unable to urinate are patient-reported red-flag observations, not first-version main pathways or triage judgments.
+
+## Assertive Writing Method
+
+Use confident contribution-first language. State what the system does, why the scope is deliberate, and how governance preserves clinical authority.
+
+| Defensive draft language | Proposal-ready language |
+| --- | --- |
+| 本系統只是門診前輔助工具。 | 本系統是門診前資訊整理與醫師覆核摘要的 workflow layer。 |
+| 我們不做診斷。 | 診斷與治療決策保留於醫師端，系統專注於 previsit information compression。 |
+| 目前沒有真實病人資料。 | 目前 evidence path 採 synthetic and expert-review materials，作為治理核准前的安全驗證階段。 |
+| 還需要更多研究。 | 下一階段將以醫師閱讀時間、重複問診減少、缺漏欄位可見度與 staff-friction review 驗證 workflow value。 |
+| 不是完整 HIS/EMR。 | 系統刻意設計為可與 HIS/EMR 邊界共存的 focused previsit workflow layer。 |
+
+Required sequence for proposal paragraphs:
+
+```text
+contribution first -> deliberate scope second -> governance boundary third
+```
+
+Do not open proposal sections with defensive limitation language.
 
 ## Core Proposal Logic
 
@@ -55,6 +103,13 @@ Can this enter the real hospital / community-care workflow, reduce work, stay go
 ```
 
 That means the proposal should make workflow slot, staff burden, cross-system continuity, KPI, owner, budget, governance, and maintenance visible before it explains AI model details.
+
+The proposal should also make clinical friction visible before it explains AI details:
+
+```text
+Does this reduce the existing burden on physicians, nurses, and clinic staff,
+or does it merely ask them to do more work for the AI system?
+```
 
 For this repo, the correct story is:
 
@@ -102,6 +157,14 @@ AI triage / autonomous risk scoring / AI diagnosis / direct EMR writeback
 | 11. Budget and procurement | Money maps to KPI | Personnel, APP/tablet intake work, ASR/cloud or server if used, security review, governance support, vendor/procurement assumptions |
 | 12. Expected outcomes | The hospital receives durable value | Evaluated reduction of repeated work, better visit readiness, and governance-ready smart-healthcare workflow |
 | 13. Risk and boundary | The proposal does not overclaim | No diagnosis, treatment advice, autonomous triage, production deployment, or real patient-data use without governance |
+
+Add a clinical-friction check inside sections 4, 8, 9, and 11:
+
+```text
+The project should not ask clinicians or nurses to absorb extra routine labeling,
+extra dashboards, extra exception handling, or major workflow retraining unless a
+larger existing burden is demonstrably removed.
+```
 
 ## 陳美如主任 Reviewer Lens
 
@@ -212,6 +275,7 @@ Write the before/after clearly:
 | Missing context appears during the visit | Surface missing information before handoff |
 | Red-flag patient reports can be mistaken for AI triage if worded poorly | Display them only as patient-reported observations for human review |
 | AI demo value is unclear | Tie AI to measurable workflow burden reduction |
+| AI system may create hidden clinical work | Add a friction-budget check before making the feature core scope |
 
 The proposal should explicitly name who acts at each step:
 
@@ -219,6 +283,39 @@ The proposal should explicitly name who acts at each step:
 - nurse or staff handles only missing, conflicting, or red-flag-observation cases when needed
 - clinician reviews and owns interpretation
 - CRM owner or service SOP handles follow-up only if a future governed phase is reopened
+
+## Clinical Friction Reduction
+
+Use this as a proposal principle:
+
+```text
+本子計畫以降低臨床工作摩擦與醫療人員負荷為核心原則。
+系統不要求醫師或護理師成為 AI 標註者，也不以增加醫護人員額外研究工作作為導入前提。
+```
+
+The system should reduce:
+
+- repeated questioning
+- documentation preparation
+- scattered patient narrative reconstruction
+- missing-information repair during the visit
+- unnecessary nurse interruption
+- patient/family explanation burden
+- avoidable system switching
+
+The system must not create:
+
+- routine clinician data-labeling work
+- a separate complex dashboard as the only useful output
+- nurse responsibility to complete every missing field
+- new login/training burden without clear workflow payoff
+- hidden maintenance work without owner and budget
+
+Before adding a function to the proposal, ask:
+
+```text
+Does this feature reduce an existing clinical burden more than it adds new work?
+```
 
 ## KPI And Evaluation Design
 
@@ -234,6 +331,7 @@ Candidate KPI:
 | Completion feasibility | Patient/helper/staff-assisted completion rate reaches agreed target | Tests adoption reality |
 | Clinician usefulness | Clinician usefulness rating reaches agreed threshold | Tests whether physicians would read it |
 | Staff burden | Nurse/staff burden remains acceptable | Prevents hidden workload transfer |
+| Clinical friction | Extra clicks, system switches, training time, and exception-handling burden remain acceptable | Tests whether the system is deployable in real workflow |
 | ASR confirmation | ASR-derived text or structured answer is confirmed before entering summary | Prevents speech errors becoming fact |
 | Unsafe wording | Diagnosis, treatment, triage, exam-order, and EMR-writeback terms remain absent | Preserves clinical boundary |
 | Future CRM continuity | Return-visit, lab-draw, or follow-up SOP is defined only if future phase is reopened | Keeps parked scope clear |

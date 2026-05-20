@@ -48,6 +48,23 @@ HTSprout / MOHW / AI Center pages and update the source manifest if any file,
 template version, or rule has changed.
 ```
 
+Additional source spot-check on `2026-05-20`:
+
+- HTSprout plan and application-flow pages still support the four-category,
+  five-year, KPI-driven Health Taiwan framing.
+- HTSprout application-flow page states first-stage execution runs to the end
+  of 115, second stage runs 116-118, and second-stage solicitation for new
+  applicants is expected in 115 Q4.
+- AI Center guidance still emphasizes cybersecurity governance, data
+  governance, AI governance, and FHIR / TW Core IG readiness.
+- MOHW 115-04-27 first-stage results reporting emphasizes workflow
+  improvement, technology reducing ineffective labor, cross-institution
+  collaboration, FHIR exchange, and smart-healthcare services.
+
+This spot-check did not replace the local archive or download new official
+files. Treat it as strategy context; refresh the official download set before
+formal submission.
+
 ## Folder Map
 
 | Folder | Contents | Use |

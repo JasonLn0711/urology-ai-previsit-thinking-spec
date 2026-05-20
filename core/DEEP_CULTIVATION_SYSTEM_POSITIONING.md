@@ -10,6 +10,8 @@ The system is no longer only a standalone demo for guided urology intake. It is 
 
 For proposal section order, KPI-to-budget writing, and the June 2 draft package, use `../discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`.
 
+For article, proposal, paper, lab-brief, and reviewer-facing tone, use `ASSERTIVE_WRITING_POLICY.md`. Write boundaries as deliberate architecture, not as defensive apology.
+
 The important correction is scope. The original deep-cultivation positioning remains useful as a broad service frame, but the latest expert review narrows the first version and changes the proposal-facing name.
 
 Current proposal name:
@@ -56,7 +58,7 @@ The existing urology previsit system should be positioned as a governed clinical
 
 Its first-version role is to help non-acute urology outpatient workflows collect repeated patient-reported information earlier, repair missing context, and prepare a short clinician-review summary for physician review.
 
-The system does not decide urgency, diagnose disease, recommend treatment, or become the hospital record system. It prepares visit context for human review.
+The system deliberately keeps urgency decisions, diagnosis, treatment decisions, and official hospital-record authority with clinicians and governed hospital processes. Its role is to prepare visit context for human review.
 
 After the expert review, proposal writing should lead with `泌尿科門診前問診與醫師覆核摘要支持系統`. CRM and follow-up management may be described only as later governed phases, not current execution.
 
@@ -80,6 +82,13 @@ Non-acute urology outpatient visits create repeated symptom-history capture,
 incomplete previsit context, and summary-preparation burden before the physician can make a clinical judgment.
 ```
 
+A 2026-05-19 meeting follow-up insight adds an operations constraint:
+
+```text
+The Health Taiwan proposal should reduce physician, nurse, and clinic-staff burden.
+It should not ask medical staff to absorb extra AI research, labeling, supervision, or workflow-change burden.
+```
+
 Current pain points:
 
 - patient-reported symptoms may arrive late, scattered, or incomplete
@@ -89,6 +98,7 @@ Current pain points:
 - red-flag observations need human-review wording without becoming automated triage
 - AI demos often fail because they are not tied to a real service workflow
 - budget, KPI, outsourcing, IRB, and security governance must be planned before deployment
+- any added AI feature can fail adoption if it creates extra clicks, training, system switching, routine labeling, or hidden nurse work
 
 ## System Objective
 
@@ -102,6 +112,7 @@ Build a bounded urology previsit and visit-readiness workflow that can support a
 - producing a short clinician-review summary or SOAP-structured reference summary
 - preserving clinician authority to confirm, edit, ignore, or reject the output
 - keeping audit, privacy, and responsible-AI requirements visible from the start
+- treating clinical friction reduction as a first-class design criterion
 - leaving any CRM/reminder planning to a later confirmed and governed phase
 
 ## Non-Goals
@@ -373,7 +384,7 @@ Minimum audit fields for pilot-ready design:
 
 ## Proposal Summary Paragraph
 
-本子項目擬建立「泌尿科門診前問診與醫師覆核摘要支持系統」，以非急性泌尿科門診病人為初期對象，聚焦夜尿、頻尿、急尿、漏尿、排尿困難或尿流變弱等 LUTS / OAB-like 常見症狀。系統透過受治理之題庫、病人或家屬填答、缺漏欄位提示、來源標記與一頁式醫師覆核摘要，協助門診前整理主訴、症狀脈絡、困擾程度與用藥資訊完整度。AI 與 ASR 僅作為降低輸入負擔、輔助結構化填答與摘要整理之工具；系統不提供診斷、治療建議、自動分流、風險評分、檢查開立或 EMR 自動寫入。若產出 SOAP 架構內容，僅作為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
+本子項目擬建立「泌尿科門診前問診與醫師覆核摘要支持系統」，以非急性泌尿科門診病人為初期對象，聚焦夜尿、頻尿、急尿、漏尿、排尿困難或尿流變弱等 LUTS / OAB-like 常見症狀。系統透過受治理之題庫、病人或家屬填答、缺漏欄位提示、來源標記與一頁式醫師覆核摘要，協助門診前整理主訴、症狀脈絡、困擾程度與用藥資訊完整度。AI 與 ASR 作為降低輸入負擔、輔助結構化填答與摘要整理之智慧科技工具；系統架構將診斷、治療決策、自動分流、風險評分、檢查開立與 EMR 正式寫入保留於醫師及院內治理流程。若產出 SOAP 架構內容，其定位為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
 
 ## Review Rule
 

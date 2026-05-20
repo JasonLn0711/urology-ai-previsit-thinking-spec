@@ -41,17 +41,17 @@ Bring only the reasoning frame:
 - open questions
 - evaluation criteria
 
-Do not bring a long feature roadmap. The meeting should test workflow fit, not product ambition.
+Bring the focused workflow hypothesis rather than a long feature roadmap. The meeting should test workflow fit and clinical value.
 
 ## Opening Script
 
 Use this opening frame:
 
-"The goal is not to replace physician judgment. The goal is to understand whether a guided previsit flow can collect repeated, high-value information before the formal visit and give the clinician a short reviewable summary. If the workflow does not fit, pausing is an acceptable outcome."
+"This project tests whether a guided previsit flow can collect repeated, high-value information before the formal visit and give the clinician a short, reviewable summary while preserving physician judgment. If the workflow does not fit, the evidence will tell us to revise, narrow, or pause."
 
 Then state the safety boundary:
 
-"The concept does not diagnose, triage, recommend treatment, or use real patient data during discovery. Any red-flag information would be shown only as patient-reported observations for clinician review."
+"The current discovery scope keeps diagnosis, triage, treatment recommendation, and real patient-data use outside this review stage. Red-flag information is shown as patient-reported observation for clinician review."
 
 ## Run Of Meeting
 

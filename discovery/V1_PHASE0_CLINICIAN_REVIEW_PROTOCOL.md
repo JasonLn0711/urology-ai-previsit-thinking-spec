@@ -7,9 +7,9 @@ Scope: synthetic-only clinician and nurse review of the v1 local product preview
 
 Phase 0 asks one research question:
 
-> Can the safe-local v1 product preview help a urology clinic judge previsit information readiness before the physician encounter, without collecting real patient data or implying diagnosis, triage, treatment, or exam ordering?
+> Can the safe-local v1 product preview help a urology clinic judge previsit information readiness before the physician encounter while preserving clinician authority over diagnosis, triage, treatment, and exam ordering?
 
-This is not a clinical trial, not a hospital deployment, not a real patient pilot, and not a regulatory classification decision. It is a structured expert review of a synthetic product preview.
+This phase is a structured expert review of a synthetic product preview. Clinical trial design, hospital deployment, real patient pilot work, and regulatory classification decisions remain separate governance routes.
 
 ## First-Principles Boundary
 

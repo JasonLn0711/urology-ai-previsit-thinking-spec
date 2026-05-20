@@ -8,6 +8,7 @@ Use it to review product intent, user model, workflow reasoning, safety boundari
 
 - `THINKING_SPEC.md`: integrated thinking spec and master narrative
 - `DEEP_CULTIVATION_SYSTEM_POSITIONING.md`: Health Taiwan deep-cultivation positioning for the urology previsit system
+- `ASSERTIVE_WRITING_POLICY.md`: repo-wide article, proposal, paper, reviewer-brief, and lab-brief writing doctrine for confident, non-defensive framing
 - `DESIGN_PHILOSOPHY.md`: design values, first principles, and rejected instincts
 - `WORKFLOW_LOGIC.md`: encounter sequence, decision points, and handoff logic
 - `SAFETY_BOUNDARY.md`: clinical, privacy, wording, and governance boundaries

@@ -7,8 +7,20 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 ## Files
 
 - `NEXT_STEP.md`: meeting-to-decision workflow
+- `ASSERTIVE_WRITING_GATE.md`: pre-circulation gate for turning the assertive writing policy into paragraph-level checks, rewrite patterns, and review flow
+- `INTENDED_USE_FREEZE.md`: proposal-prep freeze for intended use, target users, allowed outputs, non-use, data boundary, responsibility boundary, and clinical-friction rule
+- `DEMO_SCOPE_FREEZE.md`: proposal-facing demo scope freeze for synthetic cases, included/excluded demo behavior, acceptance criteria, and no-go signals
+- `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`: Health Taiwan proposal analysis for reducing physician/nurse/staff burden without turning medical staff into AI labelers or extra-workflow operators
 - `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / CRM service-flow draft
+- `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`: postdoctoral strategy review for shaping the urology previsit system as a Health Taiwan deep-cultivation workflow-transformation proposal; separates adopted, modified, and deferred suggestions
+- `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`: maps the archived official Health Taiwan proposal format to the current draft package and exposes missing institutional fields
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`: current official-format-aligned proposal draft for the urology previsit subproject
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`: prior official-format proposal skeleton for the urology previsit subproject
 - `DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`: official-format subproject draft for `泌尿科門診前問診與醫師覆核摘要支持系統`
+- `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`: KPI-to-budget map for budget traceability and work-package justification
+- `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`: integrates official proposal section, KPI, budget bucket, annual checkpoint, owner, and evidence artifact
+- `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`: AI, cybersecurity, data, privacy, clinical, procurement, and interoperability governance checklist
+- `DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`: 115 prep and 116-118 checkpoint table for proposal monitoring and reporting
 - `DEEP_CULTIVATION_SCORING_RUBRIC.md`: four-layer 100-point scoring rubric for clinical value, engineering maturity, governance, and MOHW application-format compliance; includes A/B/C evidence gates, score caps, reviewer micro-comments, and urology previsit / CRM interpretation rules
 - `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`: expanded fourth 100-point layer for MOHW format, attachment, budget, submission, governance-checklist, and reporting compliance
 - `DISCOVERY_PROTOCOL.md`: discovery runbook and conversation sequence
@@ -22,6 +34,8 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 ## Use Rule
 
 Use these files to prepare for and synthesize real reviewer conversations. Store dated outputs under `../records/`.
+
+When drafting proposal, article, paper, reviewer-brief, or lab-brief language from this folder, use `../core/ASSERTIVE_WRITING_POLICY.md`. Discovery evidence should sharpen the argument, not make the writing defensive.
 
 Before using reviewer time for v1 Phase 0, run the demo repo readiness gate:
 

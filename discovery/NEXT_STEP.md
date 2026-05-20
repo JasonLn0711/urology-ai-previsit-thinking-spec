@@ -28,16 +28,74 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Policy reference: `../records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
 - Downloaded policy archive: `../records/2026-05-19/policy-documents/README.md`
 - Related examples: `../records/2026-05-19/health-taiwan-related-examples.md`
+- Intended-use freeze: `INTENDED_USE_FREEZE.md`
+- Demo-scope freeze: `DEMO_SCOPE_FREEZE.md`
+- Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- Application draft v0.3: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- Prior application skeleton v0.2: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`
+- KPI-to-budget table: `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- KPI / budget / annual checkpoint integration: `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+- Governance checklist: `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`
+- Annual checkpoint table: `DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`
+- Postdoctoral next-step review: `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`
 - Capture: `../records/2026-05-19/deep-cultivation-meeting-capture.md`
 - Decision record: `../records/2026-05-19/deep-cultivation-decision-record.md`
 - Extraction notes: `../records/2026-05-19/deep-cultivation-extraction-notes.md`
 - System positioning: `../core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - Proposal writing guide: `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- Assertive writing gate: `ASSERTIVE_WRITING_GATE.md`
 - Scoring rubric: `DEEP_CULTIVATION_SCORING_RUBRIC.md`
 - MOHW compliance rubric: `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
+- Assertive writing policy: `../core/ASSERTIVE_WRITING_POLICY.md`
 - Repo inclusion recommendation: `../records/2026-05-19/repo-inclusion-recommendation.md`
 
 Prepare for the tentative 2026-06-02 10:00 follow-up by drafting the smart-healthcare / AI / CRM subproject around service deployment, not model novelty.
+
+All draft language for this follow-up should use the assertive writing policy:
+
+```text
+confident contribution first -> scope discipline second -> next review gate third
+```
+
+Do not open with defensive disclaimers.
+
+The 2026-05-20 postdoctoral review keeps that direction but narrows the immediate next step:
+
+```text
+freeze intended use -> freeze demo scope -> prepare reviewer evidence
+-> define governance gates -> map KPI to budget
+```
+
+Do not add new AI features until the intended-use and demo-scope freeze are explicit.
+
+The current application-writing execution artifacts are now:
+
+```text
+INTENDED_USE_FREEZE.md
+DEMO_SCOPE_FREEZE.md
+DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md
+DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md
+DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md
+DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md
+DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md
+```
+
+Use these as the next drafting package before expanding technical features.
+
+Before sending any section to a teacher, hospital reviewer, or proposal owner, run `ASSERTIVE_WRITING_GATE.md`:
+
+```text
+contribution -> workflow value -> deliberate scope -> governance boundary -> next evidence gate
+```
+
+The additional clinical-friction insight from the same meeting should be treated as a hard review question:
+
+```text
+Will this reduce physician, nurse, or clinic-staff burden without making them do extra AI research, labeling, system switching, or exception handling?
+```
+
+Use `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md` before writing KPI, budget, or workflow claims.
 
 Strategic label for the draft:
 
@@ -73,6 +131,7 @@ For Jason's June 2 preparation, prioritize:
 - internal vs outsourced system components
 - proposal evidence package: thinking spec repo vs demo repo, selected appendices, and exact boundary wording
 - whether kiosk / chronic-disease-system adaptation and smart-pharmacy ideas are core scope or optional expansion
+- confident and non-defensive tone from `../core/ASSERTIVE_WRITING_POLICY.md`
 
 Policy-alignment paragraph to prepare:
 

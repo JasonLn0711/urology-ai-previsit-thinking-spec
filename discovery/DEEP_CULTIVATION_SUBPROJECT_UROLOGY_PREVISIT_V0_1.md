@@ -1,12 +1,16 @@
 # Deep-Cultivation Subproject Draft v0.1
 
-Status: expert-review draft
+Status: superseded expert-review draft
 Date: 2026-05-19
 Working title: 泌尿科門診前問診與醫師覆核摘要支持系統
 
+Note: the current application-writing entrypoint is `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`. This v0.1 file remains useful as the earlier detailed source draft and should not be treated as the latest official-format working entrypoint.
+
+Before reusing any paragraph from this v0.1 draft in outward-facing writing, run `ASSERTIVE_WRITING_GATE.md` and `../core/ASSERTIVE_WRITING_POLICY.md`.
+
 ## Draft Boundary
 
-This is a proposal-writing draft for the Health Taiwan Deep-Cultivation Plan format. It is not a final institutional submission, clinical protocol, IRB application, deployment plan, procurement specification, or EMR integration plan.
+This file preserves the earlier proposal-writing draft for the Health Taiwan Deep-Cultivation Plan format. Current circulation should use v0.3 and keep final institutional submission, clinical protocol approval, IRB application, deployment planning, procurement specification, and EMR integration under their separate governance routes.
 
 The draft follows the first-stage proposal structure currently archived under:
 
@@ -58,7 +62,7 @@ This subproject must be merged into the main institution's official application 
 
 本子計畫擬建立「泌尿科門診前問診與醫師覆核摘要支持系統」，以非急性泌尿科門診病人為初期對象，聚焦夜尿、頻尿、急尿、漏尿、排尿困難或尿流變弱等 LUTS / OAB-like 常見症狀。系統透過受治理之題庫、病人或家屬填答、缺漏欄位提示、來源標記與一頁式醫師覆核摘要，協助門診前整理主訴、症狀脈絡、困擾程度與用藥資訊完整度。
 
-AI 與 ASR 僅作為降低輸入負擔、輔助結構化填答與摘要整理之工具。ASR 以 optional multilingual input layer 方式探索繁體中文、英語及東南亞語系輸入可用性，語音轉文字內容需經病人、家屬或工作人員確認後，才可進入摘要。系統不提供診斷、治療建議、自動分流、風險評分、檢查開立或 EMR 自動寫入。若產出 SOAP 架構內容，僅作為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
+AI 與 ASR 作為降低輸入負擔、輔助結構化填答與摘要整理之智慧科技工具。ASR 以 optional multilingual input layer 方式探索繁體中文、英語及東南亞語系輸入可用性，語音轉文字內容需經病人、家屬或工作人員確認後，才可進入摘要。系統架構將診斷、治療決策、自動分流、風險評分、檢查開立與 EMR 正式寫入保留於醫師及院內治理流程。若產出 SOAP 架構內容，其定位為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
 
 現階段以合成資料 demo、專家審查與工作流程驗證為主。後續將依臨床端確認之 workflow slot、醫師可讀性評估、護理負擔評估、AI 治理、資安治理與資料治理條件，再規劃是否進入真實場域試行。
 
@@ -82,6 +86,7 @@ AI 與 ASR 僅作為降低輸入負擔、輔助結構化填答與摘要整理之
 - 若摘要太長、像問卷紀錄或含 AI 推論，醫師可能不會閱讀。
 - 若 red-flag observations 顯示方式不當，可能被誤解成 AI triage。
 - 若 ASR、摘要、SOAP、EMR wording 不受控，會被誤解成 AI 臨床決策或自動病歷。
+- 若 AI 導入要求醫師或護理師額外標註資料、填寫研究表單、切換新系統、補完 AI 問卷或承擔例外處理，將違背深耕計畫降低醫療人員負荷的目的。
 
 ### 四、子計畫目標
 
@@ -94,6 +99,7 @@ AI 與 ASR 僅作為降低輸入負擔、輔助結構化填答與摘要整理之
 7. 建立 optional multilingual ASR input layer 的可行性測試方法，避免 ASR 錯誤直接成為事實來源。
 8. 建立 AI 治理、資安治理、資料治理與 future interoperability readiness 的提案文字。
 9. 建立可查核 KPI、分年查核點與 budget-to-KPI mapping。
+10. 建立 clinical friction reduction 評估框架，確認系統是否真正降低醫師、護理師與門診人員負荷，而非把 AI 研究或系統維運成本轉嫁給臨床端。
 
 ## 參、申請單位簡介
 
@@ -385,6 +391,7 @@ The following KPI are proposal-safe because they measure design, validation, gov
 | 範疇三 | ASR confirmation rate | ASR-derived text or structured answers confirmed before summary entry | Not yet measured | Feasibility result reported; no unconfirmed ASR enters summary |
 | 範疇一 | 重複問診欄位減少可行性 | Expert review of whether summary can reduce repeated basic questions | Not yet proven | Expert decision: continue/revise/narrow/pause with comments |
 | 範疇一 | 護理負擔可接受性 | Nurse/staff review of missing-field handling time and responsibility | Not yet validated | Max acceptable nurse time and no-go conditions documented |
+| 範疇一 | 臨床摩擦成本 | Extra clicks, system switches, training time, nurse intervention, and exception-handling burden observed in walkthrough | Not yet measured | Friction budget recorded; revise/pause if hidden clinical burden is unacceptable |
 | 範疇三 | 治理文件完成度 | AI, data, cybersecurity governance gates listed with owners | Draft only | Governance gate checklist completed |
 
 Do not use as KPI in this first version:
@@ -466,7 +473,7 @@ This draft does not assign final numbers. The parent proposal owner must fill am
 | Clinician/nurse review sessions | Summary readability and staff burden KPI | Needed for validation |
 | Vendor outsourcing | Clear scope, procurement path, acceptance criteria, deliverables | Avoid until internal vs vendor ownership is decided |
 | CRM/API/platform | Future parked phase only | Do not budget in current first version unless parent proposal explicitly reopens it |
-| EMR integration | Not first-version scope | Do not budget as current implementation |
+| EMR integration | Future governed integration path | Keep outside current implementation budget unless separately approved |
 
 ### 二、draft cost categories
 
@@ -534,7 +541,7 @@ This draft does not assign final numbers. The parent proposal owner must fill am
 ### 三、recommended one-paragraph final-safe version
 
 ```text
-本子項目擬建立「泌尿科門診前問診與醫師覆核摘要支持系統」，以非急性泌尿科門診病人為初期對象，聚焦夜尿、頻尿、急尿、漏尿、排尿困難或尿流變弱等 LUTS / OAB-like 常見症狀。系統透過受治理之題庫、病人或家屬填答、缺漏欄位提示、來源標記與一頁式醫師覆核摘要，協助門診前整理主訴、症狀脈絡、困擾程度與用藥資訊完整度。AI 與 ASR 僅作為降低輸入負擔、輔助結構化填答與摘要整理之工具；系統不提供診斷、治療建議、自動分流、風險評分、檢查開立或 EMR 自動寫入。若產出 SOAP 架構內容，僅作為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
+本子項目擬建立「泌尿科門診前問診與醫師覆核摘要支持系統」，以非急性泌尿科門診病人為初期對象，聚焦夜尿、頻尿、急尿、漏尿、排尿困難或尿流變弱等 LUTS / OAB-like 常見症狀。系統透過受治理之題庫、病人或家屬填答、缺漏欄位提示、來源標記與一頁式醫師覆核摘要，協助門診前整理主訴、症狀脈絡、困擾程度與用藥資訊完整度。AI 與 ASR 作為降低輸入負擔、輔助結構化填答與摘要整理之智慧科技工具；系統架構將診斷、治療決策、自動分流、風險評分、檢查開立與 EMR 正式寫入保留於醫師及院內治理流程。若產出 SOAP 架構內容，其定位為醫師覆核參考摘要，最終臨床判斷與正式病歷紀錄均由醫師決定。
 ```
 
 ### 四、source files for this draft

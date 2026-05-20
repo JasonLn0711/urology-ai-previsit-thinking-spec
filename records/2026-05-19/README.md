@@ -42,6 +42,10 @@ The repository inclusion recommendation is `repo-inclusion-recommendation.md`.
   - Official policy-context reference for the Health Taiwan Deep-Cultivation Plan and how it maps to this repo.
 - `health-taiwan-related-examples.md`
   - Source-backed related examples and proposal patterns found online.
+- `wanxiaofang-benchmark-note.md`
+  - External benchmark note on Wanfang Hospital's `萬小芳`: useful for user-need, service-flow, smart-hospital assistant design lessons, and postdoctoral-level clinical AI governance questions only; not this project's product or current scope.
+- `clinical-friction-reduction-meeting-insight.md`
+  - Dated meeting insight that Health Taiwan smart-healthcare work should reduce clinician/nurse/staff burden rather than making medical staff absorb AI research, labeling, or workflow-change burden.
 - `taipei-city-hospital-deep-cultivation-working-note.md`
   - Imported and normalized working note from the original `北市聯合醫院 深耕計畫 2026 3650ad7cf431807cb930eec129f0d3f5.md` file.
 - `policy-documents/`

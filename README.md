@@ -3,7 +3,7 @@
 <img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=JasonLn0711&repo=urology-ai-previsit-thinking-spec&countColor=%237B1E7B" alt="Visitor count"/>
 This repository is the thinking and governance layer for a urology previsit interview system.
 
-It is not a code repo, demo repo, clinical protocol, diagnosis engine, real patient data store, hospital integration plan, or regulatory submission.
+It deliberately owns system reasoning, clinical-workflow boundaries, proposal framing, and review evidence. Code, demo implementation, real patient data, hospital integration, clinical protocol writing, and regulatory submission work belong to separately governed repositories or institutional processes.
 
 ## First-Principles Role
 
@@ -29,6 +29,7 @@ urology-ai-previsit-thinking-spec/
 │   ├── README.md
 │   ├── THINKING_SPEC.md
 │   ├── DEEP_CULTIVATION_SYSTEM_POSITIONING.md
+│   ├── ASSERTIVE_WRITING_POLICY.md
 │   ├── DESIGN_PHILOSOPHY.md
 │   ├── WORKFLOW_LOGIC.md
 │   ├── SAFETY_BOUNDARY.md
@@ -87,8 +88,21 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
 - For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
+- For the repo-wide confident / non-defensive writing policy: `core/ASSERTIVE_WRITING_POLICY.md`
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
-- For the current official-format subproject draft v0.1: `discovery/DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`
+- For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
+- For the current official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- For the dated implementation record of the assertive writing update: `records/2026-05-20/assertive-writing-implementation-record.md`
+- For mapping the official Health Taiwan format to our draft package: `discovery/DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- For the intended-use freeze: `discovery/INTENDED_USE_FREEZE.md`
+- For the demo scope freeze: `discovery/DEMO_SCOPE_FREEZE.md`
+- For the postdoctoral next-step strategy review for Health Taiwan proposal design: `discovery/DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`
+- For the clinical friction and workforce-burden reduction analysis: `discovery/CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`
+- For the prior official-format subproject draft v0.1: `discovery/DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`
+- For KPI-to-budget mapping: `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- For the integrated KPI / budget / annual-checkpoint proposal table: `discovery/DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+- For AI / cybersecurity / data governance prep: `discovery/DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`
+- For annual checkpoint planning: `discovery/DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`
 - For scoring a Health Taiwan deep-cultivation draft objectively: `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`
 - For the expanded MOHW format/application-compliance score: `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 - For safety boundaries: `core/SAFETY_BOUNDARY.md`
@@ -103,6 +117,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the official Health Taiwan Deep-Cultivation policy reference: `records/2026-05-19/health-taiwan-deep-cultivation-policy-reference.md`
 - For the downloaded official Health Taiwan policy document archive: `records/2026-05-19/policy-documents/README.md`
 - For related Health Taiwan examples and proposal patterns: `records/2026-05-19/health-taiwan-related-examples.md`
+- For the external `萬小芳` smart-hospital assistant benchmark and postdoctoral clinical AI governance addendum: `records/2026-05-19/wanxiaofang-benchmark-note.md`
 - For whether to include this repo and the demo repo in the proposal: `records/2026-05-19/repo-inclusion-recommendation.md`
 - For the imported 北市聯醫 deep-cultivation working note: `records/2026-05-19/taipei-city-hospital-deep-cultivation-working-note.md`
 - For the 2026-05-19 deep-cultivation decision and CRM/service-flow framing: `records/2026-05-19/deep-cultivation-decision-record.md`
@@ -144,6 +159,11 @@ Near-term framing should emphasize:
 - blood in urine, fever/chills, flank pain, and currently being unable to urinate are `patient-reported red-flag observations`, not triage or risk judgments
 - APP, AI, ASR, kiosk, API, and reminders as workflow tools, not autonomous clinical decision tools
 - proposal writing should start from clinical workflow pain, service landing, KPI, governance, and budget mapping, not from model novelty
+- clinical friction reduction is a first-class Health Taiwan proposal criterion: the system must reduce physician/nurse/clinic-staff burden and must not turn clinicians into AI labelers or extra-workflow operators
+- all article, proposal, paper, lab-brief, and reviewer-facing writing must follow `core/ASSERTIVE_WRITING_POLICY.md`: confident, direct, and non-defensive, with safety boundaries written as deliberate design choices rather than apologies
+- the 2026-05-20 postdoctoral next-step review recommends freezing intended use, freezing demo scope, preparing reviewer evidence, defining governance gates, and mapping KPI to budget before adding more AI features
+- the 2026-05-20 execution step created application-drafting artifacts: intended-use freeze, demo-scope freeze, application draft v0.2, KPI-to-budget table, governance checklist, and annual checkpoint table
+- the 2026-05-20 format-alignment step promoted the proposal-writing package to v0.3 with an official-format crosswalk and KPI / budget / annual-checkpoint integration table
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
 - the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist
@@ -156,6 +176,26 @@ Near-term framing should emphasize:
 This does not change the core safety boundary: no diagnosis, no treatment advice, no autonomous triage, no real patient data during discovery, and no HIS/EMR/EHR integration without separate governance.
 
 The accepted system-positioning supplement is `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`. Use it when updating the sibling `urology-ai-previsit-demo` repo or drafting the June 2 deep-cultivation subproject, especially to avoid drifting from previsit support into AI triage claims.
+
+## Writing Rule
+
+All outward-facing writing in this repo must be assertive and non-defensive.
+
+Safety boundaries remain mandatory, but they should be framed as mature architecture:
+
+```text
+Clinical authority remains with clinicians by design.
+```
+
+not:
+
+```text
+The system cannot make clinical decisions.
+```
+
+Use `core/ASSERTIVE_WRITING_POLICY.md` before drafting articles, proposals, paper framing, reviewer briefs, lab briefs, or project positioning.
+
+Use `discovery/ASSERTIVE_WRITING_GATE.md` before circulating any section to a teacher, hospital reviewer, or proposal owner.
 
 ## Operating Rule
 

@@ -24,6 +24,7 @@
 - No proposal budget line without a matching objective, KPI, owner, and governance path.
 - No high proposal score without traceable evidence for the scored item.
 - No scoring credit for autonomous triage, diagnosis, treatment recommendation, or direct HIS/EMR/EHR writeback unless a future separately governed scope explicitly authorizes it.
+- No defensive, apologetic, or self-weakening article/proposal tone. Boundaries must be written as deliberate design choices, not as retreat. Use `../core/ASSERTIVE_WRITING_POLICY.md` for all outward-facing writing.
 
 ## Clinical Constraints
 

@@ -46,6 +46,21 @@ Observed current-source facts on `2026-05-19`:
   introducing smart healthcare technology, and sustainable / socially
   responsible healthcare.
 
+Source spot-check on `2026-05-20`:
+
+- The HTSprout plan page still frames the plan as a five-year `114-118` effort,
+  with long-term deep-cultivation planning, concrete strategies, and performance
+  indicators across the four official categories.
+- The HTSprout application-flow page states first-stage execution runs from the
+  114 approved-plan date to the end of 115, the second stage runs 116-118, and
+  a second-stage solicitation for new applicants is expected in 115 Q4.
+- The AI Center governance page still emphasizes cybersecurity governance, data
+  governance, AI governance, and FHIR / TW Core IG readiness for Scope 3
+  smart-healthcare drafting.
+- The MOHW 115-04-27 first-stage results page emphasizes workflow improvement,
+  technology reducing ineffective labor, cross-institution collaboration, FHIR
+  exchange, and smart-healthcare services rather than model novelty alone.
+
 Reference hierarchy for formal submission:
 
 1. Latest live HTSprout / MOHW / AI Center pages.
@@ -65,6 +80,22 @@ Use the local archive as the current working copy:
 
 ```text
 ../records/2026-05-19/policy-documents/
+```
+
+Use the current proposal-prep package as the internal working draft set:
+
+```text
+INTENDED_USE_FREEZE.md
+DEMO_SCOPE_FREEZE.md
+ASSERTIVE_WRITING_GATE.md
+../core/ASSERTIVE_WRITING_POLICY.md
+DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md
+DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md
+DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md
+DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md
+DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md
 ```
 
 | Official document group | Local file | Use in D layer |
@@ -99,8 +130,31 @@ Apply these gates before calculating a polished score:
 | Budget table missing or not tied to work packages | Maximum D score: 59 |
 | Scope 3 smart-healthcare proposal lacks AI / cybersecurity / data-governance checks | Maximum D score: 69 |
 | Platform version and paper/PDF version conflict | Maximum D score: 69 |
+| Outward-facing narrative opens with defensive limitation language instead of contribution and workflow value | Maximum D score: 89 |
 | Any legal eligibility problem unresolved | Do not submit until resolved. |
 | Any hospital-specific instruction conflicts with this local archive | Follow the latest official / hospital instruction and update this file. |
+
+## Narrative Confidence Preflight
+
+This is a D-layer reviewability gate, not a style preference.
+
+Before Word transfer or external circulation, confirm:
+
+| Check | Pass condition |
+| --- | --- |
+| Contribution-first summary | The project summary starts with the workflow contribution and Health Taiwan value. |
+| Boundary-as-design wording | Diagnosis, treatment, triage, EMR, real-data, and deployment boundaries are written as governed design choices. |
+| Staff-burden value | The summary names physician/nurse/staff burden reduction before technical novelty. |
+| Evidence route | KPI, budget, governance, and annual checkpoint evidence are visible. |
+| No apologetic framing | The draft avoids self-weakening phrases such as `只是`, `僅僅`, `just a demo`, and `we only` except in source quotes. |
+
+Use:
+
+```text
+contribution -> workflow value -> deliberate scope -> governance boundary -> next evidence gate
+```
+
+See `ASSERTIVE_WRITING_GATE.md`.
 
 ## D Score Summary
 
