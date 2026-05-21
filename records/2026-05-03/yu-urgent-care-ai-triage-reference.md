@@ -12,8 +12,8 @@
 Follow-up company sync:
 
 - `2026-05-12` 慧誠智醫 business / PM sync about AI triage and vital-sign kiosk integration.
-- Planning source bundle: `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/personal/sources/2026-05-12-huicheng-company-ai-triage-sync/`
-- Thinking record: `../2026-05-12/huicheng-company-ai-triage-sync.md`
+- Planning source bundle: `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/personal/sources/2026-05-12-imedtac-company-ai-triage-sync/`
+- Thinking record: `../2026-05-12/imedtac-company-ai-triage-sync.md`
 
 ## Exact Text
 

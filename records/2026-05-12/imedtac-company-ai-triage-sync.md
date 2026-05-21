@@ -1,10 +1,10 @@
-# 2026-05-12 Huicheng Company AI Triage Sync
+# 2026-05-12 imedtac Company AI Triage Sync
 
 ## Source
 
 - Date: `2026-05-12`
 - Meeting: 慧誠智醫 business / PM sync with Jason about future AI triage collaboration.
-- Planning source bundle: `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/personal/sources/2026-05-12-huicheng-company-ai-triage-sync/`
+- Planning source bundle: `/home/jnclaw/every_on_git_jnclaw/phd-life-system/planning-everything-track/data/knowledge/personal/sources/2026-05-12-imedtac-company-ai-triage-sync/`
 
 ## Routing
 
