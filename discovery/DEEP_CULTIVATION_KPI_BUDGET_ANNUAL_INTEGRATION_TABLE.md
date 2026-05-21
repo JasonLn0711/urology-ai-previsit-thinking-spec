@@ -4,6 +4,8 @@ Status: proposal-writing integration table
 
 Date: 2026-05-20
 
+Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+
 Purpose: connect each proposed benefit to a measurable KPI, official proposal section, budget bucket, owner, evidence artifact, and annual checkpoint. This file should be used before writing any budget paragraph.
 
 ## First Principle
@@ -25,7 +27,8 @@ No friction reduction -> no Health Taiwan workflow value.
 
 | Official proposal location | Work package | KPI / checkpoint | Draft target | Measurement route | Budget bucket | Owner needed | Evidence artifact | Annual checkpoint |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `貳、計畫概要` | problem framing | staff-burden reduction thesis stated | one paragraph explicitly names physician/nurse/staff burden | reviewer reads abstract and checks burden claim | proposal coordination | proposal owner | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` | 115 prep |
+| `壹、申請單位自我檢核項目表` | official package checklist | official blanks visible | cover, self-check, COI, duplicate-funding, consent, review-response needs are explicit | package checklist review | proposal coordination | parent proposal owner | v0.4 official package checklist | before parent transfer |
+| `貳、計畫概要` | problem framing | staff-burden reduction thesis stated | one paragraph explicitly names physician/nurse/staff burden | reviewer reads abstract and checks burden claim | proposal coordination | proposal owner | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | 115 prep |
 | `肆、計畫規劃` | workflow slot | clinic slot confirmed | after-registration / waiting-room slot accepted or revised | hospital workflow owner review | workflow review session | clinic workflow owner | meeting record / decision note | 115 prep or 116 design |
 | `肆、計畫規劃` | intended-use freeze | approved intended use and non-use | target group, output, exclusions frozen | checklist review | coordination / clinical review | clinical + proposal owner | `INTENDED_USE_FREEZE.md` | 115 prep |
 | `肆、計畫規劃` | demo-scope freeze | no scope drift | current demo excludes diagnosis, treatment, final triage, queue priority, HIS/EMR writeback, real patient data | checklist review | coordination / engineering review | proposal + engineering owner | `DEMO_SCOPE_FREEZE.md` | 115 prep |
@@ -42,13 +45,14 @@ No friction reduction -> no Health Taiwan workflow value.
 | `伍、效益評估` | governance completion | governance owner readiness | AI, cybersecurity, data, privacy, procurement, IRB route owners named | checklist review | governance review time | hospital governance owners | `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | 115 prep |
 | `柒、經費規劃` | budget traceability | budget lines mapped to KPI | 100% core budget lines map to KPI, owner, and checkpoint | table audit | proposal/budget coordination | budget owner | this file + `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | before submission |
 | `柒、經費規劃` | capital/business/personnel split | official categories satisfied | no fake itemization until ceiling is confirmed | budget owner review | official budget categories | budget owner | official budget table | before submission |
-| `捌、人力配置` | role clarity | role table complete | named people or roles for PI, clinical lead, workflow reviewer, IT/security, AI/data governance, engineer, coordinator | manpower table review | personnel/coordination | parent proposal owner | v0.3 manpower section | before submission |
+| `捌、人力配置` | role clarity | role table complete | named people or roles for PI, clinical lead, workflow reviewer, IT/security, AI/data governance, engineer, coordinator | manpower table review | personnel/coordination | parent proposal owner | v0.4 owner and responsibility table | before submission |
 | `玖、其他` | attachments | evidence packet selected | attach only safe, proposal-relevant docs | appendix review | coordination | proposal owner | attachment list | before circulation |
 | `拾-拾貳` | statutory forms | forms handled by institution | COI, no duplicate funding, participation consent complete | administrative review | institution admin | parent applicant | signed official forms | submission |
+| `拾參、審查意見回復表` | review-response readiness | response table prepared | likely reviewer questions and response directions drafted | reviewer-readiness check | proposal coordination | proposal writer + parent owner | v0.4 review-response table | before external review |
 
 ## Recommended KPI Grouping For Proposal Table
 
-Use these as the v0.3 KPI rows unless the hospital owner changes them:
+Use these as the v0.4 KPI rows unless the hospital owner changes them:
 
 | Category | KPI | Current baseline | Draft target | Why it fits Health Taiwan |
 | --- | --- | --- | --- | --- |
@@ -66,7 +70,7 @@ Use these as the v0.3 KPI rows unless the hospital owner changes them:
 
 | Budget bucket | Current status | Recommendation |
 | --- | --- | --- |
-| Project coordination / RA | justified if reviewer sessions, KPI capture, governance documents are required | include if parent budget allows |
+| Project coordination / RA | justified if reviewer sessions, KPI capture, governance documents and review-response tracking are required | include if parent budget allows |
 | Clinician/staff review sessions | justified by summary usefulness and friction-budget KPI | include as evaluation/support activity, not routine labeling |
 | Web/tablet intake prototype | justified if waiting-room QR/tablet slot is accepted | include only after workflow slot confirmation |
 | Summary-generation implementation | justified by read-time and source-label KPI | include as workflow artifact development |
@@ -75,13 +79,13 @@ Use these as the v0.3 KPI rows unless the hospital owner changes them:
 | FHIR / TW Core IG mapping | future readiness only | include mapping only if proposal claims future interoperability |
 | CRM/reminder platform | parked | do not budget unless CRM phase is reopened with SOP, consent, owner, and KPI |
 | Tablets/equipment | conditional | do not budget until site workflow and procurement allow it |
-| HIS/EMR integration | excluded from current scope | do not budget in v0.3 |
+| HIS/EMR integration | excluded from current scope | do not budget in v0.4 |
 
 ## Annual Checkpoint Integration
 
 | Stage | Main goal | Checkpoints | Evidence |
 | --- | --- | --- | --- |
-| 115 prep | prepare fundable, safe, format-compliant package | intended use, scope freeze, v0.3 draft, KPI-budget table, governance owner questions | v0.3 package and review log |
+| 115 prep | prepare fundable, safe, format-compliant package | intended use, scope freeze, v0.4 draft, KPI-budget table, governance owner questions, review-response table | v0.4 package and review log |
 | 116 design | validate workflow fit before real deployment | workflow slot, question set, summary schema, synthetic walkthrough, staff burden review | clinician/staff scorecards, safety tests |
 | 117 limited evaluation | only if governance and hospital ownership exist | approved pilot/QI route, baseline and after-workflow measurement, safety monitoring | approved protocol or QI plan, audit logs |
 | 118 scale decision | decide whether to scale, integrate, or stop | evidence review, maintenance plan, CRM/interoperability decision, procurement route | final decision record and operations plan |

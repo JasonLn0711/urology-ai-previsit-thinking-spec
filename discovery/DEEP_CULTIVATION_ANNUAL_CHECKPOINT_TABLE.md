@@ -4,6 +4,8 @@ Status: proposal-prep checkpoint table
 
 Date: 2026-05-20
 
+Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+
 Purpose: convert the proposal into annual checkpoints that can be monitored, reported, and tied to KPI and budget.
 
 ## Timeframe Caveat
@@ -42,7 +44,9 @@ Use if the team is preparing for hospital-facing draft, continuation planning, o
 | Clinical friction plan | friction budget and measurement plan | workforce burden reduction | `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md` | workflow owner |
 | Governance checklist drafted | AI/data/cybersecurity checklist | Scope 3 readiness | `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | governance owners |
 | KPI-to-budget draft | KPI table with budget logic | budget traceability | `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | budget owner |
-| Proposal draft v0.3 | official-format-aligned draft package | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` | proposal writer |
+| Proposal draft v0.4 | precedent-integrated official-package draft | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | proposal writer |
+| Owner table prepared | clinical, workflow, IT/security, AI/data governance, evaluation, budget and coordination roles visible | responsibility clarity | v0.4 owner and responsibility table | parent proposal owner |
+| Review-response table prepared | likely reviewer questions and response direction drafted | external review readiness | v0.4 review-response table | proposal writer |
 
 ## 116: Governed Design And Pilot Preparation
 
@@ -93,7 +97,7 @@ Use only if earlier evidence supports continuation.
 
 | Year / stage | Primary KPI focus | Must not claim |
 | --- | --- | --- |
-| 115 prep | boundary, evidence package, proposal format, governance preflight | clinical effectiveness |
+| 115 prep | boundary, evidence package, proposal format, governance preflight, owner table, review-response readiness | clinical effectiveness |
 | 116 design | workflow fit, synthetic review, staff burden, summary readability | real-world outcome improvement |
 | 117 limited evaluation | approved workflow value, friction reduction, safety monitoring | broad scalability before evidence |
 | 118 scale readiness | sustainability, integration readiness, maintenance ownership | production integration without governance |

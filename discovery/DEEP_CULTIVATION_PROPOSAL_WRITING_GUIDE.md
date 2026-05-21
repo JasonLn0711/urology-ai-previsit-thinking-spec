@@ -20,6 +20,11 @@ The proposal should be confident, direct, and non-defensive. Safety boundaries r
 
 Before circulating a draft section, run `ASSERTIVE_WRITING_GATE.md`.
 
+Before freezing a proposal package or sending a materially updated packet to an
+external reviewer, check `../VERSIONING.md` and decide whether the repo version
+needs a `patch`, `minor`, or `major` bump. The version number marks proposal and
+governance stability, not just file edits.
+
 For the 2026-05-20 postdoctoral strategy review of what to adopt, modify, or defer before a Health Taiwan proposal, use `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`. Its practical next-step order is:
 
 ```text
@@ -34,13 +39,21 @@ For the current official-format drafting package, use:
 - `INTENDED_USE_FREEZE.md`
 - `DEMO_SCOPE_FREEZE.md`
 - `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
-- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
 - `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`
 - `DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton. The current writing entrypoint is v0.3 because it follows the official section order more closely and separates institutional blanks from draftable proposal content.
+For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral
+comparison, use:
+
+- `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
+
+The precedent should be used as a format and execution-packaging reference, not
+as a reason to broaden the current urology scope.
+
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton. The current writing entrypoint is v0.4 because it integrates the A2-0048 precedent lessons without expanding the clinical scope.
 
 2026-05-19 expert-review update:
 
@@ -138,6 +151,36 @@ not:
 
 ```text
 AI triage / autonomous risk scoring / AI diagnosis / direct EMR writeback
+```
+
+## A2-0048 Precedent Lessons
+
+The A2-0048 precedent is a useful institutional-scale reference because it shows
+how a Health Taiwan proposal can package official sections, partners, KPI,
+budget, annual checkpoints, governance and personnel into one submission.
+
+Adopt these lessons:
+
+- map each major claim to official scope, KPI, budget, owner, checkpoint and evidence artifact
+- make workforce-burden reduction measurable, including baseline survey or before/after workflow evidence
+- include AI, cybersecurity and data governance as first-class work packages
+- prepare owner tables and review-response tables early
+- show annual checkpoints with planned dates, cumulative progress, planned spending and expected evidence
+- use the official cover, self-check, COI, no-duplicate-funding, partner-consent and appendix structure
+
+Do not copy these weaknesses:
+
+- broad module sprawl that mixes many specialties and technologies before the first workflow is proven
+- autonomous or near-autonomous diagnosis, treatment, prescribing, triage or queue-priority wording
+- unsupported large-scale savings, accuracy or adoption claims
+- unresolved Word template errors or internal draft residue
+
+Postdoctoral judgment after reviewing the precedent:
+
+```text
+Keep the narrow urology previsit design.
+Learn the precedent's official-format discipline.
+Do not inherit its scope breadth or clinical-decision language.
 ```
 
 ## Recommended Proposal Structure

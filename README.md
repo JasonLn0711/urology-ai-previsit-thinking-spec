@@ -25,6 +25,11 @@ If a file does not serve one of those purposes, it should not live here.
 ```text
 urology-ai-previsit-thinking-spec/
 ├── README.md
+├── VERSION
+├── VERSIONING.md
+├── CHANGELOG.md
+├── scripts/
+│   └── bump_version.py
 ├── core/
 │   ├── README.md
 │   ├── THINKING_SPEC.md
@@ -86,12 +91,17 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 ## Current Useful Reading Paths
 
+- For the current repository version: `VERSION`
+- For version update rules and release criteria: `VERSIONING.md`
+- For version history: `CHANGELOG.md`
 - For a full non-technical system spec: `core/THINKING_SPEC.md`
 - For the Health Taiwan deep-cultivation system positioning: `core/DEEP_CULTIVATION_SYSTEM_POSITIONING.md`
 - For the repo-wide confident / non-defensive writing policy: `core/ASSERTIVE_WRITING_POLICY.md`
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
+- For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
-- For the current official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- For the current precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+- For the prior official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - For the dated implementation record of the assertive writing update: `records/2026-05-20/assertive-writing-implementation-record.md`
 - For mapping the official Health Taiwan format to our draft package: `discovery/DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
 - For the intended-use freeze: `discovery/INTENDED_USE_FREEZE.md`
@@ -164,6 +174,7 @@ Near-term framing should emphasize:
 - the 2026-05-20 postdoctoral next-step review recommends freezing intended use, freezing demo scope, preparing reviewer evidence, defining governance gates, and mapping KPI to budget before adding more AI features
 - the 2026-05-20 execution step created application-drafting artifacts: intended-use freeze, demo-scope freeze, application draft v0.2, KPI-to-budget table, governance checklist, and annual checkpoint table
 - the 2026-05-20 format-alignment step promoted the proposal-writing package to v0.3 with an official-format crosswalk and KPI / budget / annual-checkpoint integration table
+- the 2026-05-21 precedent-integration step promotes the proposal-writing package to v0.4 by learning the A2-0048 proposal's official-format discipline while preserving the narrow urology previsit scope
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
 - the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist
@@ -196,6 +207,24 @@ The system cannot make clinical decisions.
 Use `core/ASSERTIVE_WRITING_POLICY.md` before drafting articles, proposals, paper framing, reviewer briefs, lab briefs, or project positioning.
 
 Use `discovery/ASSERTIVE_WRITING_GATE.md` before circulating any section to a teacher, hospital reviewer, or proposal owner.
+
+## Versioning Rule
+
+This repository uses governed semantic versioning:
+
+```text
+vMAJOR.MINOR.PATCH
+```
+
+The current source of truth is `VERSION`. Detailed rules are in `VERSIONING.md`.
+
+Use the automated bump script:
+
+```bash
+python3 scripts/bump_version.py --part patch --summary "Short update summary"
+```
+
+Use `patch` for wording, index, source-capture and navigation changes; `minor` for compatible proposal/governance/evaluation additions; `major` for first formal proposal freeze or any change to intended use, clinical boundary, real patient data, HIS/EMR integration, diagnosis, treatment, triage or queue-priority scope.
 
 ## Operating Rule
 

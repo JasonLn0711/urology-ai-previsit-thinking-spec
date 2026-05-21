@@ -48,7 +48,7 @@ The archived official proposal format uses this order:
 
 | Official section | What the official format expects | Current material | Gap | Next writing action |
 | --- | --- | --- | --- | --- |
-| Cover page | project name, county/city, application mode, categories, applicant/co-applicant institutions, institution codes, budget, execution period, PI, contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` cover fields | applicant, mode, budget, period, institution codes, parent proposal name not confirmed | keep placeholders; ask hospital owner before Word transfer |
+| Cover page | project name, county/city, application mode, categories, applicant/co-applicant institutions, institution codes, budget, execution period, PI, contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` cover/package fields | applicant, mode, budget, period, institution codes, parent proposal name not confirmed | keep placeholders; ask hospital owner before Word transfer |
 | TOC | official auto-generated section order | none needed in Markdown | final Word/PDF step | do not maintain by hand in this repo |
 | `壹、自我檢核` | eligibility, official format, COI forms, no duplicate funding, participation consent, only one application mode | v0.2 preflight, MOHW compliance rubric | legal/administrative facts are pending | add explicit applicant-owner checklist and leave institutional blanks |
 | `貳、計畫概要` | concise plan summary and problem framing | v0.2 summary, clinical friction analysis, system positioning | summary needs more official/workforce language | write 200-300 word Chinese summary centered on staff-burden reduction |
@@ -68,7 +68,7 @@ The archived official proposal format uses this order:
 
 Use these as the official-format writing package:
 
-- Current v0.3 application draft: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
+- Current v0.4 application draft: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
 - KPI / budget / annual checkpoint integration: `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
 - Intended-use freeze: `INTENDED_USE_FREEZE.md`
@@ -80,10 +80,11 @@ Use these as the official-format writing package:
 
 Older useful but superseded source drafts:
 
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`
 - `DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`
 
-## Writing Principles For v0.3
+## Writing Principles For v0.4
 
 ### 1. Write as a hospital workflow proposal
 
@@ -161,7 +162,7 @@ Use `Pending parent proposal owner` until the hospital confirms.
 | What is the official parent proposal name? | determines whether this is 子計畫二 or an appendix |
 | Is the first workflow slot `報到後 / 候診中 / QR code or tablet` acceptable? | determines plan feasibility |
 | Are staff allowed to help patients complete intake? | determines staffing and burden KPI |
-| Should the v0.3 draft go into the Word template now? | determines next artifact format |
+| Should the v0.4 draft go into the Word template now? | determines next artifact format |
 | What budget ceiling is realistic? | prevents fake budget lines |
 | Who owns AI, cybersecurity, data governance, and privacy sign-off? | required for Scope 3 credibility |
 | Is CRM follow-up reopened or parked? | prevents scope drift |
@@ -171,7 +172,7 @@ Use `Pending parent proposal owner` until the hospital confirms.
 
 The proposal is ready for internal clinical/admin review when:
 
-- v0.3 application draft exists
+- v0.4 application draft exists
 - official-format crosswalk exists
 - KPI-budget-checkpoint integration table exists
 - intended use and demo scope are frozen

@@ -31,6 +31,13 @@ Use:
 
 ## Current Records
 
+- `2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`:
+  structured capture and postdoctoral analysis of the A2-0048 Health Taiwan
+  deep-cultivation precedent proposal; complete extracted text is preserved
+  under that record's `sources/full-text.txt`.
+- `2026-05-21/deep-cultivation-v0.4-precedent-integration-record.md`:
+  implementation record for promoting the proposal package to v0.4.0 after
+  integrating precedent-derived official package structure.
 - `2026-05-20/assertive-writing-implementation-record.md`: accepted writing-governance
   update that makes confident, contribution-first, non-defensive writing a
   pre-circulation requirement while preserving safety boundaries as design
