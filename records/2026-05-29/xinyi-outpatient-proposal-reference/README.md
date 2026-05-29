@@ -247,7 +247,39 @@ These issues should not be copied into the urology proposal:
 | Triage and forced-routing language is too strong | For proposal safety, use human-review follow-up and approved SOP language. |
 | Budget purpose language is sometimes broader than KPI evidence | Each budget line should map to an owned KPI and evidence artifact. |
 
-## 12. Recommended Use In v0.5
+## 12. Internal Composition Audit
+
+This audit treats the PDF as a proposal-construction reference. It records what
+each internal block is doing, which parts are reusable as structure, and which
+parts require human verification before any wording is reused.
+
+| PDF block | Internal content pattern | Proposal-writing lesson | Urology handling |
+| --- | --- | --- | --- |
+| Cover | Title, subtitle, sponsor, executing units, cooperating units, three-year period, NT$10,000,000 budget | The reader sees identity, period, and budget immediately. | Put title, page cap, three-year budget, owner placeholders, and scope boundary on page 1. |
+| Table of contents | 13 major sections, ending with KPI and budget | The proposal reads as a complete service package, not a technology memo. | Use a maximum 10-13 section discussion draft and keep KPI/budget near the end. |
+| Background | Aging, workplace sedentary burden, community prevention, hospital service role | Opens with a real service burden before technology. | Open with outpatient information-friction and follow-up continuity, not ASR/LLM novelty. |
+| Clinical pain points | Hardware cost, artificial clinic context, manual measurement error, paper-form follow-up loss | Shows why the old workflow is structurally limited. | Translate into repeated history-taking, missing fields, unclear source, and staff follow-up burden. |
+| Architecture | Edge client, cloud engine, clinical/patient dashboard | Gives reviewers a simple mental model of system layers. | Use patient/family/staff intake, governed question logic, one-page summary, and optional follow-up queue. |
+| IMU section | Signal capture, filtering, gait-event detection, clinical parameters | Converts raw data into clinical-readable indicators. | Convert urology answers into clinician-review fields; do not import gait algorithm scope. |
+| Computer-vision ROM | Keypoint detection, vector-angle calculation, dynamic tracking, environment checks | Demonstrates technical depth with measurement logic. | Keep as a precedent for explaining processing logic only; not part of urology scope. |
+| Pain map and questionnaires | Pain localization, severity, symptom quality, standard questionnaires, adaptive skip logic | Strong example of structured intake and adaptive shortening. | Use symptom location/severity/bother/duration and governed skip logic for LUTS/OAB-like intake. |
+| Risk groups and routing | Two target populations, red/yellow/green thresholds, follow-up pathways | Names entry points and expected service routes. | Replace automatic color routing with staff-review follow-up and approved SOP language. |
+| Home monitoring and SDM | Digital prescription, adherence tracking, clinician view of longitudinal data | Shows how service continuity is positioned after the first encounter. | Use only as an analogy for CRM/follow-up readiness if the parent owner reopens CRM. |
+| Three-year matrix | Six stages from setup to final report and publication | Makes execution inspectable by year and phase. | Use Year 1 governed design, Year 2 approved workflow evaluation, Year 3 scale/maintain/stop decision. |
+| Organization | Three work groups: software, clinical validation, outreach/case management | Prevents responsibility ambiguity. | Keep role table, but leave names pending until the hospital owner confirms. |
+| Privacy and cybersecurity | De-identification, TLS, token/API controls, DMZ, IDS, FHIR | Gives governance its own section before KPI and budget. | Adopt access control, audit, minimum-data, security test, and governance language; keep FHIR/HIS as future readiness. |
+| KPI | Year-by-year quantitative targets for build, IRB, validation, users, security, referral, adherence | KPI are concrete and budget-reviewable. | Use measurable draft KPI: read time, usefulness, source labels, missing-field visibility, staff friction, governance completion. |
+| Budget | Nine budget categories with annual splits and total NT$10,000,000 | Every line has a named work type and annual profile. | Keep the table discipline, but map every line to KPI/owner/evidence and avoid premature HIS/CRM commitments. |
+
+Human-verification needs before reuse:
+
+- epidemiology numbers and risk-threshold claims need citations
+- clinical correlation targets need field-specific validation design
+- HIS/FHIR, forced routing, and automatic follow-up claims need hospital governance approval
+- budget categories need official accounting-category review
+- page count, math notation, section numbering, and generated wording need manual cleanup
+
+## 13. Recommended Use In v0.5
 
 Use this reference as a checklist, not as source language.
 
@@ -270,7 +302,7 @@ Recommended exclusions:
 - broad citywide scale numbers before site ownership exists
 - medical-device or clinical-effectiveness claims without evidence
 
-## 13. Urology Proposal Translation
+## 14. Urology Proposal Translation
 
 For the 信義生醫 / 院外門診部 urology proposal, the positive-scope framing should be:
 
