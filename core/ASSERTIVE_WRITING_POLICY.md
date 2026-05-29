@@ -25,6 +25,28 @@ Core rule:
 ```text
 Safety boundaries stay.
 Defensive tone goes.
+Positive operating scope leads.
+```
+
+## Positive-Scope Document Design
+
+Design outward-facing documents around what the work enables, what evidence
+supports, what clinical or operational scope it owns, and what the next
+validation layer will confirm.
+
+Avoid using denial, apology, or defensive posture as the paragraph's organizing
+voice. A proposal should not sound like it is asking forgiveness for having
+scope controls. It should show that the scope controls are part of the system's
+professional design.
+
+Use direct negative wording only when legal, clinical, safety, or exact-source
+precision requires it. When a negative statement is necessary, pair it with the
+affirmative operating scope.
+
+Default order:
+
+```text
+capability -> workflow value -> evidence -> scope control -> next gate
 ```
 
 ## Non-Negotiable Writing Stance
@@ -162,6 +184,7 @@ Before accepting any outward-facing draft, check:
 - Are boundaries written as deliberate design choices?
 - Is clinical authority preserved without apologetic wording?
 - Does the draft lead with workflow value, staff-burden reduction, and deployability?
+- Does the document avoid making denial, apology, or defensive posture the organizing voice?
 - Does it avoid `only`, `just`, `merely`, `只是`, and `僅僅` unless quoting someone else?
 - Does the draft sound like a serious clinical workflow engineering project rather than a defensive AI demo?
 

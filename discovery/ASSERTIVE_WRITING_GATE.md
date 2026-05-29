@@ -44,6 +44,11 @@ contribution -> workflow value -> deliberate scope -> governance boundary -> nex
 
 Do not begin with limitation language.
 
+Do not make denial, apology, or defensive posture the organizing voice of the
+document. Use direct negative wording only when legal, clinical, safety, or
+exact-source precision requires it, then pair it with the affirmative operating
+scope.
+
 ## Required Checks
 
 | Check | Pass condition | Revise if |
@@ -51,6 +56,7 @@ Do not begin with limitation language.
 | Contribution first | The first sentence says what the system contributes. | The paragraph starts with what the system cannot do. |
 | Workflow value | The paragraph names reduced burden, better handoff, visit readiness, source traceability, or governance readiness. | The paragraph only says AI, chatbot, ASR, model, or demo. |
 | Boundary as architecture | Safety limits are written as deliberate design choices. | Safety limits sound like apology, weakness, or inability. |
+| Positive-scope design | The paragraph is organized around capability, evidence, scope, and next gate. | The paragraph is organized around what the system is not, lacks, or cannot promise. |
 | Evidence pointer | The claim points to a file, KPI, workflow map, reviewer artifact, or governance gate. | The paragraph relies on adjectives alone. |
 | No self-weakening phrasing | No unnecessary `only`, `just`, `merely`, `只是`, `僅僅`, `初步而已`, or similar wording. | The sentence lowers confidence before stating value. |
 | Governance alignment | Diagnosis, treatment, triage, EMR, real-data, and deployment language matches current scope. | The sentence either overclaims autonomy or apologizes for safe scope. |
