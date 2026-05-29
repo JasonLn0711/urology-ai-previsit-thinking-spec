@@ -131,7 +131,7 @@ Do not request a budget item if:
 
 | Open item | Needed from |
 | --- | --- |
-| Budget ceiling | set to NT$10,000,000 for v0.5; parent proposal owner may revise accounting categories |
+| Working budget ceiling | set to NT$10,000,000 for v0.5; parent proposal owner may revise accounting categories and annual split |
 | Personnel categories and allowed rates | official funding documents / hospital admin |
 | Whether tablets/equipment are allowed and useful | hospital workflow owner |
 | Whether ASR has a funded KPI | clinical + proposal owner |

@@ -102,7 +102,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
 - For the current 2026-06-02 discussion draft with NT$10,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
-- For the current precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+- For the prior precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - For the prior official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - For the dated implementation record of the assertive writing update: `records/2026-05-20/assertive-writing-implementation-record.md`
 - For mapping the official Health Taiwan format to our draft package: `discovery/DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`

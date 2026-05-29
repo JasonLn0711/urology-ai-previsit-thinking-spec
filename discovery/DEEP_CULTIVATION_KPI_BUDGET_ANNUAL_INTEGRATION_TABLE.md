@@ -57,30 +57,30 @@ Use these as the v0.5 KPI rows unless the hospital owner changes them:
 
 | Category | KPI | Current baseline | Draft target | Why it fits Health Taiwan |
 | --- | --- | --- | --- | --- |
-| Workflow burden | Summary read time | not yet measured | <=60 seconds in synthetic reviewer session | directly tests whether the summary saves attention |
-| Workflow burden | Repeated-question reduction feasibility | not yet measured | define baseline and after-workflow count; pilot target pending | links to staff/physician workload reduction |
-| Information quality | Missing key-field visibility | not yet measured | >=90% synthetic key missing fields flagged, or failures listed | improves visit readiness without diagnosis |
+| Workflow burden | Summary read time | measurement scheduled | <=60 seconds in synthetic reviewer session | directly tests whether the summary saves attention |
+| Workflow burden | Repeated-question reduction feasibility | measurement scheduled | define baseline and after-workflow count; pilot target pending | links to staff/physician workload reduction |
+| Information quality | Missing key-field visibility | measurement scheduled | >=90% synthetic key missing fields flagged with exception log | improves visit readiness with clinician-owned decision making |
 | Information quality | Source-label completeness | partial design | 100% in synthetic summary outputs | preserves auditability and responsibility |
 | Safety | Unsafe wording count | target zero | 0 in test set | prevents AI triage / diagnosis overclaim |
-| Staff burden | Clinical friction budget | not yet measured | no unacceptable extra clicks/logins/training/exception load | prevents making staff work harder |
+| Staff burden | Clinical friction budget | measurement scheduled | approved workflow meets click, login, training, and exception-load budget | protects staff attention and keeps the workflow light |
 | Input burden | ASR confirmation safety | optional | 0 unconfirmed ASR content enters summary | makes voice input safe if used |
 | Governance | AI/data/cybersecurity checklist completion | draft only | owners and gates named before pilot claim | required for Scope 3 smart-healthcare credibility |
-| Budget discipline | KPI-to-budget traceability | not complete | 100% core budget lines mapped | prevents budget without deliverable |
+| Budget discipline | KPI-to-budget traceability | completion gate active | 100% core budget lines mapped | ties every budget line to a deliverable |
 
 ## Budget Buckets By Evidence Strength
 
 | Budget bucket | Current status | Recommendation |
 | --- | --- | --- |
 | Project coordination / RA | justified by reviewer sessions, KPI capture, governance documents and review-response tracking | v0.5 allocates NT$3,000,000 discussion total, subject to parent budget owner |
-| Clinician/staff review sessions | justified by summary usefulness and friction-budget KPI | include as evaluation/support activity, not routine labeling |
+| Clinician/staff review sessions | justified by summary usefulness and friction-budget KPI | include as evaluation/support activity with clinician time protected |
 | Web/tablet intake prototype | justified if waiting-room QR/tablet slot is accepted | include only after workflow slot confirmation |
 | Summary-generation implementation | justified by read-time and source-label KPI | include as workflow artifact development |
 | ASR module/service | optional | include only if input-burden or multilingual-accessibility KPI is explicit |
 | Security/data/AI governance review | required for Scope 3 readiness | include or assign internal owner |
 | FHIR / TW Core IG mapping | future readiness only | include mapping only if proposal claims future interoperability |
-| CRM/reminder platform | parked | do not budget unless CRM phase is reopened with SOP, consent, owner, and KPI |
-| Tablets/equipment | conditional | do not budget until site workflow and procurement allow it |
-| HIS/EMR integration | excluded from current scope | do not budget in v0.5 |
+| CRM/reminder platform | future activation gate | budget after CRM phase has SOP, consent, owner, and KPI |
+| Tablets/equipment | site-readiness gate | budget after site workflow and procurement path are confirmed |
+| HIS/EMR integration | future integration path | budget in a later governed integration phase |
 
 ## Annual Checkpoint Integration
 
@@ -96,7 +96,7 @@ Use these as the v0.5 KPI rows unless the hospital owner changes them:
 Use this wording when connecting budget to KPI:
 
 ```text
-本子計畫之經費編列不以 AI 功能數量為核心，而以可驗收之門診流程改善工作為核心。各工作項目均需對應明確 KPI、年度查核點與負責角色；若無法對應降低重複問診、提升門診前資訊完整性、縮短醫師摘要閱讀時間、降低護理/行政額外負擔或完成資安/資料/AI治理要求，則不列為本階段核心經費。
+本子計畫之經費編列以可驗收之門診流程改善工作為核心。各工作項目均對應明確 KPI、年度查核點與負責角色；本階段核心經費集中投入降低重複問診、提升門診前資訊完整性、縮短醫師摘要閱讀時間、降低護理/行政額外負擔，以及完成資安、資料與 AI 治理要求的工作。
 ```
 
 ## Do Not Write These As KPI

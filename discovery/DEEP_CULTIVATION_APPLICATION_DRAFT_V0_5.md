@@ -63,7 +63,7 @@ The contribution is practical service-system modernization. AI, ASR, APP, CRM, d
 Hard control:
 
 ```text
-If a paragraph does not support workflow value, KPI, governance, budget, or owner clarity, move it to an appendix or remove it from the 20-page discussion version.
+Keep each paragraph tied to workflow value, KPI, governance, budget, or owner clarity. Supporting context belongs in an appendix so the 20-page discussion version stays decision-ready.
 ```
 
 ## One-Paragraph Proposal Abstract
@@ -81,7 +81,7 @@ If a paragraph does not support workflow value, KPI, governance, budget, or owne
 
 ## Scope Freeze
 
-### Included In v0.5
+### v0.5 Core Operating Scope
 
 - non-acute adult urology outpatient or approved screening-follow-up workflow
 - LUTS / OAB-like first scope: nocturia, frequency, urgency, leakage, voiding difficulty, weak stream
@@ -89,24 +89,24 @@ If a paragraph does not support workflow value, KPI, governance, budget, or owne
 - patient / family / staff-assisted source labels
 - optional ASR only after user confirmation
 - missing-field and uncertainty display
-- patient-reported red-flag observations as observations, not triage decisions
+- patient-reported red-flag observations for clinician review under the approved triage policy
 - one-page clinician-review summary
 - CRM-ready follow-up field design if the parent proposal reopens CRM
 - audit trail, version tracking, and safety wording review
 - synthetic, expert-review, and approved QI/IRB evidence before real patient data
 
-### Excluded From v0.5
+### Future Readiness And Separate Activation Gates
 
-- autonomous diagnosis
-- treatment advice
-- medication recommendation
-- final triage or queue-priority decision
-- automatic EMR writing
-- production HIS/EMR/EHR integration
-- direct FHIR production integration claim
-- broad multi-department expansion
-- clinical effectiveness claim before approved evaluation
-- CRM reminders or messaging before owner, consent, privacy, procurement, and security gates are named
+- clinician-owned diagnosis
+- physician-owned treatment advice
+- physician-owned medication recommendation
+- institution-owned triage and queue-priority policy
+- governed EMR writeback pathway
+- production HIS/EMR/EHR integration path
+- FHIR / TW Core IG production integration path
+- multi-department expansion path
+- clinical-effectiveness validation path
+- CRM reminders or messaging after owner, consent, privacy, procurement, and security gates are named
 
 ## Service Workflow
 
@@ -163,12 +163,12 @@ flowchart TD
 | --- | --- | --- | --- | --- | --- |
 | 20-page discussion package | v0.4 overcomplete internal package | v0.5 discussion draft <=20 pages | parent-format update if approved | final report package if executed | proposal file and review log |
 | Question governance | draft only | first-version LUTS/OAB-like question set reviewed | revised after approved pilot/walkthrough | maintained with version log | question governance record |
-| Summary read time | not yet measured | <=60 seconds in synthetic clinician review, report actual | measure in approved workflow | maintain or improve after revisions | timed scorecard |
-| Clinician usefulness | not yet measured | median >=4/5 or revise | measure in approved workflow | final usefulness report | clinician scorecard |
+| Summary read time | measurement scheduled | <=60 seconds in synthetic clinician review, report actual | measure in approved workflow | maintain or improve after revisions | timed scorecard |
+| Clinician usefulness | measurement scheduled | median >=4/5 or revise | measure in approved workflow | final usefulness report | clinician scorecard |
 | Source-label completeness | partial design | 100% of synthetic summary lines source-labeled | 100% in approved workflow samples | 100% in final evidence sample | audit sample |
-| Missing-field visibility | not yet measured | >=90% synthetic missing key fields surfaced or failures listed | approved workflow measurement | final report with failures | missing-field report |
+| Missing-field visibility | measurement scheduled | >=90% synthetic missing key fields surfaced with exception log | approved workflow measurement | final exception-aware report | missing-field report |
 | Unsafe wording count | target zero | 0 diagnosis/treatment/final-triage/EMR-writeback phrases in test set | 0 unresolved safety wording incidents | 0 unresolved safety wording incidents | safety checklist |
-| Staff friction | not yet measured | staff workflow review completed | no unacceptable duplicate entry/login/exception burden in approved workflow | burden trend documented | staff-friction scorecard |
+| Staff friction | measurement scheduled | staff workflow review completed | approved workflow meets click, login, training, and exception-load budget | burden trend documented | staff-friction scorecard |
 | ASR confirmation safety | optional | 0 unconfirmed ASR content enters summary if ASR is funded | maintain in pilot if used | maintain in scale decision if used | ASR confirmation test |
 | Governance readiness | draft checklist | AI/data/cybersecurity/IRB/procurement owners named or pending fields explicit | approvals completed before real-data pilot | maintenance owner named | governance checklist |
 | Budget traceability | incomplete | 100% budget lines map to KPI, owner, evidence, checkpoint | updated during execution | final expense-to-KPI report | KPI-budget table |
@@ -202,7 +202,7 @@ This split is a discussion allocation. The parent budget owner may revise accoun
 
 ## Budget Narrative
 
-本子計畫經費編列以可驗收的門診流程改善為核心。所有經費均對應明確 KPI、年度查核點、負責角色與證據文件；核心支出優先支持門診前問診流程建置、醫師覆核摘要產出、來源標記與缺漏欄位可見化、臨床與工作人員 reviewer evidence、AI / 資料 / 資安治理、KPI 評估與討論版文件控管。未能對應降低重複問診、縮短摘要閱讀時間、提升門診前資訊完整性、降低醫護與行政額外負擔、或完成治理要求者，不列入本階段核心經費。
+本子計畫經費編列以可驗收的門診流程改善為核心。所有經費均對應明確 KPI、年度查核點、負責角色與證據文件；核心支出優先支持門診前問診流程建置、醫師覆核摘要產出、來源標記與缺漏欄位可見化、臨床與工作人員 reviewer evidence、AI / 資料 / 資安治理、KPI 評估與討論版文件控管。v0.5 核心經費集中投入能支持降低重複問診、縮短摘要閱讀時間、提升門診前資訊完整性、降低醫護與行政額外負擔、並完成治理要求的工作項目。
 
 ## Annual Checkpoints
 
@@ -219,10 +219,10 @@ This split is a discussion allocation. The parent budget owner may revise accoun
 | --- | --- |
 | Why is the budget NT$10,000,000? | The budget is the three-year working ceiling given by Prof. Wu; v0.5 maps every bucket to KPI, evidence, and owner. |
 | How does the system reduce staff burden? | It targets repeated history-taking, missing-field repair, summary preparation, and follow-up visibility, measured by read time and staff-friction scorecards. |
-| Is this AI triage? | The system produces clinician-review workflow evidence. It does not assign diagnosis, treatment, final triage, queue priority, or EMR writeback. |
+| How is clinician authority preserved? | The system produces clinician-review workflow evidence; diagnosis, treatment, final triage, queue priority, and EMR writeback remain under the approved clinical and institutional workflow. |
 | Why include ASR? | ASR is optional and funded only if it supports input burden or accessibility KPI; no unconfirmed voice content enters the summary. |
-| Why not integrate HIS/EMR now? | Integration is future readiness. v0.5 proves low-friction workflow and governance first. |
-| How does the attached reference affect this draft? | It contributes structure, KPI, budget, and page-discipline patterns, while its broad clinical-routing and HIS claims are deliberately not imported. |
+| How is HIS/EMR readiness handled? | Integration is a future-readiness path. v0.5 first establishes low-friction workflow value, governance, owner clarity, and KPI evidence. |
+| How does the attached reference affect this draft? | It contributes structure, KPI, budget, and page-discipline patterns; v0.5 adopts those proposal mechanics while keeping a focused previsit workflow scope. |
 
 ## 2026-06-02 Readiness Checklist
 

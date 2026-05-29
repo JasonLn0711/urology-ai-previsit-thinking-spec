@@ -12,18 +12,18 @@ This guide answers:
 
 Use it when drafting the Health Taiwan deep-cultivation section for the urology previsit / visit-readiness system.
 
-The proposal should not read like an AI model report. It should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority. CRM follow-up is a parked future phase, not the first-version claim.
+The proposal should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority. CRM follow-up is a future governed phase after the first-version workflow value is established.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
-The proposal should be confident, direct, and non-defensive. Safety boundaries remain mandatory, but they must be written as deliberate design choices, not as apologies, disclaimers, or weakness.
+The proposal should be confident, direct, and affirmative. Safety boundaries remain mandatory, and they should be written as deliberate design choices, scope controls, governance gates, and claim-evidence alignment.
 
 Before circulating a draft section, run `ASSERTIVE_WRITING_GATE.md`.
 
 Before freezing a proposal package or sending a materially updated packet to an
 external reviewer, check `../VERSIONING.md` and decide whether the repo version
 needs a `patch`, `minor`, or `major` bump. The version number marks proposal and
-governance stability, not just file edits.
+governance stability beyond file edits.
 
 For the 2026-05-20 postdoctoral strategy review of what to adopt, modify, or defer before a Health Taiwan proposal, use `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`. Its practical next-step order is:
 
@@ -32,13 +32,14 @@ freeze intended use -> freeze demo scope -> prepare reviewer evidence
 -> define governance gates -> map KPI to budget
 ```
 
-For the clinical friction and workforce-burden reduction principle, use `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`. This principle should be treated as a proposal-writing gate: the project must reduce medical-staff burden and must not turn clinicians or nurses into routine AI labelers, extra-form fillers, or workflow-change victims.
+For the clinical friction and workforce-burden reduction principle, use `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`. This principle should be treated as a proposal-writing gate: the project must reduce medical-staff burden while protecting clinicians and nurses from routine AI labeling, extra-form filling, and workflow-change load.
 
 For the current official-format drafting package, use:
 
 - `INTENDED_USE_FREEZE.md`
 - `DEMO_SCOPE_FREEZE.md`
 - `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
@@ -50,10 +51,11 @@ comparison, use:
 
 - `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 
-The precedent should be used as a format and execution-packaging reference, not
-as a reason to broaden the current urology scope.
+The precedent should be used as a format and execution-packaging reference while the current urology proposal stays focused on its deliberate previsit workflow scope.
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton. The current writing entrypoint is v0.4 because it integrates the A2-0048 precedent lessons without expanding the clinical scope.
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as the current writing entrypoint for the 2026-06-02 discussion. It keeps the v0.4 precedent lessons, adds the 2026-05-29 Prof. Wu constraints, fixes the working budget at three years / NT$10,000,000, requires KPI-linked budget lines, and enforces a 20-page discussion-version cap.
+
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` as the precedent-integrated baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton.
 
 2026-05-19 expert-review update:
 
@@ -73,7 +75,7 @@ Safe descriptive boundary:
 泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程
 ```
 
-Do not write this as an `AI medical system`. Park CRM follow-up until a future confirmed next step. Keep ASR as an optional multilingual input layer. Narrow the first version to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream. Blood in urine, fever/chills, flank pain, and currently being unable to urinate are patient-reported red-flag observations, not first-version main pathways or triage judgments.
+Write this as a governed previsit workflow-support system. CRM follow-up remains a future confirmed next step. ASR stays an optional multilingual input layer. The first version focuses on non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream. Blood in urine, fever/chills, flank pain, and currently being unable to urinate are patient-reported red-flag observations recorded for clinician review.
 
 ## Assertive Writing Method
 
@@ -82,10 +84,10 @@ Use confident contribution-first language. State what the system does, why the s
 | Defensive draft language | Proposal-ready language |
 | --- | --- |
 | 本系統只是門診前輔助工具。 | 本系統是門診前資訊整理與醫師覆核摘要的 workflow layer。 |
-| 我們不做診斷。 | 診斷與治療決策保留於醫師端，系統專注於 previsit information compression。 |
-| 目前沒有真實病人資料。 | 目前 evidence path 採 synthetic and expert-review materials，作為治理核准前的安全驗證階段。 |
+| 診斷權責需要清楚。 | 診斷與治療決策保留於醫師端，系統專注於 previsit information compression。 |
+| 實證路徑需要分階段。 | 目前 evidence path 採 synthetic and expert-review materials，作為治理核准前的安全驗證階段。 |
 | 還需要更多研究。 | 下一階段將以醫師閱讀時間、重複問診減少、缺漏欄位可見度與 staff-friction review 驗證 workflow value。 |
-| 不是完整 HIS/EMR。 | 系統刻意設計為可與 HIS/EMR 邊界共存的 focused previsit workflow layer。 |
+| HIS/EMR 關係需要清楚。 | 系統刻意設計為可與 HIS/EMR 邊界共存的 focused previsit workflow layer。 |
 
 Required sequence for proposal paragraphs:
 
@@ -93,7 +95,7 @@ Required sequence for proposal paragraphs:
 contribution first -> deliberate scope second -> governance boundary third
 ```
 
-Do not open proposal sections with defensive limitation language.
+Open proposal sections with capability, evidence, scope control, and next validation language.
 
 ## Core Proposal Logic
 
@@ -103,7 +105,7 @@ The proposal must answer one practical question:
 Can this system truly improve a healthcare workflow in a hospital or community-care setting?
 ```
 
-It should not primarily answer:
+It should support this secondary question:
 
 ```text
 Which AI model is newest?
@@ -168,19 +170,19 @@ Adopt these lessons:
 - show annual checkpoints with planned dates, cumulative progress, planned spending and expected evidence
 - use the official cover, self-check, COI, no-duplicate-funding, partner-consent and appendix structure
 
-Do not copy these weaknesses:
+Convert these precedent risks into v0.5 scope controls:
 
-- broad module sprawl that mixes many specialties and technologies before the first workflow is proven
-- autonomous or near-autonomous diagnosis, treatment, prescribing, triage or queue-priority wording
-- unsupported large-scale savings, accuracy or adoption claims
-- unresolved Word template errors or internal draft residue
+- broad module sprawl becomes a focused first workflow with later expansion gates
+- autonomous or near-autonomous diagnosis, treatment, prescribing, triage or queue-priority wording becomes clinician-owned decision language
+- large-scale savings, accuracy or adoption claims become KPI-backed workflow evidence
+- Word template errors and internal draft residue become a clean official-format readiness check
 
 Postdoctoral judgment after reviewing the precedent:
 
 ```text
 Keep the narrow urology previsit design.
 Learn the precedent's official-format discipline.
-Do not inherit its scope breadth or clinical-decision language.
+Adopt its proposal mechanics while preserving focused scope and clinician-owned decision language.
 ```
 
 ## Recommended Proposal Structure
@@ -199,14 +201,14 @@ Do not inherit its scope breadth or clinical-decision language.
 | 10. Team and training | People can execute and govern it | PI/co-PI roles, hospital stakeholders, 吳老師團隊, student/engineer roles, IRB training |
 | 11. Budget and procurement | Money maps to KPI | Personnel, APP/tablet intake work, ASR/cloud or server if used, security review, governance support, vendor/procurement assumptions |
 | 12. Expected outcomes | The hospital receives durable value | Evaluated reduction of repeated work, better visit readiness, and governance-ready smart-healthcare workflow |
-| 13. Risk and boundary | The proposal does not overclaim | No diagnosis, treatment advice, autonomous triage, production deployment, or real patient-data use without governance |
+| 13. Scope control and governance | The proposal aligns claims with approved evidence | Clinician-owned diagnosis and treatment, institution-owned triage, governed deployment, and governed patient-data use |
 
 Add a clinical-friction check inside sections 4, 8, 9, and 11:
 
 ```text
-The project should not ask clinicians or nurses to absorb extra routine labeling,
-extra dashboards, extra exception handling, or major workflow retraining unless a
-larger existing burden is demonstrably removed.
+The project protects clinicians and nurses from extra routine labeling,
+extra dashboards, extra exception handling, and major workflow retraining by tying
+each workflow change to a larger existing burden that the system demonstrably reduces.
 ```
 
 ## 陳美如主任 Reviewer Lens
@@ -216,22 +218,22 @@ Use `../records/2026-05-19/chen-meiru-stakeholder-profile.md` when preparing mat
 Likely priorities:
 
 - real workflow landing: registration, waiting-room intake, clinician summary, and human review must be operationally plausible
-- staff-burden reduction: the system must not become another nursing or administrative workload
-- cross-system continuity: outpatient workflow, community screening, case management, future CRM, and future HIS/EMR readiness should not become disconnected islands
+- staff-burden reduction: the system protects nursing and administrative attention while reducing existing workflow load
+- cross-system continuity: outpatient workflow, community screening, case management, future CRM, and future HIS/EMR readiness form a connected service chain
 - governance and responsibility: human-in-the-loop, no AI diagnosis, no AI triage, no automatic EMR writeback, data boundary, security, auditability, and error handling
 - KPI and owner mapping: each claim should have a metric, annual checkpoint, responsible owner, and matching budget logic
 - sustainability: maintenance, question-bank updates, vendor/internal ownership, and post-project operations must be credible
-- executive readability: the value proposition should be explainable as workflow improvement and public-hospital service value, not model novelty
+- executive readability: the value proposition should be explainable as workflow improvement and public-hospital service value before model novelty
 
 One-sentence stakeholder-safe framing:
 
 ```text
-本子計畫先在非急性泌尿科門診導入受治理的門診前症狀蒐集與醫師覆核摘要流程，評估是否能減少重複問診、提升資料完整性，並建立未來智慧醫療與病人管理延伸所需的治理基礎。
+本子計畫先在非急性泌尿科門診導入受治理的門診前症狀蒐集與醫師覆核摘要流程，評估重複問診減少、資料完整性提升，並建立後續智慧醫療與病人管理延伸所需的治理基礎。
 ```
 
 ## Storyline To Use
 
-Start from the clinic, not the model.
+Start from the clinic before the model.
 
 Recommended storyline:
 
@@ -240,9 +242,9 @@ Recommended storyline:
 3. The system can show missing fields and patient-reported red-flag observations without making triage or diagnosis claims.
 4. AI and ASR can reduce input and summary-preparation burden, but all output stays clinician-reviewed.
 5. Governance, KPI, and budget mapping make the project executable rather than a demo.
-6. CRM/reminder support remains a future governed phase, not the first-version scope.
+6. CRM/reminder support remains a future governed phase after the first-version workflow scope is established.
 
-Do not lead with:
+Lead with workflow value before these secondary topics:
 
 - LLM novelty
 - model benchmark scores
@@ -265,7 +267,7 @@ flowchart TD
     I --> J[Physician confirms, edits, ignores, or rejects]
 ```
 
-This diagram is intentionally not an AI triage diagram. It does not include queue prioritization, autonomous urgency labels, or direct EMR writeback.
+This diagram is intentionally a clinician-review previsit workflow diagram. Queue prioritization, urgency labels, and direct EMR writeback remain under separate institutional governance paths.
 
 ## Technical Section Guidance
 
@@ -333,7 +335,7 @@ Use this as a proposal principle:
 
 ```text
 本子計畫以降低臨床工作摩擦與醫療人員負荷為核心原則。
-系統不要求醫師或護理師成為 AI 標註者，也不以增加醫護人員額外研究工作作為導入前提。
+系統保護醫師與護理師的臨床注意力，讓 reviewer input 聚焦於流程可用性、摘要品質與導入摩擦，而非例行 AI 標註或額外研究工作。
 ```
 
 The system should reduce:
@@ -346,7 +348,7 @@ The system should reduce:
 - patient/family explanation burden
 - avoidable system switching
 
-The system must not create:
+The system preserves staff attention by avoiding:
 
 - routine clinician data-labeling work
 - a separate complex dashboard as the only useful output
@@ -412,7 +414,7 @@ Examples:
 | governed pilot readiness | security review, audit logging, RA/coordinator | IRB/privacy/security/procurement gates |
 | cross-domain training | training time or student/RA support | talent-training plan and role definition |
 
-Do not include a budget line only because it is technically interesting.
+Include a budget line when it supports a KPI, owner, checkpoint, governance requirement, or workflow-value deliverable.
 
 ## Governance Section Checklist
 
