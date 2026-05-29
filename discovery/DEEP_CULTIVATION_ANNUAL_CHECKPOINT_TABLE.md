@@ -2,9 +2,9 @@
 
 Status: proposal-prep checkpoint table
 
-Date: 2026-05-20
+Date: 2026-05-29
 
-Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 
 Purpose: convert the proposal into annual checkpoints that can be monitored, reported, and tied to KPI and budget.
 
@@ -44,9 +44,11 @@ Use if the team is preparing for hospital-facing draft, continuation planning, o
 | Clinical friction plan | friction budget and measurement plan | workforce burden reduction | `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md` | workflow owner |
 | Governance checklist drafted | AI/data/cybersecurity checklist | Scope 3 readiness | `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | governance owners |
 | KPI-to-budget draft | KPI table with budget logic | budget traceability | `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | budget owner |
-| Proposal draft v0.4 | precedent-integrated official-package draft | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | proposal writer |
-| Owner table prepared | clinical, workflow, IT/security, AI/data governance, evaluation, budget and coordination roles visible | responsibility clarity | v0.4 owner and responsibility table | parent proposal owner |
-| Review-response table prepared | likely reviewer questions and response direction drafted | external review readiness | v0.4 review-response table | proposal writer |
+| Proposal draft v0.5 | 2026-06-02 discussion draft with budget and page controls | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` | proposal writer |
+| Owner table prepared | clinical, workflow, IT/security, AI/data governance, evaluation, budget and coordination roles visible | responsibility clarity | v0.5 owner and responsibility table | parent proposal owner |
+| Review-response table prepared | likely reviewer questions and response direction drafted | external review readiness | v0.5 review-response table | proposal writer |
+| v0.4 precedent baseline preserved | prior official-package discipline remains available as context | traceability | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | proposal writer |
+| Reference proposal analyzed | subproject-three reference PDF copied and analyzed | precedent use without scope drift | `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md` | proposal writer |
 
 ## 116: Governed Design And Pilot Preparation
 
@@ -122,7 +124,7 @@ AI 系統已提升效率。
 | --- | --- |
 | actual application stage | parent proposal owner |
 | official year labels | parent proposal owner |
-| budget ceiling | hospital admin |
+| official accounting categories and annual split for NT$10,000,000 working ceiling | hospital admin / parent budget owner |
 | target reviewer count | clinical owner |
 | whether real pilot is allowed | IRB/governance owner |
 | whether CRM/future interoperability is included | service + IT owner |

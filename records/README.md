@@ -31,6 +31,9 @@ Use:
 
 ## Current Records
 
+- `2026-05-29/README.md`:
+  same-day Prof. Wu proposal follow-up capture, v0.5 decision record, and
+  reference-proposal analysis for the attached subproject-three PDF.
 - `2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`:
   structured capture and postdoctoral analysis of the A2-0048 Health Taiwan
   deep-cultivation precedent proposal; complete extracted text is preserved

@@ -2,9 +2,20 @@
 
 Status: proposal-prep working table
 
-Date: 2026-05-20
+Date: 2026-05-29
 
 Purpose: make every proposed budget line traceable to a Health Taiwan KPI, work package, owner, and evidence artifact.
+
+Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+
+Current working budget control:
+
+```text
+Three years.
+Total budget NT$10,000,000.
+Every budget line maps to KPI, owner, evidence artifact, and annual checkpoint.
+Discussion version stays within 20 pages.
+```
 
 ## Budget Rule
 
@@ -58,6 +69,22 @@ This prevents the proposal from becoming a list of interesting AI features.
 | CRM platform / reminder module | CRM phase is officially reopened with SOP, owner, consent, privacy, and KPI | CRM remains parked |
 | Interoperability mapping | future FHIR / TW Core IG readiness is requested | proposal claims current HIS/EMR integration without approval |
 
+## v0.5 Working Budget Allocation
+
+This allocation follows the 2026-05-29 Prof. Wu budget instruction and should be revised only by the parent budget owner.
+
+| Budget bucket | Year 1 | Year 2 | Year 3 | Total | Required KPI |
+| --- | ---: | ---: | ---: | ---: | --- |
+| Proposal coordination, PM, RA, KPI evidence | 900,000 | 1,050,000 | 1,050,000 | 3,000,000 | 20-page package, annual KPI evidence, checkpoint reporting |
+| Intake / summary workflow and CRM-ready field design | 1,250,000 | 650,000 | 300,000 | 2,200,000 | summary read time, source-label completeness, missing-field visibility |
+| Clinician, nurse, and outpatient workflow reviewer sessions | 400,000 | 400,000 | 300,000 | 1,100,000 | clinician usefulness, staff-friction score, workflow-slot decision |
+| Security, privacy, AI/data governance, auditability | 450,000 | 300,000 | 150,000 | 900,000 | governance checklist, unsafe wording count, audit trail readiness |
+| Evaluation, baseline, QI/IRB preparation, limited pilot evidence | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline, approved workflow measurement, final evidence report |
+| Conditional equipment / ASR / intake station support | 450,000 | 200,000 | 50,000 | 700,000 | ASR confirmation safety, workflow slot feasibility |
+| Training, documentation, dissemination, review-response package | 150,000 | 100,000 | 250,000 | 500,000 | training completion, review-response readiness |
+| Administration and contingency within legal accounting rules | 150,000 | 100,000 | 350,000 | 600,000 | expense-to-KPI traceability maintained |
+| Total | 4,000,000 | 3,200,000 | 2,800,000 | 10,000,000 | 100% budget-to-KPI mapping |
+
 ## KPI Detail Table
 
 | KPI | Baseline / current status | Draft target | Measurement method | Evidence level now |
@@ -104,7 +131,7 @@ Do not request a budget item if:
 
 | Open item | Needed from |
 | --- | --- |
-| Budget ceiling | parent proposal owner |
+| Budget ceiling | set to NT$10,000,000 for v0.5; parent proposal owner may revise accounting categories |
 | Personnel categories and allowed rates | official funding documents / hospital admin |
 | Whether tablets/equipment are allowed and useful | hospital workflow owner |
 | Whether ASR has a funded KPI | clinical + proposal owner |

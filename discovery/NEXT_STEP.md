@@ -21,6 +21,25 @@ After the physician conversation and same-day synthesis, the project should have
 
 ## Current Active Follow-Up: 2026-06-02 Deep-Cultivation Draft Review
 
+The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The working instruction is now:
+
+```text
+三年期
+總經費新臺幣 1,000 萬元整
+每一項經費對應 KPI
+討論版控制在 20 頁以內
+2026-06-02 前準備好討論版本
+```
+
+Current v0.5 discussion artifacts:
+
+- Meeting capture: `../records/2026-05-29/prof-wu-xinyi-proposal-meeting-capture.md`
+- Decision record: `../records/2026-05-29/deep-cultivation-v0.5-decision-record.md`
+- Reference proposal analysis: `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md`
+- Current application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+
+The attached subproject-three PDF is useful as a proposal-structure, KPI, budget, and section-completeness precedent. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims.
+
 The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivation meeting:
 
 - Transcript: `../records/2026-05-19/taipei-city-hospital-deep-cultivation-meeting-transcript.md`
@@ -31,6 +50,8 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Intended-use freeze: `INTENDED_USE_FREEZE.md`
 - Demo-scope freeze: `DEMO_SCOPE_FREEZE.md`
 - Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- Current application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+- Prior application draft v0.4: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - Application draft v0.3: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - Prior application skeleton v0.2: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`
 - KPI-to-budget table: `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
@@ -74,7 +95,8 @@ The current application-writing execution artifacts are now:
 INTENDED_USE_FREEZE.md
 DEMO_SCOPE_FREEZE.md
 DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md
-DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md
 DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md
 DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md
 DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md

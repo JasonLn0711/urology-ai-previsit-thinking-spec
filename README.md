@@ -99,7 +99,9 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the repo-wide confident / non-defensive writing policy: `core/ASSERTIVE_WRITING_POLICY.md`
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
+- For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
+- For the current 2026-06-02 discussion draft with NT$10,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - For the current precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - For the prior official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - For the dated implementation record of the assertive writing update: `records/2026-05-20/assertive-writing-implementation-record.md`
@@ -140,7 +142,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 ## Current Planning Signal
 
-The latest dated planning evidence is the 2026-05-19 北市聯醫 deep-cultivation meeting.
+The latest dated planning evidence is the 2026-05-29 Prof. Wu follow-up meeting.
 
 The latest expert-review decision after that meeting is `Revise + Narrow`.
 
@@ -158,6 +160,8 @@ Safe descriptive boundary:
 
 Near-term framing should emphasize:
 
+- the 2026-06-02 discussion version now uses a three-year NT$10,000,000 working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
+- the 2026-05-29 attached subproject-three PDF is archived and analyzed as a formatting / KPI / budget precedent, not as scope-expansion authority
 - urology previsit symptom collection and clinician-review summary as the current system role
 - primary Health Taiwan fit under `範疇三：導入智慧科技醫療`, with `範疇一：優化醫療工作條件` as secondary support
 - first-version narrowing to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream
@@ -174,7 +178,8 @@ Near-term framing should emphasize:
 - the 2026-05-20 postdoctoral next-step review recommends freezing intended use, freezing demo scope, preparing reviewer evidence, defining governance gates, and mapping KPI to budget before adding more AI features
 - the 2026-05-20 execution step created application-drafting artifacts: intended-use freeze, demo-scope freeze, application draft v0.2, KPI-to-budget table, governance checklist, and annual checkpoint table
 - the 2026-05-20 format-alignment step promoted the proposal-writing package to v0.3 with an official-format crosswalk and KPI / budget / annual-checkpoint integration table
-- the 2026-05-21 precedent-integration step promotes the proposal-writing package to v0.4 by learning the A2-0048 proposal's official-format discipline while preserving the narrow urology previsit scope
+- the 2026-05-21 precedent-integration step promoted the proposal-writing package to v0.4 by learning the A2-0048 proposal's official-format discipline while preserving the narrow urology previsit scope
+- the 2026-05-29 Prof. Wu follow-up promotes the active discussion package to v0.5 by fixing the working budget at three years / NT$10,000,000, requiring KPI-linked budget lines, and enforcing a 20-page discussion draft
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
 - the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist
