@@ -1,130 +1,130 @@
-# Deep-Cultivation Annual Checkpoint Table
+# 健康台灣深耕計畫年度 checkpoint 表
 
-Status: proposal-prep checkpoint table
+狀態：提案準備 checkpoint 表
 
-Date: 2026-05-29
+日期：2026-05-29
 
-Current proposal package: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+目前提案包：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 
-Purpose: convert the proposal into annual checkpoints that can be monitored, reported, and tied to KPI and budget.
+目的：把提案轉成可追蹤、可回報，且能連到 KPI 與預算的年度 checkpoint。
 
-## Timeframe Caveat
+## 期程提醒
 
-Official public pages checked on 2026-05-20 indicate:
+2026-05-20 查核過的官方公開頁面顯示：
 
 ```text
-First stage: from approved-plan date in 114 to the end of 115
-Second stage: 116-118
-Second-stage new solicitation: expected in 115 Q4
+第一階段：自 114 年核定日起至 115 年底
+第二階段：116-118 年
+第二階段新徵件：預期 115 年第 4 季
 ```
 
-This table must be aligned with the parent proposal's actual application route.
+本表必須依 parent proposal 的實際申請路徑調整。
 
-## Checkpoint Logic
+## Checkpoint 邏輯
 
-Each checkpoint should answer:
+每個 checkpoint 都要回答：
 
-1. What artifact exists?
-2. Which KPI does it support?
-3. Who owns it?
-4. What evidence proves completion?
-5. Does it reduce clinical friction without crossing safety boundaries?
+1. 產出哪一個 artifact？
+2. 支援哪一個 KPI？
+3. 由誰擔任 owner？
+4. 哪一份 evidence 能證明完成？
+5. 是否降低臨床摩擦，同時維持安全邊界？
 
-## 115 Q2-Q4: Proposal Preparation And Evidence Package
+## 115 年 Q2-Q4：提案準備與 evidence package
 
-Use if the team is preparing for hospital-facing draft, continuation planning, or second-stage readiness.
+若團隊正在準備院內討論稿、延續規劃或第二階段 readiness，使用本段。
 
-| Checkpoint | Deliverable | KPI / gate | Evidence | Owner needed |
+| checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
-| Applicant route clarified | applicant / mode / parent proposal relationship note | formal submission route | one-page owner note | parent proposal owner |
-| Intended use frozen | intended use and non-use statement | boundary clarity | `INTENDED_USE_FREEZE.md` | clinical + proposal owner |
-| Demo scope frozen | included/excluded demo scope | scope control | `DEMO_SCOPE_FREEZE.md` | proposal + engineering owner |
-| Synthetic cases selected | 3-5 cases | review readiness | case list | clinician reviewer |
-| Clinician summary sample | one-page summary mock | read-time KPI | sample output | engineer + clinician |
-| Clinical friction plan | friction budget and measurement plan | workforce burden reduction | `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md` | workflow owner |
-| Governance checklist drafted | AI/data/cybersecurity checklist | Scope 3 readiness | `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | governance owners |
-| KPI-to-budget draft | KPI table with budget logic | budget traceability | `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | budget owner |
-| Proposal draft v0.5 | 2026-06-02 discussion draft with budget and page controls | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` | proposal writer |
-| Owner table prepared | clinical, workflow, IT/security, AI/data governance, evaluation, budget and coordination roles visible | responsibility clarity | v0.5 owner and responsibility table | parent proposal owner |
-| Review-response table prepared | likely reviewer questions and response direction drafted | external review readiness | v0.5 review-response table | proposal writer |
-| v0.4 precedent baseline preserved | prior official-package discipline remains available as context | traceability | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | proposal writer |
-| Reference proposal analyzed | subproject-three reference PDF copied and analyzed | precedent use without scope drift | `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md` | proposal writer |
+| 申請路徑釐清 | 申請單位 / 申請模式 / parent proposal 關係說明 | 正式送件路徑 | 一頁 owner note | parent proposal owner |
+| Intended use 凍結 | intended use 與 non-use statement | 邊界清楚 | `INTENDED_USE_FREEZE.md` | clinical + proposal owner |
+| Demo scope 凍結 | demo 納入 / 排除範圍 | scope control | `DEMO_SCOPE_FREEZE.md` | proposal + engineering owner |
+| 合成案例選定 | 3-5 件合成案例 | review readiness | case list | clinician reviewer |
+| 醫師摘要樣本 | 一頁式摘要 mock | read-time KPI | sample output | engineer + clinician |
+| 臨床摩擦計畫 | friction budget 與衡量計畫 | 醫療人員負擔降低 | `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md` | workflow owner |
+| 治理 checklist 草案 | AI/data/cybersecurity checklist | 範疇三 readiness | `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | governance owners |
+| KPI-to-budget 草案 | 帶有預算邏輯的 KPI 表 | budget traceability | `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | budget owner |
+| v0.6 提案草稿 | 2026-06-02 填報討論稿，含類別設計、子計畫三骨架轉用、KPI targets、預算填報欄位與前置治理 | application readiness | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` | proposal writer |
+| owner 表準備 | clinical、workflow、IT/security、AI/data governance、IRB/QI、evaluation、budget 與 coordination 角色可見 | 責任清楚 | v0.6 owner 與責任表 | parent proposal owner |
+| Review-response 表準備 | 預期審查問題與回覆方向 | external review readiness | v0.6 review-response table | proposal writer |
+| v0.4 baseline 保留 | 先前正式格式紀律保留作為脈絡 | traceability | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` | proposal writer |
+| 參考提案已分析 | 子計畫三 PDF 已歸檔並分析 | 借用骨架但不 scope drift | `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md` | proposal writer |
 
-## 116: Governed Design And Pilot Preparation
+## 116 年：Governed design 與 pilot 準備
 
-Use as first full execution-year shape if the subproject becomes part of the 116-118 stage.
+若本子計畫進入 116-118 年期，使用本段作為第一個完整執行年度形狀。
 
-| Checkpoint | Deliverable | KPI / gate | Evidence | Owner needed |
+| checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
-| Workflow slot confirmed | registration / waiting-room / review flow confirmed | adoption feasibility | workflow map and meeting record | clinic workflow owner |
-| Question bank approved | first-version question set | clinical appropriateness | clinician-signed or recorded review | urology lead |
-| Summary schema v1 | one-page summary and source labels | read-time and source-label KPI | summary template | engineer + clinician |
+| Workflow slot 確認 | 報到 / 候診 / 覆核流程確認 | adoption feasibility | workflow map 與會議紀錄 | clinic workflow owner |
+| 題庫核准 | 第一版問題集 | 臨床適切性 | clinician-signed 或 recorded review | urology lead |
+| Summary schema v1 | 一頁式摘要與 source label | read-time 與 source-label KPI | summary template | engineer + clinician |
 | Safety wording test | unsafe wording count = 0 in test set | safety boundary | safety test report | clinical + governance reviewer |
-| Synthetic walkthrough completed | 5-10 synthetic cases | demo evidence | walkthrough report | engineer |
+| Synthetic walkthrough 完成 | 5-10 件合成案例 | demo evidence | walkthrough report | engineer |
 | Staff burden review | nurse/staff review | burden acceptability | scorecard / meeting note | nursing/outpatient reviewer |
 | Governance owner assignment | AI/security/data owners named | governance readiness | owner table | hospital administration |
 | IRB/QI determination route | research vs QI/service decision pathway | real-data readiness | governance note | IRB/governance support |
-| Budget finalization | budget maps to KPI | budget traceability | budget table | budget owner |
+| 預算定稿 | budget maps to KPI | budget traceability | budget table | budget owner |
 
-## 117: Limited Workflow Evaluation If Approved
+## 117 年：通過治理後的 limited workflow evaluation
 
-Use only if governance approval and hospital ownership exist.
+僅在治理核准與院內 ownership 成立後使用。
 
-| Checkpoint | Deliverable | KPI / gate | Evidence | Owner needed |
+| checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
-| Pilot protocol approved | governed pilot or QI workflow | legal/ethical gate | approved document | hospital owner |
-| Access and data controls active | role-based access, retention, deletion | data/security readiness | security review record | IT/security owner |
+| Pilot protocol 核准 | governed pilot 或 QI workflow | legal/ethical gate | approved document | hospital owner |
+| Access and data controls 啟用 | role-based access、retention、deletion | data/security readiness | security review record | IT/security owner |
 | Baseline workflow captured | current repeated-question / burden baseline | comparison readiness | baseline report | evaluator |
-| Limited workflow test | approved non-acute outpatient workflow | completion and burden KPI | pilot log or walkthrough log | clinic owner |
-| Clinician review measured | read time, usefulness, edit/reject status | summary usefulness | scorecard / audit log | clinician reviewer |
+| Limited workflow test | 已核准的非急性門診流程 | completion and burden KPI | pilot log 或 walkthrough log | clinic owner |
+| Clinician review measured | read time、usefulness、edit/reject status | summary usefulness | scorecard / audit log | clinician reviewer |
 | Nurse burden measured | staff intervention time and burden | friction budget | staff log / scorecard | nursing reviewer |
-| Safety monitoring completed | unsafe wording, confusion, incidents | safety KPI | safety monitoring report | governance owner |
-| Revise/narrow/continue decision | written decision | stage gate | decision record | PI / proposal owner |
+| Safety monitoring completed | unsafe wording、confusion、incidents | safety KPI | safety monitoring report | governance owner |
+| Revise/narrow/continue decision | 書面決策 | stage gate | decision record | PI / proposal owner |
 
-## 118: Scale-Up Or Integration-Readiness Decision
+## 118 年：Scale-up 或 integration-readiness 決策
 
-Use only if earlier evidence supports continuation.
+僅在前期 evidence 支持延續時使用。
 
-| Checkpoint | Deliverable | KPI / gate | Evidence | Owner needed |
+| checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
-| Evidence review | workflow value and burden reduction reviewed | continuation decision | evaluation report | PI + hospital owner |
-| Scope expansion decision | same department expansion or cross-department readiness | no scope drift | decision record | governance committee |
-| CRM decision | reopen or keep parked | service continuity | SOP and owner decision | service owner |
-| Interoperability decision | FHIR / TW Core IG mapping if needed | integration readiness | mapping note | IT/data owner |
+| Evidence review | workflow value 與 burden reduction review | continuation decision | evaluation report | PI + hospital owner |
+| Scope expansion decision | 同科擴大或跨科 readiness | no scope drift | decision record | governance committee |
+| CRM decision | reopen 或 keep parked | service continuity | SOP 與 owner decision | service owner |
+| Interoperability decision | 若需要，完成 FHIR / TW Core IG mapping | integration readiness | mapping note | IT/data owner |
 | Procurement decision | internal / outsourced / hybrid path | sustainability | procurement plan | admin/procurement |
-| Maintenance plan | post-project owner and update cycle | sustainability | operations plan | hospital owner |
-| Final safety/governance review | no unresolved responsibility gap | closeout readiness | governance report | AI/data/security owners |
+| Maintenance plan | post-project owner 與更新週期 | sustainability | operations plan | hospital owner |
+| Final safety/governance review | 無未解責任缺口 | closeout readiness | governance report | AI/data/security owners |
 
-## Annual KPI Summary
+## 年度 KPI 摘要
 
-| Year / stage | Primary KPI focus | Must not claim |
+| 年度 / 階段 | 主要 KPI focus | 不應宣稱 |
 | --- | --- | --- |
-| 115 prep | boundary, evidence package, proposal format, governance preflight, owner table, review-response readiness | clinical effectiveness |
-| 116 design | workflow fit, synthetic review, staff burden, summary readability | real-world outcome improvement |
-| 117 limited evaluation | approved workflow value, friction reduction, safety monitoring | broad scalability before evidence |
-| 118 scale readiness | sustainability, integration readiness, maintenance ownership | production integration without governance |
+| 115 prep | boundary、evidence package、proposal format、governance preflight、owner table、review-response readiness | clinical effectiveness |
+| 116 design | workflow fit、synthetic review、staff burden、summary readability | real-world outcome improvement |
+| 117 limited evaluation | approved workflow value、friction reduction、safety monitoring | broad scalability before evidence |
+| 118 scale readiness | sustainability、integration readiness、maintenance ownership | production integration without governance |
 
-## Checkpoint Reporting Style
+## Checkpoint 回報寫法
 
-Use concrete wording:
+使用具體寫法：
 
 ```text
 完成 5 件合成案例 walkthrough，所有輸出均保留來源標記，未出現診斷、治療、自動分流或 EMR 寫入語句。
 ```
 
-Avoid vague wording:
+避免模糊寫法：
 
 ```text
 AI 系統已提升效率。
 ```
 
-## Open Items
+## 待確認事項
 
-| Item | Needed before final proposal |
+| 項目 | 最終提案前需要 |
 | --- | --- |
-| actual application stage | parent proposal owner |
-| official year labels | parent proposal owner |
-| official accounting categories and annual split for NT$10,000,000 working ceiling | hospital admin / parent budget owner |
-| target reviewer count | clinical owner |
-| whether real pilot is allowed | IRB/governance owner |
-| whether CRM/future interoperability is included | service + IT owner |
+| 實際申請階段 | parent proposal owner |
+| 正式年度標籤 | parent proposal owner |
+| 新臺幣 10,000,000 元工作上限的正式會計科目與年度拆分 | hospital admin / parent budget owner |
+| 目標 reviewer 人數 | clinical owner |
+| 是否允許 real pilot | IRB/governance owner |
+| 是否納入 CRM / future interoperability | service + IT owner |

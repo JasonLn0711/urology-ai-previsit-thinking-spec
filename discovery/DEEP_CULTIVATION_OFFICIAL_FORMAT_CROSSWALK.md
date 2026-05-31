@@ -1,14 +1,14 @@
-# Deep-Cultivation Official Format Crosswalk
+# 健康台灣深耕計畫正式格式對照表
 
-Status: proposal-writing control document
+狀態：提案撰寫控制文件
 
-Date: 2026-05-20
+日期：2026-05-20
 
-Purpose: map the current urology previsit deep-cultivation draft package to the official Health Taiwan proposal format so the next draft can be written as a fundable hospital workflow proposal, not as a research memo or AI demo description.
+目的：將目前泌尿科門診前問診 deep-cultivation 草稿包對應到 Health Taiwan 正式提案格式，讓下一版可以寫成可申請經費的醫院 workflow 提案，而不是研究 memo 或 AI demo 說明。
 
-## Source Basis
+## 來源依據
 
-Local archived official-format sources:
+本 repo 內已歸檔的正式格式來源：
 
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx`
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf`
@@ -17,16 +17,16 @@ Local archived official-format sources:
 - `../records/2026-05-19/policy-documents/budget/`
 - `../records/2026-05-19/policy-documents/qa/`
 
-Important caveat:
+重要提醒：
 
 ```text
-This crosswalk uses the local 114-115 official archive as a drafting scaffold.
-Before institutional circulation or submission, the parent proposal owner must confirm the latest live template, application stage, hospital-specific instructions, and internal administrative route.
+本對照表使用本地 114-115 官方歸檔作為撰寫骨架。
+正式院內流通或送件前，parent proposal owner 必須確認最新 live template、申請階段、院內指引與行政流程。
 ```
 
-## Official Proposal Order
+## 正式提案順序
 
-The archived official proposal format uses this order:
+已歸檔的正式提案格式使用下列順序：
 
 1. Cover page
 2. Table of contents
@@ -44,33 +44,34 @@ The archived official proposal format uses this order:
 14. `拾貳、參與計畫同意書`
 15. `拾參、審查意見回復表`
 
-## Crosswalk Table
+## 對照表
 
-| Official section | What the official format expects | Current material | Gap | Next writing action |
+| 正式章節 | 正式格式期待內容 | 目前材料 | 缺口 | 下一步撰寫動作 |
 | --- | --- | --- | --- | --- |
-| Cover page | project name, county/city, application mode, categories, applicant/co-applicant institutions, institution codes, budget, execution period, PI, contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` cover/package fields | applicant, mode, official category mapping, institution codes, parent proposal name not confirmed; working budget is three years / NT$10,000,000 | keep placeholders; ask hospital owner before Word transfer |
-| TOC | official auto-generated section order | none needed in Markdown | final Word/PDF step | do not maintain by hand in this repo |
-| `壹、自我檢核` | eligibility, official format, COI forms, no duplicate funding, participation consent, only one application mode | v0.2 preflight, MOHW compliance rubric | legal/administrative facts are pending | add explicit applicant-owner checklist and leave institutional blanks |
-| `貳、計畫概要` | concise plan summary and problem framing | v0.2 summary, clinical friction analysis, system positioning | summary needs more official/workforce language | write 200-300 word Chinese summary centered on staff-burden reduction |
-| `參、申請單位簡介` | applicant/co-applicant institutional background | role table only | institutional text pending | provide role-specific placeholder, not invented institution prose |
-| `肆、計畫規劃` | four-scope plan content; workflow, work packages, deliverables | proposal writing guide, intended-use freeze, demo-scope freeze | must look like service implementation plan, not design essay | structure as workflow slot -> modules -> work packages -> governance |
-| `伍、效益評估` | KPI table by category, baseline/current data, target, annual checkpoints | KPI-to-budget table, annual checkpoint table | targets and baselines still draft | add integrated KPI-budget-checkpoint table and label all current targets as draft |
-| `陸、出國計畫書` | only if scope 2 training-related overseas activity is budgeted | not applicable | must explicitly mark not applicable | write N/A unless training overseas plan is added |
-| `柒、經費規劃` |分年經費總表, budget category details, scope allocation, capital/personnel/business categories | KPI-to-budget table | NT$10,000,000 working ceiling is set; allowed hospital accounting categories and official annual split still need confirmation | map every line to KPI / owner / evidence / checkpoint |
-| `捌、人力配置表` | subsidized-unit personnel, current post, work role | role table | named personnel pending | keep role-based table and mark names pending |
-| `玖、其他` | attachments, quotations, cooperation materials, figure/table list | repo inclusion recommendation, governance checklist, demo/reviewer artifacts | attachment packet not selected | list recommended appendices and do-not-attach items |
-| `拾、利衝自主檢核` | official signed form | none | must be institution-owned | mark parent owner action |
-| `拾壹、未重複補助切結` | signed statement | none | must be institution-owned | mark parent owner action |
-| `拾貳、參與計畫同意書` | partner consent forms | MOU/partner questions in meeting notes | partner list pending | create partner decision question, no invented partner commitment |
-| `拾參、審查意見回復` | reviewer comments, response, revision location | scoring rubric and review response style | only needed after review | prepare empty response table for later |
+| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields | applicant、mode、institution codes、parent proposal name 尚未確認；類別設計為主打 `範疇三`、副支援 `範疇一`；working budget 為三年 / NT$10,000,000 | 保留 placeholder；Word transfer 前詢問 hospital owner |
+| TOC | official auto-generated section order | Markdown 不需另維護 | final Word/PDF step | 本 repo 不手動維護 |
+| `壹、自我檢核` | eligibility、official format、COI forms、no duplicate funding、participation consent、only one application mode | v0.2 preflight、MOHW compliance rubric | legal/administrative facts pending | 加入 applicant-owner checklist，institutional blanks 留白 |
+| `貳、計畫概要` | 簡明計畫摘要與問題 framing | v0.6 one-page positioning、clinical friction analysis、system positioning | summary still needs parent-owner approval | 使用 v0.6 摘要，聚焦範疇三 smart-healthcare workflow 與範疇一 staff-burden reduction |
+| `參、申請單位簡介` | applicant/co-applicant institutional background | role table only | institutional text pending | 提供 role-specific placeholder，不捏造 institution prose |
+| `肆、計畫規劃` | 四大範疇計畫內容、workflow、工作項目、deliverables | v0.6 subproject-three skeleton adaptation、proposal writing guide、intended-use freeze、demo-scope freeze | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成：門診 / 篩檢追蹤入口 -> 低摩擦症狀蒐集 -> 來源標記（source label）/ 缺漏欄位 -> 一頁式醫師覆核摘要 -> staff-review / CRM-ready queue -> KPI 評估 |
+| `伍、效益評估` | KPI table by category、baseline/current data、target、annual checkpoints | v0.6 KPI table、KPI-to-budget table、annual checkpoint table | baselines still draft | 使用可驗收 targets：summary read time <= 60 秒、source label 100%、unsafe wording = 0、missing-field visibility >= 90%、clinician usefulness >= 4/5、governance owner named |
+| `陸、出國計畫書` | 只有在 scope 2 training-related overseas activity 編列時使用 | not applicable | 必須明確標示不適用 | 除非新增 overseas training plan，否則寫 N/A |
+| `柒、經費規劃` | 分年經費總表、budget category details、scope allocation、capital/personnel/business categories | v0.6 budget table and KPI-to-budget table | NT$10,000,000 discussion allocation 已設定；formal accounting category、unit price、quantity、procurement note 仍需確認 | 每列補齊 formal accounting category / unit price / quantity / year / KPI / owner / evidence / procurement note |
+| `捌、人力配置表` | subsidized-unit personnel、current post、work role | role table | named personnel pending | 保留 role-based table，姓名標示 pending |
+| `玖、其他` | attachments、quotations、cooperation materials、figure/table list | repo inclusion recommendation、governance checklist、demo/reviewer artifacts | attachment packet 尚未選定 | 列出 recommended appendices 與 do-not-attach items |
+| `拾、利衝自主檢核` | official signed form | none | 必須由 institution owner 處理 | 標示 parent owner action |
+| `拾壹、未重複補助切結` | signed statement | none | 必須由 institution owner 處理 | 標示 parent owner action |
+| `拾貳、參與計畫同意書` | partner consent forms | MOU/partner questions in meeting notes | partner list pending | 建立 partner decision question，不捏造 partner commitment |
+| `拾參、審查意見回復` | reviewer comments、response、revision location | scoring rubric and review response style | review 後才需要 | 先準備 empty response table |
 
-## Current Draft Package Routing
+## 目前草稿包路由
 
-Use these as the official-format writing package:
+正式格式撰寫時使用下列文件：
 
-- Current v0.5 discussion draft: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
-- Precedent-integrated baseline: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
-- Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- Current v0.6 fill-out discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Prior v0.5 discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+- Precedent-integrated baseline：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
+- Official-format crosswalk：`DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
 - KPI / budget / annual checkpoint integration: `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
 - Intended-use freeze: `INTENDED_USE_FREEZE.md`
 - Demo-scope freeze: `DEMO_SCOPE_FREEZE.md`
@@ -79,13 +80,13 @@ Use these as the official-format writing package:
 - Scoring rubric: `DEEP_CULTIVATION_SCORING_RUBRIC.md`
 - MOHW compliance rubric: `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`
 
-Older useful but superseded source drafts:
+仍有參考價值但已被取代的舊草稿：
 
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`
 - `DEEP_CULTIVATION_SUBPROJECT_UROLOGY_PREVISIT_V0_1.md`
 
-## Writing Principles For v0.5
+## Writing Principles For v0.6
 
 ### 1. Write as a hospital workflow proposal
 
@@ -152,7 +153,7 @@ Do not invent:
 - procurement route
 - real-patient pilot approval
 
-Use `Pending parent proposal owner` until the hospital confirms.
+院方確認前，使用 `Pending parent proposal owner` 標示。
 
 ## Immediate Questions For Hospital / PI Owner
 
@@ -163,7 +164,7 @@ Use `Pending parent proposal owner` until the hospital confirms.
 | What is the official parent proposal name? | determines whether this is 子計畫二 or an appendix |
 | Is the first workflow slot `報到後 / 候診中 / QR code or tablet` acceptable? | determines plan feasibility |
 | Are staff allowed to help patients complete intake? | determines staffing and burden KPI |
-| Should the v0.5 discussion draft go into the Word template now? | determines next artifact format |
+| v0.6 討論稿是否現在轉入 Word template？ | 決定下一個 artifact format |
 | Does the NT$10,000,000 working ceiling need a different annual or accounting-category split? | prevents fake budget lines |
 | Who owns AI, cybersecurity, data governance, and privacy sign-off? | required for Scope 3 credibility |
 | Is CRM follow-up reopened or parked? | prevents scope drift |
@@ -171,9 +172,9 @@ Use `Pending parent proposal owner` until the hospital confirms.
 
 ## Ready / Not Ready Gate
 
-The proposal is ready for internal clinical/admin review when:
+符合下列條件時，提案可進入 internal clinical/admin review：
 
-- v0.5 discussion draft exists
+- v0.6 discussion draft exists
 - official-format crosswalk exists
 - KPI-budget-checkpoint integration table exists
 - intended use and demo scope are frozen
@@ -181,7 +182,7 @@ The proposal is ready for internal clinical/admin review when:
 - open administrative fields are visible
 - all unsafe claims are removed
 
-The proposal is not ready for external or formal submission until:
+在下列事項完成前，提案還不適合 external 或 formal submission：
 
 - latest official template is confirmed
 - institutional applicant and mode are confirmed
