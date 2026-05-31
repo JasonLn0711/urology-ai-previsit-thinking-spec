@@ -49,6 +49,29 @@ Default order:
 capability -> workflow value -> evidence -> scope control -> next gate
 ```
 
+## Attention-Earning Evidence Narrative
+
+Technically correct proposal writing still needs a first-page reason to keep
+reading. For proposals, articles, introductions, abstracts, reviewer memos, and
+paper-facing strategy notes, use this sequence:
+
+```text
+cited real-world or credible near-future problem
+-> fair cited current solution landscape
+-> evidence-backed remaining gap
+-> new viewpoint, architecture, framing, or method
+-> how it addresses the opening problem
+-> scope controls and next validation path
+```
+
+The opening problem can be a current operational burden or a credible near-term
+risk, but it must be anchored in a citation, local evidence record, official
+source, stakeholder meeting note, or measured workflow artifact. When discussing
+existing solutions, first name what they enable, then identify the remaining
+issue as workflow fit, claim-evidence alignment, validation need, scalability,
+safety, governance, or maintenance. The contribution should then read as a
+positive answer to that evidence-backed gap.
+
 ## Non-Negotiable Writing Stance
 
 Write from this stance:

@@ -18,6 +18,14 @@ All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
 The proposal should be confident, direct, and affirmative. Safety boundaries remain mandatory, and they should be written as deliberate design choices, scope controls, governance gates, and claim-evidence alignment.
 
+Proposal openings should also earn attention. Start with a real-world clinical
+workflow burden or credible near-future risk, cite the official source, local
+evidence record, stakeholder meeting note, or measured artifact that supports
+that opening, describe current solution approaches fairly, name the remaining
+gap as workflow fit / claim-evidence alignment / validation / safety /
+scalability / governance, and then introduce this project as the new
+architecture or framing that addresses the opening problem.
+
 Before circulating a draft section, run `ASSERTIVE_WRITING_GATE.md`.
 
 Before freezing a proposal package or sending a materially updated packet to an
@@ -39,6 +47,7 @@ For the current official-format drafting package, use:
 - `INTENDED_USE_FREEZE.md`
 - `DEMO_SCOPE_FREEZE.md`
 - `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
@@ -53,9 +62,9 @@ comparison, use:
 
 The precedent should be used as a format and execution-packaging reference while the current urology proposal stays focused on its deliberate previsit workflow scope.
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as the current writing entrypoint for the 2026-06-02 discussion. It keeps the v0.4 precedent lessons, adds the 2026-05-29 Prof. Wu constraints, fixes the working budget at three years / NT$10,000,000, requires KPI-linked budget lines, and enforces a 20-page discussion-version cap.
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` as the current writing entrypoint for the 2026-06-02 discussion. It keeps the v0.5 NT$10,000,000 / KPI-budget / 20-page controls, makes `範疇三：導入智慧科技醫療` the primary category, uses `範疇一：優化醫療工作條件` as secondary support, adapts the subproject-three skeleton as a fill-out structure, adds verifiable KPI targets, adds formal budget fill-out columns, and moves governance before KPI and budget.
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` as the precedent-integrated baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton.
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as the prior NT$10,000,000 discussion baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` as the precedent-integrated baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton.
 
 2026-05-19 expert-review update:
 

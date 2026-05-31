@@ -42,6 +42,18 @@ Every outward-facing paragraph should follow this order:
 contribution -> workflow value -> deliberate scope -> governance boundary -> next evidence gate
 ```
 
+For proposal openings, paper introductions, article leads, reviewer memos, and
+high-level summaries, use the larger attention-and-evidence sequence:
+
+```text
+cited real-world or credible near-future problem
+-> fair cited current solution landscape
+-> evidence-backed remaining gap
+-> new viewpoint / architecture / framing / method
+-> response to the opening problem
+-> scope control and next validation path
+```
+
 Do not begin with limitation language.
 
 Do not make denial, apology, or defensive posture the organizing voice of the
@@ -58,6 +70,7 @@ scope.
 | Boundary as architecture | Safety limits are written as deliberate design choices. | Safety limits sound like apology, weakness, or inability. |
 | Positive-scope design | The paragraph is organized around capability, evidence, scope, and next gate. | The paragraph is organized around what the system is not, lacks, or cannot promise. |
 | Evidence pointer | The claim points to a file, KPI, workflow map, reviewer artifact, or governance gate. | The paragraph relies on adjectives alone. |
+| Citation-backed opening | The opening problem or near-future risk cites an official source, local evidence record, stakeholder note, or measured artifact. | The opening asks for attention without evidence. |
 | No self-weakening phrasing | No unnecessary `only`, `just`, `merely`, `只是`, `僅僅`, `初步而已`, or similar wording. | The sentence lowers confidence before stating value. |
 | Governance alignment | Diagnosis, treatment, triage, EMR, real-data, and deployment language matches current scope. | The sentence either overclaims autonomy or apologizes for safe scope. |
 
