@@ -31,6 +31,8 @@ Use:
 
 ## Current Records
 
+- `2026-05-31/README.md`:
+  v0.6 fill-out design record for the active 2026-06-02 discussion package.
 - `2026-05-29/README.md`:
   same-day Prof. Wu proposal follow-up capture, v0.5 decision record, and
   reference-proposal analysis for the attached subproject-three PDF.

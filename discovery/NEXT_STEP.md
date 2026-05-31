@@ -8,7 +8,7 @@ The question is not "Can we build more?" The question is:
 
 Does the urology smart-previsit concept solve a real workflow problem strongly enough to justify the next small experiment?
 
-## Target Outcome
+## 目標產出
 
 After the physician conversation and same-day synthesis, the project should have:
 
@@ -19,7 +19,7 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
-## Current Active Follow-Up: 2026-06-02 Deep-Cultivation Draft Review
+## 目前 active follow-up：2026-06-02 深耕計畫草稿 review
 
 The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The working instruction is now:
 
@@ -31,14 +31,15 @@ The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The work
 2026-06-02 前準備好討論版本
 ```
 
-Current v0.5 discussion artifacts:
+目前 v0.6 討論 artifacts：
 
 - Meeting capture: `../records/2026-05-29/prof-wu-xinyi-proposal-meeting-capture.md`
 - Decision record: `../records/2026-05-29/deep-cultivation-v0.5-decision-record.md`
 - Reference proposal analysis: `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md`
-- Current application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+- Current application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Prior application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 
-The attached subproject-three PDF is useful as a proposal-structure, KPI, budget, and section-completeness precedent. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims.
+The attached subproject-three PDF is useful as a proposal-structure, KPI, budget, organization, governance, and section-completeness precedent. v0.6 uses it as a fill-out skeleton only. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims.
 
 The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivation meeting:
 
@@ -50,7 +51,8 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Intended-use freeze: `INTENDED_USE_FREEZE.md`
 - Demo-scope freeze: `DEMO_SCOPE_FREEZE.md`
 - Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
-- Current application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+- Current application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Prior application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - Prior application draft v0.4: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - Application draft v0.3: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - Prior application skeleton v0.2: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md`
@@ -95,6 +97,7 @@ The current application-writing execution artifacts are now:
 INTENDED_USE_FREEZE.md
 DEMO_SCOPE_FREEZE.md
 DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md
 DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md
 DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md
 DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md
@@ -265,7 +268,7 @@ During capture, avoid turning every comment into a feature request. Objections a
 
 Within the same day, compress the meeting into a one-page decision summary.
 
-Use this structure:
+使用下列結構：
 
 | Section | Content |
 | --- | --- |

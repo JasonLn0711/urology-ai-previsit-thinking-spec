@@ -2,6 +2,14 @@
 
 This repository uses the versioning rules in `VERSIONING.md`.
 
+## v0.6.0 - 2026-05-31
+
+Type: minor
+
+Summary:
+
+- Add v0.6 deep-cultivation fill-out package with category design, subproject-three skeleton adaptation, KPI targets, formal budget columns, and front-loaded governance
+
 ## v0.5.0 - 2026-05-29
 
 Type: minor
