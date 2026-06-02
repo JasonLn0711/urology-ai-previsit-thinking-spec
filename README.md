@@ -101,7 +101,9 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 - For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
-- For the current 2026-06-02 fill-out discussion draft with category design, subproject-three skeleton adaptation, KPI targets, formal budget columns, and front-loaded governance: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- For the current 2026-06-02 fill-out discussion draft with formal proposal layout, concrete 118-year milestones, KPI targets, formal budget columns, and second-version HIS/EMR/EHR writeback positioning: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
+- For the current v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
+- For the prior v0.6 fill-out discussion draft with category design, KPI targets, formal budget columns, and front-loaded governance: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - For the prior 2026-06-02 discussion draft with NT$10,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - For the prior precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - For the prior official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
@@ -181,7 +183,8 @@ Near-term framing should emphasize:
 - the 2026-05-20 format-alignment step promoted the proposal-writing package to v0.3 with an official-format crosswalk and KPI / budget / annual-checkpoint integration table
 - the 2026-05-21 precedent-integration step promoted the proposal-writing package to v0.4 by learning the A2-0048 proposal's official-format discipline while preserving the narrow urology previsit scope
 - the 2026-05-29 Prof. Wu follow-up promoted the discussion package to v0.5 by fixing the working budget at three years / NT$10,000,000, requiring KPI-linked budget lines, and enforcing a 20-page discussion draft
-- the 2026-05-31 fill-out design update promotes the active discussion package to v0.6 by making `範疇三：導入智慧科技醫療` the primary category, `範疇一：優化醫療工作條件` the secondary support category, adopting the subproject-three proposal skeleton only as a fill-out structure, using verifiable KPI targets, adding formal budget fill-out columns, and moving governance before KPI and budget
+- the 2026-05-31 fill-out design update promoted the discussion package to v0.6 by making `範疇三：導入智慧科技醫療` the primary category, `範疇一：優化醫療工作條件` the secondary support category, using verifiable KPI targets, adding formal budget fill-out columns, and moving governance before KPI and budget
+- the 2026-06-01 v0.7 update promotes the active Word-export package by removing subproject-three wording from the delivered proposal text, making the 118-year milestone concrete, and keeping HIS/EMR/EHR writeback for a second-version system-integration and governance-confirmation step
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`
 - draft scoring should use the four independent 100-point layers in `discovery/DEEP_CULTIVATION_SCORING_RUBRIC.md`, including the MOHW format-compliance layer before formal submission
 - the expanded D-layer rubric in `discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` should be treated as a source-freshness and official-format preflight, not just an administrative checklist

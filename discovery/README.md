@@ -14,7 +14,9 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 - `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / CRM service-flow draft
 - `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`: structured capture and postdoctoral comparison of the A2-0048 precedent proposal; use it as a format and execution-packaging reference, not as scope expansion guidance
 - `../records/2026-05-29/README.md`: 2026-05-29 Prof. Wu follow-up capture, v0.5 decision record, and attached subproject-three reference proposal analysis
-- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: current 2026-06-02 fill-out discussion draft; sets primary `範疇三`, secondary `範疇一`, subproject-three skeleton adaptation, verifiable KPI targets, formal budget fill-out columns, and front-loaded governance
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: current 2026-06-02 fill-out discussion draft; sets primary `範疇三`, secondary `範疇一`, formal proposal layout, concrete 118-year milestones, verifiable KPI targets, formal budget fill-out columns, front-loaded governance, and second-version HIS/EMR/EHR writeback positioning
+- `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: current Word-ready discussion proposal export
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: prior 2026-06-02 fill-out discussion draft
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`: prior 2026-06-02 discussion draft; sets three-year NT$10,000,000 working budget, KPI-to-budget traceability, and 20-page page control
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`: prior precedent-integrated official-package proposal draft; keeps the v0.3 narrow urology scope while adding official checklist, owner table, baseline measurement, KPI-budget-checkpoint mapping, governance paragraph, and review-response table
 - `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`: postdoctoral strategy review for shaping the urology previsit system as a Health Taiwan deep-cultivation workflow-transformation proposal; separates adopted, modified, and deferred suggestions

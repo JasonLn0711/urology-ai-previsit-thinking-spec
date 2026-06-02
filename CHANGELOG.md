@@ -2,6 +2,16 @@
 
 This repository uses the versioning rules in `VERSIONING.md`.
 
+## v0.7.0 - 2026-06-01
+
+Type: minor
+
+Summary:
+
+- Add v0.7 deep-cultivation proposal export without subproject-three wording.
+- Replace the 118-year milestone with concrete成果彙整、維運移轉與下一階段擴充準備 wording.
+- Move HIS / EMR / EHR writeback into second-version system-integration and governance confirmation.
+
 ## v0.6.0 - 2026-05-31
 
 Type: minor

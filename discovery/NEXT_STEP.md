@@ -31,15 +31,17 @@ The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The work
 2026-06-02 前準備好討論版本
 ```
 
-目前 v0.6 討論 artifacts：
+目前 v0.7 討論 artifacts：
 
 - Meeting capture: `../records/2026-05-29/prof-wu-xinyi-proposal-meeting-capture.md`
 - Decision record: `../records/2026-05-29/deep-cultivation-v0.5-decision-record.md`
 - Reference proposal analysis: `../records/2026-05-29/xinyi-outpatient-proposal-reference/README.md`
-- Current application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Current application draft v0.7: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
+- Current Word-ready export: `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
+- Prior application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - Prior application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 
-The attached subproject-three PDF is useful as a proposal-structure, KPI, budget, organization, governance, and section-completeness precedent. v0.6 uses it as a fill-out skeleton only. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims.
+The active v0.7 package uses a formal proposal layout and removes subproject-three wording from the delivered proposal text. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims; HIS/EMR/EHR writeback is reserved for a second-version system-integration and governance-confirmation step.
 
 The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivation meeting:
 
@@ -51,7 +53,8 @@ The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivat
 - Intended-use freeze: `INTENDED_USE_FREEZE.md`
 - Demo-scope freeze: `DEMO_SCOPE_FREEZE.md`
 - Official-format crosswalk: `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
-- Current application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Current application draft v0.7: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
+- Prior application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - Prior application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - Prior application draft v0.4: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - Application draft v0.3: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
@@ -97,6 +100,7 @@ The current application-writing execution artifacts are now:
 INTENDED_USE_FREEZE.md
 DEMO_SCOPE_FREEZE.md
 DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md
+DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md
 DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md
 DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md
 DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md
