@@ -1,5 +1,29 @@
 # Open Questions
 
+## 2026-06-02 信義 Integrated PSA / AI / CRM Questions
+
+These are the active v0.8 planning questions after the 2026-06-02 LINE minutes
+and Jason responsibility clarification.
+
+1. Who is final applicant / PI for the integrated 信義 package?
+2. Who owns 忠孝院區泌尿科 PSA clinical SOP and Taiwan Urological Association guideline compliance?
+3. Which PSA fields must be included in the AI / CRM workflow: eligibility, PSA value, abnormal flag, return appointment, contact status, or follow-up outcome?
+4. What exact CRM output supports the abnormal-case return / tracking KPI `>= 70%`?
+5. Is CRM an internal follow-up queue, patient messaging system, staff dashboard, vendor platform, or a phased combination?
+6. Who owns CRM outsourcing, procurement, vendor acceptance criteria, maintenance, and exit / handoff after the project period?
+7. What data route is planned for PSA + AI + CRM: no real data, QI/service improvement, IRB research, or mixed?
+8. What privacy / consent wording is needed if CRM contacts patients or stores follow-up status?
+9. What security review is required if CRM, AI 問診, ASR, APP, API, or vendor-hosted services are included?
+10. Which budget lines are operating expense, outsourcing, personnel, software/service, or capital equipment, and how will the `30%` capital cap be checked?
+11. Does AI 智慧問診 need ASR in v0.8, or should typed / QR / tablet intake remain the baseline?
+12. Which owner validates the one-page summary `<= 60 秒` KPI?
+13. Which owner validates CRM follow-up evidence for the `>= 70%` abnormal-case follow-up KPI?
+14. Which sections of v0.7 can be reused directly, and which must be rewritten because CRM is now explicit outsourced scope?
+15. Should v0.8 be written as a new full proposal body, an integration skeleton first, or a work-package insert for a parent proposal?
+16. How finely should KPI be split so the NT$15,000,000 AI 智慧問診 / CRM allocation is reviewable by主管單位 and審查機關?
+17. Which sub-KPIs support each budgetable line: proposal coordination, clinical workflow, AI summary, CRM outsourcing, data quality, staff burden, governance, procurement, maintenance, and annual reporting?
+18. Which KPI evidence can be produced before real patient-data approval, and which must wait for QI/service/IRB/governance approval?
+
 ## Active Post-Meeting Questions
 
 These are the highest-priority questions after the 2026-04-23 meeting and 許醫師 LINE follow-up materials.
@@ -33,14 +57,18 @@ Accepted near-term narrowing:
 - Lead with Health Taiwan `範疇三：導入智慧科技醫療`; use `範疇一：優化醫療工作條件` as secondary support.
 - Do not write the work as an `AI medical system`.
 - Park CRM follow-up until a future confirmed next step.
+- Superseded by 2026-06-02 responsibility clarification for the 信義 proposal lane:
+  CRM outsourcing is now an explicit proposal-writing scope assigned by 美如主任,
+  while procurement, privacy, security, data route, and maintenance ownership
+  remain open gates.
 - Treat ASR as an optional multilingual input layer only.
 - Start with non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream.
 - Treat visible blood, retention/current inability to urinate, fever/chills, and flank pain as patient-reported red-flag observations, not triage or risk judgments.
 - Use `醫師覆核用 SOAP 架構參考摘要`, not `SOAP 病歷草稿`, `自動病歷`, or `自動產生 EMR`.
 
-Resolved or parked items:
+Resolved or parked items from the 2026-05-19 / v0.7 baseline:
 
-- CRM execution is parked for now.
+- CRM execution was parked for v0.7. For the 2026-06-02 信義 lane, this is superseded: CRM outsourcing is now active proposal-writing scope, with activation still gated by procurement, privacy, security, data, and maintenance owners.
 - First workflow hypothesis is after registration / while waiting, completed by patient or family with QR code or tablet.
 - Partial summary is acceptable if the patient does not complete every field.
 - Do not require nurses to complete all missing fields in the first version; nursing should only handle incomplete, conflicting, or red-flag-observation cases.
@@ -56,8 +84,8 @@ Still requires clinical confirmation:
 
 ## 2026-05-19 Deep-Cultivation Grant Questions
 
-1. For 子計畫二, what is the exact service workflow from registration to waiting-room intake to clinician-review summary, with CRM follow-up explicitly parked?
-2. If CRM is mentioned, what wording clearly marks it as a later governed phase rather than current execution?
+1. For the 信義 integrated package, what is the exact service workflow from PSA screening to AI 問診, physician-review summary, CRM outsourced follow-up, and KPI evidence?
+2. Which CRM functions are funded outsourced scope, and which remain later activation gates after procurement / privacy / security owner confirmation?
 3. Will APP / ASR / API work be outsourced, staffed internally, or split into a hybrid plan if it moves beyond documentation?
 4. What procurement threshold applies to APP, questionnaire, platform, API, or ASR-related outsourcing?
 5. Which MOUs are required: community, clinics, 忠孝院區, 衛生局, university team, or vendors?

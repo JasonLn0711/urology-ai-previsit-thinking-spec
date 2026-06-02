@@ -31,6 +31,9 @@ Use:
 
 ## Current Records
 
+- `2026-06-02/README.md`:
+  信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8
+  planning gate after the 2026-06-02 LINE minutes and follow-up clarification.
 - `2026-05-31/README.md`:
   v0.6 fill-out design record for the active 2026-06-02 discussion package.
 - `2026-05-29/README.md`:

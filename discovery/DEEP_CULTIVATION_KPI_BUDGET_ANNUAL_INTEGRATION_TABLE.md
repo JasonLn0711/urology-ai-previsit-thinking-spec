@@ -4,7 +4,13 @@
 
 日期：2026-05-29
 
-目前提案包：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+目前提案包：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
+
+2026-06-02 後 active gate:
+
+```text
+v0.8 planning: 信義 integrated PSA 主動篩檢 + AI 智慧問診 + CRM 外包
+```
 
 目的：把每一項提案效益連到可衡量 KPI、正式提案章節、預算項目、owner、evidence artifact 與年度 checkpoint。撰寫任何預算段落前，應先查核本表。
 
@@ -51,6 +57,85 @@ No friction reduction -> no Health Taiwan workflow value.
 | `拾-拾貳` | statutory forms | forms handled by institution | COI、no duplicate funding、participation consent complete | administrative review | institution admin | parent applicant | signed official forms | submission |
 | `拾參、審查意見回復表` | review-response readiness | response table prepared | likely reviewer questions and response directions drafted | reviewer-readiness check | proposal coordination | proposal writer + parent owner | v0.6 review-response table | external review 前 |
 
+## v0.8 信義整合 KPI / Budget Architecture
+
+This section supersedes the old `CRM parked` interpretation for the 信義
+proposal lane. CRM outsourcing is now an explicit proposal-writing scope after
+the 2026-06-02 responsibility clarification. Procurement, data route, security,
+privacy, patient messaging, and maintenance remain governance gates.
+
+| Component | KPI / checkpoint | Draft target | Budget meaning | Required owner | Evidence artifact | Stop rule |
+| --- | --- | --- | --- | --- | --- | --- |
+| PSA active screening | annual screening volume | `3,500-5,000` men per year | PSA screening operations and coordination, about NT$15,000,000 signal | 忠孝院區 urology / clinical SOP owner | PSA SOP, guideline-compliance note, screening-count workbook | Do not write clinical SOP as Jason-owned |
+| PSA follow-up | abnormal-case return / tracking completion | `>= 70%` | follow-up coordination and CRM-linked tracking | clinical owner + CRM workflow owner | abnormal-case tracking report | Do not claim cancer-outcome improvement |
+| AI 智慧問診 | one-page physician-reference summary | generated / readable within `60` seconds | AI 問診 / summary workflow, part of about NT$15,000,000 AI/CRM signal | 智慧健康醫療中心 + clinical reviewer | timed reviewer scorecard | Do not claim diagnosis, treatment, triage, or queue priority |
+| Information quality | source label and missing-field visibility | source label `100%`; missing-field visibility `>= 90%` | summary schema, data model, auditability | engineering + clinical reviewer | audit sample, missing-field report | Do not hide uncertainty or unsupported inference |
+| Safety wording | unsafe wording count | `0` diagnosis / treatment / autonomous triage / automatic EMR phrases | safety review and prompt/rule governance | clinical + governance reviewer | unsafe-wording checklist | Do not soften this gate |
+| CRM outsourcing | follow-up queue / contact-management readiness | CRM workflow fields reviewed; owner and procurement path named | CRM outsourced service / system scope | CRM owner + procurement + IT/security | CRM field map, vendor-scope note, procurement note | No real patient messaging or production CRM claim before privacy/security/procurement approval |
+| CRM-to-PSA KPI mapping | abnormal follow-up evidence route | every abnormal case has status field and next-action owner | CRM supports `>= 70%` KPI evidence | clinical owner + CRM workflow owner + evaluation owner | follow-up dashboard spec, evidence workbook | Do not treat CRM as decorative software line |
+| Governance | owner readiness | AI/data/cybersecurity/IRB-QI/procurement/maintenance owners named or pending explicitly | governance review time and documentation | parent proposal owner | governance checklist | No real-data or deployment claim without owner route |
+| Capital / equipment cap | capital expenditure review | capital items below legal `30%` cap | equipment / device procurement only if workflow and accounting allow | budget + procurement owner | official budget table | Do not invent equipment lines without accounting review |
+
+## v0.8 Budget Transition
+
+v0.7 used NT$10,000,000 as a discussion allocation for the AI 智慧問診 slice.
+The 2026-06-02 meeting signal changes the budget architecture:
+
+```text
+PSA 主動篩檢: about NT$15,000,000
+AI 智慧問診 including CRM: about NT$15,000,000
+信義碳盤查: about NT$7,500,000, parallel parent-proposal workstream
+```
+
+The v0.8 draft should keep budget discipline:
+
+```text
+No KPI -> no core budget line.
+No owner -> no operational claim.
+No procurement/data/security route -> no CRM production claim.
+No clinical SOP owner -> no PSA clinical-procedure claim.
+```
+
+## v0.8 NT$15M AI / CRM Fine-Grained KPI Support
+
+The AI 智慧問診 / CRM allocation is about NT$15,000,000. This amount needs a
+reviewable KPI stack. A small set of headline KPIs is not enough for主管單位 or
+審查機關.
+
+Use this rule:
+
+```text
+Every budgetable work package must have at least one sub-KPI, one owner, one
+evidence artifact, and one annual checkpoint.
+```
+
+Draft fine-grained KPI stack:
+
+| Budget-support area | Sub-KPI | Draft target | Evidence artifact | Owner needed |
+| --- | --- | --- | --- | --- |
+| Proposal integration | integrated PSA / AI / CRM proposal package completeness | one integrated v0.8 skeleton plus owner-question table | v0.8 skeleton, review-response table | proposal coordinator |
+| PSA handoff | PSA abnormal case has CRM-ready status field | 100% of designed abnormal cases have status / next-action fields in schema | CRM field map | clinical SOP owner + CRM owner |
+| PSA follow-up evidence | abnormal follow-up tracking reportability | report can calculate denominator, numerator, pending, unreachable, completed | KPI workbook / dashboard spec | evaluation owner |
+| AI intake completion | minimum required previsit fields collected or flagged | >= 90% key fields completed or visibly marked missing in test set | missing-field report | AI workflow owner |
+| One-page summary | physician-reference summary timing | <= 60 seconds review target, with actual timed evidence | timed reviewer scorecard | clinical reviewer |
+| Source labels | source-label completeness | 100% summary lines or fields show patient / family / staff / ASR-confirmed source | audit sample | data / AI owner |
+| Unsafe wording | unsafe clinical wording count | 0 diagnosis, treatment, autonomous triage, queue-priority, automatic EMR phrases | safety checklist | clinical + governance reviewer |
+| CRM outsourcing scope | vendor deliverables mapped to acceptance criteria | 100% vendor deliverables map to KPI or governance requirement | vendor-scope table | procurement owner |
+| CRM follow-up queue | follow-up queue completeness | all abnormal / follow-up candidates have owner, status, due date, and next action in design | CRM workflow spec | CRM workflow owner |
+| CRM contact evidence | contact-attempt traceability | contact attempt, channel, result, and timestamp fields defined before real use | CRM data dictionary | privacy + CRM owner |
+| Staff burden | no hidden staff overload | staff workflow review records clicks, duplicate entry, exception load, and training burden | staff-friction worksheet | outpatient workflow owner |
+| Training readiness | role-based training material completeness | training checklist for clinician / staff / admin / CRM operator roles | training checklist | training owner |
+| Data governance | retention / deletion / access rules named | data route table completed before real-data claim | data governance note | data/privacy owner |
+| Cybersecurity | access and audit controls defined | authentication, role access, audit log, incident route fields named | security review note | IT/security owner |
+| Procurement / maintenance | post-project maintenance route | maintenance owner, exportability, transition, SLA / support expectation named | procurement / maintenance note | procurement + maintenance owner |
+| Annual reporting | checkpoint evidence completeness | yearly report can show output, KPI, issue, correction, next checkpoint | annual evidence packet | evaluation owner |
+
+Budget explanation sentence:
+
+```text
+本案 AI 智慧問診與 CRM 經費以細項 KPI 支撐，涵蓋 proposal integration、PSA 異常個案銜接、AI 問診摘要、CRM 外包追蹤、資料品質、staff burden、資安/資料/AI governance、採購驗收與年度 evidence package。每一項支出均對應可查核 KPI、負責 owner、evidence artifact 與年度 checkpoint，使 NT$15,000,000 經費可向主管單位與審查機關清楚說明。
+```
+
 ## 提案 KPI 建議分組
 
 除非 hospital owner 調整，v0.6 KPI 表建議使用下列列項：
@@ -78,7 +163,7 @@ No friction reduction -> no Health Taiwan workflow value.
 | ASR module/service | optional | 僅在 input-burden 或 multilingual-accessibility KPI 明確時納入 |
 | Security/data/AI governance review | 範疇三 readiness 必備 | 納入或指定 internal owner |
 | FHIR / TW Core IG mapping | future readiness only | 只有 proposal 主張 future interoperability 時才納入 mapping |
-| CRM/reminder platform | future activation gate | CRM phase 有 SOP、consent、owner、KPI 後才編預算 |
+| CRM/reminder platform | 2026-06-02 responsibility clarification makes CRM outsourcing active proposal scope for 信義 | 編列前需 SOP、consent / data route、owner、KPI、procurement、security、maintenance path |
 | Tablets/equipment | site-readiness gate | site workflow 與 procurement path confirmed 後才編預算 |
 | HIS/EMR integration | future integration path | 放在 later governed integration phase |
 
@@ -121,5 +206,5 @@ No friction reduction -> no Health Taiwan workflow value.
 | ASR 是否值得作為 KPI-backed input-burden reduction tool 編列？ | ASR budget |
 | cybersecurity/data/AI governance 由誰簽核？ | Scope 3 self-check wording |
 | 本案屬於 QI/service improvement path 或 research/IRB path？ | any real-patient pilot claim |
-| CRM 是否仍 parked？ | any follow-up/reminder budget |
+| CRM 外包如何列成 funded service / system scope, and which parts remain activation gates? | v0.8 skeleton and any follow-up/reminder budget |
 | FHIR/TW Core IG mapping 現在需要，還是只寫 future-state？ | interoperability budget |

@@ -47,6 +47,8 @@
 - KPI and budget must match; no budget line should appear without a corresponding plan objective and KPI.
 - CRM, APP, platform, API, questionnaire, or vendor work may require procurement / tender review before execution.
 - AI, APP, CRM, API, and patient-data flows require security-governance review before real deployment or real patient-data use.
+- After the 2026-06-02 信義 responsibility clarification, CRM outsourcing may be written as an explicit proposal scope, but no real CRM operation, patient messaging, LINE/SMS integration, vendor hosting, or production follow-up claim may be made before procurement, privacy, cybersecurity, data-governance, and maintenance owners are named.
+- 忠孝院區泌尿科 PSA screening can be integrated into the proposal architecture, but clinical SOP, guideline compliance, abnormal-case handling, and clinical responsibility must remain owned or confirmed by the clinical unit.
 - Aging Clock must not be treated as an accepted service claim until data source, aging definition, biomarker scope, intervention, and governance are defined.
 - Health Taiwan policy alignment should be explicit: claims should map to smart healthcare, working-condition improvement, talent training, or sustainable/social-responsibility healthcare instead of using generic `AI innovation` language.
 - External examples are pattern evidence only. Do not imply the urology proposal has the same approval status, outcomes, or clinical validation unless separately verified.

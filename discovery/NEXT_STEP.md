@@ -19,7 +19,59 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
-## 目前 active follow-up：2026-06-02 深耕計畫草稿 review
+## 目前 active follow-up：2026-06-02 後信義整合 v0.8 planning gate
+
+The latest active follow-up comes from the 2026-06-02 LINE minutes and Jason
+responsibility clarification. The project is now one 信義 integrated proposal
+package:
+
+```text
+Jason original AI 智慧問診 / one-page summary
++ 忠孝院區泌尿科 PSA 主動篩檢
++ 美如主任交辦 CRM 外包
+= 信義門診部攝護腺癌主動篩檢、AI 智慧問診與 CRM 追蹤支持整合計畫
+```
+
+Current dated records:
+
+- Responsibility record:
+  `../records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md`
+- v0.8 next-step plan:
+  `../records/2026-06-02/xinyi-integrated-psa-ai-crm-v0.8-next-step-plan.md`
+- 2026-06-02 record index:
+  `../records/2026-06-02/README.md`
+
+Current gate:
+
+```text
+v0.8 planning, not final proposal freeze.
+```
+
+The v0.7 discussion package is now the prior baseline. The next valid work is
+to prepare a v0.8 integration skeleton, update KPI / budget architecture, and
+add CRM outsourcing governance before generating a new full proposal body or
+Word export.
+
+Do next:
+
+1. Create `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_8_INTEGRATION_SKELETON.md`.
+2. Add v0.8 PSA / AI / CRM rows to
+   `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`.
+3. Add CRM outsourcing governance to
+   `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`.
+4. Prepare the 2026-06-23 信義 slot owner questions.
+5. Only after the skeleton and owner questions are coherent, draft
+   `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_8.md`.
+
+Stop rule:
+
+```text
+No CRM production claim, real patient messaging, LINE/SMS integration,
+HIS/EMR/EHR writeback, or cancer-outcome claim until procurement, privacy,
+security, clinical SOP, data route, and maintenance owners are named.
+```
+
+## Prior active follow-up：2026-06-02 深耕計畫草稿 review
 
 The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The working instruction is now:
 
@@ -41,7 +93,7 @@ The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The work
 - Prior application draft v0.6: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - Prior application draft v0.5: `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 
-The active v0.7 package uses a formal proposal layout and removes subproject-three wording from the delivered proposal text. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims; HIS/EMR/EHR writeback is reserved for a second-version system-integration and governance-confirmation step.
+The active v0.7 package uses a formal proposal layout and removes subproject-three wording from the delivered proposal text. It should not expand the urology scope into autonomous risk routing, direct HIS/EMR writeback, or unsupported production integration claims; HIS/EMR/EHR writeback is reserved for a second-version system-integration and governance-confirmation step. After the 2026-06-02 responsibility clarification, use v0.7 as the prior baseline for v0.8 planning rather than the final project identity.
 
 The latest active follow-up comes from the 2026-05-19 北市聯醫 deep-cultivation meeting:
 

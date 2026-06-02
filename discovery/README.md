@@ -14,6 +14,7 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 - `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / CRM service-flow draft
 - `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`: structured capture and postdoctoral comparison of the A2-0048 precedent proposal; use it as a format and execution-packaging reference, not as scope expansion guidance
 - `../records/2026-05-29/README.md`: 2026-05-29 Prof. Wu follow-up capture, v0.5 decision record, and attached subproject-three reference proposal analysis
+- `../records/2026-06-02/README.md`: 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8 planning gate
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: current 2026-06-02 fill-out discussion draft; sets primary `範疇三`, secondary `範疇一`, formal proposal layout, concrete 118-year milestones, verifiable KPI targets, formal budget fill-out columns, front-loaded governance, and second-version HIS/EMR/EHR writeback positioning
 - `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: current Word-ready discussion proposal export
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: prior 2026-06-02 fill-out discussion draft

@@ -100,6 +100,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 - For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
+- For the 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8 planning gate: `records/2026-06-02/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
 - For the current 2026-06-02 fill-out discussion draft with formal proposal layout, concrete 118-year milestones, KPI targets, formal budget columns, and second-version HIS/EMR/EHR writeback positioning: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
 - For the current v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
@@ -145,7 +146,34 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 ## Current Planning Signal
 
-The latest dated planning evidence is the 2026-05-29 Prof. Wu follow-up meeting.
+The latest dated planning evidence is the 2026-06-02 LINE minutes and Jason
+responsibility clarification.
+
+Current active gate:
+
+```text
+v0.8 integrated 信義 proposal planning
+```
+
+Current project definition:
+
+```text
+信義門診部攝護腺癌主動篩檢、AI 智慧問診與 CRM 追蹤支持整合計畫
+```
+
+The active assignment is to merge three parts into one large proposal package:
+
+- Jason's original AI 智慧問診 / one-page physician-review summary plan;
+- 忠孝院區泌尿科自行提報的 PSA 主動篩檢;
+- 美如主任交辦要寫進深耕計畫的 CRM 外包.
+
+Current source records:
+
+- `records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md`
+- `records/2026-06-02/xinyi-integrated-psa-ai-crm-v0.8-next-step-plan.md`
+
+The latest prior proposal-package evidence is the 2026-05-29 Prof. Wu follow-up
+meeting and the v0.7 discussion package.
 
 The latest expert-review decision after that meeting is `Revise + Narrow`.
 
@@ -163,6 +191,10 @@ Safe descriptive boundary:
 
 Near-term framing should emphasize:
 
+- the v0.8 package should merge PSA screening, AI 智慧問診, and CRM outsourcing into one 信義 service route rather than treating them as separate appendices
+- PSA budget signal is about NT$15,000,000, with target men aged 50+ or 45+ with family history, annual screening volume 3,500-5,000, abnormal follow-up target >= 70%, and clinical guideline compliance owned by the clinical unit
+- AI 智慧問診 / CRM budget signal is about NT$15,000,000, and CRM outsourcing is now an explicit proposal scope assigned by 美如主任, pending procurement, data route, security, privacy, KPI, and maintenance owners
+- v0.7 is now the prior baseline for the AI 智慧問診 / one-page-summary component; v0.8 planning must update the project identity before a new Word export
 - the 2026-06-02 discussion version now uses a three-year NT$10,000,000 working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
 - the 2026-05-29 attached subproject-three PDF is archived and analyzed as a formatting / KPI / budget precedent, not as scope-expansion authority
 - urology previsit symptom collection and clinician-review summary as the current system role
@@ -170,7 +202,7 @@ Near-term framing should emphasize:
 - first-version narrowing to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream
 - after-registration / waiting-room QR code or tablet completion by patient or family as the first workflow hypothesis
 - partial summary is acceptable if the patient does not finish every field
-- CRM follow-up is parked until a future confirmed step
+- CRM follow-up was parked in the v0.7 baseline; after the 2026-06-02 responsibility clarification, CRM outsourcing is an explicit v0.8 信義 proposal-writing scope, with activation still controlled by procurement, privacy, cybersecurity, data-governance, KPI, and maintenance-owner gates
 - ASR remains an optional multilingual input layer, not the core clinical claim
 - SOAP / EMR wording must stay as `醫師覆核用 SOAP 架構參考摘要`; no automatic EMR writeback or formal medical-record generation
 - blood in urine, fever/chills, flank pain, and currently being unable to urinate are `patient-reported red-flag observations`, not triage or risk judgments
