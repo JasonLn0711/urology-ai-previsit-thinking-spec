@@ -2,6 +2,46 @@
 
 This repository uses the versioning rules in `VERSIONING.md`.
 
+## v0.11.0 - 2026-06-19
+
+Type: minor
+
+Summary:
+
+- Add AI-only urology previsit expert-review packet and CRM scope supersession
+
+## v0.10.0 - 2026-06-12
+
+Type: minor
+
+Summary:
+
+- Add verified subproject-three meeting records and post-meeting analysis
+
+## v0.9.0 - 2026-06-12
+
+Type: minor
+
+Summary:
+
+- Archive subproject-three sources and add cross-lane content analysis
+
+## v0.8.0 - 2026-06-12
+
+Type: minor
+
+Summary:
+
+- Add Wu Chiang subproject-three companion lane and LINE source record
+
+## v0.7.1 - 2026-06-12
+
+Type: patch
+
+Summary:
+
+- Add 2026-06-12 Wu Yuelin LINE CRM and 888 policy record
+
 ## v0.7.0 - 2026-06-01
 
 Type: minor
