@@ -4,6 +4,24 @@ This folder contains the operating pack for physician, nurse, and workflow disco
 
 It is meant to turn conversations into auditable decisions without mixing paper framing, patent reasoning, and product scope.
 
+## Current Entry Point
+
+2026-06-19 owner update:
+
+```text
+Current active package = 泌尿科門診前問診與醫師覆核摘要支持系統.
+CRM is completely out of scope for Jason / 陽明交大 current planning.
+Use NT$10,000,000 as the provisional three-year AI-only working ceiling until
+the main proposal owner or budget owner revises it.
+```
+
+Use these files first for the current expert-review package:
+
+- `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
+- `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
+- `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+
 ## Files
 
 - `NEXT_STEP.md`: meeting-to-decision workflow
@@ -11,13 +29,15 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 - `INTENDED_USE_FREEZE.md`: proposal-prep freeze for intended use, target users, allowed outputs, non-use, data boundary, responsibility boundary, and clinical-friction rule
 - `DEMO_SCOPE_FREEZE.md`: proposal-facing demo scope freeze for synthetic cases, included/excluded demo behavior, acceptance criteria, and no-go signals
 - `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`: Health Taiwan proposal analysis for reducing physician/nurse/staff burden without turning medical staff into AI labelers or extra-workflow operators
-- `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / CRM service-flow draft
+- `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / clinician-review summary package
 - `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`: structured capture and postdoctoral comparison of the A2-0048 precedent proposal; use it as a format and execution-packaging reference, not as scope expansion guidance
 - `../records/2026-05-29/README.md`: 2026-05-29 Prof. Wu follow-up capture, v0.5 decision record, and attached subproject-three reference proposal analysis
-- `../records/2026-06-02/README.md`: 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8 planning gate
-- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: current 2026-06-02 fill-out discussion draft; sets primary `範疇三`, secondary `範疇一`, formal proposal layout, concrete 118-year milestones, verifiable KPI targets, formal budget fill-out columns, front-loaded governance, and second-version HIS/EMR/EHR writeback positioning
-- `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: current Word-ready discussion proposal export
-- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: prior 2026-06-02 fill-out discussion draft
+- `../records/2026-06-02/README.md`: historical 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification; superseded for current CRM scope by the 2026-06-19 owner update
+- `../records/2026-06-12/README.md`: 2026-06-12 LINE record and screenshot showing CRM is handled by another team
+- `../records/2026-06-18/README.md`: 2026-06-18 LINE record for receiving 廖醫師 PSA Word template and integration assignment
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: historical 2026-06-02 fill-out discussion draft; keep for traceability only
+- `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: historical Word-ready discussion proposal export
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: historical 2026-06-02 fill-out discussion draft
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`: prior 2026-06-02 discussion draft; sets three-year NT$10,000,000 working budget, KPI-to-budget traceability, and 20-page page control
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`: prior precedent-integrated official-package proposal draft; keeps the v0.3 narrow urology scope while adding official checklist, owner table, baseline measurement, KPI-budget-checkpoint mapping, governance paragraph, and review-response table
 - `DEEP_CULTIVATION_POSTDOC_NEXT_STEP_REVIEW.md`: postdoctoral strategy review for shaping the urology previsit system as a Health Taiwan deep-cultivation workflow-transformation proposal; separates adopted, modified, and deferred suggestions
@@ -29,7 +49,7 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 - `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`: integrates official proposal section, KPI, budget bucket, annual checkpoint, owner, and evidence artifact
 - `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`: AI, cybersecurity, data, privacy, clinical, procurement, and interoperability governance checklist
 - `DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md`: 115 prep and 116-118 checkpoint table for proposal monitoring and reporting
-- `DEEP_CULTIVATION_SCORING_RUBRIC.md`: four-layer 100-point scoring rubric for clinical value, engineering maturity, governance, and MOHW application-format compliance; includes A/B/C evidence gates, score caps, reviewer micro-comments, and urology previsit / CRM interpretation rules
+- `DEEP_CULTIVATION_SCORING_RUBRIC.md`: four-layer 100-point scoring rubric for clinical value, engineering maturity, governance, and MOHW application-format compliance; CRM rows are historical / other-team context for the current package
 - `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md`: expanded fourth 100-point layer for MOHW format, attachment, budget, submission, governance-checklist, and reporting compliance
 - `DISCOVERY_PROTOCOL.md`: discovery runbook and conversation sequence
 - `V1_PHASE0_CLINICIAN_REVIEW_PROTOCOL.md`: synthetic-only v1 clinician/nurse review protocol after the 2026-04-23 meeting

@@ -1,28 +1,56 @@
 # Open Questions
 
-## 2026-06-02 信義 Integrated PSA / AI / CRM Questions
+## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 
-These are the active v0.8 planning questions after the 2026-06-02 LINE minutes
-and Jason responsibility clarification.
+These are the active v0.8 planning questions after the 2026-06-19 owner update.
 
-1. Who is final applicant / PI for the integrated 信義 package?
-2. Who owns 忠孝院區泌尿科 PSA clinical SOP and Taiwan Urological Association guideline compliance?
-3. Which PSA fields must be included in the AI / CRM workflow: eligibility, PSA value, abnormal flag, return appointment, contact status, or follow-up outcome?
-4. What exact CRM output supports the abnormal-case return / tracking KPI `>= 70%`?
-5. Is CRM an internal follow-up queue, patient messaging system, staff dashboard, vendor platform, or a phased combination?
-6. Who owns CRM outsourcing, procurement, vendor acceptance criteria, maintenance, and exit / handoff after the project period?
-7. What data route is planned for PSA + AI + CRM: no real data, QI/service improvement, IRB research, or mixed?
-8. What privacy / consent wording is needed if CRM contacts patients or stores follow-up status?
-9. What security review is required if CRM, AI 問診, ASR, APP, API, or vendor-hosted services are included?
+2026-06-19 update:
+
+CRM is completely out of scope for Jason / 陽明交大. Current planning covers AI
+問診, physician-review summary, governance, KPI, and the NT$10,000,000 working
+budget for that package only.
+
+1. Who is final applicant / PI for the AI 問診與醫師覆核摘要 package?
+2. Should the working budget remain NT$10,000,000 over three years, or should the parent proposal owner change the ceiling before final itemization?
+3. Which clinical workflow slot is the first target: after registration, waiting room, previsit QR, tablet station, or staff-assisted selected cases?
+4. Which first-version symptom groups are included: nocturia, frequency, urgency, leakage, voiding difficulty, weak stream, PSA-related visit preparation, or a narrower set?
+5. Which five fields must appear at the top of the physician-review summary?
+6. Which owner validates the one-page summary `<= 60 秒` KPI?
+7. Which owner validates clinician usefulness and staff-friction KPI?
+8. Does AI 問診 need ASR in v0.8, or should typed / QR / tablet intake remain the baseline?
+9. Which KPI evidence can be produced before real patient-data approval, and which must wait for QI/service/IRB/governance approval?
 10. Which budget lines are operating expense, outsourcing, personnel, software/service, or capital equipment, and how will the `30%` capital cap be checked?
-11. Does AI 智慧問診 need ASR in v0.8, or should typed / QR / tablet intake remain the baseline?
-12. Which owner validates the one-page summary `<= 60 秒` KPI?
-13. Which owner validates CRM follow-up evidence for the `>= 70%` abnormal-case follow-up KPI?
-14. Which sections of v0.7 can be reused directly, and which must be rewritten because CRM is now explicit outsourced scope?
-15. Should v0.8 be written as a new full proposal body, an integration skeleton first, or a work-package insert for a parent proposal?
-16. How finely should KPI be split so the NT$15,000,000 AI 智慧問診 / CRM allocation is reviewable by主管單位 and審查機關?
-17. Which sub-KPIs support each budgetable line: proposal coordination, clinical workflow, AI summary, CRM outsourcing, data quality, staff burden, governance, procurement, maintenance, and annual reporting?
-18. Which KPI evidence can be produced before real patient-data approval, and which must wait for QI/service/IRB/governance approval?
+11. Which official Health Taiwan category should lead: 導入智慧科技醫療 alone, or 導入智慧科技醫療 + 優化醫療工作條件?
+12. Which sections of the 2026-06-18 Word draft can be reused directly, and which must be rewritten to remove CRM?
+13. What wording best separates `醫師覆核摘要支持` from formal medical-record documentation?
+14. Which security / privacy / AI governance documents are needed if only synthetic or reviewer evidence is used?
+15. Which security / privacy / AI governance documents are needed if a later approved workflow uses real patient data?
+
+## 2026-06-11 吳育德 + 江慧珣 Subproject-Three Questions
+
+These questions route the separate `深耕子計劃三-吳育德+江慧珣團隊` lane
+without merging its clinical content into the urology PSA / AI / CRM lane.
+
+1. Is this lane now the active parent-proposal `子計畫三`, replacing or complementing the earlier ESG / carbon-accounting concept?
+2. Which attachment is the current source of truth: 吳育德老師's STS5 / sarcopenia draft, Kevin's expanded AI gait / sarcopenia closed-loop draft, 吳育德老師's three-year digital-rehab / robot draft, or the AI Robot PDF?
+3. Where are the canonical local copies of the Word/PDF attachments?
+4. What is the exact project title for proposal use?
+5. Who owns the clinical/service scope: 吳育德老師, 江慧珣老師, Kevin, 聯醫總院, or a joint team?
+6. What is the target population and site: community older adults, outpatient older adults, high-risk sarcopenia group, rehabilitation candidates, or another group?
+7. What does STS5 camera measurement claim: screening support, risk stratification, referral support, rehabilitation monitoring, or research measurement?
+8. What validation path is required before any AI sarcopenia or gait-risk claim is used?
+9. What is the role of the simple robot: companion, instruction, engagement, rehabilitation guidance, reminder, data-collection support, or demonstration device?
+10. Is `三年每年1750萬` a draft estimate, requested allocation, or owner-approved budget target?
+11. Which KPI families are required: screening volume, completion rate, model performance, referral/導流 completion, digital-rehab adherence, robot engagement, staff-burden reduction, governance, procurement, and annual reporting?
+12. Does this lane share any CRM, data platform, app, API, or governance artifact with the 信義 PSA / AI / CRM lane, or should it remain fully separate?
+13. Should the proposal-facing source of truth be the NT$17.5M/year service-policy draft, with the NT$18M/year research plan treated as methods appendix?
+14. Should Robot be framed first as a simple smart terminal / onsite workflow module, with companion robot validation delayed to year 3?
+15. Which connection to the 三高防治888 / large public-health frame should be explicit: case finding, intervention, improvement evidence, digital tracking, or all four?
+16. What participant-throughput scenario should 美如主任 approve for KPI: 10, 30, or 40-50 participants per event?
+17. Which high-risk enrichment sites should support model validation: long-term-care centers, nursing homes, day-care centers, rehabilitation clinics, or geriatric services?
+18. What did 慧誠智醫 confirm about Robot readiness, price, rental, repair, return, and maintenance after the planned 6/22 discussion?
+19. Should Microsoft/Azure private cloud be written as the preferred data platform, or only as an option pending hospital IT/security approval?
+20. How much should personnel, case management, Robot integration, and APP/Dashboard operations increase after the 2026-06-11 budget discussion?
 
 ## Active Post-Meeting Questions
 
@@ -57,10 +85,9 @@ Accepted near-term narrowing:
 - Lead with Health Taiwan `範疇三：導入智慧科技醫療`; use `範疇一：優化醫療工作條件` as secondary support.
 - Do not write the work as an `AI medical system`.
 - Park CRM follow-up until a future confirmed next step.
-- Superseded by 2026-06-02 responsibility clarification for the 信義 proposal lane:
-  CRM outsourcing is now an explicit proposal-writing scope assigned by 美如主任,
-  while procurement, privacy, security, data route, and maintenance ownership
-  remain open gates.
+- Superseded by 2026-06-19 owner update:
+  CRM is completely out of scope for Jason / 陽明交大. This lane should provide
+  AI 問診 and physician-review summary only.
 - Treat ASR as an optional multilingual input layer only.
 - Start with non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream.
 - Treat visible blood, retention/current inability to urinate, fever/chills, and flank pain as patient-reported red-flag observations, not triage or risk judgments.
@@ -68,7 +95,7 @@ Accepted near-term narrowing:
 
 Resolved or parked items from the 2026-05-19 / v0.7 baseline:
 
-- CRM execution was parked for v0.7. For the 2026-06-02 信義 lane, this is superseded: CRM outsourcing is now active proposal-writing scope, with activation still gated by procurement, privacy, security, data, and maintenance owners.
+- CRM execution was parked for v0.7. For the 2026-06-19 lane, this is superseded: CRM is out of scope, and Jason / 陽明交大 owns AI 問診 and physician-review summary only.
 - First workflow hypothesis is after registration / while waiting, completed by patient or family with QR code or tablet.
 - Partial summary is acceptable if the patient does not complete every field.
 - Do not require nurses to complete all missing fields in the first version; nursing should only handle incomplete, conflicting, or red-flag-observation cases.
@@ -84,13 +111,13 @@ Still requires clinical confirmation:
 
 ## 2026-05-19 Deep-Cultivation Grant Questions
 
-1. For the 信義 integrated package, what is the exact service workflow from PSA screening to AI 問診, physician-review summary, CRM outsourced follow-up, and KPI evidence?
-2. Which CRM functions are funded outsourced scope, and which remain later activation gates after procurement / privacy / security owner confirmation?
+1. For the current AI-only package, what is the exact workflow from patient entry to AI 問診, physician-review summary, and KPI evidence?
+2. Which AI 問診 output fields must be prepared for the physician summary, without CRM handoff?
 3. Will APP / ASR / API work be outsourced, staffed internally, or split into a hybrid plan if it moves beyond documentation?
 4. What procurement threshold applies to APP, questionnaire, platform, API, or ASR-related outsourcing?
 5. Which MOUs are required: community, clinics, 忠孝院區, 衛生局, university team, or vendors?
 6. Who must complete nine-hour IRB training before touching research or patient data?
-7. What security-governance documents or self-check forms are required for AI, APP, CRM, API, or patient-data flows?
+7. What security-governance documents or self-check forms are required for AI, APP/API if used, or patient-data flows?
 8. Which KPI justify each budget line in the smart-healthcare previsit-summary subproject?
 9. Should Aging Clock be excluded, included as a research appendix, or reframed as a biomarker follow-up service workflow?
 10. Before 2026-06-02, what draft content is needed for the 20-23 page smart-healthcare / AI previsit-summary subproject section?
@@ -105,7 +132,7 @@ Still requires clinical confirmation:
 19. Which example patterns should be explicitly cited in the June 2 draft, and which should remain background inspiration only?
 20. When updating the sibling `urology-ai-previsit-demo` repo, which surfaces should say "deep-cultivation visit-readiness support" and which should remain demo-only?
 21. What wording best separates `SOAP-like draft support for clinician review` from formal medical-record documentation?
-22. Which integration language is acceptable for June 2: CRM readiness, API readiness, FHIR/TW Core IG readiness, mock export, or direct hospital-system connection?
+22. Which integration language is acceptable now: standalone AI 問診, API readiness only if needed, FHIR/TW Core IG future readiness only if requested, or no integration claim?
 23. Which KPI targets are realistic enough to include in the draft, and which should remain placeholders until hospital workflow review?
 24. Which sections of `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md` are required by the official blank proposal form, and which should be compressed into appendices?
 25. Which KPI can be measured during synthetic walkthrough versus only after IRB/security-approved pilot use?

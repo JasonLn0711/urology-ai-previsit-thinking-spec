@@ -4,14 +4,13 @@ Status: proposal-prep governance checklist
 
 Date: 2026-05-20
 
-2026-06-02 update:
+2026-06-19 owner update:
 
 ```text
-CRM outsourcing is now an explicit proposal-writing scope for the 信義 package.
-Governance still controls activation: no real CRM operation, patient messaging,
-LINE/SMS integration, vendor-hosted patient data, or production follow-up claim
-before procurement, privacy, cybersecurity, data-governance, and maintenance
-owners are named.
+CRM is completely out of scope for Jason / 陽明交大 current planning. This
+checklist now governs AI 問診、醫師覆核摘要、AI/data/security governance, and
+KPI evidence only. Do not plan CRM outsourcing, CRM-ready handoff, CRM KPI,
+CRM budget, patient messaging, dashboard, vendor CRM, or CRM maintenance.
 ```
 
 Purpose: prepare AI, cybersecurity, data, privacy, and clinical-responsibility governance before any Health Taiwan proposal claims pilot readiness, patient-data use, or smart-healthcare deployment.
@@ -37,7 +36,6 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 | Procurement owner | Pending | vendor or outsourced work |
 | Hospital workflow owner | Pending | pilot or deployment planning |
 | FHIR / TW Core IG owner | Pending | interoperability-readiness claim |
-| CRM outsourcing owner | Pending | any CRM service / vendor / follow-up workflow claim |
 | PSA clinical SOP owner | Pending | any PSA clinical-procedure or guideline-compliance claim |
 
 ## Clinical Governance
@@ -77,7 +75,7 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 | Logging | access and output review logs defined | draft needed |
 | Network exposure | no production endpoint without review | drafted |
 | Secrets management | no tokens or credentials in repo/docs | standing rule |
-| Vendor security | required if outsourced platform/ASR/CRM is used | pending |
+| Vendor security | required if outsourced platform/ASR/cloud service is used | pending |
 | Incident response | define reporting route for pilot | pending |
 | Security owner | hospital IT/security contact named | pending |
 
@@ -127,33 +125,13 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 | Ownership | who maintains the system after the project |
 | Lock-in risk | exportability and transition plan |
 | Budget trace | each vendor line maps to KPI |
-| CRM / ASR / cloud | no procurement without workflow owner and governance owner |
+| ASR / cloud | no procurement without workflow owner and governance owner |
 
-## CRM Outsourcing Governance
+## Out-of-Scope CRM Note
 
-The 2026-06-02 信義 responsibility clarification makes CRM outsourcing part of
-the active proposal-writing scope. Treat CRM as a governed service system, not a
-generic software purchase.
-
-| Item | Required answer before proposal claim |
-| --- | --- |
-| CRM service purpose | abnormal PSA follow-up, return-visit reminder, staff queue, case-management dashboard, or combined route |
-| CRM function boundary | internal tracking only, patient contact, LINE/SMS, phone-call support, dashboard, report export, or phased combination |
-| CRM data fields | eligibility, PSA result category, abnormal flag, contact attempt, appointment status, follow-up outcome, owner, timestamp |
-| Patient contact route | whether patients are contacted, by whom, through which channel, with what consent |
-| Vendor scope | deliverables, acceptance criteria, maintenance, transition, exportability |
-| Procurement owner | who handles vendor selection, contract language, and acceptance |
-| Security owner | who reviews authentication, access control, logging, network exposure, incident response |
-| Data governance owner | who approves retention, deletion, access, de-identification, and data minimization |
-| Privacy / consent owner | who approves patient notice, consent, and contact workflow |
-| Maintenance owner | who operates CRM after the project period |
-| KPI owner | who validates CRM contribution to abnormal-case follow-up `>= 70%` |
-
-Proposal-safe CRM sentence:
-
-```text
-本計畫將 CRM 外包納入信義整合服務流程，作為 PSA 異常個案追蹤、回診提醒、工作人員追蹤佇列與 KPI evidence 的服務管理層；其病人聯繫、資料留存、系統權限、資安審查、採購驗收與維運責任，將於正式導入前由院內資料治理、資安、個資、採購與臨床流程 owner 共同確認。
-```
+CRM is handled outside Jason / 陽明交大 current package. If another hospital team
+needs CRM governance, it should be documented in that team's plan, not in this
+AI 問診與醫師覆核摘要 package.
 
 ## PSA Clinical-Governance Interface
 
@@ -167,8 +145,8 @@ clinical SOP remains clinically owned.
 | Eligibility | How are men `50+` and `45+` with family history identified? |
 | Follow-up trigger | What counts as abnormal or requiring follow-up? |
 | Follow-up responsibility | Who contacts, schedules, or tracks the patient? |
-| CRM handoff | Which PSA state enters CRM, and who approves that field? |
-| Research/QI route | Is PSA + CRM data used for service improvement, research, or both? |
+| AI intake relation | Which PSA / urology visit context, if any, should inform the AI question set? |
+| Research/QI route | Is AI 問診與摘要 evidence used for service improvement, research, or both? |
 | Evidence owner | Who signs off on screening count and follow-up completion evidence? |
 
 ## Audit Fields For Pilot-Ready Design

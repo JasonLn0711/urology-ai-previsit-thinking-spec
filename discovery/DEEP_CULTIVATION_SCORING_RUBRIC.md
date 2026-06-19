@@ -2,6 +2,11 @@
 
 Status: working rubric
 
+2026-06-19 owner update: for Jason / 陽明交大 current package, score only the
+AI 問診、醫師覆核摘要、governance, KPI evidence, and budget-mapping work. CRM
+rows in this rubric are historical / other-team context unless a future owner
+reopens them outside this package.
+
 ## Purpose
 
 This rubric defines a four-layer, evidence-required scoring system for Health Taiwan Deep-Cultivation proposals.

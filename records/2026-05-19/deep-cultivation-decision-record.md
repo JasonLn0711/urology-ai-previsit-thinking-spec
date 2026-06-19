@@ -2,6 +2,14 @@
 
 Status: synthesized
 
+2026-06-19 supersession note:
+
+```text
+This decision record remains the historical 2026-05-19 interpretation. The
+active Jason / 陽明交大 package was later narrowed to AI 問診與醫師覆核摘要 only;
+CRM is out of scope and should not be treated as Jason's current responsibility.
+```
+
 ## Decision Identity
 
 | Field | Notes |

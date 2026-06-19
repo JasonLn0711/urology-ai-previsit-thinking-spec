@@ -2,6 +2,11 @@
 
 Status: working compliance rubric
 
+2026-06-19 owner update: for Jason / 陽明交大 current package, compliance review
+should exclude CRM budget, CRM KPI, CRM procurement, CRM handoff, and patient
+messaging. Use the AI-only expert-review packet and proposal item definitions
+as the current working materials.
+
 ## Purpose
 
 This file expands the fourth 100-point layer from `DEEP_CULTIVATION_SCORING_RUBRIC.md`.

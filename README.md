@@ -58,6 +58,9 @@ urology-ai-previsit-thinking-spec/
 │   ├── MEETING_CAPTURE_TEMPLATE.md
 │   ├── DECISION_RECORD_TEMPLATE.md
 │   └── PAPER_PATENT_PRODUCT_EXTRACTION.md
+├── subprojects/
+│   ├── README.md
+│   └── subproject-3-wu-chiang-sarcopenia-ai-robot/
 ├── records/
 │   ├── README.md
 │   ├── 2026-04-23/
@@ -76,6 +79,7 @@ urology-ai-previsit-thinking-spec/
 - `core/`: stable system logic. Use this when checking product intent, workflow boundaries, safety philosophy, evaluation logic, and evolution rules.
 - `clinical-question-governance/`: evidence-based question governance. Use this when deciding which urology previsit questions belong in MVP, conditional modules, family/source-labeled support, nurse repair, or clinician-only workflows.
 - `discovery/`: meeting and review operating pack. Use this before and after physician/nurse conversations.
+- `subprojects/`: parent-proposal companion subproject routing. Use this to keep non-urology deep-cultivation lanes separate while preserving source context and coordination questions.
 - `records/`: dated evidence trail. Use this for specific meeting briefs, captures, decision records, and extraction notes.
 - `meta/`: assumptions, constraints, open questions, and repository-level architecture review.
 
@@ -100,10 +104,17 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 - For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
-- For the 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8 planning gate: `records/2026-06-02/README.md`
+- For the historical 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification, superseded for current scope by the 2026-06-19 owner update: `records/2026-06-02/README.md`
+- For the 2026-06-12 吳岳霖主任 LINE conversation and 美如主任 group screenshot, now updated by the 2026-06-19 owner decision that CRM is completely out of scope for Jason / 陽明交大: `records/2026-06-12/README.md`
+- For the 吳育德 + 江慧珣 `深耕子計畫三` companion lane on 高齡 AI 步態、肌少症、數位復健與陪伴機器人: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/README.md`
+- For the full source-based 子計畫三 content analysis and cross-lane connection map: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/full-content-analysis-and-connection-map.md`
+- For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
+- For the 2026-06-02 to 2026-06-11 LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`: `records/2026-06-11/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
-- For the current 2026-06-02 fill-out discussion draft with formal proposal layout, concrete 118-year milestones, KPI targets, formal budget columns, and second-version HIS/EMR/EHR writeback positioning: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
-- For the current v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
+- For the current 2026-06-19 AI-only expert-review packet: `discovery/exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
+- For the current proposal item definitions based on 廖醫師 PSA format: `discovery/exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
+- For the current KPI-to-budget table: `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- For the historical v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
 - For the prior v0.6 fill-out discussion draft with category design, KPI targets, formal budget columns, and front-loaded governance: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - For the prior 2026-06-02 discussion draft with NT$10,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - For the prior precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
@@ -146,29 +157,32 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 ## Current Planning Signal
 
-The latest dated planning evidence is the 2026-06-02 LINE minutes and Jason
-responsibility clarification.
+The latest effective planning decision is the 2026-06-19 owner update: CRM is
+completely out of scope for Jason / 陽明交大. The 2026-06-12 LINE conversation and
+美如主任 group screenshot remain source evidence for why CRM was removed.
 
 Current active gate:
 
 ```text
-v0.8 integrated 信義 proposal planning
+v0.8 AI 問診與醫師覆核摘要 package planning
 ```
 
 Current project definition:
 
 ```text
-信義門診部攝護腺癌主動篩檢、AI 智慧問診與 CRM 追蹤支持整合計畫
+泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
-The active assignment is to merge three parts into one large proposal package:
+The active assignment is now AI-only:
 
-- Jason's original AI 智慧問診 / one-page physician-review summary plan;
-- 忠孝院區泌尿科自行提報的 PSA 主動篩檢;
-- 美如主任交辦要寫進深耕計畫的 CRM 外包.
+- Jason / 陽明交大 owns AI 智慧問診, one-page physician-review summary, governance, KPI, and budget planning for this package.
+- 忠孝院區泌尿科 PSA 主動篩檢 can remain clinical context or parent-proposal sibling content, but its SOP and clinical responsibility are not Jason-owned.
+- CRM is out of scope: no CRM planning, no CRM data handoff, no CRM budget, no CRM KPI, no CRM team coordination.
 
 Current source records:
 
+- `records/2026-06-11/wu-chiang-subproject-three-line-record.md`
+- `records/2026-06-12/wu-yuelin-line-crm-888-record.md`
 - `records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md`
 - `records/2026-06-02/xinyi-integrated-psa-ai-crm-v0.8-next-step-plan.md`
 
@@ -191,9 +205,28 @@ Safe descriptive boundary:
 
 Near-term framing should emphasize:
 
-- the v0.8 package should merge PSA screening, AI 智慧問診, and CRM outsourcing into one 信義 service route rather than treating them as separate appendices
-- PSA budget signal is about NT$15,000,000, with target men aged 50+ or 45+ with family history, annual screening volume 3,500-5,000, abnormal follow-up target >= 70%, and clinical guideline compliance owned by the clinical unit
-- AI 智慧問診 / CRM budget signal is about NT$15,000,000, and CRM outsourcing is now an explicit proposal scope assigned by 美如主任, pending procurement, data route, security, privacy, KPI, and maintenance owners
+- CRM and 三高防治888 / 大公衛 CRM-side policy framing are historical context only
+  for this package; do not turn them into Jason / 陽明交大 deliverables
+- the 2026-06-19 owner update changes ownership: Jason / 陽明交大 should design
+  AI 問診 and physician-review summary only
+- a separate `深耕子計劃三-吳育德+江慧珣團隊` lane now has its own routing
+  section under `subprojects/`; it appears to focus on high-age AI gait,
+  sarcopenia risk screening, digital rehabilitation, and companion/simple robot
+  planning, and should not be merged into the urology AI-only package unless
+  explicitly assigned by the parent proposal owner
+- copied 子計畫三 source attachments now support a stronger connection map:
+  use the NT$17.5M/year service-policy draft as the primary proposal-facing
+  frame, the NT$18M/year research draft as methods/validation support, and the
+  AI Robot deck as smart-terminal / Robot feasibility context
+- the 2026-06-11 verified corrected meeting record narrows 子計畫三 execution:
+  Robot should start as health-service-center / community-center onsite support,
+  KPI should be scenario-based around per-event throughput, high-risk model
+  validation may need long-term-care or nursing-home enrichment, and budget
+  revision should move room toward personnel, case management, Robot integration,
+  and APP / Dashboard follow-up operations
+- the v0.8 package should stand on AI 問診, physician-review summary, workflow fit, governance, and KPI-to-budget traceability
+- PSA budget and SOP remain clinical / parent-proposal matters; use PSA only as possible clinical context unless explicitly reassigned
+- AI 智慧問診與醫師覆核摘要 uses NT$10,000,000 as the current three-year planning envelope until the parent proposal owner changes it
 - v0.7 is now the prior baseline for the AI 智慧問診 / one-page-summary component; v0.8 planning must update the project identity before a new Word export
 - the 2026-06-02 discussion version now uses a three-year NT$10,000,000 working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
 - the 2026-05-29 attached subproject-three PDF is archived and analyzed as a formatting / KPI / budget precedent, not as scope-expansion authority
@@ -202,7 +235,7 @@ Near-term framing should emphasize:
 - first-version narrowing to non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream
 - after-registration / waiting-room QR code or tablet completion by patient or family as the first workflow hypothesis
 - partial summary is acceptable if the patient does not finish every field
-- CRM follow-up was parked in the v0.7 baseline; after the 2026-06-02 responsibility clarification, CRM outsourcing is an explicit v0.8 信義 proposal-writing scope, with activation still controlled by procurement, privacy, cybersecurity, data-governance, KPI, and maintenance-owner gates
+- CRM follow-up was parked in the v0.7 baseline; after the 2026-06-19 update, CRM is excluded entirely from this package
 - ASR remains an optional multilingual input layer, not the core clinical claim
 - SOAP / EMR wording must stay as `醫師覆核用 SOAP 架構參考摘要`; no automatic EMR writeback or formal medical-record generation
 - blood in urine, fever/chills, flank pain, and currently being unable to urinate are `patient-reported red-flag observations`, not triage or risk judgments

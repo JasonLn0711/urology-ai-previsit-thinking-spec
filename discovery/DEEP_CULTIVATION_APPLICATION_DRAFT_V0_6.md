@@ -2,6 +2,15 @@
 
 狀態：2026-06-02 填報討論稿
 
+2026-06-19 supersession note:
+
+```text
+本 v0.6 保留為歷史討論稿。CRM 已依 2026-06-19 owner update 完全排除於
+Jason / 陽明交大目前 package 之外。後續請使用 AI-only v0.8 planning：
+泌尿科門診前問診與醫師覆核摘要支持系統，三年 NT$10,000,000 作為
+AI 問診與摘要 package 討論額度。
+```
+
 日期：2026-05-31
 
 Repo 版本目標：`v0.6.0`

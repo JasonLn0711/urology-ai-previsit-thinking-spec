@@ -19,7 +19,7 @@
 - No diagnosis or treatment advice.
 - No claims that the concept is clinically complete.
 - No vague "AI magic" explanations.
-- No AI-first grant framing when the evidence supports service flow, CRM, and clinician-reviewed readiness instead.
+- No AI-first grant framing when the evidence supports visit-readiness workflow and clinician-reviewed summary instead.
 - No deep-cultivation wording that upgrades the current urology previsit design into AI triage, autonomous risk scoring, or direct HIS/EMR/EHR writeback.
 - No proposal budget line without a matching objective, KPI, owner, and governance path.
 - No high proposal score without traceable evidence for the scored item.
@@ -45,9 +45,9 @@
 - Participants who handle research, papers, human-subject content, or patient data need IRB training before entering that workstream.
 - Cross-unit cooperation should be backed by appropriate MOU or written collaboration records.
 - KPI and budget must match; no budget line should appear without a corresponding plan objective and KPI.
-- CRM, APP, platform, API, questionnaire, or vendor work may require procurement / tender review before execution.
-- AI, APP, CRM, API, and patient-data flows require security-governance review before real deployment or real patient-data use.
-- After the 2026-06-02 信義 responsibility clarification, CRM outsourcing may be written as an explicit proposal scope, but no real CRM operation, patient messaging, LINE/SMS integration, vendor hosting, or production follow-up claim may be made before procurement, privacy, cybersecurity, data-governance, and maintenance owners are named.
+- APP, platform, API, questionnaire, or vendor work may require procurement / tender review before execution.
+- AI, APP, API, and patient-data flows require security-governance review before real deployment or real patient-data use.
+- After the 2026-06-19 owner update, CRM is out of scope for Jason / 陽明交大. Do not write CRM outsourcing, CRM-ready handoff, patient messaging, LINE/SMS integration, vendor hosting, production follow-up, CRM KPI, CRM budget, or CRM maintenance into the current AI 問診 package.
 - 忠孝院區泌尿科 PSA screening can be integrated into the proposal architecture, but clinical SOP, guideline compliance, abnormal-case handling, and clinical responsibility must remain owned or confirmed by the clinical unit.
 - Aging Clock must not be treated as an accepted service claim until data source, aging definition, biomarker scope, intervention, and governance are defined.
 - Health Taiwan policy alignment should be explicit: claims should map to smart healthcare, working-condition improvement, talent training, or sustainable/social-responsibility healthcare instead of using generic `AI innovation` language.

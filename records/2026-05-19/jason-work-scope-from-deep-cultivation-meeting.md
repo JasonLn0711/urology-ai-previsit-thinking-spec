@@ -2,6 +2,15 @@
 
 Status: synthesized
 
+2026-06-19 current-scope update:
+
+```text
+This note records the original 2026-05-19 meeting-derived work scope. The
+current Jason / 陽明交大 responsibility has been narrowed: CRM is completely out
+of scope. Jason's current work is AI 問診、醫師覆核摘要、governance、KPI evidence,
+proposal-section writing support, and NT$10,000,000 AI-only budget mapping.
+```
+
 ## Purpose
 
 This note answers:

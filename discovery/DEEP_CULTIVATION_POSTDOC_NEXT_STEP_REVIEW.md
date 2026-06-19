@@ -4,6 +4,14 @@ Status: strategy review and next-step plan
 
 Date: 2026-05-20
 
+2026-06-19 owner update:
+
+```text
+This strategy review is historical context. Current planning is AI-only:
+泌尿科門診前問診與醫師覆核摘要支持系統. CRM is fully out of Jason / 陽明交大
+current package.
+```
+
 Role frame: postdoctoral researcher reviewing whether the urology previsit system should be shaped for a Health Taiwan Deep-Cultivation proposal.
 
 ## Purpose

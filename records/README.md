@@ -31,9 +31,19 @@ Use:
 
 ## Current Records
 
+- `2026-06-11/README.md`:
+  complete LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`,
+  covering 吳育德老師 and 國防醫學大學江慧珣老師's companion subproject lane
+  on high-age AI gait, sarcopenia screening, digital rehabilitation, and robot
+  planning.
+- `2026-06-12/README.md`:
+  complete LINE conversation capture with 吳岳霖主任 and 美如主任 screenshot
+  source; updated by the 2026-06-19 owner decision that CRM is completely out
+  of scope for Jason / 陽明交大, leaving AI 問診 and physician-review summary as
+  the current package.
 - `2026-06-02/README.md`:
-  信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification and v0.8
-  planning gate after the 2026-06-02 LINE minutes and follow-up clarification.
+  historical 信義 PSA / AI / CRM responsibility clarification, now superseded by
+  the 2026-06-19 AI-only owner update.
 - `2026-05-31/README.md`:
   v0.6 fill-out design record for the active 2026-06-02 discussion package.
 - `2026-05-29/README.md`:

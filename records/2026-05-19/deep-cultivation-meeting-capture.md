@@ -2,6 +2,15 @@
 
 Status: captured
 
+2026-06-19 supersession note:
+
+```text
+This file preserves the 2026-05-19 meeting signal. CRM was later removed from
+Jason / 陽明交大 current package by the 2026-06-19 owner update. Current work is
+AI 問診、醫師覆核摘要、governance、KPI evidence, and NT$10,000,000 AI-only
+budget mapping.
+```
+
 ## Meeting Identity
 
 | Field | Notes |

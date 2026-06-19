@@ -19,56 +19,67 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
-## 目前 active follow-up：2026-06-02 後信義整合 v0.8 planning gate
+## 目前 active follow-up：2026-06-19 AI-only v0.8 planning gate
 
-The latest active follow-up comes from the 2026-06-02 LINE minutes and Jason
-responsibility clarification. The project is now one 信義 integrated proposal
-package:
+The latest active follow-up comes from the 2026-06-19 owner update. Jason /
+陽明交大 currently owns only the AI 問診與醫師覆核摘要 package:
 
 ```text
-Jason original AI 智慧問診 / one-page summary
-+ 忠孝院區泌尿科 PSA 主動篩檢
-+ 美如主任交辦 CRM 外包
-= 信義門診部攝護腺癌主動篩檢、AI 智慧問診與 CRM 追蹤支持整合計畫
+泌尿科門診前問診
++ 一頁式醫師覆核摘要
++ AI / data / security governance
++ KPI evidence
++ 三年 NT$10,000,000 AI-only working budget
+= 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
+
+CRM is completely out of scope for Jason / 陽明交大 current planning. Do not
+plan CRM interface, CRM-ready handoff, CRM KPI, CRM budget, CRM procurement,
+patient messaging, dashboard, or CRM-team coordination.
 
 Current dated records:
 
-- Responsibility record:
+- 2026-06-12 CRM out-of-scope record:
+  `../records/2026-06-12/wu-yuelin-line-crm-888-record.md`
+- 2026-06-18 integration record:
+  `../records/2026-06-18/liao-wesley-line-deep-cultivation-integration-record.md`
+- Historical 2026-06-02 responsibility record:
   `../records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md`
-- v0.8 next-step plan:
+- Historical 2026-06-02 v0.8 next-step plan:
   `../records/2026-06-02/xinyi-integrated-psa-ai-crm-v0.8-next-step-plan.md`
-- 2026-06-02 record index:
+- 2026-06-02 record index with supersession note:
   `../records/2026-06-02/README.md`
 
 Current gate:
 
 ```text
-v0.8 planning, not final proposal freeze.
+AI-only v0.8 planning, not final proposal freeze.
 ```
 
-The v0.7 discussion package is now the prior baseline. The next valid work is
-to prepare a v0.8 integration skeleton, update KPI / budget architecture, and
-add CRM outsourcing governance before generating a new full proposal body or
-Word export.
+The v0.7 discussion package and the 2026-06-02 PSA / AI / CRM integration plan
+are now historical baselines. The next valid work is to prepare the AI-only
+proposal package, keep NT$10,000,000 as the provisional three-year discussion
+ceiling, and map every budget line to workflow-value KPI.
 
 Do next:
 
-1. Create `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_8_INTEGRATION_SKELETON.md`.
-2. Add v0.8 PSA / AI / CRM rows to
-   `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`.
-3. Add CRM outsourcing governance to
-   `DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md`.
-4. Prepare the 2026-06-23 信義 slot owner questions.
-5. Only after the skeleton and owner questions are coherent, draft
-   `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_8.md`.
+1. Use `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md` as the
+   expert-review packet.
+2. Use `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md` to
+   fill each official proposal section without duplicated content.
+3. Keep `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` as the current KPI-budget
+   traceability table.
+4. Keep `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md` as the
+   current official-section / KPI / budget / annual-checkpoint crosswalk.
+5. Ask experts to confirm workflow slot, clinical reviewer owner, baseline
+   measurement, and whether NT$10,000,000 remains the correct AI-only ceiling.
 
 Stop rule:
 
 ```text
-No CRM production claim, real patient messaging, LINE/SMS integration,
-HIS/EMR/EHR writeback, or cancer-outcome claim until procurement, privacy,
-security, clinical SOP, data route, and maintenance owners are named.
+No CRM planning, CRM-ready handoff, patient messaging, LINE/SMS integration,
+HIS/EMR/EHR writeback, autonomous triage, diagnosis, treatment advice, or
+cancer-outcome claim in the current Jason / 陽明交大 package.
 ```
 
 ## Prior active follow-up：2026-06-02 深耕計畫草稿 review

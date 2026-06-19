@@ -6,6 +6,10 @@ Working title: 泌尿科門診前問診與醫師覆核摘要支持系統
 
 Note: the current application-writing entrypoint is `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`. This v0.1 file remains useful as the earlier detailed source draft and should not be treated as the latest official-format working entrypoint.
 
+2026-06-19 update: the current application-writing entrypoint is now
+`discovery/exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`.
+CRM is completely out of Jason / 陽明交大 current package.
+
 Before reusing any paragraph from this v0.1 draft in outward-facing writing, run `ASSERTIVE_WRITING_GATE.md` and `../core/ASSERTIVE_WRITING_POLICY.md`.
 
 ## Draft Boundary

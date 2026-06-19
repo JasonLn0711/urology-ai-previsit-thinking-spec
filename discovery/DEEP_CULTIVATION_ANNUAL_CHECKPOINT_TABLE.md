@@ -4,7 +4,14 @@
 
 日期：2026-05-29
 
-目前提案包：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+2026-06-19 owner update:
+
+```text
+目前提案包改為 AI-only expert-review package。CRM 不屬於 Jason / 陽明交大
+current scope；本表若提到 CRM，只保留為歷史或其他團隊工作，不作本案 checkpoint。
+```
+
+目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
 
 目的：把提案轉成可追蹤、可回報，且能連到 KPI 與預算的年度 checkpoint。
 

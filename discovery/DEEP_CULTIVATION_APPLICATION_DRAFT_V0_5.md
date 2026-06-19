@@ -2,6 +2,13 @@
 
 Status: 2026-06-02 discussion draft
 
+2026-06-19 supersession note:
+
+```text
+This v0.5 file remains historical. CRM is fully out of Jason / 陽明交大 current
+package. Use the 2026-06-19 AI-only expert-review packet for current planning.
+```
+
 Date: 2026-05-29
 
 Repo version target: `v0.5.0`

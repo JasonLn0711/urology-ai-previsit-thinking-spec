@@ -12,7 +12,10 @@ This guide answers:
 
 Use it when drafting the Health Taiwan deep-cultivation section for the urology previsit / visit-readiness system.
 
-The proposal should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority. CRM follow-up is a future governed phase after the first-version workflow value is established.
+The proposal should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority.
+
+2026-06-19 owner update: CRM is no longer a future phase inside Jason /
+陽明交大 current package. The current proposal-writing scope is AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$10,000,000 AI-only budget mapping.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
@@ -42,11 +45,19 @@ freeze intended use -> freeze demo scope -> prepare reviewer evidence
 
 For the clinical friction and workforce-burden reduction principle, use `CLINICAL_FRICTION_REDUCTION_ANALYSIS.md`. This principle should be treated as a proposal-writing gate: the project must reduce medical-staff burden while protecting clinicians and nurses from routine AI labeling, extra-form filling, and workflow-change load.
 
-For the current official-format drafting package, use:
+For the current 2026-06-19 expert-review package, use:
+
+- `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
+- `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
+- `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
+- `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+
+For historical official-format drafting context, use:
 
 - `INTENDED_USE_FREEZE.md`
 - `DEMO_SCOPE_FREEZE.md`
 - `DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`
+- `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
@@ -62,9 +73,9 @@ comparison, use:
 
 The precedent should be used as a format and execution-packaging reference while the current urology proposal stays focused on its deliberate previsit workflow scope.
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` as the current writing entrypoint for the 2026-06-02 discussion. It keeps the v0.5 NT$10,000,000 / KPI-budget / 20-page controls, makes `範疇三：導入智慧科技醫療` the primary category, uses `範疇一：優化醫療工作條件` as secondary support, adapts the subproject-three skeleton as a fill-out structure, adds verifiable KPI targets, adds formal budget fill-out columns, and moves governance before KPI and budget.
+Use `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md` as the current writing entrypoint for expert review. It keeps the NT$10,000,000 / KPI-budget controls, makes `範疇三：導入智慧科技醫療` the primary category, uses `範疇一：優化醫療工作條件` as secondary support, and removes CRM from active scope.
 
-Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as the prior NT$10,000,000 discussion baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md` as the precedent-integrated baseline, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` as the prior official-format-aligned draft, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_2.md` only as the prior skeleton.
+Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as prior NT$10,000,000 discussion baselines only.
 
 2026-05-19 expert-review update:
 

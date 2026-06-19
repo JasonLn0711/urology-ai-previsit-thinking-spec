@@ -4,6 +4,15 @@
 
 日期：2026-05-20
 
+2026-06-19 owner update:
+
+```text
+Current writing target is AI-only: 泌尿科門診前問診與醫師覆核摘要支持系統.
+Use `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md` for
+current official-section definitions. CRM is not part of the current Jason /
+陽明交大 package.
+```
+
 目的：將目前泌尿科門診前問診 deep-cultivation 草稿包對應到 Health Taiwan 正式提案格式，讓下一版可以寫成可申請經費的醫院 workflow 提案，而不是研究 memo 或 AI demo 說明。
 
 ## 來源依據
@@ -53,7 +62,7 @@
 | `壹、自我檢核` | eligibility、official format、COI forms、no duplicate funding、participation consent、only one application mode | v0.2 preflight、MOHW compliance rubric | legal/administrative facts pending | 加入 applicant-owner checklist，institutional blanks 留白 |
 | `貳、計畫概要` | 簡明計畫摘要與問題 framing | v0.6 one-page positioning、clinical friction analysis、system positioning | summary still needs parent-owner approval | 使用 v0.6 摘要，聚焦範疇三 smart-healthcare workflow 與範疇一 staff-burden reduction |
 | `參、申請單位簡介` | applicant/co-applicant institutional background | role table only | institutional text pending | 提供 role-specific placeholder，不捏造 institution prose |
-| `肆、計畫規劃` | 四大範疇計畫內容、workflow、工作項目、deliverables | v0.6 subproject-three skeleton adaptation、proposal writing guide、intended-use freeze、demo-scope freeze | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成：門診 / 篩檢追蹤入口 -> 低摩擦症狀蒐集 -> 來源標記（source label）/ 缺漏欄位 -> 一頁式醫師覆核摘要 -> staff-review / CRM-ready queue -> KPI 評估 |
+| `肆、計畫規劃` | 四大範疇計畫內容、workflow、工作項目、deliverables | 2026-06-19 expert-review packet、proposal item definitions、proposal writing guide、intended-use freeze、demo-scope freeze | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成：門診前 / 候診中低摩擦症狀蒐集 -> 來源標記（source label）/ 缺漏欄位 -> 一頁式醫師覆核摘要 -> 醫師 accept / edit / ignore / return -> KPI 評估 |
 | `伍、效益評估` | KPI table by category、baseline/current data、target、annual checkpoints | v0.6 KPI table、KPI-to-budget table、annual checkpoint table | baselines still draft | 使用可驗收 targets：summary read time <= 60 秒、source label 100%、unsafe wording = 0、missing-field visibility >= 90%、clinician usefulness >= 4/5、governance owner named |
 | `陸、出國計畫書` | 只有在 scope 2 training-related overseas activity 編列時使用 | not applicable | 必須明確標示不適用 | 除非新增 overseas training plan，否則寫 N/A |
 | `柒、經費規劃` | 分年經費總表、budget category details、scope allocation、capital/personnel/business categories | v0.6 budget table and KPI-to-budget table | NT$10,000,000 discussion allocation 已設定；formal accounting category、unit price、quantity、procurement note 仍需確認 | 每列補齊 formal accounting category / unit price / quantity / year / KPI / owner / evidence / procurement note |
@@ -68,7 +77,10 @@
 
 正式格式撰寫時使用下列文件：
 
-- Current v0.6 fill-out discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
+- Current 2026-06-19 expert-review packet：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
+- Current proposal item definitions：`exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
+- Historical v0.7 discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`
+- Historical v0.6 fill-out discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
 - Prior v0.5 discussion draft：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - Precedent-integrated baseline：`DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - Official-format crosswalk：`DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`

@@ -2,6 +2,12 @@
 
 Status: captured
 
+2026-06-19 supersession:
+
+```text
+本紀錄保留 2026-06-02 當時的責任澄清歷史。依 2026-06-19 owner update，CRM 已完全排除於 Jason / 陽明交大目前 package 之外；目前有效範圍是 AI 問診與醫師覆核摘要。不要再用本紀錄作為 CRM 規劃、資料交接、KPI、預算、採購或維運依據。
+```
+
 ## Source
 
 This record is synchronized from the planning repo after the user supplied the
