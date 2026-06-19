@@ -29,10 +29,11 @@ budget for that package only.
 ## 2026-06-11 吳育德 + 江慧珣 Subproject-Three Questions
 
 These questions route the separate `深耕子計劃三-吳育德+江慧珣團隊` lane
-without merging its clinical content into the urology PSA / AI / CRM lane.
+without merging its clinical content into the current urology AI-only package
+or the historical / parent-owned PSA and CRM context.
 
 1. Is this lane now the active parent-proposal `子計畫三`, replacing or complementing the earlier ESG / carbon-accounting concept?
-2. Which attachment is the current source of truth: 吳育德老師's STS5 / sarcopenia draft, Kevin's expanded AI gait / sarcopenia closed-loop draft, 吳育德老師's three-year digital-rehab / robot draft, or the AI Robot PDF?
+2. Is the 2026-06-19 `深耕計畫_整合版_v3_騏任初稿` now the current source of truth, replacing the earlier separate 吳育德 STS5 / sarcopenia draft, Kevin expanded draft, three-year digital-rehab / robot draft, and AI Robot PDF as standalone drafting inputs?
 3. Where are the canonical local copies of the Word/PDF attachments?
 4. What is the exact project title for proposal use?
 5. Who owns the clinical/service scope: 吳育德老師, 江慧珣老師, Kevin, 聯醫總院, or a joint team?
@@ -42,15 +43,18 @@ without merging its clinical content into the urology PSA / AI / CRM lane.
 9. What is the role of the simple robot: companion, instruction, engagement, rehabilitation guidance, reminder, data-collection support, or demonstration device?
 10. Is `三年每年1750萬` a draft estimate, requested allocation, or owner-approved budget target?
 11. Which KPI families are required: screening volume, completion rate, model performance, referral/導流 completion, digital-rehab adherence, robot engagement, staff-burden reduction, governance, procurement, and annual reporting?
-12. Does this lane share any CRM, data platform, app, API, or governance artifact with the 信義 PSA / AI / CRM lane, or should it remain fully separate?
+12. Does this lane share any data platform, app, API, or governance artifact with the current urology AI-only package or any parent-owned PSA/CRM context, or should it remain fully separate?
 13. Should the proposal-facing source of truth be the NT$17.5M/year service-policy draft, with the NT$18M/year research plan treated as methods appendix?
 14. Should Robot be framed first as a simple smart terminal / onsite workflow module, with companion robot validation delayed to year 3?
 15. Which connection to the 三高防治888 / large public-health frame should be explicit: case finding, intervention, improvement evidence, digital tracking, or all four?
 16. What participant-throughput scenario should 美如主任 approve for KPI: 10, 30, or 40-50 participants per event?
 17. Which high-risk enrichment sites should support model validation: long-term-care centers, nursing homes, day-care centers, rehabilitation clinics, or geriatric services?
-18. What did 慧誠智醫 confirm about Robot readiness, price, rental, repair, return, and maintenance after the planned 6/22 discussion?
-19. Should Microsoft/Azure private cloud be written as the preferred data platform, or only as an option pending hospital IT/security approval?
-20. How much should personnel, case management, Robot integration, and APP/Dashboard operations increase after the 2026-06-11 budget discussion?
+18. Does the v3 慧誠智醫 addition represent capability context, vendor precedent, formal partner intent, or confirmed implementation scope?
+19. What did 慧誠智醫 confirm about Robot readiness, price, rental, repair, return, and maintenance after the planned 6/22 discussion?
+20. Should Microsoft/Azure private cloud be written as the preferred data platform, or only as an option pending hospital IT/security approval?
+21. What source backs the Microsoft manager / cloud collaboration platform discussion, and should the proposal keep platform language neutral until contract activation?
+22. Which other medical-center case-management app examples can be cited as precedent, and which functions should 子計畫三 actually claim for APP / Dashboard / case-management workflow?
+23. How much should personnel, case management, Robot integration, and APP/Dashboard operations increase after the 2026-06-11 budget discussion and the 2026-06-19 v3 integration?
 
 ## Active Post-Meeting Questions
 

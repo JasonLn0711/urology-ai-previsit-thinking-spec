@@ -40,6 +40,10 @@ The meeting-specific analysis is:
 
 - `../../subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
 
+2026-06-19 continuation:
+
+- `../2026-06-19/wu-chiang-subproject-three-line-update.md`
+
 ## Current Gate
 
 Status: captured.

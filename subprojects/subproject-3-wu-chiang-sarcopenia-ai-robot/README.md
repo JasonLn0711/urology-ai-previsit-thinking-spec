@@ -26,6 +26,7 @@ subproject numbering, source routing, and scope separation.
 - `../../records/2026-06-11/wu-chiang-subproject-three-line-record.md`
 - `full-content-analysis-and-connection-map.md`
 - `meeting-analysis-2026-06-11.md`
+- `../../records/2026-06-19/wu-chiang-subproject-three-line-update.md`
 - `sources/README.md`
 
 ## Current Working Scope Signal
@@ -39,6 +40,9 @@ The LINE conversation and copied source files indicate a planning lane around:
 - Companion or simple robot support.
 - Three-year budget discussion, including a service-policy draft at
   NT$17,500,000/year and a research-plan draft at NT$18,000,000/year.
+- 2026-06-19 v3 integrated draft review, adding 慧誠智醫 capability context and
+  cloud collaboration platform / case-management app precedent as
+  procurement- and contract-controlled future activation layers.
 
 ## Source Attachment Inventory
 
@@ -54,6 +58,7 @@ The following source filenames were named in the LINE group conversation:
 | 2026-06-11 | `三年期高齡肌少症智慧篩檢數位復健與陪伴機器人研究計畫書_初版.docx` | Named source; local path not yet confirmed. |
 | 2026-06-11 | `meet.google.com/yjn-wyhw-uji` | Meeting link; not treated as durable content evidence. |
 | 2026-06-11 | `AI Robot 市聯醫-2026-6-10.pdf` | Named source; local path not yet confirmed. |
+| 2026-06-19 | `深耕計畫_整合版_v3_騏任初稿.docx` / `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` | Latest integrated v3 draft; Markdown copy archived under `sources/`. |
 
 ## Copied Machine-Readable Sources
 
@@ -64,13 +69,16 @@ The following source filenames were named in the LINE group conversation:
 | `sources/ai-robot-tch-2026-06-10-machine-readable.md` | `AI_Robot_市聯醫_2026-06-10_machine_readable.md` |
 | `sources/meeting-transcript-2026-06-11-verified-corrected.md` | `transcript_260611_1638_深耕子計劃三_verified_corrected.md` |
 | `sources/meeting-integrated-2026-06-11-verified-corrected-machine-readable.md` | `deep_cultivation_subproject3_verified_corrected_machine_readable.md` |
+| `sources/deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md` | `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` |
 
 ## Current Analysis Summary
 
-Use `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫`
-as the primary proposal-facing frame. Use the longer research plan as the
-methods and validation appendix. Use the AI Robot deck as technology and vendor
-capability context, not as clinical validation evidence.
+Use `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` as the latest integrated
+proposal-facing source after the 2026-06-19 LINE update. Use the earlier
+`高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫` as the service-policy
+source base, the longer research plan as the methods and validation appendix,
+and the AI Robot deck as technology and vendor capability context, not as
+clinical validation evidence.
 
 Core service route:
 
@@ -86,9 +94,10 @@ Core service route:
 
 Strong parent-proposal connection:
 
-This lane shares the same service-system grammar as the 信義 PSA / AI 智慧問診 /
-CRM lane: case finding, AI-supported structured intake or measurement,
-human-owned routing, CRM / Dashboard follow-up, governance, and KPI evidence.
+This lane shares the same service-system grammar as the current urology AI-only
+package and the historical / parent-owned PSA follow-up context: case finding,
+AI-supported structured intake or measurement, human-owned routing,
+Dashboard/follow-up support, governance, and KPI evidence.
 
 ## 2026-06-11 Meeting Update
 
@@ -107,14 +116,35 @@ The verified corrected meeting record narrows the next proposal draft:
 - Budget should shift toward personnel, case management, Robot integration, and
   APP / Dashboard follow-up operations.
 
-## Separation From The Urology PSA / AI / CRM Lane
+## 2026-06-19 LINE / v3 Update
 
-This subproject should remain separate from the current 信義 urology proposal
-lane unless an explicit parent-proposal decision links them.
+Kevin shared `深耕計畫_整合版_v3_騏任初稿.docx`, asked the teachers to review it,
+and reported that 慧誠智醫 content had been added. He also clarified that the
+cloud collaboration platform is written as a future function available after a
+contract with 聯醫, and that other medical centers already have many apps,
+including case-management apps.
+
+Planning interpretation:
+
+- The v3 integrated draft is the newest source signal for proposal-facing
+  synthesis.
+- 慧誠智醫 belongs in the smart terminal / Robot feasibility and procurement
+  reference layer until implementation-partner terms are confirmed.
+- Cloud collaboration platform language should be written as future,
+  contract-enabled, governance-controlled capability.
+- Other medical-center case-management app examples support APP / Dashboard /
+  case-management feasibility, while 子計畫三 still needs its own owner, fields,
+  access control, KPI, and deployment path.
+
+## Separation From The Urology AI-Only Package
+
+This subproject should remain separate from the current 信義 urology AI-only
+proposal package unless an explicit parent-proposal decision links them.
 
 | Lane | Current scope |
 | --- | --- |
-| 信義 PSA / AI 智慧問診 / CRM | PSA screening, urology previsit symptom collection, clinician-review summary, CRM follow-up support, KPI evidence. |
+| Current 信義 urology AI-only package | Urology previsit symptom collection, clinician-review summary, governance, KPI evidence, and AI-only budget planning. CRM is outside Jason / 陽明交大 current scope after the 2026-06-19 owner update. |
+| Historical / parent-owned PSA and CRM context | PSA screening, abnormal follow-up, and possible parent-owned CRM workflow only if assigned by proposal owners. |
 | 吳 + 江 子計畫三 | High-age gait / sarcopenia AI screening, digital rehabilitation, companion robot concept, and related three-year budget planning. |
 
 Shared items may include proposal format, Health Taiwan governance discipline,
@@ -126,7 +156,8 @@ service workflows should remain separate until confirmed.
 
 1. Confirm whether this lane is the active `子計畫三` replacing or complementing
    the earlier ESG / carbon-accounting idea.
-2. Confirm local canonical paths for the Word/PDF attachments.
+2. Confirm whether the 2026-06-19 v3 integrated draft is now the active
+   proposal-facing source of truth.
 3. Clarify the clinical/service owner split between 吳育德老師, 江慧珣老師,
    Kevin, 聯醫, and any implementation partner.
 4. Confirm whether the NT$17,500,000/year service-policy draft or the
@@ -135,3 +166,6 @@ service workflows should remain separate until confirmed.
    screening volume, STS5 completion, model validation, referral/導流,
    digital-rehab adherence, robot use, staff-burden reduction, safety,
    governance, and annual evidence.
+6. Confirm how to write 慧誠智醫, Microsoft/cloud collaboration, and
+   case-management app precedents as capability references without implying
+   completed procurement, contract activation, or production deployment.

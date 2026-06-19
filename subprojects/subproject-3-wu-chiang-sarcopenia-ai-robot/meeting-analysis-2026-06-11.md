@@ -25,6 +25,12 @@ service-policy draft as the proposal-facing source, use the research-heavy
 NT$18M/year plan as methods support, and revise the next version around
 feasible field operations, staffing, Robot procurement, and KPI baselines.
 
+2026-06-19 continuation: Kevin shared the v3 integrated draft and reported that
+慧誠智醫 material had been added. The v3 draft should now be treated as the
+latest integrated proposal source, while this meeting analysis remains the
+scope-control layer for Robot staging, KPI scenarios, high-risk enrichment,
+budget realism, and cloud/platform governance.
+
 ## Copied Meeting Sources
 
 | Copied file | Original filename | Role |
@@ -150,6 +156,12 @@ route. The integrated source file also marks that Azure healthcare and ISO
 evidence can support evaluation, but does not make the project automatically
 compliant.
 
+The 2026-06-19 LINE update further clarifies that cloud collaboration platform
+functions are written as future capabilities after a contract with 聯醫. Other
+medical-center case-management apps can support the feasibility argument for
+APP / Dashboard / case-management workflow design, while 子計畫三 still needs its
+own owner, access-control, data fields, audit logs, and KPI evidence.
+
 Next draft should state:
 
 - AI/image data, app data, dashboard data, and Robot interaction data require
@@ -178,10 +190,10 @@ Next draft should state:
 
 ```mermaid
 flowchart LR
-  subgraph Urology[信義 PSA / AI 智慧問診 / CRM]
-    U1[PSA 主動篩檢] --> U2[AI 智慧問診 / 醫師覆核摘要]
-    U2 --> U3[CRM follow-up queue]
-    U3 --> U4[Abnormal follow-up KPI evidence]
+  subgraph Urology[Current urology AI-only package / parent PSA context]
+    U1[門診前 / 候診中 intake] --> U2[AI 智慧問診 / 醫師覆核摘要]
+    U2 --> U3[Summary usefulness / governance KPI]
+    U3 --> U4[Parent-owned PSA follow-up if assigned]
   end
 
   subgraph Sarcopenia[子計畫三 AI 步態 / 肌少症 / Robot]
@@ -208,4 +220,6 @@ Before producing the next subproject-three proposal draft:
 7. Rebalance budget toward personnel, case management, Robot integration, and platform follow-up.
 8. Define APP / server / Dashboard / cloud architecture without assuming direct hospital-system integration.
 9. Preserve claim boundaries: AI supports screening and routing; human professionals own diagnosis, treatment, and clinical decisions.
-
+10. Confirm whether the 2026-06-19 v3 integrated draft is now the source of truth for proposal-facing text.
+11. Write 慧誠智醫 as smart terminal / Robot capability context unless formal implementation-partner terms are confirmed.
+12. Keep Microsoft/cloud collaboration platform language contract-enabled and governance-controlled until hospital approval and procurement are defined.

@@ -1,6 +1,6 @@
 {
-  "current_version": "v0.11.0",
+  "current_version": "v0.11.1",
   "last_updated": "2026-06-19",
-  "status": "minor release",
-  "summary": "Add AI-only urology previsit expert-review packet and CRM scope supersession"
+  "status": "patch release",
+  "summary": "Add 2026-06-19 subproject-three v3 source update"
 }

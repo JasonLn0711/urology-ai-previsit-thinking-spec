@@ -109,6 +109,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 吳育德 + 江慧珣 `深耕子計畫三` companion lane on 高齡 AI 步態、肌少症、數位復健與陪伴機器人: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/README.md`
 - For the full source-based 子計畫三 content analysis and cross-lane connection map: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/full-content-analysis-and-connection-map.md`
 - For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
+- For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
 - For the 2026-06-02 to 2026-06-11 LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`: `records/2026-06-11/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
 - For the current 2026-06-19 AI-only expert-review packet: `discovery/exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
@@ -218,6 +219,11 @@ Near-term framing should emphasize:
   use the NT$17.5M/year service-policy draft as the primary proposal-facing
   frame, the NT$18M/year research draft as methods/validation support, and the
   AI Robot deck as smart-terminal / Robot feasibility context
+- the 2026-06-19 子計畫三 update makes the v3 integrated draft the newest
+  proposal-facing source signal; 慧誠智醫, Microsoft/cloud collaboration
+  platform, APP / Dashboard, and case-management app precedent language should
+  remain procurement-, contract-, and governance-controlled until owners confirm
+  implementation scope
 - the 2026-06-11 verified corrected meeting record narrows 子計畫三 execution:
   Robot should start as health-service-center / community-center onsite support,
   KPI should be scenario-based around per-event throughput, high-risk model

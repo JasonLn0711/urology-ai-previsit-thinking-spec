@@ -2,6 +2,14 @@
 
 This repository uses the versioning rules in `VERSIONING.md`.
 
+## v0.11.1 - 2026-06-19
+
+Type: patch
+
+Summary:
+
+- Add 2026-06-19 subproject-three v3 source update
+
 ## v0.11.0 - 2026-06-19
 
 Type: minor

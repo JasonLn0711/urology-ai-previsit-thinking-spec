@@ -4,8 +4,12 @@ Status: synthesized from copied sources
 
 ## Recommendation
 
-Use `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫` as the primary
-proposal-facing frame for 子計畫三, and treat the longer
+2026-06-19 update: use
+`sources/deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md`
+as the latest integrated proposal-facing source for 子計畫三.
+
+Keep `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫` as the service-policy
+source base, and treat the longer
 `三年期高齡肌少症智慧篩檢、數位復健與陪伴機器人研究計畫書` as the research
 methods and validation appendix.
 
@@ -24,6 +28,7 @@ companion robot validation layer.
 
 | Source | Copied repo file | Strategic use |
 | --- | --- | --- |
+| 深耕計畫整合版 v3 | `sources/deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md` | Latest integrated proposal-facing draft shared on 2026-06-19. Use for current title, budget, KPI, APP / Dashboard, smart terminal / Robot, cloud-platform governance, and procurement-neutral wording. |
 | 高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫 | `sources/older-adult-ai-gait-sarcopenia-closed-loop-care-plan.md` | Main service-policy proposal body. Use for title, budget, KPI, closed-loop workflow, red/yellow/green routing, governance, and parent-proposal integration. |
 | 三年期高齡肌少症智慧篩檢、數位復健與陪伴機器人研究計畫書 | `sources/sarcopenia-smart-screening-rehab-robot-research-plan.md` | Methods appendix. Use for STS5 AI validation, AWGS reference standard, COM-B intervention, sample sizes, model metrics, companion robot safety, and research outputs. |
 | AI Robot and Agent 在醫療臨床的應用 | `sources/ai-robot-tch-2026-06-10-machine-readable.md` | Vendor / technology precedent. Use for Robot / smart terminal capability options, digital-labor framing, smart health pod, physiological data architecture, and workflow automation language. |
@@ -53,7 +58,26 @@ flowchart LR
 
 ## What The Three Sources Contribute
 
-### 1. Service-Policy Draft
+### 1. 2026-06-19 Integrated v3 Draft
+
+`deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md` is the
+latest consolidated proposal source.
+
+Key contribution:
+
+- Keeps the title `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫`.
+- Preserves the three-year NT$17.5M/year and NT$52.5M total budget signal.
+- Integrates AI dynamic image screening, APP home tracking, case-management
+  Dashboard, health-service-center course routing, multidisciplinary Taipei
+  City Hospital routing, smart terminal / Robot scope, and cloud platform /
+  data-governance language.
+- Adds procurement-neutral wording for cloud platform, smart terminal, Robot,
+  and equipment selection.
+- Records APP / Dashboard and case-management workflow as part of the closed
+  loop, with governance and access-control work still required before live
+  deployment.
+
+### 2. Service-Policy Draft
 
 `older-adult-ai-gait-sarcopenia-closed-loop-care-plan.md` gives the strongest
 proposal-facing structure.
@@ -82,7 +106,7 @@ Key contribution:
 - Governance posture: AI risk grading supports screening and routing, not
   diagnosis or treatment replacement.
 
-### 2. Research / Validation Plan
+### 3. Research / Validation Plan
 
 `sarcopenia-smart-screening-rehab-robot-research-plan.md` gives the methods
 depth needed for reviewers who ask whether the AI and intervention claims are
@@ -122,7 +146,7 @@ Key contribution:
   - no diagnosis, medication adjustment, or acute-care delay;
   - red-flag routing and expert audit.
 
-### 3. AI Robot / Agent Deck
+### 4. AI Robot / Agent Deck
 
 `ai-robot-tch-2026-06-10-machine-readable.md` supplies a technology and vendor
 capability context.
@@ -155,20 +179,37 @@ The deck should support the feasibility of a smart terminal / Robot module and
 future infrastructure pathway. It should not become the clinical evidence for
 sarcopenia AI validity.
 
+### 5. Cloud Collaboration And Case-Management App Signal
+
+The 2026-06-19 LINE update clarifies that cloud collaboration platform wording
+is a future function available after contract and governance activation with
+聯醫. Other medical-center apps, including case-management apps, support the
+proposal logic for APP / Dashboard / case-management workflow design.
+
+Proposal use:
+
+- Write the cloud platform as readiness, architecture, and procurement-governed
+  activation.
+- Keep platform naming neutral unless a source-backed Microsoft/Azure decision
+  is confirmed.
+- Use other medical-center app precedents as feasibility context, not as
+  evidence that 子計畫三 has current production deployment.
+
 ## Recommended Proposal Structure
 
 | Section | Recommended content | Source base |
 | --- | --- | --- |
-| Title / abstract | `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫` | Service-policy draft |
+| Title / abstract | `高齡者 AI 步態與肌少症風險篩檢暨閉環整合照護導流計畫` | Integrated v3 + service-policy draft |
 | Problem | One-time community screening lacks follow-up; sarcopenia, gait instability, fall risk, and musculoskeletal decline need continuous routing | Both plans |
-| Service workflow | Screening -> AI stratification -> Robot / terminal feedback -> APP -> course / clinical routing -> reassessment | Service-policy draft |
+| Service workflow | Screening -> AI stratification -> Robot / terminal feedback -> APP -> course / clinical routing -> reassessment | Integrated v3 + service-policy draft |
 | Technical method | STS5/TUG video, pose estimation, BIA/grip/reference standard, model validation | Research plan |
 | Behavior intervention | COM-B APP, motivation feedback, family/support, adherence | Research plan + service-policy draft |
-| Robot scope | Start with smart terminal / Robot field guidance; keep companion robot as later validated layer | All three |
-| KPI | Screening events, screened participants, high-risk routing, follow-up, APP/alternative tracking, satisfaction, data completeness, governance | Service-policy draft |
+| Robot scope | Start with smart terminal / Robot field guidance; keep companion robot as later validated layer | Integrated v3 + AI Robot deck + meeting analysis |
+| Cloud / APP / Dashboard | Future contract-enabled cloud collaboration, APP tracking, and case-management Dashboard with access control and auditability | Integrated v3 + 2026-06-19 LINE update |
+| KPI | Screening events, screened participants, high-risk routing, follow-up, APP/alternative tracking, satisfaction, data completeness, governance | Integrated v3 + service-policy draft |
 | Budget | Use NT$17.5M/year as current LINE filename and service-policy draft signal; preserve NT$18M/year as alternate research-plan estimate | Both plans |
 | Governance | IRB, consent, image privacy, AI not diagnosis, Robot safety, digital-divide fallback, security | Both plans |
-| Parent connection | Shared Health Taiwan smart-healthcare and service-continuity logic with PSA / AI / CRM lane | This repo |
+| Parent connection | Shared Health Taiwan smart-healthcare and service-continuity logic with the current urology AI-only package and historical / parent-owned PSA follow-up context | This repo |
 
 ## Budget Reconciliation
 
@@ -209,17 +250,17 @@ reviewable.
 
 ## Strong Connections To Other Repo Lanes
 
-### Connection To 信義 PSA / AI 智慧問診 / CRM
+### Connection To Urology AI-Only Package And Parent PSA Context
 
 The two lanes should remain clinically separate but architecturally connected.
 
-| Shared architecture | 子計畫三 sarcopenia lane | 信義 PSA / AI / CRM lane |
+| Shared architecture | 子計畫三 sarcopenia lane | Current urology AI-only package / parent PSA context |
 | --- | --- | --- |
-| Screening as entrypoint | Community sarcopenia / gait / fall-risk screening | PSA active screening |
+| Screening as entrypoint | Community sarcopenia / gait / fall-risk screening | Urology previsit intake; PSA active screening only as parent-owned context |
 | AI as workflow support | AI risk stratification and movement-quality measurement | AI previsit symptom collection and clinician-review summary |
-| Follow-up backbone | Dashboard, APP, course routing, multidisciplinary routing | CRM outsourced follow-up workflow and abnormal PSA tracking |
+| Follow-up backbone | Dashboard, APP, course routing, multidisciplinary routing | AI-only package stops at clinician-review summary; parent-owned follow-up can be linked only if assigned |
 | Human ownership | Professional confirmation for red/yellow/green routing | Clinician-owned diagnosis, treatment, and follow-up decisions |
-| KPI evidence | Screening, follow-up, APP/alternative tracking, red-case routing | Abnormal follow-up, summary usefulness, CRM tracking, governance |
+| KPI evidence | Screening, follow-up, APP/alternative tracking, red-case routing | Summary usefulness, source labels, missing-field visibility, governance; PSA/CRM KPI only if parent-owned |
 | Governance | IRB, image privacy, model validation, Robot safety | Privacy, procurement, cybersecurity, data route, AI safety |
 
 Practical connection:
@@ -228,11 +269,13 @@ The parent proposal can say the hospital is building a repeatable service
 operating model:
 
 ```text
-case finding -> AI-supported structured intake / measurement -> human-reviewed routing -> CRM / dashboard follow-up -> KPI evidence
+case finding -> AI-supported structured intake / measurement -> human-reviewed routing -> dashboard or parent-owned follow-up -> KPI evidence
 ```
 
-The urology lane proves the model in PSA / urology follow-up. 子計畫三 proves the
-same operating logic in high-age functional health and sarcopenia prevention.
+The current urology package proves the AI 問診 / clinician-review summary layer.
+Parent-owned PSA/CRM follow-up can remain contextual if proposal owners assign
+it. 子計畫三 proves the same operating logic in high-age functional health and
+sarcopenia prevention.
 
 ### Connection To 三高防治888 / 大公衛 Policy Frame
 
@@ -246,8 +289,9 @@ The 888 logic can connect to 子計畫三 as a public-health operating pattern:
 | Digital tracking | APP, Dashboard, smart terminal / Robot, data governance |
 | Program management | Health-service-center courses, Taipei City Hospital routing, annual reports |
 
-This lets the parent proposal present both PSA/CRM and sarcopenia/Robot as
-coherent public-health service-system upgrades.
+This lets the parent proposal present urology AI-only intake support,
+parent-owned PSA follow-up if assigned, and sarcopenia/Robot as coherent
+public-health service-system upgrades.
 
 ### Connection To Health Taiwan Deep-Cultivation Categories
 
@@ -299,8 +343,9 @@ as a model-validation requirement.
 3. Confirm whether this lane replaces the earlier ESG / carbon 子計畫三.
 4. Confirm whether the Robot deliverable should be written as smart terminal,
    service Robot, companion robot, or phased combination.
-5. Confirm whether APP / Dashboard / CRM components are shared with the urology
-   PSA / AI / CRM lane or only reuse governance patterns.
+5. Confirm whether APP / Dashboard / case-management components reuse only
+   governance patterns, or connect to parent-owned PSA/CRM context without
+   changing the current urology AI-only package.
 6. Confirm data route: research IRB, QI/service improvement, city public-health
    service, or mixed.
 7. Build a parent-proposal crosswalk table once the above are settled.

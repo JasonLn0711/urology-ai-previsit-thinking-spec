@@ -31,6 +31,10 @@ Use:
 
 ## Current Records
 
+- `2026-06-19/README.md`:
+  latest LINE update for `深耕子計劃三-吳育德+江慧珣團隊`, preserving Kevin's
+  v3 integrated draft, 慧誠智醫 addition, Microsoft/cloud collaboration platform
+  signal, and case-management app precedent signal.
 - `2026-06-11/README.md`:
   complete LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`,
   covering 吳育德老師 and 國防醫學大學江慧珣老師's companion subproject lane

@@ -7,10 +7,10 @@ Status: active routing layer
 This folder separates parent-proposal companion subprojects from the core
 urology previsit thinking specification.
 
-The core project remains:
+The core project currently remains:
 
 ```text
-信義門診部攝護腺癌主動篩檢、AI 智慧問診與 CRM 追蹤支持整合計畫
+泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
 Companion subprojects may share the same Health Taiwan deep-cultivation parent
@@ -22,7 +22,9 @@ source records, budget signal, KPI logic, and governance questions.
 - `subproject-3-wu-chiang-sarcopenia-ai-robot/`: 吳育德老師與國防醫學大學
   江慧珣老師團隊準備的 `深耕子計畫三` lane, currently framed around
   high-age AI gait / sarcopenia screening, digital rehabilitation, and companion
-  robot planning.
+  robot planning. The latest 2026-06-19 v3 draft adds 慧誠智醫, cloud
+  collaboration platform, APP / Dashboard, and case-management app precedent
+  signals under procurement and governance controls.
 
 ## Routing Rule
 
@@ -30,4 +32,3 @@ Use this folder for parent-proposal coordination and source preservation only.
 Do not merge companion-subproject clinical content into the urology previsit
 intended use unless the parent proposal owner explicitly assigns a shared
 workflow, shared governance artifact, or shared budget/KPI table.
-
