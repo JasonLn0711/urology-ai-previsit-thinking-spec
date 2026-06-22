@@ -8,7 +8,9 @@ Note: the current application-writing entrypoint is `DEEP_CULTIVATION_APPLICATIO
 
 2026-06-19 update: the current application-writing entrypoint is now
 `discovery/exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`.
-CRM is completely out of Jason / 陽明交大 current package.
+2026-06-02 official minutes add that the parent 信義 AI 智慧問診 allocation is
+about NT$15M and includes CRM; CRM remains parent / other-team scope, while
+Jason / 陽明交大 current package is AI 問診與醫師覆核摘要 at three-year NT$10M.
 
 Before reusing any paragraph from this v0.1 draft in outward-facing writing, run `ASSERTIVE_WRITING_GATE.md` and `../core/ASSERTIVE_WRITING_POLICY.md`.
 

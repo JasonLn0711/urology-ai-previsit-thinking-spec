@@ -1,6 +1,6 @@
 # 健康台灣深耕計畫 KPI / 預算 / 年度 Checkpoint 整合表
 
-狀態：2026-06-19 AI-only v0.8 planning
+狀態：2026-06-19 NYCU Wu-team AI previsit complete proposal draft
 
 目前提案包：
 
@@ -14,7 +14,28 @@
 AI 問診 + 醫師覆核摘要 + 治理 + KPI + NT$10,000,000 budget mapping
 ```
 
-CRM 已排除，不再列入本案架構、預算、KPI、資料交接或下一步討論。
+CRM 屬於信義母案 NT$15M AI 智慧問診 allocation 中的 other-team workstream，不列入本表的 Jason / 陽明交大 AI-only 架構、預算、KPI、資料交接或下一步討論。
+
+2026-06-02 official meeting context:
+
+| Parent item | Meeting allocation | How this table uses it |
+| --- | ---: | --- |
+| PSA 主動篩檢 | NT$15,000,000 | background / handoff context only |
+| AI 智慧問診，含 CRM | NT$15,000,000 | parent allocation context |
+| Jason / 陽明交大 AI-only package | NT$10,000,000 | active KPI-budget table scope |
+| 信義碳盤查 | 約 NT$7,500,000 | separate sustainability lane |
+
+Latest proposal draft:
+
+```text
+exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md
+```
+
+Source analysis:
+
+```text
+../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md
+```
 
 ## Official-Format Crosswalk
 
@@ -66,6 +87,15 @@ CRM 已排除，不再列入本案架構、預算、KPI、資料交接或下一�
 | Evaluation、baseline、QI/IRB preparation | 1,000,000 | 支援 baseline、approved workflow evaluation 與 final report |
 | Optional ASR / intake station readiness | 500,000 | 只有在 input-burden / accessibility KPI 成立時啟用 |
 | Total | 10,000,000 | 目前 AI-only discussion allocation |
+
+## Official Category Conversion
+
+| 官方科目 | 三年概算 | Proposal role |
+| --- | ---: | --- |
+| 人事費 | 6,140,000 | PM/RA、KPI evidence、clinical reviewer protected time、schema / AI work、evaluation analyst |
+| 業務費 | 3,630,000 | reviewer / expert review、文件包、資料蒐集、LLM/API/cloud/ASR 租金、governance workshop、IRB/QI reserve、survey/interview |
+| 設備費 | 230,000 | clinic-owned intake station readiness or procurement-ready placeholder |
+| Total | 10,000,000 | 100% mapped to KPI, owner and evidence |
 
 ## Design Rule
 

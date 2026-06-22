@@ -32,9 +32,17 @@ Use:
 ## Current Records
 
 - `2026-06-19/README.md`:
-  latest LINE update for `深耕子計劃三-吳育德+江慧珣團隊`, preserving Kevin's
-  v3 integrated draft, 慧誠智醫 addition, Microsoft/cloud collaboration platform
-  signal, and case-management app precedent signal.
+  2026-06-19 source hub for two current lanes: the NYCU urology AI previsit
+  expert-review package and PSA-template rewrite, plus the latest LINE update
+  for `深耕子計劃三-吳育德+江慧珣團隊`.
+- `2026-06-19/nycu-ai-previsit-expert-review-analysis.md`:
+  maps the expert-review DOCX/XLSX/ZIP package into the PSA deep-cultivation
+  proposal format, KPI architecture, official budget categories, scope controls,
+  and pre-submission owner questions.
+- `2026-06-18/README.md`:
+  preserves the 廖醫師 PSA Word template source and integration record; the PSA
+  content is superseded for proposal substance but remains active as the
+  section-order and Word-format base for the 2026-06-19 expert-review rewrite.
 - `2026-06-11/README.md`:
   complete LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`,
   covering 吳育德老師 and 國防醫學大學江慧珣老師's companion subproject lane
@@ -42,12 +50,13 @@ Use:
   planning.
 - `2026-06-12/README.md`:
   complete LINE conversation capture with 吳岳霖主任 and 美如主任 screenshot
-  source; updated by the 2026-06-19 owner decision that CRM is completely out
-  of scope for Jason / 陽明交大, leaving AI 問診 and physician-review summary as
-  the current package.
+  source; used as evidence for the CRM other-team ownership split, leaving AI
+  問診 and physician-review summary as the current Jason / 陽明交大 package.
 - `2026-06-02/README.md`:
-  historical 信義 PSA / AI / CRM responsibility clarification, now superseded by
-  the 2026-06-19 AI-only owner update.
+  source hub for the official 115 年度院外門診部 deep-cultivation meeting minutes
+  and the later 信義 PSA / AI / CRM responsibility clarification. Use this record
+  to distinguish the parent NT$15M AI 智慧問診 allocation that includes CRM from
+  the current Jason / 陽明交大 NT$10M AI-only package.
 - `2026-05-31/README.md`:
   v0.6 fill-out design record for the active 2026-06-02 discussion package.
 - `2026-05-29/README.md`:

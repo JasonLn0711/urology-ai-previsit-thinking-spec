@@ -19,12 +19,19 @@ After the physician conversation and same-day synthesis, the project should have
 - a continue, revise, narrow, or pause decision
 - separate implications for paper framing, patent reasoning, and product decision-making
 
-## 目前 active follow-up：2026-06-19 AI-only v0.8 planning gate
+## 目前 active follow-up：2026-06-02 official minutes + 2026-06-19 AI-only owner split
 
-The latest active follow-up comes from the 2026-06-19 owner update. Jason /
-陽明交大 currently owns only the AI 問診與醫師覆核摘要 package:
+The latest active follow-up uses the 2026-06-02 official meeting minutes as the
+parent proposal record and the 2026-06-19 owner update as the delivery split.
+Jason / 陽明交大 currently owns only the AI 問診與醫師覆核摘要 package:
 
 ```text
+信義母案:
+PSA 主動篩檢 NT$15,000,000
++ AI 智慧問診 parent allocation NT$15,000,000 including CRM
++ 碳盤查約 NT$7,500,000
+
+Jason / 陽明交大 package:
 泌尿科門診前問診
 + 一頁式醫師覆核摘要
 + AI / data / security governance
@@ -33,12 +40,14 @@ The latest active follow-up comes from the 2026-06-19 owner update. Jason /
 = 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
-CRM is completely out of scope for Jason / 陽明交大 current planning. Do not
-plan CRM interface, CRM-ready handoff, CRM KPI, CRM budget, CRM procurement,
-patient messaging, dashboard, or CRM-team coordination.
+CRM remains in the parent proposal context and is carried by the parent /
+other-team workstream. This repo package owns AI 問診、醫師覆核摘要、governance,
+KPI evidence, and the NT$10M AI-only budget map.
 
 Current dated records:
 
+- 2026-06-02 official outpatient deep-cultivation meeting minutes:
+  `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
 - 2026-06-12 CRM out-of-scope record:
   `../records/2026-06-12/wu-yuelin-line-crm-888-record.md`
 - 2026-06-18 integration record:
@@ -57,9 +66,10 @@ AI-only v0.8 planning, not final proposal freeze.
 ```
 
 The v0.7 discussion package and the 2026-06-02 PSA / AI / CRM integration plan
-are now historical baselines. The next valid work is to prepare the AI-only
-proposal package, keep NT$10,000,000 as the provisional three-year discussion
-ceiling, and map every budget line to workflow-value KPI.
+are now parent-context baselines. The next valid work is to prepare the AI-only
+proposal package inside the 信義 parent route, keep NT$10,000,000 as the
+provisional three-year Jason / 陽明交大 discussion ceiling, and map every budget
+line to workflow-value KPI.
 
 Do next:
 

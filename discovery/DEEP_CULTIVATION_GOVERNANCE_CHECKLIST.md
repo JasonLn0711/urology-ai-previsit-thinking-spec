@@ -4,13 +4,15 @@ Status: proposal-prep governance checklist
 
 Date: 2026-05-20
 
-2026-06-19 owner update:
+2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text
-CRM is completely out of scope for Jason / 陽明交大 current planning. This
-checklist now governs AI 問診、醫師覆核摘要、AI/data/security governance, and
-KPI evidence only. Do not plan CRM outsourcing, CRM-ready handoff, CRM KPI,
-CRM budget, patient messaging, dashboard, vendor CRM, or CRM maintenance.
+The parent 信義 AI 智慧問診 allocation is about NT$15,000,000 and includes CRM.
+CRM is handled by parent / other-team scope. This checklist governs Jason /
+陽明交大 AI 問診、醫師覆核摘要、AI/data/security governance, and KPI evidence
+only. CRM outsourcing, CRM-ready handoff, CRM KPI, CRM budget, patient
+messaging, dashboard, vendor CRM, and CRM maintenance are governed by the
+parent proposal / other-team workstream.
 ```
 
 Purpose: prepare AI, cybersecurity, data, privacy, and clinical-responsibility governance before any Health Taiwan proposal claims pilot readiness, patient-data use, or smart-healthcare deployment.

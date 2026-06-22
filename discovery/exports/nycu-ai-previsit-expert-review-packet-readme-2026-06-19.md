@@ -19,9 +19,11 @@ Jason / 陽明交大 current responsibility:
 - KPI evidence
 - NT$10,000,000 AI-only budget mapping
 
-CRM is completely out of scope for this package. Do not plan CRM interface,
-CRM-ready handoff, CRM KPI, CRM budget, CRM procurement, patient messaging,
-dashboard, maintenance, or CRM-team coordination.
+2026-06-02 official meeting context: the parent 信義 AI 智慧問診 allocation is
+about NT$15,000,000 and includes CRM. This packet only reviews the Jason /
+陽明交大 AI-only package. CRM interface, CRM-ready handoff, CRM KPI, CRM budget,
+CRM procurement, patient messaging, dashboard, maintenance, and CRM-team
+coordination belong to the parent proposal / other-team workstream.
 
 ## Budget Position
 
@@ -41,12 +43,14 @@ KPI should not wait until the final budget is confirmed. The fast sequence is:
 
 | File | Use |
 | --- | --- |
-| `01_expert-review-packet.md` / `.docx` | Main expert handoff packet |
-| `02_proposal-item-definitions.md` / `.docx` | Official proposal item definitions based on 廖醫師 PSA format |
-| `03_kpi-to-budget-table.md` | AI-only KPI-to-budget allocation |
-| `04_kpi-budget-annual-checkpoint.md` | Official section / KPI / budget / checkpoint crosswalk |
-| `05_current-word-draft-ai-only.md` / `.docx` | Current AI-only draft transferred into 廖醫師 template style |
-| `sources/` | Source records, screenshot, and 廖醫師 Word template |
+| `nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md` | Latest complete NYCU Wu-team AI previsit Health Taiwan proposal source, updated with the 2026-06-22 official-minutes split |
+| Word export | Regenerate from the Markdown source after the 2026-06-22 update if a DOCX handoff is needed |
+| `../../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md` | Source-backed analysis and mapping from expert recommendations into the complete AI previsit plan |
+| `../../records/2026-06-19/sources/nycu-ai-previsit-expert-review/` | Copied DOCX/XLSX/ZIP source archive, extracted package, conversions and checksums |
+| `nycu-ai-previsit-expert-review-packet-2026-06-19.md` / `.docx` | Earlier expert handoff packet retained for traceability |
+| `nycu-ai-previsit-proposal-item-definitions-2026-06-19.md` / `.docx` | Earlier proposal item definitions retained for traceability |
+| `../DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | AI-only KPI-to-budget allocation |
+| `../DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md` | Official section / KPI / budget / checkpoint crosswalk |
 
 ## Expert Review Questions
 

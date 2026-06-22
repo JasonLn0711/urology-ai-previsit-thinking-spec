@@ -6,17 +6,21 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 
 ## Current Entry Point
 
-2026-06-19 owner update:
+2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text
 Current active package = 泌尿科門診前問診與醫師覆核摘要支持系統.
-CRM is completely out of scope for Jason / 陽明交大 current planning.
+Parent 信義 AI 智慧問診 allocation = about NT$15,000,000 including CRM.
+CRM is handled as parent / other-team scope, not Jason / 陽明交大 delivery scope.
 Use NT$10,000,000 as the provisional three-year AI-only working ceiling until
 the main proposal owner or budget owner revises it.
 ```
 
 Use these files first for the current expert-review package:
 
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
+- `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
+- `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
 - `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
 - `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
@@ -32,10 +36,14 @@ Use these files first for the current expert-review package:
 - `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: Health Taiwan deep-cultivation proposal writing structure for the urology previsit / clinician-review summary package
 - `../records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`: structured capture and postdoctoral comparison of the A2-0048 precedent proposal; use it as a format and execution-packaging reference, not as scope expansion guidance
 - `../records/2026-05-29/README.md`: 2026-05-29 Prof. Wu follow-up capture, v0.5 decision record, and attached subproject-three reference proposal analysis
-- `../records/2026-06-02/README.md`: historical 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification; superseded for current CRM scope by the 2026-06-19 owner update
+- `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`: official 115 年度院外門診部 deep-cultivation meeting record; use it for 華山 / 信義 subproject routing, PSA NT$15M, AI 智慧問診 parent NT$15M including CRM, and the NYCU AI-only NT$10M writing split
+- `../records/2026-06-02/README.md`: 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM records; use as historical and routing context under the current AI-only owner split
 - `../records/2026-06-12/README.md`: 2026-06-12 LINE record and screenshot showing CRM is handled by another team
 - `../records/2026-06-18/README.md`: 2026-06-18 LINE record for receiving 廖醫師 PSA Word template and integration assignment
+- `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`: 2026-06-19 source-backed expert-review synthesis for the NYCU Wu-team AI previsit plan, KPI and budget package
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: historical 2026-06-02 fill-out discussion draft; keep for traceability only
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`: latest complete NYCU Wu-team AI previsit proposal integrating expert-review plan, KPI, budget, annual checkpoints, scope controls and review-response table
+- Latest Word export should be regenerated from the Markdown source after the 2026-06-22 official-minutes update if a DOCX handoff is needed.
 - `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: historical Word-ready discussion proposal export
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: historical 2026-06-02 fill-out discussion draft
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`: prior 2026-06-02 discussion draft; sets three-year NT$10,000,000 working budget, KPI-to-budget traceability, and 20-page page control

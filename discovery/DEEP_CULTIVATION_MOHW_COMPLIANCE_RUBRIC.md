@@ -2,10 +2,12 @@
 
 Status: working compliance rubric
 
-2026-06-19 owner update: for Jason / 陽明交大 current package, compliance review
-should exclude CRM budget, CRM KPI, CRM procurement, CRM handoff, and patient
-messaging. Use the AI-only expert-review packet and proposal item definitions
-as the current working materials.
+2026-06-02 official minutes and 2026-06-19 owner update: the parent 信義 AI
+智慧問診 allocation is about NT$15M and includes CRM, while Jason / 陽明交大
+current package is the NT$10M AI-only workstream. Compliance review for this
+package should exclude CRM budget, CRM KPI, CRM procurement, CRM handoff, and
+patient messaging. Use the AI-only expert-review packet and proposal item
+definitions as the current working materials.
 
 ## Purpose
 

@@ -4,11 +4,12 @@
 
 日期：2026-05-29
 
-2026-06-19 owner update:
+2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text
-目前提案包改為 AI-only expert-review package。CRM 不屬於 Jason / 陽明交大
-current scope；本表若提到 CRM，只保留為歷史或其他團隊工作，不作本案 checkpoint。
+信義母案 AI 智慧問診提報約 NT$15,000,000 且包含 CRM。
+目前 Jason / 陽明交大提案包為 AI-only expert-review package，三年 NT$10,000,000。
+本表若提到 CRM，只保留為 parent / other-team 工作，不作本案 checkpoint。
 ```
 
 目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`

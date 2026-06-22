@@ -6,11 +6,13 @@
 
 ## 1. Current Decision
 
-本案目前只處理：
+本 packet 評估的本團隊工作包是：
 
 ```text
 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
+
+2026-06-02 115 年度院外門診部深耕計畫會議紀錄顯示，信義母案將「PSA 主動篩檢 + AI 智慧問診」整合提報；其中 AI 智慧問診母案額度約新臺幣 15,000,000 元且包含 CRM。依後續 owner split，CRM 由母案 / 其他團隊承接，本 packet 僅評估吳老師 / 陽明交大團隊可交付的 AI 問診與醫師覆核摘要工作包，三年討論額度為新臺幣 10,000,000 元。
 
 陽明交大 / Jason 負責範圍：
 
@@ -22,14 +24,12 @@
 - KPI-to-budget traceability。
 - 三年新臺幣 10,000,000 元討論額度之設計與拆分。
 
-CRM 完全 out of scope：
+CRM 的文件定位是 parent proposal / other-team workstream：
 
-- 不規劃 CRM。
-- 不與 CRM 團隊討論。
-- 不做 CRM-ready handoff。
-- 不列 CRM KPI。
-- 不列 CRM 預算。
-- 不處理 CRM 採購、維運、病人追蹤、訊息通知或 dashboard。
+- 母案可保留 AI 智慧問診約 NT$15M 且包含 CRM 的提報脈絡。
+- 本團隊工作包維持 AI-only NT$10M，聚焦門診前問診、摘要、治理與 KPI evidence。
+- CRM 建置、CRM 採購、CRM 維運、CRM KPI、病人追蹤、訊息通知與 dashboard 由母案 / 其他團隊規劃。
+- 本 packet 的專家評估問題只要求確認 AI 問診與醫師覆核摘要的 workflow、KPI、治理與經費合理性。
 
 PSA 主動篩檢可作為臨床背景或母計畫 sibling content，但 PSA SOP、臨床 guideline、異常值追蹤與回診管理不由陽明交大本案承擔。
 
@@ -39,7 +39,8 @@ PSA 主動篩檢可作為臨床背景或母計畫 sibling content，但 PSA SOP�
 | --- | --- | --- |
 | 5/19 會議紀錄 | `records/2026-05-19/deep-cultivation-meeting-capture.md` | 證明會議方向是 service workflow、智慧醫療、KPI、治理，不是 pure AI model。 |
 | Jason 工作範圍整理 | `records/2026-05-19/jason-work-scope-from-deep-cultivation-meeting.md` | 證明陽明交大任務是把智慧醫療 / AI 問診整理成可提報子計畫。 |
-| 6/12 CRM 排除紀錄 | `records/2026-06-12/wu-yuelin-line-crm-888-record.md` | 證明 CRM 已由其他團隊處理，目前不屬於本案。 |
+| 6/2 正式會議紀錄 | `records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md` | 記錄信義母案 AI 智慧問診約 NT$15M 且包含 CRM，並建立本團隊 AI-only NT$10M 的分層寫法。 |
+| 6/12 CRM owner split 紀錄 | `records/2026-06-12/wu-yuelin-line-crm-888-record.md` | 證明 CRM 由其他團隊處理，本團隊工作包聚焦 AI 問診與醫師覆核摘要。 |
 | 6/12 美如主任截圖 | `records/2026-06-12/sources/chen-meiru-crm-other-team-line-2026-06-12.png` | 原始證據：CRM 由忠孝岳霖主任找其他團隊處理。 |
 | 6/18 廖醫師交付紀錄 | `records/2026-06-18/liao-wesley-line-deep-cultivation-integration-record.md` | 證明廖醫師提供 Word 格式範本，請 Jason 協助統整。 |
 | 廖醫師 PSA 範本 | `records/2026-06-18/sources/tch-zhongxiao-xinyi-deep-cultivation-plan-revised-2026-06-18.docx` | 作為正式章節、欄位、經費與效益評估格式參考。 |
@@ -68,13 +69,13 @@ PSA 主動篩檢可作為臨床背景或母計畫 sibling content，但 PSA SOP�
 | Governance | AI/data/security/privacy/IRB-QI/procurement gates before real data or deployment claim。 |
 | Budget/KPI mapping | 每一筆經費都對應 KPI、owner、evidence、checkpoint。 |
 
-### Out Of Scope
+### Parent / Other-Team Workstreams
 
 | 項目 | 原因 |
 | --- | --- |
-| CRM | 2026-06-19 owner update 已排除。 |
-| CRM-ready handoff | 不需要與 CRM 團隊連結或討論。 |
-| Patient messaging | 屬 CRM / 院方追蹤，不屬本案。 |
+| CRM | 信義母案 AI 智慧問診額度約 NT$15M 且包含 CRM；CRM 由母案 / 其他團隊承接。 |
+| CRM-ready handoff | 本工作包不以 CRM handoff 作為驗收項；如母案需要，另由 parent owner 定義。 |
+| Patient messaging | 屬 CRM / 院方追蹤工作流，由 parent proposal owner 安排。 |
 | HIS / EMR writeback | 需後續院內治理與系統 owner；本案不主張。 |
 | Diagnosis / treatment | 臨床權責保留於醫師。 |
 | Autonomous triage / queue priority | 不符合本案 intended use。 |
@@ -83,7 +84,7 @@ PSA 主動篩檢可作為臨床背景或母計畫 sibling content，但 PSA SOP�
 
 ## 5. Budget And KPI Answer
 
-目前建議以三年新臺幣 10,000,000 元作為 AI 問診與醫師覆核摘要 package 的討論額度。
+目前建議以三年新臺幣 10,000,000 元作為吳老師 / 陽明交大 AI 問診與醫師覆核摘要 package 的討論額度。這個數字對應本團隊可交付範圍；信義母案仍可保留 AI 智慧問診約新臺幣 15,000,000 元且包含 CRM 的上層提報脈絡。
 
 是否要先確認預算再規劃 KPI？
 

@@ -14,8 +14,7 @@ Use it when drafting the Health Taiwan deep-cultivation section for the urology 
 
 The proposal should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority.
 
-2026-06-19 owner update: CRM is no longer a future phase inside Jason /
-陽明交大 current package. The current proposal-writing scope is AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$10,000,000 AI-only budget mapping.
+2026-06-02 official meeting minutes and 2026-06-19 owner update define the current writing split. The parent 信義 AI 智慧問診 allocation is about NT$15,000,000 and includes CRM. Jason / 陽明交大 current package owns the AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$10,000,000 AI-only budget mapping; CRM is carried by the parent proposal / other-team workstream.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
@@ -47,6 +46,10 @@ For the clinical friction and workforce-burden reduction principle, use `CLINICA
 
 For the current 2026-06-19 expert-review package, use:
 
+- `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
+- `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
+- `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
 - `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
 - `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
@@ -73,7 +76,26 @@ comparison, use:
 
 The precedent should be used as a format and execution-packaging reference while the current urology proposal stays focused on its deliberate previsit workflow scope.
 
-Use `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md` as the current writing entrypoint for expert review. It keeps the NT$10,000,000 / KPI-budget controls, makes `範疇三：導入智慧科技醫療` the primary category, uses `範疇一：優化醫療工作條件` as secondary support, and removes CRM from active scope.
+Use `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
+as the current proposal-writing entrypoint. It keeps the NT$10,000,000 /
+KPI-budget controls, makes `範疇三：導入智慧科技醫療` the primary category, uses
+`範疇一：優化醫療工作條件` as secondary support, and transfers the expert-review
+recommendations into the Health Taiwan deep-cultivation section format. The
+PSA document is a format reference and parent context source; its PSA SOP,
+screening operations, abnormal-case tracking, CRM, and patient-management
+content are not part of the current NYCU Wu-team AI-only previsit plan.
+
+When a draft must mention the 2026-06-02 parent allocation, use this wording
+pattern:
+
+```text
+信義母案將 AI 智慧問診提報約 NT$15M，並將 CRM 納入母案服務管理範圍。
+本工作稿聚焦吳老師 / 陽明交大團隊可交付的 AI 智慧問診與醫師覆核摘要，
+以三年 NT$10M 作為 AI-only 工作包，CRM 由另案團隊承接。
+```
+
+Use `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md` as an earlier
+expert handoff packet retained for traceability.
 
 Use `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`, `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`, and `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md` as prior NT$10,000,000 discussion baselines only.
 
@@ -95,7 +117,13 @@ Safe descriptive boundary:
 泌尿科門診前症狀蒐集與醫師覆核摘要輔助流程
 ```
 
-Write this as a governed previsit workflow-support system. CRM follow-up remains a future confirmed next step. ASR stays an optional multilingual input layer. The first version focuses on non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage, voiding difficulty, or weak stream. Blood in urine, fever/chills, flank pain, and currently being unable to urinate are patient-reported red-flag observations recorded for clinician review.
+Write this as a governed previsit workflow-support system. CRM follow-up is
+parent-proposal or other-team context only for the current Jason / 陽明交大
+package. ASR stays an optional confirmed-input layer. The first version focuses
+on non-acute LUTS / OAB-like outpatients: nocturia, frequency, urgency, leakage,
+voiding difficulty, or weak stream. Blood in urine, fever/chills, flank pain,
+and currently being unable to urinate are patient-reported red-flag observations
+recorded for clinician review.
 
 ## Assertive Writing Method
 
@@ -160,7 +188,7 @@ stable urology outpatient
 The broad system identity remains:
 
 ```text
-urology previsit intake / visit-readiness / clinician-reviewed summary / future governed CRM follow-up support
+urology previsit intake / visit-readiness / clinician-reviewed summary
 ```
 
 But the first-version proposal label should be:

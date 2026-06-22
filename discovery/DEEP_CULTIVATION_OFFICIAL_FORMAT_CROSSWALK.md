@@ -4,13 +4,14 @@
 
 日期：2026-05-20
 
-2026-06-19 owner update:
+2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text
 Current writing target is AI-only: 泌尿科門診前問診與醫師覆核摘要支持系統.
 Use `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md` for
-current official-section definitions. CRM is not part of the current Jason /
-陽明交大 package.
+current official-section definitions. The parent 信義 AI 智慧問診 allocation is
+about NT$15M and includes CRM; this crosswalk maps the Jason / 陽明交大
+AI-only package at three-year NT$10M.
 ```
 
 目的：將目前泌尿科門診前問診 deep-cultivation 草稿包對應到 Health Taiwan 正式提案格式，讓下一版可以寫成可申請經費的醫院 workflow 提案，而不是研究 memo 或 AI demo 說明。
@@ -57,7 +58,7 @@ current official-section definitions. CRM is not part of the current Jason /
 
 | 正式章節 | 正式格式期待內容 | 目前材料 | 缺口 | 下一步撰寫動作 |
 | --- | --- | --- | --- | --- |
-| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields | applicant、mode、institution codes、parent proposal name 尚未確認；類別設計為主打 `範疇三`、副支援 `範疇一`；working budget 為三年 / NT$10,000,000 | 保留 placeholder；Word transfer 前詢問 hospital owner |
+| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields and 2026-06-02 official minutes | applicant、mode、institution codes、parent proposal name 尚未確認；類別設計為主打 `範疇三`、副支援 `範疇一`；parent AI 智慧問診 allocation 約 NT$15M 含 CRM；Jason / 陽明交大 AI-only working budget 為三年 / NT$10,000,000 | 保留 placeholder；Word transfer 前詢問 hospital owner，並明確分開 parent CRM allocation 與 AI-only package |
 | TOC | official auto-generated section order | Markdown 不需另維護 | final Word/PDF step | 本 repo 不手動維護 |
 | `壹、自我檢核` | eligibility、official format、COI forms、no duplicate funding、participation consent、only one application mode | v0.2 preflight、MOHW compliance rubric | legal/administrative facts pending | 加入 applicant-owner checklist，institutional blanks 留白 |
 | `貳、計畫概要` | 簡明計畫摘要與問題 framing | v0.6 one-page positioning、clinical friction analysis、system positioning | summary still needs parent-owner approval | 使用 v0.6 摘要，聚焦範疇三 smart-healthcare workflow 與範疇一 staff-burden reduction |
@@ -65,7 +66,7 @@ current official-section definitions. CRM is not part of the current Jason /
 | `肆、計畫規劃` | 四大範疇計畫內容、workflow、工作項目、deliverables | 2026-06-19 expert-review packet、proposal item definitions、proposal writing guide、intended-use freeze、demo-scope freeze | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成：門診前 / 候診中低摩擦症狀蒐集 -> 來源標記（source label）/ 缺漏欄位 -> 一頁式醫師覆核摘要 -> 醫師 accept / edit / ignore / return -> KPI 評估 |
 | `伍、效益評估` | KPI table by category、baseline/current data、target、annual checkpoints | v0.6 KPI table、KPI-to-budget table、annual checkpoint table | baselines still draft | 使用可驗收 targets：summary read time <= 60 秒、source label 100%、unsafe wording = 0、missing-field visibility >= 90%、clinician usefulness >= 4/5、governance owner named |
 | `陸、出國計畫書` | 只有在 scope 2 training-related overseas activity 編列時使用 | not applicable | 必須明確標示不適用 | 除非新增 overseas training plan，否則寫 N/A |
-| `柒、經費規劃` | 分年經費總表、budget category details、scope allocation、capital/personnel/business categories | v0.6 budget table and KPI-to-budget table | NT$10,000,000 discussion allocation 已設定；formal accounting category、unit price、quantity、procurement note 仍需確認 | 每列補齊 formal accounting category / unit price / quantity / year / KPI / owner / evidence / procurement note |
+| `柒、經費規劃` | 分年經費總表、budget category details、scope allocation、capital/personnel/business categories | v0.6 budget table, KPI-to-budget table, 2026-06-02 official minutes | NT$10,000,000 AI-only discussion allocation 已設定；parent NT$15M AI/CRM relation、formal accounting category、unit price、quantity、procurement note 仍需確認 | 每列補齊 formal accounting category / unit price / quantity / year / KPI / owner / evidence / procurement note；CRM 經費另列 parent / other-team workstream |
 | `捌、人力配置表` | subsidized-unit personnel、current post、work role | role table | named personnel pending | 保留 role-based table，姓名標示 pending |
 | `玖、其他` | attachments、quotations、cooperation materials、figure/table list | repo inclusion recommendation、governance checklist、demo/reviewer artifacts | attachment packet 尚未選定 | 列出 recommended appendices 與 do-not-attach items |
 | `拾、利衝自主檢核` | official signed form | none | 必須由 institution owner 處理 | 標示 parent owner action |

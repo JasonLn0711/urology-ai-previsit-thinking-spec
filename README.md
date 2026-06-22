@@ -104,16 +104,20 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For writing the Health Taiwan deep-cultivation proposal: `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`
 - For the 2026-05-21 A2-0048 precedent proposal capture and postdoctoral lessons: `records/2026-05-21/a2-0048-smart-healthcare-center-precedent/README.md`
 - For the 2026-05-29 Prof. Wu proposal update and reference-proposal analysis: `records/2026-05-29/README.md`
-- For the historical 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification, superseded for current scope by the 2026-06-19 owner update: `records/2026-06-02/README.md`
-- For the 2026-06-12 吳岳霖主任 LINE conversation and 美如主任 group screenshot, now updated by the 2026-06-19 owner decision that CRM is completely out of scope for Jason / 陽明交大: `records/2026-06-12/README.md`
+- For the 2026-06-02 official 115 年度院外門診部 deep-cultivation meeting minutes, including 華山 / 信義 subprojects, NT$15M PSA, NT$15M AI 智慧問診含 CRM, and the current NYCU AI-only NT$10M writing split: `records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
+- For the historical 2026-06-02 信義 integrated PSA / AI 智慧問診 / CRM responsibility clarification, now routed by the official minutes and 2026-06-19 owner split: `records/2026-06-02/README.md`
+- For the 2026-06-12 吳岳霖主任 LINE conversation and 美如主任 group screenshot, now used as evidence for the CRM other-team ownership split: `records/2026-06-12/README.md`
 - For the 吳育德 + 江慧珣 `深耕子計畫三` companion lane on 高齡 AI 步態、肌少症、數位復健與陪伴機器人: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/README.md`
 - For the full source-based 子計畫三 content analysis and cross-lane connection map: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/full-content-analysis-and-connection-map.md`
 - For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
 - For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
+- For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
+- For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
+- For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
 - For the 2026-06-02 to 2026-06-11 LINE group capture for `深耕子計劃三-吳育德+江慧珣團隊`: `records/2026-06-11/README.md`
 - For the pre-circulation assertive writing gate: `discovery/ASSERTIVE_WRITING_GATE.md`
 - For the current 2026-06-19 AI-only expert-review packet: `discovery/exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
-- For the current proposal item definitions based on 廖醫師 PSA format: `discovery/exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
+- For the earlier proposal item definitions retained for traceability: `discovery/exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
 - For the current KPI-to-budget table: `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - For the historical v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
 - For the prior v0.6 fill-out discussion draft with category design, KPI targets, formal budget columns, and front-loaded governance: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
@@ -158,9 +162,19 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 
 ## Current Planning Signal
 
-The latest effective planning decision is the 2026-06-19 owner update: CRM is
-completely out of scope for Jason / 陽明交大. The 2026-06-12 LINE conversation and
-美如主任 group screenshot remain source evidence for why CRM was removed.
+The current source stack has two layers:
+
+```text
+2026-06-02 official meeting minutes:
+信義 AI 智慧問診 parent allocation is about NT$15,000,000 and includes CRM.
+
+2026-06-19 owner split:
+CRM is handled outside Jason / 陽明交大 current package.
+Jason / 陽明交大 uses a three-year NT$10,000,000 AI-only working budget.
+```
+
+The 2026-06-12 LINE conversation and 美如主任 group screenshot remain source
+evidence for the CRM ownership split.
 
 Current active gate:
 
@@ -177,11 +191,12 @@ Current project definition:
 The active assignment is now AI-only:
 
 - Jason / 陽明交大 owns AI 智慧問診, one-page physician-review summary, governance, KPI, and budget planning for this package.
-- 忠孝院區泌尿科 PSA 主動篩檢 can remain clinical context or parent-proposal sibling content, but its SOP and clinical responsibility are not Jason-owned.
-- CRM is out of scope: no CRM planning, no CRM data handoff, no CRM budget, no CRM KPI, no CRM team coordination.
+- 泌尿科自行提報的 PSA 主動篩檢 is separate source/context; the current Jason / 陽明交大 package is the AI previsit and physician-review summary plan only.
+- CRM belongs to the parent allocation / other-team workstream. This repo's current package owns the AI 問診、醫師覆核摘要、governance、KPI evidence, and NT$10M AI-only budget map.
 
 Current source records:
 
+- `records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
 - `records/2026-06-11/wu-chiang-subproject-three-line-record.md`
 - `records/2026-06-12/wu-yuelin-line-crm-888-record.md`
 - `records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md`
@@ -196,6 +211,12 @@ Current proposal name:
 
 ```text
 泌尿科門診前問診與醫師覆核摘要支持系統
+```
+
+Current proposal draft:
+
+```text
+discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md
 ```
 
 Safe descriptive boundary:
@@ -231,8 +252,9 @@ Near-term framing should emphasize:
   revision should move room toward personnel, case management, Robot integration,
   and APP / Dashboard follow-up operations
 - the v0.8 package should stand on AI 問診, physician-review summary, workflow fit, governance, and KPI-to-budget traceability
-- PSA budget and SOP remain clinical / parent-proposal matters; use PSA only as possible clinical context unless explicitly reassigned
-- AI 智慧問診與醫師覆核摘要 uses NT$10,000,000 as the current three-year planning envelope until the parent proposal owner changes it
+- PSA budget and SOP remain a separate urology-submitted plan; use the PSA document only as a Health Taiwan format reference unless explicitly reassigned
+- the official 2026-06-02 meeting minutes list 信義 AI 智慧問診 as about NT$15,000,000 including CRM; this repo writes the NYCU / 吳老師-team AI-only package at three-year NT$10,000,000 because CRM is an other-team workstream
+- AI 智慧問診與醫師覆核摘要 uses NT$10,000,000 as the current three-year planning envelope until the parent proposal owner changes the AI-only allocation
 - v0.7 is now the prior baseline for the AI 智慧問診 / one-page-summary component; v0.8 planning must update the project identity before a new Word export
 - the 2026-06-02 discussion version now uses a three-year NT$10,000,000 working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
 - the 2026-05-29 attached subproject-three PDF is archived and analyzed as a formatting / KPI / budget precedent, not as scope-expansion authority

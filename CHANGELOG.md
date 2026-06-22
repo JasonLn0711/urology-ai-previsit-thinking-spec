@@ -2,6 +2,14 @@
 
 This repository uses the versioning rules in `VERSIONING.md`.
 
+## v0.12.0 - 2026-06-19
+
+Type: minor
+
+Summary:
+
+- Add NYCU Wu-team AI previsit Health Taiwan complete proposal draft
+
 ## v0.11.1 - 2026-06-19
 
 Type: patch

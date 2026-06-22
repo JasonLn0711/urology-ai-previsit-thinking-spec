@@ -10,13 +10,48 @@
 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
-CRM 已完全排除於本案之外。本表不規劃 CRM-ready handoff、CRM 欄位、CRM KPI、CRM 預算、CRM 採購、CRM 維運或病人追蹤。
+CRM 屬於母案 / 其他團隊 workstream。本表聚焦 Jason / 陽明交大 AI-only 工作包，將三年 NT$10M 對應到 AI 問診、醫師覆核摘要、governance、KPI evidence、年度查核點與驗收資料。
+
+## Parent Proposal Budget Context
+
+2026-06-02 115 年度院外門診部深耕計畫討論會議紀錄列出下列信義門診部母案配置：
+
+| Parent workstream | Meeting allocation | Current routing |
+| --- | ---: | --- |
+| 攝護腺癌 (PSA) 主動篩檢 | NT$15,000,000 | 忠孝院區協助完成；PSA SOP and guideline work remain outside this table |
+| AI 智慧問診，須包含 CRM 系統 | NT$15,000,000 | parent allocation reference; CRM is handled by other team |
+| Jason / 陽明交大 AI-only package | NT$10,000,000 | current table scope: AI 問診、醫師覆核摘要、governance、KPI evidence |
+
+Writing rule:
+
+```text
+可以在母案背景中說明 AI 智慧問診提報約 NT$15M 且包含 CRM；
+本表只編列吳老師 / 陽明交大團隊的三年 NT$10M AI-only 工作包。
+```
 
 ## Budget Decision
 
 目前以三年新臺幣 10,000,000 元作為 AI 問診與醫師覆核摘要 package 的工作上限。
 
-這不是最後正式會計科目。正式送件前仍需由主提單位 / budget owner 確認：
+2026-06-19 專家審查後，本表的正式提案定位為：
+
+```text
+範疇三「導入智慧科技醫療」為主軸，範疇一「優化醫療工作條件」為副支援。
+```
+
+最新版 NYCU Wu-team AI previsit complete proposal draft:
+
+```text
+exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md
+```
+
+來源分析：
+
+```text
+../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md
+```
+
+正式送件前仍需由主提單位 / budget owner 確認：
 
 - 正式會計科目
 - 單價
@@ -26,6 +61,15 @@ CRM 已完全排除於本案之外。本表不規劃 CRM-ready handoff、CRM 欄
 - capital / current 類別
 - negative-list 檢查
 - 採購與委外門檻
+
+## Official Category Planning Amounts
+
+| 官方科目 | 三年概算 | 編列邏輯 |
+| --- | ---: | --- |
+| 人事費 | NT$6,140,000 | PM/RA、KPI/evaluation RA、clinical reviewer protected time、question/schema/AI engineering、QA cycle、evaluation analyst。 |
+| 業務費 | NT$3,630,000 | 外部審查、文件包、資料蒐集、workflow walkthrough、LLM/API/cloud/ASR 租金或權利使用、治理工作坊、IRB、問卷 / 訪視等。 |
+| 設備費 | NT$230,000 | clinic-owned intake station readiness；若改租用則轉業務費。設備費約占總額 2.3%，低於 30% 資本門上限。 |
+| 合計 | NT$10,000,000 | 100% mapped to KPI, owner and evidence；正式表仍需主提單位確認補助款 / 配合款、採購門檻、核銷科目與驗收文件。 |
 
 ## KPI And Budget Sequence
 
@@ -101,3 +145,5 @@ No friction reduction -> no Health Taiwan workflow value.
 - HIS / EMR writeback
 - autonomous diagnosis / treatment / triage
 - unsupported chronic-disease outcome claims
+- foreign travel as a core AI-package item
+- personal phones, personal tablets, or routine administrative devices

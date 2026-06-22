@@ -19,6 +19,10 @@
 其他 = 還有哪些 gate / 附件 / 待確認
 ```
 
+2026-06-02 official meeting minutes add the parent proposal budget context:
+信義 AI 智慧問診提報約 NT$15M 且包含 CRM。This item-definition table still
+defines the Jason / 陽明交大 AI-only writing package at three-year NT$10M.
+
 ## 封面
 
 | 欄位 | 定義 | 本案填寫方向 | 不要寫 |
@@ -29,7 +33,7 @@
 | 計畫範疇 | 對應 Health Taiwan 類別 | 主打範疇三；副支援範疇一 | 把四大範疇都寫滿 |
 | 主提機構 | 正式送件單位 | 待主提單位確認 | 用陽明交大代替醫療機構，除非正式指定 |
 | 合作機構 | 實際協作單位 | 國立陽明交通大學團隊；其他依主提案確認 | CRM 團隊 |
-| 申請經費 | 本案工作上限 | 三年 NT$10,000,000 討論額度 | CRM 預算 |
+| 申請經費 | 本案工作上限 | 三年 NT$10,000,000 討論額度；可註明母案 AI 智慧問診約 NT$15M 含 CRM | 把 CRM 預算列入本團隊工作包 |
 | 執行期程 | 官方年度 | 待主提案年度定案 | 任意年度 |
 | 主持人 / 聯絡人 | 簽核責任 | 待主提單位確認 | 未授權姓名 |
 
