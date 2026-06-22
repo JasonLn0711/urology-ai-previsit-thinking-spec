@@ -31,6 +31,10 @@ Use:
 
 ## Current Records
 
+- `2026-06-22/README.md`:
+  source hub for same-day proposal records, including the Huashan sarcopenia /
+  Health Cabin meeting minutes and the 信義院區門診前問診系統 NT$10,000,000
+  three-phase budget and workflow-boundary record.
 - `2026-06-19/README.md`:
   2026-06-19 source hub for two current lanes: the NYCU urology AI previsit
   expert-review package and PSA-template rewrite, plus the latest LINE update

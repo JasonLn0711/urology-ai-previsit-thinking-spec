@@ -111,6 +111,8 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the full source-based 子計畫三 content analysis and cross-lane connection map: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/full-content-analysis-and-connection-map.md`
 - For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
 - For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
+- For the 2026-06-22 華山肌少症 / 健康艙 first-principles v2 positive-scope meeting minutes: `records/2026-06-22/meeting_minutes_260622_1629_sarcopenia_first_principles_v2.md`
+- For the 2026-06-22 信義院區門診前問診系統 NT$10,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
