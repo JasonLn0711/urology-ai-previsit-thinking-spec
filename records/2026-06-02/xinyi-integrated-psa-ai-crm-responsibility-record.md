@@ -5,7 +5,7 @@ Status: captured
 2026-06-19 supersession:
 
 ```text
-本紀錄保留 2026-06-02 當時的責任澄清歷史。依 2026-06-19 owner update，CRM 已完全排除於 Jason / 陽明交大目前 package 之外；目前有效範圍是 AI 問診與醫師覆核摘要。不要再用本紀錄作為 CRM 規劃、資料交接、KPI、預算、採購或維運依據。
+本紀錄保留 2026-06-02 當時的責任澄清歷史。依 2026-06-02 official minutes and 2026-06-19 owner update，信義母案 AI 智慧問診提報約 NT$15M 且包含 CRM；CRM 由其他團隊處理，Jason / 陽明交大目前有效範圍是 AI 問診與醫師覆核摘要，並以三年 NT$10M 作 AI-only 工作額度。不要再用本紀錄作為 Jason / 陽明交大 CRM 規劃、資料交接、KPI、預算、採購或維運依據。
 ```
 
 ## Source
@@ -19,6 +19,12 @@ Planning-side source record:
 /home/jnln3799/every_on_git_ubuntu/planning-everything-track/data/knowledge/healthcare/urology/previsit-interview/meeting-record-2026-06-02-lianyi-outpatient-deep-cultivation.md
 ```
 
+Official meeting-minutes source added on 2026-06-22:
+
+```text
+records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md
+```
+
 ## User Clarification Preserved
 
 ```text
@@ -27,7 +33,7 @@ Our project is: 信義 is the integrated PSA 主動篩檢 + AI 智慧問診 + CR
 我們負責的深耕計畫的部分，是合併忠孝院區泌尿科自行提報的PSA 篩檢以及美如主任交待我後續進行的 CRM 外包（美如主任交待我，把 CRM 外包寫進深耕計畫的案子裡面，然後我還要彙整合併泌尿科自行提報的PSA篩檢，到我們原本設計的計畫內），把三個部份（我原本的部份 + 泌尿科PSA篩檢 + CRM 外包）合併成一個大專案.
 ```
 
-## Current Project Definition
+## Historical Project Definition At The 2026-06-02 Responsibility Clarification
 
 Our active 信義 deep-cultivation project is one integrated proposal package:
 
@@ -46,7 +52,8 @@ The package merges three components:
 | Component | Current budget signal | Status |
 | --- | ---: | --- |
 | PSA 主動篩檢 | about NT$15,000,000 | official meeting signal; clinical owner and SOP owner pending |
-| AI 智慧問診 including CRM | about NT$15,000,000 | official meeting signal; CRM outsourcing details pending |
+| AI 智慧問診 including CRM | about NT$15,000,000 | official meeting signal; CRM belongs to parent / other-team workstream |
+| Jason / 陽明交大 AI-only package | about NT$10,000,000 over three years | current repo scope: AI 問診、醫師覆核摘要、governance、KPI evidence |
 | 信義碳盤查 | about NT$7,500,000 | parallel parent-proposal workstream, not Jason's core writing package unless assigned |
 
 ## Operational Interpretation
