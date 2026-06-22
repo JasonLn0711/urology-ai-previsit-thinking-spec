@@ -25,6 +25,12 @@ Use these files first for the current expert-review package:
 - `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+- Historical 2026-06-19 DOCX export copies:
+  `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.docx`,
+  `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19-02.docx`,
+  and `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19-format-source-copy.docx`.
+  Treat these as 2026-06-19 handoff/source copies; regenerate from Markdown
+  after the 2026-06-22 records if a new formal DOCX handoff is needed.
 
 ## Files
 
@@ -43,6 +49,9 @@ Use these files first for the current expert-review package:
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`: 2026-06-19 source-backed expert-review synthesis for the NYCU Wu-team AI previsit plan, KPI and budget package
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_7.md`: historical 2026-06-02 fill-out discussion draft; keep for traceability only
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`: latest complete NYCU Wu-team AI previsit proposal integrating expert-review plan, KPI, budget, annual checkpoints, scope controls and review-response table
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.docx`: historical DOCX export of the 2026-06-19 complete proposal source
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19-02.docx`: historical DOCX export copy from the 2026-06-19 package
+- `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19-format-source-copy.docx`: historical format/source DOCX copy for the 2026-06-19 package
 - Latest Word export should be regenerated from the Markdown source after the 2026-06-22 official-minutes update if a DOCX handoff is needed.
 - `exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`: historical Word-ready discussion proposal export
 - `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`: historical 2026-06-02 fill-out discussion draft
