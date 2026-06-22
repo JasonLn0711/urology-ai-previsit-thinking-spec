@@ -136,6 +136,34 @@ Planning interpretation:
   case-management feasibility, while 子計畫三 still needs its own owner, fields,
   access control, KPI, and deployment path.
 
+## 2026-06-22 16:29 Prof. Wu / Prof. Chiang / Ken Update
+
+Canonical record:
+
+`../../records/2026-06-22/prowu-huashan-sarcopenia-health-cabin-meeting-record.md`
+
+The meeting clarified the current proposal-safe direction:
+
+- Robot / smart terminal scope should lead with health education, navigation,
+  flow guidance, safety reminders, and onsite interaction support.
+- Computer vision / image screening can remain an optional module, activated
+  after safety, device, field-operation, and model-validity gates are confirmed.
+- First-year validation should include positive as well as negative
+  sarcopenia/frailty cases, with age, sex, population source, device, camera
+  setup, and reference-standard labels preserved.
+- The Health Cabin should be written as the measurement and data-integration
+  anchor for sarcopenia-relevant vital signs, BIA / body-composition or external
+  measurement data, questionnaire interaction, QR/report output, and
+  HIS/FHIR-ready future route.
+
+Current next gate:
+
+```text
+Confirm with Kevin / 美如主任 / 慧誠智醫 which sarcopenia-relevant measurements
+the Health Cabin owns directly, which fields are imported, and which model
+validation evidence exists before writing the next proposal KPI layer.
+```
+
 ## Separation From The Urology AI-Only Package
 
 This subproject should remain separate from the current 信義 urology AI-only
