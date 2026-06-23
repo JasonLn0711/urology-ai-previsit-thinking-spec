@@ -14,19 +14,31 @@ CRM 屬於母案 / 其他團隊 workstream。本表聚焦 Jason / 陽明交大 A
 
 ## Parent Proposal Budget Context
 
-2026-06-02 115 年度院外門診部深耕計畫討論會議紀錄列出下列信義門診部母案配置：
+2026-06-02 115 年度院外門診部深耕計畫討論會議紀錄與 2026-06-23 115 年度華山、信義門診部深耕計畫討論會議紀錄列出下列信義門診部母案配置：
 
 | Parent workstream | Meeting allocation | Current routing |
 | --- | ---: | --- |
 | 攝護腺癌 (PSA) 主動篩檢 | NT$15,000,000 | 忠孝院區協助完成；PSA SOP and guideline work remain outside this table |
-| AI 智慧問診，須包含 CRM 系統 | NT$15,000,000 | parent allocation reference; CRM is handled by other team |
+| PSA 篩檢與智慧問診 | NT$15,000,000 | parent allocation reference; Jason / 陽明交大 handles only the AI-only work package |
+| CRM 系統 | NT$15,000,000 | other-team / parent-proposal lane |
+| 信義門診部碳盤查 | NT$7,500,000 | 創新永續發展中心 support; outside this AI-only table |
 | Jason / 陽明交大 AI-only package | NT$10,000,000 | current table scope: AI 問診、醫師覆核摘要、governance、KPI evidence |
 
 Writing rule:
 
 ```text
-可以在母案背景中說明 AI 智慧問診提報約 NT$15M 且包含 CRM；
+可以在母案背景中說明信義深耕計畫目前含 PSA 篩檢與智慧問診 NT$15M、
+CRM 系統 NT$15M、碳盤查 NT$7.5M；
 本表只編列吳老師 / 陽明交大團隊的三年 NT$10M AI-only 工作包。
+```
+
+2026-06-23 budget-control update:
+
+```text
+各專案每年總經費上限約 NT$37.5M。審查可能刪減至提報預算的 50-60%，
+但計畫 KPI 服務量能不能因預算減少而縮減。硬體設備與無形資產
+（如自建系統）均需遵守 30% 控制。軟體系統優先以租賃 / service
+方式規劃，健康艙目前以買斷設備方向規劃。
 ```
 
 ## Budget Decision
@@ -135,6 +147,8 @@ No friction reduction -> no Health Taiwan workflow value.
 | owner | 對該項工作與證據負責的角色 |
 | evidence | 審查或年度查核可看到的文件 / scorecard / report |
 | procurement note | 是否涉及採購、委外、資安或正式會計限制 |
+| asset / service category | 硬體、無形資產、自建系統、租賃服務、買斷設備或人事 / 業務費 |
+| budget-resilience note | 若審查刪減至 50-60%，如何保留核心 KPI 服務量能 |
 
 ## Do Not Budget
 

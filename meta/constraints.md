@@ -48,6 +48,11 @@
 - APP, platform, API, questionnaire, or vendor work may require procurement / tender review before execution.
 - AI, APP, API, and patient-data flows require security-governance review before real deployment or real patient-data use.
 - After the 2026-06-19 owner update, CRM is out of scope for Jason / 陽明交大. Do not write CRM outsourcing, CRM-ready handoff, patient messaging, LINE/SMS integration, vendor hosting, production follow-up, CRM KPI, CRM budget, or CRM maintenance into the current AI 問診 package.
+- After the 2026-06-23 official meeting minutes, the 2026-07-07 09:30 parent-proposal gate requires one merged Huashan / Xinyi plan with KPI, budget, partner route, owner, evidence, and procurement / asset-category controls.
+- Each parent project should treat NT$37,500,000 per year as the current expected cap until the budget owner confirms otherwise.
+- Budget writing must include a 50-60% review-cut scenario while preserving claim-evidence aligned KPI service capacity.
+- Hardware equipment and intangible assets, including self-built systems, must remain inside the 30% budget-control rule.
+- Software systems should be framed as rental / service / license paths when appropriate; Health Cabin is currently framed as a direct-purchase asset subject to procurement and 30% controls.
 - 忠孝院區泌尿科 PSA screening can be integrated into the proposal architecture, but clinical SOP, guideline compliance, abnormal-case handling, and clinical responsibility must remain owned or confirmed by the clinical unit.
 - Aging Clock must not be treated as an accepted service claim until data source, aging definition, biomarker scope, intervention, and governance are defined.
 - Health Taiwan policy alignment should be explicit: claims should map to smart healthcare, working-condition improvement, talent training, or sustainable/social-responsibility healthcare instead of using generic `AI innovation` language.

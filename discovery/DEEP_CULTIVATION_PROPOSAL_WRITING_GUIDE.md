@@ -14,7 +14,17 @@ Use it when drafting the Health Taiwan deep-cultivation section for the urology 
 
 The proposal should read like a healthcare workflow-improvement plan that uses AI, optional ASR, APP/tablet intake, and governance to reduce real clinical burden while preserving clinician authority.
 
-2026-06-02 official meeting minutes and 2026-06-19 owner update define the current writing split. The parent 信義 AI 智慧問診 allocation is about NT$15,000,000 and includes CRM. Jason / 陽明交大 current package owns the AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$10,000,000 AI-only budget mapping; CRM is carried by the parent proposal / other-team workstream.
+2026-06-02 official meeting minutes, the 2026-06-19 owner update, and the
+2026-06-23 official meeting minutes define the current writing split. The parent
+信義 package currently carries PSA 篩檢與智慧問診 at NT$15,000,000, CRM at
+NT$15,000,000, and 信義門診部碳盤查 at NT$7,500,000. Jason / 陽明交大 current
+package owns the AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$10,000,000
+AI-only budget mapping; CRM, PSA clinical SOP, and carbon inventory are carried
+by parent proposal / other-team workstreams.
+
+The next parent-proposal review gate is 2026-07-07 09:30. Drafting before that
+meeting should support one merged plan with KPI, budget, partner route, owner,
+evidence, and procurement / asset-category controls.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
@@ -47,6 +57,8 @@ For the clinical friction and workforce-burden reduction principle, use `CLINICA
 For the current 2026-06-19 expert-review package, use:
 
 - `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
+- `../records/2026-06-23/taipei-city-hospital-huashan-xinyi-deep-cultivation-official-meeting-minutes.md`
+- `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md`
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
@@ -85,13 +97,22 @@ PSA document is a format reference and parent context source; its PSA SOP,
 screening operations, abnormal-case tracking, CRM, and patient-management
 content are not part of the current NYCU Wu-team AI-only previsit plan.
 
-When a draft must mention the 2026-06-02 parent allocation, use this wording
-pattern:
+When a draft must mention the parent allocation, use this wording pattern
+updated by the 2026-06-23 meeting:
 
 ```text
-信義母案將 AI 智慧問診提報約 NT$15M，並將 CRM 納入母案服務管理範圍。
-本工作稿聚焦吳老師 / 陽明交大團隊可交付的 AI 智慧問診與醫師覆核摘要，
-以三年 NT$10M 作為 AI-only 工作包，CRM 由另案團隊承接。
+信義母案目前整合 PSA 篩檢與智慧問診 NT$15M、CRM 系統 NT$15M、
+以及信義門診部碳盤查 NT$7.5M。本工作稿聚焦吳老師 / 陽明交大團隊
+可交付的 AI 智慧問診與醫師覆核摘要，以三年 NT$10M 作為 AI-only
+工作包；CRM、PSA 臨床 SOP 與碳盤查由母案或另案團隊承接。
+```
+
+When writing budget resilience after the 2026-06-23 meeting, use this pattern:
+
+```text
+本案以 KPI 服務量能為核心承諾，並以租賃服務、分年執行、採購範圍控制
+與非核心模組排序回應審查刪減情境。硬體設備與無形資產均依 30% 控制
+規劃；軟體系統優先採租賃 / service 模式，健康艙採買斷設備方向規劃。
 ```
 
 Use `exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md` as an earlier

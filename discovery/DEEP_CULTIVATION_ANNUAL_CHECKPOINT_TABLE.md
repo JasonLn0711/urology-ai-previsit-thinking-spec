@@ -4,12 +4,15 @@
 
 日期：2026-05-29
 
-2026-06-02 official meeting minutes + 2026-06-19 owner update:
+2026-06-02 official meeting minutes + 2026-06-19 owner update + 2026-06-23
+official meeting minutes:
 
 ```text
-信義母案 AI 智慧問診提報約 NT$15,000,000 且包含 CRM。
+信義母案目前整合 PSA 篩檢與智慧問診 NT$15,000,000、CRM 系統
+NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 目前 Jason / 陽明交大提案包為 AI-only expert-review package，三年 NT$10,000,000。
 本表若提到 CRM，只保留為 parent / other-team 工作，不作本案 checkpoint。
+2026-07-07 09:30 是華山、信義門診部合併版計畫書審閱 gate。
 ```
 
 目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
@@ -44,6 +47,10 @@
 
 | checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
+| 2026-07-07 合併版審閱 | 華山、信義門診部合併版計畫書，含 KPI、預算、合作單位、採購 / 資產類別與 owner | merged-plan review readiness | `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md` | parent proposal owner |
+| 合作單位洽談 | 友好單位、合作內容、簽約或合作文件路徑 | partner readiness | partner route note | Huashan + Xinyi teams |
+| 預算 resilience | NT$37.5M annual cap、50-60% review-cut scenario、30% 硬體 / 無形資產控制 | budget review readiness | budget-resilience table | budget owner |
+| 軟體租賃 / 健康艙買斷分類 | 軟體 service / license / rental 與 Health Cabin purchase category | asset-category readiness | procurement / asset-category note | IT/procurement + Health Cabin owners |
 | 申請路徑釐清 | 申請單位 / 申請模式 / parent proposal 關係說明 | 正式送件路徑 | 一頁 owner note | parent proposal owner |
 | Intended use 凍結 | intended use 與 non-use statement | 邊界清楚 | `INTENDED_USE_FREEZE.md` | clinical + proposal owner |
 | Demo scope 凍結 | demo 納入 / 排除範圍 | scope control | `DEMO_SCOPE_FREEZE.md` | proposal + engineering owner |

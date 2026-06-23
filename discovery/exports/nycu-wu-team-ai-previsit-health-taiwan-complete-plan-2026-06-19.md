@@ -266,7 +266,7 @@ flowchart LR
 | --- | --- | --- |
 | 為什麼需要 NT$10M？ | 本案是三年治理型門診前資訊流程，不是單一 chatbot。經費涵蓋臨床問題治理、source label、missing-field、AI 摘要、reviewer evidence、資安 / 資料治理、QI/IRB、年度管考與交接。 | 經費明細、KPI 矩陣、成本依據 |
 | AI 角色如何界定？ | AI 支援結構化、缺漏提示與摘要草擬；醫師保留判讀、診斷、處置。unsafe wording KPI 要求未核准診斷、治療、分流語句為 0。 | 禁止語句清單、red-team log、source label audit |
-| CRM 如何在母案與本稿分工？ | 2026-06-02 信義母案將 AI 智慧問診提報約 NT$15M 且包含 CRM；本稿是吳老師 / 陽明交大 AI-only 工作包，支援門診前 visit readiness 與醫師覆核摘要。CRM、病人訊息推播、長期追蹤由母案 / 其他團隊治理，讓本 AI package 維持可驗收、可採購、可治理。 | official meeting minutes、owner table、budget split |
+| CRM 如何在母案與本稿分工？ | 2026-06-23 更新後，信義母案目前整合 PSA 篩檢與智慧問診 NT$15M、CRM 系統 NT$15M、信義門診部碳盤查 NT$7.5M；本稿是吳老師 / 陽明交大 AI-only 工作包，支援門診前 visit readiness 與醫師覆核摘要。CRM、病人訊息推播、長期追蹤由母案 / 其他團隊治理，讓本 AI package 維持可驗收、可採購、可治理。 | 2026-06-23 official meeting minutes、owner table、budget split |
 | KPI 是否太偏 workflow？ | 這些 KPI 與本案可歸因成果一致。先用 workflow、安全、traceability KPI 建立可信度；若 Y2 governance 核准，再做 limited workflow evidence。 | 年度查核點、scorecard |
 | 摘要閱讀時間 <=60 秒是否合理？ | 作為設計目標合理；正式報告同步回報 actual 與分布。若超過 90 秒，則縮短摘要或調整欄位。 | timed reviewer logs |
 | ASR / APP / API 如何處理？ | ASR 作為 confirmed input readiness；未確認 transcript 不進摘要。APP/API/HIS/EMR 只保留 readiness 或下一階段治理條件，本期不承諾正式寫回。 | W7、資料治理 gate、next-stage governance brief |

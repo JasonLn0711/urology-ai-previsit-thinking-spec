@@ -31,6 +31,12 @@ Use:
 
 ## Current Records
 
+- `2026-06-23/README.md`:
+  source hub for the 115 年度華山、信義門診部 deep-cultivation meeting
+  minutes, corrected transcript source, and 2026-07-07 09:30 merged-plan review
+  schedule. Use this record for the current parent-proposal budget cap,
+  50-60% review-cut scenario, KPI-capacity rule, software-rental direction,
+  Health Cabin purchase direction, and friendly-partner signing route.
 - `2026-06-22/README.md`:
   source hub for same-day proposal records, including the Huashan sarcopenia /
   Health Cabin meeting minutes and the 信義院區門診前問診系統 NT$10,000,000
