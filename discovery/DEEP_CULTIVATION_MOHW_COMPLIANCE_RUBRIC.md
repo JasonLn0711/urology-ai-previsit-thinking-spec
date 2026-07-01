@@ -68,6 +68,20 @@ Source spot-check on `2026-05-20`:
   technology reducing ineffective labor, cross-institution collaboration, FHIR
   exchange, and smart-healthcare services rather than model novelty alone.
 
+Local 116-118 second-stage guidance preserved on `2026-07-01`:
+
+- Repository source record:
+  `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`.
+- Repository source copy:
+  `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md`.
+- The source gives a planning frame for applicant eligibility, A/B/C/D modes,
+  116-118 annual funding ceilings, 30% capital-expenditure control, 80%
+  execution-rate signal, negative-list examples, goal -> strategy -> KPI ->
+  checkpoint -> budget linkage, and Scope 3 AI / data / cybersecurity
+  governance layers.
+- The source itself marks final 116-118 application details as subject to the
+  latest MOHW / HTSprout official announcements.
+
 Reference hierarchy for formal submission:
 
 1. Latest live HTSprout / MOHW / AI Center pages.
@@ -107,6 +121,7 @@ DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md
 
 | Official document group | Local file | Use in D layer |
 | --- | --- | --- |
+| 116-118 second-stage application guidance source | `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md` | Current local planning reference for second-stage applicant-mode, funding-ceiling, KPI/checkpoint/budget, negative-list, and Scope 3 governance checks. |
 | First-stage application guidelines | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf` | Eligibility, application mode, submission flow, page / PDF / paper-copy rules, correction risk. |
 | First-stage proposal format | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx` | Official chapter order, cover fields, self-check table, KPI table, budget table, personnel table, declarations. |
 | Online platform manual | `../records/2026-05-19/policy-documents/application/health-taiwan-online-platform-user-guide.pdf` | Platform entry, export, upload, version consistency. |

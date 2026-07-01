@@ -18,6 +18,10 @@ the main proposal owner or budget owner revises it.
 
 Use these files first for the current expert-review package:
 
+- `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`:
+  copied 116-118 second-stage application guidance source gate for application
+  mode, funding ceiling, KPI / checkpoint / budget chain, negative-list checks,
+  and Scope 3 AI / data / cybersecurity governance planning.
 - `../records/2026-06-30/README.md`: latest LINE source gate for 範疇四
   `健康生活處方`, PSA process indicators, and智慧化 support requested by
   美幸主任 in the `信義門診部 深耕計畫` group.

@@ -14,6 +14,9 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 本表若提到 CRM，只保留為 parent / other-team 工作，不作本案 checkpoint。
 2026-07-01 北市聯醫 LINE 訊息將原訂 2026-07-07 09:30 的華山、信義門診部
 合併版計畫書審閱 gate，更新為擬延至 2026-07-14 同時段。
+2026-07-01 另保存 116-118 申請說明 AI-agent-readable source；116-118
+提案準備需先確認申請模式、經費上限、負面表列、KPI / 查核點 / 預算串接、
+以及 AI / data / cybersecurity governance 要求。
 ```
 
 目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
@@ -49,6 +52,7 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 | checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
 | 2026-07-14 合併版審閱 | 華山、信義門診部合併版計畫書，含 KPI、預算、合作單位、採購 / 資產類別與 owner | merged-plan review readiness | `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md` + `../records/2026-07-01/line-tch-merged-plan-review-postponement.md` | parent proposal owner |
+| 116-118 申請模式 / 經費上限確認 | 主提單位類型、A1/A2/A3/B/C/D 模式、合作機構、分年上限、資本門 30% 控制與負面表列檢查 | second-stage submission readiness | `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md` | parent proposal + budget owner |
 | 合作單位洽談 | 友好單位、合作內容、簽約或合作文件路徑 | partner readiness | partner route note | Huashan + Xinyi teams |
 | 預算 resilience | NT$37.5M annual cap、50-60% review-cut scenario、30% 硬體 / 無形資產控制 | budget review readiness | budget-resilience table | budget owner |
 | 軟體租賃 / 健康艙買斷分類 | 軟體 service / license / rental 與 Health Cabin purchase category | asset-category readiness | procurement / asset-category note | IT/procurement + Health Cabin owners |

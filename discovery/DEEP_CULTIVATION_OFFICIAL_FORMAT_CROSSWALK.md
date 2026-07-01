@@ -20,6 +20,7 @@ AI-only package at three-year NT$10M.
 
 本 repo 內已歸檔的正式格式來源：
 
+- `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md`
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx`
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf`
 - `../records/2026-05-19/policy-documents/execution/category3-smart-healthcare-governance-lazy-guide-1140702.pdf`
@@ -31,6 +32,9 @@ AI-only package at three-year NT$10M.
 
 ```text
 本對照表使用本地 114-115 官方歸檔作為撰寫骨架。
+2026-07-01 保存的 116-118 申請說明 source 應作為第二階段申請模式、
+經費上限、KPI / 查核點 / 預算串接、負面表列與 governance 檢核的
+目前 planning reference。
 正式院內流通或送件前，parent proposal owner 必須確認最新 live template、申請階段、院內指引與行政流程。
 ```
 

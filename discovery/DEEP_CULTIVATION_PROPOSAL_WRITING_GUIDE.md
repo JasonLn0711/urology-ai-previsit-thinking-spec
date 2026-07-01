@@ -28,6 +28,12 @@ notice. Drafting before that meeting should support one merged plan with KPI,
 budget, partner route, owner, evidence, and procurement / asset-category
 controls.
 
+The copied 2026-07-01 116-118 application guidance adds a second-stage
+submission-prep frame: proposal writing should confirm applicant mode, funding
+ceiling, goal -> strategy -> KPI -> checkpoint -> budget linkage,
+negative-list clearance, and Scope 3 AI / data / cybersecurity governance
+before treating any packet as submission-ready.
+
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
 The proposal should be confident, direct, and affirmative. Safety boundaries remain mandatory, and they should be written as deliberate design choices, scope controls, governance gates, and claim-evidence alignment.
@@ -62,6 +68,7 @@ For the current 2026-06-19 expert-review package, use:
 - `../records/2026-06-23/taipei-city-hospital-huashan-xinyi-deep-cultivation-official-meeting-minutes.md`
 - `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md`
 - `../records/2026-07-01/line-tch-merged-plan-review-postponement.md`
+- `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`

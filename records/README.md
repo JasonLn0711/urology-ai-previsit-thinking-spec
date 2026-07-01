@@ -32,10 +32,11 @@ Use:
 ## Current Records
 
 - `2026-07-01/README.md`:
-  complete LINE capture for the 北市聯醫 merged-plan review postponement,
-  preserving 林宏嶽's 2026-07-01 notice that the original 2026-07-07 meeting is
-  proposed to move to 2026-07-14 same time so the merged subproject whole can
-  be reviewed.
+  complete source hub for the 2026-07-01 merged-plan review postponement and
+  the copied Health Taiwan 116-118 second-stage application guidance. Use this
+  record for the proposed 2026-07-14 review gate, 116-118 applicant-mode and
+  budget-ceiling checks, KPI / checkpoint / budget connection, negative-list
+  screening, and Scope 3 AI / data / cybersecurity governance planning.
 - `2026-06-30/README.md`:
   complete LINE capture for `信義門診部 深耕計畫`, preserving 美幸主任's
   request to develop low-cost urology `健康生活處方` items under 範疇四,
