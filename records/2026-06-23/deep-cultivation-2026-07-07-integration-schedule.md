@@ -1,18 +1,24 @@
-# 深耕計畫 2026-07-07 合併版審閱時程
+# 深耕計畫合併版審閱時程
 
 Status: captured
 
-Source: 2026-06-23 official meeting minutes captured in this repository.
+Sources:
+
+- 2026-06-23 official meeting minutes captured in this repository.
+- 2026-07-01 LINE update from 聯醫總院 - 林宏嶽, proposing that the original
+  2026-07-07 meeting move to 2026-07-14 same time.
 
 ## Decision Gate
 
 ```text
-2026-07-07 09:30
+2026-07-14 same time
 ```
 
 The meeting owns one practical gate: review one merged Huashan / Xinyi proposal
 version with KPI, budget, partner routes, procurement / asset-category controls,
-and owner-visible evidence.
+and owner-visible evidence. The prior 2026-07-07 schedule remains preparation
+history; the active LINE signal moves the review target to 2026-07-14 same
+time, pending hospital confirmation after conflict replies.
 
 ## Working Principle
 
@@ -32,12 +38,12 @@ budget-resilience logic.
 | 2026-06-29 | First merged draft | One combined proposal outline with no duplicated claims across lanes | proposal writer |
 | 2026-07-01 | Budget-resilience review | 50-60% review-cut scenario, preserved KPI capacity, and deferrable modules | parent proposal + budget owners |
 | 2026-07-03 | Governance review | Procurement, asset category, IT/security, IRB/QI, student-supervision, and carbon-inventory owner gaps named | governance owners |
-| 2026-07-06 | Pre-meeting packet freeze | Merged version, KPI table, budget table, open owner questions, and decision-request list | proposal coordinator |
-| 2026-07-07 09:30 | Review meeting | Merged proposal reviewed and next revision instructions captured | all lanes |
+| 2026-07-06 | Pre-meeting packet freeze | Merged version, KPI table, budget table, open owner questions, and decision-request list for the original 2026-07-07 gate | proposal coordinator |
+| 2026-07-14 same time | Review meeting | Merged proposal reviewed and next revision instructions captured | all lanes |
 
 ## Lane Deliverables
 
-| Lane | 2026-07-07 deliverable | Evidence gate |
+| Lane | Review-meeting deliverable | Evidence gate |
 | --- | --- | --- |
 | 華山無紙化 | Workflow scope, paperless service path, budget split, procurement / rental path | workflow map + KPI table |
 | 華山步態分析追蹤 / 健康艙 | Screening / tracking service path, Health Cabin purchase logic, school / partner route if used | equipment / service evidence + KPI table |
@@ -59,7 +65,7 @@ budget-resilience logic.
 | Health Cabin | Current meeting direction supports direct purchase, subject to procurement and 30% controls. |
 | No orphan budget | Every budget line maps to KPI, owner, evidence, and asset / service category. |
 
-## Open Questions For 2026-07-07
+## Open Questions For Review Meeting
 
 | Question | Owner needed |
 | --- | --- |

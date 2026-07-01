@@ -113,6 +113,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
 - For the 2026-06-22 華山肌少症 / 健康艙 first-principles v2 positive-scope meeting minutes: `records/2026-06-22/meeting_minutes_260622_1629_sarcopenia_first_principles_v2.md`
 - For the 2026-06-22 信義院區門診前問診系統 NT$10,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
+- For the 2026-07-01 北市聯醫 LINE notice proposing that the original 2026-07-07 merged-plan review move to 2026-07-14 same time: `records/2026-07-01/README.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`

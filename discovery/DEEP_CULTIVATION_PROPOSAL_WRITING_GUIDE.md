@@ -22,9 +22,11 @@ package owns the AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$
 AI-only budget mapping; CRM, PSA clinical SOP, and carbon inventory are carried
 by parent proposal / other-team workstreams.
 
-The next parent-proposal review gate is 2026-07-07 09:30. Drafting before that
-meeting should support one merged plan with KPI, budget, partner route, owner,
-evidence, and procurement / asset-category controls.
+The next parent-proposal review gate is proposed for 2026-07-14 same time,
+updated from the original 2026-07-07 09:30 gate by the 2026-07-01 北市聯醫 LINE
+notice. Drafting before that meeting should support one merged plan with KPI,
+budget, partner route, owner, evidence, and procurement / asset-category
+controls.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
@@ -59,6 +61,7 @@ For the current 2026-06-19 expert-review package, use:
 - `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
 - `../records/2026-06-23/taipei-city-hospital-huashan-xinyi-deep-cultivation-official-meeting-minutes.md`
 - `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md`
+- `../records/2026-07-01/line-tch-merged-plan-review-postponement.md`
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`

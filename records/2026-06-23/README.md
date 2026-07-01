@@ -5,10 +5,11 @@
 - `taipei-city-hospital-huashan-xinyi-deep-cultivation-official-meeting-minutes.md`:
   official meeting-minutes capture for the 115 年度華山、信義門診部深耕計畫
   discussion at 臺北市立聯合醫院院本部. Use this as the current parent-proposal
-  routing source for the 2026-07-07 merged-plan review gate.
+  routing source for the merged-plan review gate. The 2026-07-01 LINE update
+  proposes moving the original 2026-07-07 review to 2026-07-14 same time.
 - `deep-cultivation-2026-07-07-integration-schedule.md`: working schedule from
-  the 2026-06-23 meeting to the 2026-07-07 09:30 merged-plan review, including
-  owner lanes, evidence gates, and budget/KPI controls.
+  the 2026-06-23 meeting to the merged-plan review, now updated for the
+  2026-07-01 LINE postponement signal.
 
 ## Sources
 
@@ -28,7 +29,7 @@ Status: captured.
 The parent-proposal gate is now:
 
 ```text
-By 2026-07-07 09:30, each subproject owner prepares content that can be merged
+By 2026-07-14 same time, each subproject owner prepares content that can be merged
 into one complete proposal with KPI, budget logic, partner route, and
 procurement / asset-category controls.
 ```

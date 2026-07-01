@@ -30,7 +30,11 @@
 - The smallest valid next artifact is a refined question tree plus a summary format.
 - The next grant-facing artifact should map AI 問診, physician-review summary, KPI, NT$10,000,000 planning budget, governance, clinical review, and security/IRB gates before adding implementation detail.
 - The next v0.8 grant-facing artifact should be an AI-only package; CRM should appear only as historical context if needed.
-- The next parent-proposal gate is the 2026-07-07 09:30 merged Huashan / Xinyi plan review. AI-only writing should be ready to drop into that parent proposal without absorbing CRM, PSA clinical SOP, carbon inventory, Huashan paperless workflow, or Health Cabin ownership.
+- The next parent-proposal gate is the proposed 2026-07-14 same-time merged
+  Huashan / Xinyi plan review, updated from the original 2026-07-07 09:30 gate
+  by the 2026-07-01 北市聯醫 LINE notice. AI-only writing should be ready to
+  drop into that parent proposal without absorbing CRM, PSA clinical SOP,
+  carbon inventory, Huashan paperless workflow, or Health Cabin ownership.
 - Budget preparation should assume the 2026-06-23 meeting controls: about NT$37,500,000 per project per year, possible 50-60% retained-budget review scenario, KPI service capacity preserved under budget cuts, 30% control for hardware and intangible assets, software rental where appropriate, and Health Cabin direct purchase as the current direction.
 - The proposal-writing sequence should start from clinical pain, workflow fit, KPI, governance, and budget logic; AI/ASR/LLM method details should come after the service story is clear.
 - Proposal scoring should be evidence-based and separated into clinical workflow value, technical engineering, governance, and MOHW format-compliance scores rather than collapsed into a reviewer impression.

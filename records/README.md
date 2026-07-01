@@ -31,10 +31,22 @@ Use:
 
 ## Current Records
 
+- `2026-07-01/README.md`:
+  complete LINE capture for the 北市聯醫 merged-plan review postponement,
+  preserving 林宏嶽's 2026-07-01 notice that the original 2026-07-07 meeting is
+  proposed to move to 2026-07-14 same time so the merged subproject whole can
+  be reviewed.
+- `2026-06-30/README.md`:
+  complete LINE capture for `信義門診部 深耕計畫`, preserving 美幸主任's
+  request to develop low-cost urology `健康生活處方` items under 範疇四,
+  review PSA process indicators, and have Jason think through the智慧化 support
+  layer. Use this record for the 2026-06-30 source layer before revising KPI or
+  proposal text.
 - `2026-06-23/README.md`:
   source hub for the 115 年度華山、信義門診部 deep-cultivation meeting
-  minutes, corrected transcript source, and 2026-07-07 09:30 merged-plan review
-  schedule. Use this record for the current parent-proposal budget cap,
+  minutes, corrected transcript source, and merged-plan review schedule now
+  updated by the 2026-07-01 postponement record. Use this record for the
+  current parent-proposal budget cap,
   50-60% review-cut scenario, KPI-capacity rule, software-rental direction,
   Health Cabin purchase direction, and friendly-partner signing route.
 - `2026-06-22/README.md`:
