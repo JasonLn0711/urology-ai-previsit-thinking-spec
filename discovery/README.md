@@ -18,6 +18,9 @@ the main proposal owner or budget owner revises it.
 
 Use these files first for the current expert-review package:
 
+- `../records/2026-06-30/README.md`: latest LINE source gate for 範疇四
+  `健康生活處方`, PSA process indicators, and智慧化 support requested by
+  美幸主任 in the `信義門診部 深耕計畫` group.
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
