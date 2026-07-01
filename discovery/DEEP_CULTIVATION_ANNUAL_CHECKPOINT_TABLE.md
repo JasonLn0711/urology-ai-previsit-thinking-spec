@@ -13,7 +13,8 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 目前 Jason / 陽明交大提案包為 AI-only expert-review package，三年 NT$10,000,000。
 本表若提到 CRM，只保留為 parent / other-team 工作，不作本案 checkpoint。
 2026-07-01 北市聯醫 LINE 訊息將原訂 2026-07-07 09:30 的華山、信義門診部
-合併版計畫書審閱 gate，更新為擬延至 2026-07-14 同時段。
+合併版計畫書審閱 gate 更新為 2026-07-14 同時段；Jason / Wu team 已確認
+無時程衝突。
 2026-07-01 另保存 116-118 申請說明 AI-agent-readable source；116-118
 提案準備需先確認申請模式、經費上限、負面表列、KPI / 查核點 / 預算串接、
 以及 AI / data / cybersecurity governance 要求。

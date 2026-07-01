@@ -1,14 +1,14 @@
 # 2026-07-01 LINE Record: 北市聯醫合併版審閱會議改期
 
-Status: captured
+Status: captured; no-conflict reply recorded
 
 ## Source
 
 - LINE message date: 2026-07-01 Wednesday
 - Message time: 09:49
 - Sender: 聯醫總院 - 林宏嶽
-- Context: 原訂 2026-07-07 的會議，因需審閱各子計畫合併後的全貌，擬延至
-  2026-07-14 同時段。
+- Context: 原訂 2026-07-07 的會議，因需審閱各子計畫合併後的全貌，改為
+  2026-07-14 同時段；Jason / Wu team 已確認無時程衝突。
 
 ## Raw LINE Transcript
 
@@ -22,22 +22,21 @@ Jul 1, 2026 Wednesday
 ### 1. 合併版審閱仍是下一個主要 gate
 
 這則訊息確認下次會議的主軸是審閱「各子計畫合併後的全貌」。原本
-2026-07-07 的合併版審閱 gate 保持同一個任務性質，日期改為擬延至
+2026-07-07 的合併版審閱 gate 保持同一個任務性質，日期更新為
 2026-07-14 同時段。
 
-### 2. 改期需要今日中午前回覆衝突
+### 2. 改期衝突回覆已完成
 
-林宏嶽請有會議衝突者於 2026-07-01 中午前回覆，以便再請示長官。這是
-協調確認 gate，不是正式內容審查結果。
+Jason / Wu team 對 2026-07-14 同時段沒有衝突。這個狀態把會議 gate 從
+衝突回覆移到 2026-07-14 merged-plan review 準備。
 
 ## Decision Status
 
 Accepted for record:
 
-- 原訂 2026-07-07 的合併版審閱會議，最新 LINE 訊號為擬延至
-  2026-07-14 同時段。
+- 原訂 2026-07-07 的合併版審閱會議，更新為 2026-07-14 同時段。
 - 會議目的仍是審閱各子計畫合併後的全貌。
-- 今日中午前的行動是回覆時程衝突，讓聯醫端完成請示與日期確認。
+- Jason / Wu team 已確認無時程衝突。
 
 Scope controls:
 
@@ -49,8 +48,7 @@ Scope controls:
 
 ## Next Actions
 
-1. Confirm whether Jason / Wu team has any conflict with 2026-07-14 same time.
-2. After the hospital confirms the date, update outward-facing meeting packets
-   and calendar-facing planning notes from 2026-07-07 to 2026-07-14.
-3. Use the extra week to align each lane's KPI, budget, owner, evidence path,
+1. Update outward-facing meeting packets and calendar-facing planning notes
+   from 2026-07-07 to 2026-07-14 where needed.
+2. Use the extra week to align each lane's KPI, budget, owner, evidence path,
    and open decision list for the merged proposal.

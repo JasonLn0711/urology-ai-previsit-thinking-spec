@@ -6,7 +6,8 @@
   official meeting-minutes capture for the 115 年度華山、信義門診部深耕計畫
   discussion at 臺北市立聯合醫院院本部. Use this as the current parent-proposal
   routing source for the merged-plan review gate. The 2026-07-01 LINE update
-  proposes moving the original 2026-07-07 review to 2026-07-14 same time.
+  moves the original 2026-07-07 review to 2026-07-14 same time; Jason / Wu team
+  has no time conflict.
 - `deep-cultivation-2026-07-07-integration-schedule.md`: working schedule from
   the 2026-06-23 meeting to the merged-plan review, now updated for the
   2026-07-01 LINE postponement signal.

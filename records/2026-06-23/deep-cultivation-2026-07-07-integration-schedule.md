@@ -5,8 +5,9 @@ Status: captured
 Sources:
 
 - 2026-06-23 official meeting minutes captured in this repository.
-- 2026-07-01 LINE update from 聯醫總院 - 林宏嶽, proposing that the original
-  2026-07-07 meeting move to 2026-07-14 same time.
+- 2026-07-01 LINE update from 聯醫總院 - 林宏嶽, updating the original
+  2026-07-07 meeting to 2026-07-14 same time; Jason / Wu team has no time
+  conflict.
 
 ## Decision Gate
 
@@ -17,8 +18,8 @@ Sources:
 The meeting owns one practical gate: review one merged Huashan / Xinyi proposal
 version with KPI, budget, partner routes, procurement / asset-category controls,
 and owner-visible evidence. The prior 2026-07-07 schedule remains preparation
-history; the active LINE signal moves the review target to 2026-07-14 same
-time, pending hospital confirmation after conflict replies.
+history; the active gate is now 2026-07-14 same time, with Jason / Wu team
+no-conflict status recorded.
 
 ## Working Principle
 

@@ -34,7 +34,7 @@ Use:
 - `2026-07-01/README.md`:
   complete source hub for the 2026-07-01 merged-plan review postponement and
   the copied Health Taiwan 116-118 second-stage application guidance. Use this
-  record for the proposed 2026-07-14 review gate, 116-118 applicant-mode and
+  record for the 2026-07-14 review gate, 116-118 applicant-mode and
   budget-ceiling checks, KPI / checkpoint / budget connection, negative-list
   screening, and Scope 3 AI / data / cybersecurity governance planning.
 - `2026-06-30/README.md`:

@@ -4,10 +4,10 @@ Status: release packet
 
 Prepared date: 2026-06-30
 
-Schedule update: 2026-07-01 北市聯醫 LINE notice proposes moving the original
-2026-07-07 meeting to 2026-07-14 same time. This packet remains the active
-Jason / 陽明交大 preparation package until the hospital owner confirms a newer
-format or content request.
+Schedule update: 2026-07-01 北市聯醫 LINE notice updates the original
+2026-07-07 meeting to 2026-07-14 same time; Jason / Wu team has no time
+conflict. This packet remains the active Jason / 陽明交大 preparation package
+until the hospital owner requests a newer format or content package.
 
 Audience: Jason 自用會前準備、可轉交給信義 / 忠孝深耕計畫協作窗口的工作資料包。
 
@@ -116,7 +116,7 @@ Jason 要準備的不是一個大型新系統，而是一組可放進合併版�
 
 | 主題 | 會議結論 |
 | --- | --- |
-| 下次會議 | 擬延至 2026-07-14 同時段，審閱華山與信義門診部深耕計畫合併版本 |
+| 下次會議 | 2026-07-14 同時段，審閱華山與信義門診部深耕計畫合併版本 |
 | 信義母案 | PSA 篩檢與智慧問診、CRM 系統、碳盤查三條路徑 |
 | 華山母案 | 無紙化與步態分析 / 健康艙兩條路徑 |
 | 預算控制 | 各專案每年總經費上限約新臺幣 37,500,000；審查可能刪至 50-60% |

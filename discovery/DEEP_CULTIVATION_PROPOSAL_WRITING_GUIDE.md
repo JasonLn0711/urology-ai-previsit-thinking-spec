@@ -22,11 +22,11 @@ package owns the AI 問診、醫師覆核摘要、治理、KPI evidence, and NT$
 AI-only budget mapping; CRM, PSA clinical SOP, and carbon inventory are carried
 by parent proposal / other-team workstreams.
 
-The next parent-proposal review gate is proposed for 2026-07-14 same time,
-updated from the original 2026-07-07 09:30 gate by the 2026-07-01 北市聯醫 LINE
-notice. Drafting before that meeting should support one merged plan with KPI,
-budget, partner route, owner, evidence, and procurement / asset-category
-controls.
+The next parent-proposal review gate is 2026-07-14 same time, updated from the
+original 2026-07-07 09:30 gate by the 2026-07-01 北市聯醫 LINE notice; Jason /
+Wu team has no time conflict. Drafting before that meeting should support one
+merged plan with KPI, budget, partner route, owner, evidence, and procurement /
+asset-category controls.
 
 The copied 2026-07-01 116-118 application guidance adds a second-stage
 submission-prep frame: proposal writing should confirm applicant mode, funding
