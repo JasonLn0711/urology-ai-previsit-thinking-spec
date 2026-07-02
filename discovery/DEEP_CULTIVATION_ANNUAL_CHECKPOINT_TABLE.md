@@ -10,7 +10,7 @@ official meeting minutes:
 ```text
 信義母案目前整合 PSA 篩檢與智慧問診 NT$15,000,000、CRM 系統
 NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
-目前 Jason / 陽明交大提案包為 AI-only expert-review package，三年 NT$10,000,000。
+目前 Jason / 陽明交大提案包為 AI-only expert-review package，每年 NT$10,000,000，三年合計 NT$30,000,000。
 本表若提到 CRM，只保留為 parent / other-team 工作，不作本案 checkpoint。
 2026-07-01 北市聯醫 LINE 訊息將原訂 2026-07-07 09:30 的華山、信義門診部
 合併版計畫書審閱 gate 更新為 2026-07-14 同時段；Jason / Wu team 已確認

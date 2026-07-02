@@ -21,7 +21,7 @@ The active drafting constraints are:
 
 ```text
 三年期
-總經費新臺幣 1,000 萬元整
+每年經費新臺幣 1,000 萬元整，三年合計新臺幣 3,000 萬元整
 每一項經費均需對應 KPI
 整份討論版控制在 20 頁以內
 ```
@@ -32,7 +32,7 @@ The 2026-05-29 meeting clarified the parent-proposal operating constraint. The p
 
 ## What v0.5 Adds
 
-- A fixed NT$10,000,000 three-year working budget.
+- A fixed NT$10,000,000 per year, NT$30,000,000 three-year working budget.
 - Page-budget discipline for a 20-page discussion version.
 - A budget allocation table that maps every budget bucket to KPI, evidence, owner, and checkpoint.
 - A second precedent analysis from the attached subproject-three reference PDF.
@@ -52,7 +52,7 @@ The 2026-05-29 meeting clarified the parent-proposal operating constraint. The p
 Adopt these patterns from the attached subproject-three PDF:
 
 - clear cover identity
-- three-year total budget visible from page one
+- annual NT$10,000,000 and three-year NT$30,000,000 budget visible from page one
 - section order from problem to technology, implementation, organization, governance, KPI, and budget
 - year-by-year milestones
 - role-based organization table

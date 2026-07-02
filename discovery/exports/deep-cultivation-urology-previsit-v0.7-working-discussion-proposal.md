@@ -347,21 +347,21 @@ KPI 用來支撐審查、執行與年度查核。每一項 KPI 都需有 measure
 
 \newpage
 
-# 十三、經費編列明細總表：新臺幣 1,000 萬元 discussion allocation
+# 十三、經費編列明細總表：每年新臺幣 1,000 萬元、三年合計新臺幣 3,000 萬元 discussion allocation
 
 ## 13.1 三年討論配置
 
 | 預算項目 | 第一年 | 第二年 | 第三年 | 合計 | KPI | owner | evidence | procurement note |
 | --- | ---: | ---: | ---: | ---: | --- | --- | --- | --- |
-| Proposal coordination、PM、RA、KPI evidence | 900,000 | 1,050,000 | 1,050,000 | 3,000,000 | 20 頁討論稿、annual KPI evidence、checkpoint reporting | proposal coordinator / evaluation owner | proposal file、KPI workbook、checkpoint report | 正式前拆成 allowed personnel / service category |
-| Intake / summary workflow 與 CRM-ready field design | 1,250,000 | 650,000 | 300,000 | 2,200,000 | summary read time、source label、missing-field visibility | engineering owner | summary schema、synthetic walkthrough、audit sample | vendor / internal / hybrid route pending |
-| Clinician、nurse、outpatient workflow reviewer sessions | 400,000 | 400,000 | 300,000 | 1,100,000 | clinician usefulness、staff-friction review、workflow-slot decision | clinical / workflow owners | reviewer scorecards、meeting records | 確認 reviewer support 是否可列支 |
-| Security、privacy、AI/data governance、auditability | 450,000 | 300,000 | 150,000 | 900,000 | governance owner named、unsafe wording = 0、audit trail readiness | IT/security、AI/data governance | governance checklist、security review note | 若委外需 vendor security requirement |
-| Evaluation、baseline、IRB/QI preparation、limited pilot evidence | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline、approved workflow measurement、final evidence report | evaluation、IRB/QI owners | baseline worksheet、protocol / QI note、evaluation report | real patient-data route pending |
-| Conditional equipment / ASR / intake station support | 450,000 | 200,000 | 50,000 | 700,000 | 0 unconfirmed ASR content enters summary、workflow slot feasibility | budget / workflow owners | ASR confirmation test、site-readiness note | tablets、microphones、ASR service must pass procurement and security review |
-| Training、documentation、dissemination、review-response package | 150,000 | 100,000 | 250,000 | 500,000 | training completion、review-response readiness | proposal owner | training record、review-response table | only if parent owner funds training / dissemination |
-| Administration and contingency within legal accounting rules | 150,000 | 100,000 | 350,000 | 600,000 | expense-to-KPI traceability maintained | budget owner | budget traceability audit | negative-list and accounting-category check required |
-| 總計 | 4,000,000 | 3,200,000 | 2,800,000 | 10,000,000 | 100% mapped | parent budget owner | KPI-budget table | official accounting categories pending |
+| Proposal coordination、PM、RA、KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | 20 頁討論稿、annual KPI evidence、checkpoint reporting | proposal coordinator / evaluation owner | proposal file、KPI workbook、checkpoint report | 正式前拆成 allowed personnel / service category |
+| Intake / summary workflow 與 CRM-ready field design | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | summary read time、source label、missing-field visibility | engineering owner | summary schema、synthetic walkthrough、audit sample | vendor / internal / hybrid route pending |
+| Clinician、nurse、outpatient workflow reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | clinician usefulness、staff-friction review、workflow-slot decision | clinical / workflow owners | reviewer scorecards、meeting records | 確認 reviewer support 是否可列支 |
+| Security、privacy、AI/data governance、auditability | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance owner named、unsafe wording = 0、audit trail readiness | IT/security、AI/data governance | governance checklist、security review note | 若委外需 vendor security requirement |
+| Evaluation、baseline、IRB/QI preparation、limited pilot evidence | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline、approved workflow measurement、final evidence report | evaluation、IRB/QI owners | baseline worksheet、protocol / QI note、evaluation report | real patient-data route pending |
+| Conditional equipment / ASR / intake station support | 500,000 | 500,000 | 1,300,000 | 2,300,000 | 0 unconfirmed ASR content enters summary、workflow slot feasibility | budget / workflow owners | ASR confirmation test、site-readiness note | tablets、microphones、ASR service must pass procurement and security review |
+| Training、documentation、dissemination、review-response package | 1,000,000 | 1,000,000 | 1,300,000 | 3,300,000 | training completion、review-response readiness | proposal owner | training record、review-response table | only if parent owner funds training / dissemination |
+| Administration and contingency within legal accounting rules | 1,000,000 | 1,000,000 | 500,000 | 2,500,000 | expense-to-KPI traceability maintained | budget owner | budget traceability audit | negative-list and accounting-category check required |
+| 總計 | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% mapped | parent budget owner | KPI-budget table | official accounting categories pending |
 
 ## 13.2 正式預算表必補欄位
 

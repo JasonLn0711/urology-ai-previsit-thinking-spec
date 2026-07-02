@@ -26,15 +26,16 @@ separate urology-submitted content. The NYCU Wu-team content is the governed
 範疇三「導入智慧科技醫療」 and use 範疇一「優化醫療工作條件」 as the workforce
 and workflow support argument.
 
-The proposal should keep NT$10,000,000 as the three-year AI-only working ceiling
-and convert work-package logic into official categories:
+The proposal should keep NT$10,000,000 per year, NT$30,000,000 over three
+years, as the AI-only working ceiling and convert work-package logic into
+official categories:
 
 | Official category | Three-year planning amount | Role in proposal |
 | --- | ---: | --- |
-| 人事費 | NT$6,140,000 | PM/RA, KPI evidence, clinical reviewer protected time, schema and AI work, evaluation analyst |
-| 業務費 | NT$3,630,000 | workflow review, external expert review, documents, LLM/API/cloud/ASR rental, governance workshops, QI/IRB reserve, surveys |
-| 設備費 | NT$230,000 | clinic-owned intake station readiness or equivalent procurement-ready placeholder |
-| Total | NT$10,000,000 | 100% mapped to KPI, owner and evidence |
+| 人事費 | NT$18,000,000 | PM/RA, KPI evidence, clinical reviewer protected time, schema and AI work, evaluation analyst |
+| 業務費 | NT$10,500,000 | workflow review, external expert review, documents, LLM/API/cloud/ASR rental, governance workshops, QI/IRB reserve, surveys |
+| 設備費 | NT$1,500,000 | clinic-owned intake station readiness or equivalent procurement-ready placeholder |
+| Total | NT$30,000,000 | 100% mapped to KPI, owner and evidence |
 
 This amount should be presented as a governance and workflow transformation
 package rather than a single chatbot cost. The review answer is that the package
@@ -70,7 +71,7 @@ source for exact work-package amounts and line items.
 | Review recommendation | Proposal decision | Placement in complete AI plan |
 | --- | --- | --- |
 | Use 範疇三 as the main strategy and 範疇一 as support | Present the system as governed smart-healthcare workflow adoption that reduces physician/staff information-friction | 封面、肆、伍 |
-| Keep the package AI-only and preserve the NT$10M planning ceiling | Use NT$10M only for AI intake, physician-review summary, governance, KPI evidence and handoff | 封面、柒 |
+| Keep the package AI-only and preserve the NT$10M/year planning ceiling | Use NT$10M per year only for AI intake, physician-review summary, governance, KPI evidence and handoff | 封面、柒 |
 | Avoid CRM, patient follow-up and patient messaging | Treat PSA/community screening as separate urology-submitted content; this package supports visit readiness through AI previsit intake and physician-review summary | 貳、肆、玖、拾 |
 | Avoid AI diagnosis, treatment, autonomous triage and formal EMR writeback | Write AI as structure, missing-field visibility, source-labeled summary drafting and physician review support | 貳、肆、伍、拾 |
 | Map every budget line to KPI, owner and evidence | Keep W1-W7 work-package table and official category table together | 柒 |
@@ -85,7 +86,7 @@ that sequence and replaces the content with the NYCU Wu-team AI previsit plan:
 
 | Format section | AI plan content |
 | --- | --- |
-| 封面 | AI plan name, Taipei city, A/A1 route pending main owner, 範疇三 main and 範疇一 support, NT$10M three-year AI package, PI/contact placeholders |
+| 封面 | AI plan name, Taipei city, A/A1 route pending main owner, 範疇三 main and 範疇一 support, NT$10M/year and NT$30M three-year AI package, PI/contact placeholders |
 | 壹、申請單位自我檢核項目表 | Formal administrative checklist remains main-owner responsibility; AI team provides workflow, governance, KPI and budget evidence |
 | 貳、計畫概要 | One-page positive summary of guided intake, source label, missing-field visibility and physician-review summary |
 | 參、申請單位簡介 | NYCU role as AI workflow/governance/KPI/prototype partner; hospital role as clinical site, IRB/QI/security/procurement owner |
@@ -123,14 +124,14 @@ not be the core measurable promise of this package.
 
 | Work package | Y1 | Y2 | Y3 | Total | Evidence role |
 | --- | ---: | ---: | ---: | ---: | --- |
-| W1 Proposal coordination / PM / RA / KPI evidence | 900,000 | 900,000 | 700,000 | 2,500,000 | proposal package, KPI workbook, annual evidence |
-| W2 Clinical workflow review / reviewer sessions | 450,000 | 450,000 | 300,000 | 1,200,000 | summary read time, clinician usefulness, staff-friction |
-| W3 Question governance / intake / summary schema | 1,000,000 | 600,000 | 300,000 | 1,900,000 | question bank, source label, missing-field |
-| W4 AI prototype / summary generation / review evidence | 900,000 | 700,000 | 300,000 | 1,900,000 | prototype, trace log, safety audit |
-| W5 AI / data / security / privacy governance | 400,000 | 350,000 | 250,000 | 1,000,000 | governance checklist, procurement gate |
-| W6 Evaluation / baseline / QI / IRB / limited pilot evidence | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline, QI/IRB, evaluation report |
-| W7 Optional ASR / intake station readiness | 350,000 | 150,000 | 0 | 500,000 | ASR-confirmed input and intake-station readiness |
-| Total | 4,250,000 | 3,550,000 | 2,200,000 | 10,000,000 | 100% mapped |
+| W1 Proposal coordination / PM / RA / KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | proposal package, KPI workbook, annual evidence |
+| W2 Clinical workflow review / reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | summary read time, clinician usefulness, staff-friction |
+| W3 Question governance / intake / summary schema | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | question bank, source label, missing-field |
+| W4 AI prototype / summary generation / review evidence | 2,000,000 | 2,000,000 | 1,500,000 | 5,500,000 | prototype, trace log, safety audit |
+| W5 AI / data / security / privacy governance | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance checklist, procurement gate |
+| W6 Evaluation / baseline / QI / IRB / limited pilot evidence | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline, QI/IRB, evaluation report |
+| W7 Optional ASR / intake station readiness | 500,000 | 500,000 | 1,300,000 | 2,300,000 | ASR-confirmed input and intake-station readiness |
+| Total | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% mapped |
 
 The official-accounting conversion should be left to the main proposal budget
 owner, but the draft should already show the category-level conversion so that
@@ -166,7 +167,7 @@ improving visit readiness before the physician encounter.
 1. 主提機構、合作機構、醫事機構代碼、PI、聯絡人與簽核流程。
 2. The draft's formal role: standalone subproject, work package inside the
    official proposal, or official proposal appendix.
-3. Whether NT$10,000,000 remains the AI-only package ceiling.
+3. Whether NT$10,000,000 per year remains the AI-only package ceiling.
 4. Real patient-data route: no-data, QI/service, IRB research, or mixed route.
 5. ASR / APP / API / intake station status: funded item, demo-only, or future
    procurement.

@@ -7,11 +7,11 @@ These are the active v0.8 planning questions after the 2026-06-19 owner update.
 2026-06-19 update:
 
 CRM is completely out of scope for Jason / 陽明交大. Current planning covers AI
-問診, physician-review summary, governance, KPI, and the NT$10,000,000 working
-budget for that package only.
+問診, physician-review summary, governance, KPI, and the NT$10,000,000 per year /
+NT$30,000,000 over three years working budget for that package only.
 
 1. Who is final applicant / PI for the AI 問診與醫師覆核摘要 package?
-2. Should the working budget remain NT$10,000,000 over three years, or should the parent proposal owner change the ceiling before final itemization?
+2. Should the working budget remain NT$10,000,000 per year / NT$30,000,000 over three years, or should the parent proposal owner change the ceiling before final itemization?
 3. Which clinical workflow slot is the first target: after registration, waiting room, previsit QR, tablet station, or staff-assisted selected cases?
 4. Which first-version symptom groups are included: nocturia, frequency, urgency, leakage, voiding difficulty, weak stream, PSA-related visit preparation, or a narrower set?
 5. Which five fields must appear at the top of the physician-review summary?

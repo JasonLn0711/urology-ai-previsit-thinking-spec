@@ -112,7 +112,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
 - For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
 - For the 2026-06-22 華山肌少症 / 健康艙 first-principles v2 positive-scope meeting minutes: `records/2026-06-22/meeting_minutes_260622_1629_sarcopenia_first_principles_v2.md`
-- For the 2026-06-22 信義院區門診前問診系統 NT$10,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
+- For the 2026-06-22 信義院區門診前問診系統每年 NT$10,000,000、三年合計 NT$30,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
 - For the 2026-07-01 北市聯醫 LINE notice updating the original 2026-07-07 merged-plan review to 2026-07-14 same time, with Jason / Wu team no-conflict status: `records/2026-07-01/README.md`
 - For the copied 2026-07-01 Health Taiwan 116-118 second-stage application guidance and source-integrity record: `records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
@@ -125,7 +125,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the current KPI-to-budget table: `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - For the historical v0.7 Word-export source and docx package: `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.md` and `discovery/exports/deep-cultivation-urology-previsit-v0.7-working-discussion-proposal.docx`
 - For the prior v0.6 fill-out discussion draft with category design, KPI targets, formal budget columns, and front-loaded governance: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md`
-- For the prior 2026-06-02 discussion draft with NT$10,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
+- For the prior 2026-06-02 discussion draft with NT$10,000,000 per year / NT$30,000,000 three-year budget control: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_5.md`
 - For the prior precedent-integrated official-package application draft v0.4: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_4.md`
 - For the prior official-format application draft v0.3: `discovery/DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md`
 - For the dated implementation record of the assertive writing update: `records/2026-05-20/assertive-writing-implementation-record.md`
@@ -174,7 +174,8 @@ The current source stack has two layers:
 
 2026-06-19 owner split:
 CRM is handled outside Jason / 陽明交大 current package.
-Jason / 陽明交大 uses a three-year NT$10,000,000 AI-only working budget.
+Jason / 陽明交大 uses an NT$10,000,000 per year, NT$30,000,000 three-year
+AI-only working budget.
 ```
 
 The 2026-06-12 LINE conversation and 美如主任 group screenshot remain source
@@ -257,10 +258,10 @@ Near-term framing should emphasize:
   and APP / Dashboard follow-up operations
 - the v0.8 package should stand on AI 問診, physician-review summary, workflow fit, governance, and KPI-to-budget traceability
 - PSA budget and SOP remain a separate urology-submitted plan; use the PSA document only as a Health Taiwan format reference unless explicitly reassigned
-- the official 2026-06-02 meeting minutes list 信義 AI 智慧問診 as about NT$15,000,000 including CRM; this repo writes the NYCU / 吳老師-team AI-only package at three-year NT$10,000,000 because CRM is an other-team workstream
-- AI 智慧問診與醫師覆核摘要 uses NT$10,000,000 as the current three-year planning envelope until the parent proposal owner changes the AI-only allocation
+- the official 2026-06-02 meeting minutes list 信義 AI 智慧問診 as about NT$15,000,000 including CRM; this repo writes the NYCU / 吳老師-team AI-only package at NT$10,000,000 per year and NT$30,000,000 over three years because CRM is an other-team workstream
+- AI 智慧問診與醫師覆核摘要 uses NT$10,000,000 per year, NT$30,000,000 over three years as the current planning envelope until the parent proposal owner changes the AI-only allocation
 - v0.7 is now the prior baseline for the AI 智慧問診 / one-page-summary component; v0.8 planning must update the project identity before a new Word export
-- the 2026-06-02 discussion version now uses a three-year NT$10,000,000 working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
+- the 2026-06-02 discussion version now uses an NT$10,000,000 per year, NT$30,000,000 three-year working budget, maps every budget line to KPI / owner / evidence / checkpoint, and stays within a 20-page discussion cap
 - the 2026-05-29 attached subproject-three PDF is archived and analyzed as a formatting / KPI / budget precedent, not as scope-expansion authority
 - urology previsit symptom collection and clinician-review summary as the current system role
 - primary Health Taiwan fit under `範疇三：導入智慧科技醫療`, with `範疇一：優化醫療工作條件` as secondary support
@@ -279,7 +280,7 @@ Near-term framing should emphasize:
 - the 2026-05-20 execution step created application-drafting artifacts: intended-use freeze, demo-scope freeze, application draft v0.2, KPI-to-budget table, governance checklist, and annual checkpoint table
 - the 2026-05-20 format-alignment step promoted the proposal-writing package to v0.3 with an official-format crosswalk and KPI / budget / annual-checkpoint integration table
 - the 2026-05-21 precedent-integration step promoted the proposal-writing package to v0.4 by learning the A2-0048 proposal's official-format discipline while preserving the narrow urology previsit scope
-- the 2026-05-29 Prof. Wu follow-up promoted the discussion package to v0.5 by fixing the working budget at three years / NT$10,000,000, requiring KPI-linked budget lines, and enforcing a 20-page discussion draft
+- the 2026-05-29 Prof. Wu follow-up promoted the discussion package to v0.5 by fixing the working budget at NT$10,000,000 per year / NT$30,000,000 over three years, requiring KPI-linked budget lines, and enforcing a 20-page discussion draft
 - the 2026-05-31 fill-out design update promoted the discussion package to v0.6 by making `範疇三：導入智慧科技醫療` the primary category, `範疇一：優化醫療工作條件` the secondary support category, using verifiable KPI targets, adding formal budget fill-out columns, and moving governance before KPI and budget
 - the 2026-06-01 v0.7 update promotes the active Word-export package by removing subproject-three wording from the delivered proposal text, making the 118-year milestone concrete, and keeping HIS/EMR/EHR writeback for a second-version system-integration and governance-confirmation step
 - the official policy/rule archive now lives under `records/2026-05-19/policy-documents/`

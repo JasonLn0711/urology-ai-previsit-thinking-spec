@@ -5,7 +5,7 @@ Status: planning gate
 2026-06-19 supersession:
 
 ```text
-本 next-step plan 保留為 2026-06-02 歷史版本。依 2026-06-02 official minutes and 2026-06-19 owner update，信義母案 AI 智慧問診提報約 NT$15,000,000 且包含 CRM；CRM 由其他團隊處理。Jason / 陽明交大目前有效方向是 AI 問診與醫師覆核摘要 package，三年 NT$10,000,000 作為目前 AI-only 討論額度。
+本 next-step plan 保留為 2026-06-02 歷史版本。依 2026-06-02 official minutes and 2026-06-19 owner update，信義母案 AI 智慧問診提報約 NT$15,000,000 且包含 CRM；CRM 由其他團隊處理。Jason / 陽明交大目前有效方向是 AI 問診與醫師覆核摘要 package，每年 NT$10,000,000，三年合計 NT$30,000,000 作為目前 AI-only 討論額度。
 ```
 
 Official meeting-minutes source:

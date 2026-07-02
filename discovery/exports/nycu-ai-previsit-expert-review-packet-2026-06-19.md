@@ -12,7 +12,7 @@
 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
-2026-06-02 115 年度院外門診部深耕計畫會議紀錄顯示，信義母案將「PSA 主動篩檢 + AI 智慧問診」整合提報；其中 AI 智慧問診母案額度約新臺幣 15,000,000 元且包含 CRM。依後續 owner split，CRM 由母案 / 其他團隊承接，本 packet 僅評估吳老師 / 陽明交大團隊可交付的 AI 問診與醫師覆核摘要工作包，三年討論額度為新臺幣 10,000,000 元。
+2026-06-02 115 年度院外門診部深耕計畫會議紀錄顯示，信義母案將「PSA 主動篩檢 + AI 智慧問診」整合提報；其中 AI 智慧問診母案額度約新臺幣 15,000,000 元且包含 CRM。依後續 owner split，CRM 由母案 / 其他團隊承接，本 packet 僅評估吳老師 / 陽明交大團隊可交付的 AI 問診與醫師覆核摘要工作包，每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元。
 
 陽明交大 / Jason 負責範圍：
 
@@ -22,7 +22,7 @@
 - 合成案例或核准流程下的 reviewer evidence。
 - AI/data/security/privacy governance 準備。
 - KPI-to-budget traceability。
-- 三年新臺幣 10,000,000 元討論額度之設計與拆分。
+- 每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元討論額度之設計與拆分。
 
 CRM 的文件定位是 parent proposal / other-team workstream：
 
@@ -84,7 +84,7 @@ PSA 主動篩檢可作為臨床背景或母計畫 sibling content，但 PSA SOP�
 
 ## 5. Budget And KPI Answer
 
-目前建議以三年新臺幣 10,000,000 元作為吳老師 / 陽明交大 AI 問診與醫師覆核摘要 package 的討論額度。這個數字對應本團隊可交付範圍；信義母案仍可保留 AI 智慧問診約新臺幣 15,000,000 元且包含 CRM 的上層提報脈絡。
+目前建議以每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元作為吳老師 / 陽明交大 AI 問診與醫師覆核摘要 package 的討論額度。這個數字對應本團隊可交付範圍；信義母案仍可保留 AI 智慧問診約新臺幣 15,000,000 元且包含 CRM 的上層提報脈絡。
 
 是否要先確認預算再規劃 KPI？
 
@@ -115,14 +115,14 @@ NT$10M working ceiling
 
 | 預算項目 | 第一年 | 第二年 | 第三年 | 合計 | KPI |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Proposal coordination、PM、RA、KPI evidence | 900,000 | 900,000 | 700,000 | 2,500,000 | proposal package、KPI workbook、annual evidence |
-| Clinical workflow review and reviewer sessions | 450,000 | 450,000 | 300,000 | 1,200,000 | clinician usefulness、summary read time、staff-friction review |
-| Question governance、intake flow、summary schema | 1,000,000 | 600,000 | 300,000 | 1,900,000 | question set、completion、missing-field visibility |
-| AI 問診與摘要 prototype / implementation evidence | 900,000 | 700,000 | 300,000 | 1,900,000 | source label、summary generation、audit sample |
-| AI/data/security/privacy governance | 400,000 | 350,000 | 250,000 | 1,000,000 | governance checklist、unsafe wording = 0 |
-| Evaluation、baseline、QI/IRB preparation | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline、approved workflow measurement、final report |
-| Optional ASR / intake station readiness | 350,000 | 150,000 | 0 | 500,000 | ASR confirmation safety、workflow feasibility |
-| 總計 | 4,250,000 | 3,550,000 | 2,200,000 | 10,000,000 | 100% KPI-to-budget mapping |
+| Proposal coordination、PM、RA、KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | proposal package、KPI workbook、annual evidence |
+| Clinical workflow review and reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | clinician usefulness、summary read time、staff-friction review |
+| Question governance、intake flow、summary schema | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | question set、completion、missing-field visibility |
+| AI 問診與摘要 prototype / implementation evidence | 2,000,000 | 2,000,000 | 1,500,000 | 5,500,000 | source label、summary generation、audit sample |
+| AI/data/security/privacy governance | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance checklist、unsafe wording = 0 |
+| Evaluation、baseline、QI/IRB preparation | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline、approved workflow measurement、final report |
+| Optional ASR / intake station readiness | 500,000 | 500,000 | 1,300,000 | 2,300,000 | ASR confirmation safety、workflow feasibility |
+| 總計 | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% KPI-to-budget mapping |
 
 ## 7. KPI Draft
 
@@ -160,7 +160,7 @@ NT$10M working ceiling
 請專家優先回答：
 
 1. 這個計畫名稱是否清楚：`泌尿科門診前問診與醫師覆核摘要支持系統`？
-2. 本案是否應以三年 NT$10,000,000 作為討論額度？
+2. 本案是否應以每年 NT$10,000,000，三年合計 NT$30,000,000 作為討論額度？
 3. 第一版病人入口應放在哪個 workflow slot？
 4. 醫師一頁摘要最上方五個欄位應該是什麼？
 5. KPI 是否足以支撐 NT$10M 經費？

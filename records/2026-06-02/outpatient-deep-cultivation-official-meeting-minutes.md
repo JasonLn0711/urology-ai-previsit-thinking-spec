@@ -23,7 +23,7 @@ Source: user-provided official meeting minutes for the 115 年度院外門診部
 
 本次會議將 115 年度院外門診部深耕計畫整理為兩個主要提報場域：華山門診部與信義門診部。各子計畫需由權責單位協助完成計畫撰寫、KPI 設計與經費編列，並共同遵守資本門不得超過總預算 30% 的提報規則。
 
-對本 repo 目前有效的寫作決策是：信義門診部「攝護腺癌 (PSA) 主動篩檢 + AI 智慧問診」在母案中需要整合；其中 AI 智慧問診母案提報額度約為新臺幣 15,000,000 元且包含 CRM 系統，但 CRM 系統由其他團隊處理，吳老師 / 陽明交大團隊目前只承作 AI 智慧問診與醫師覆核摘要，因此本 repo 的 AI-only 工作額度維持三年新臺幣 10,000,000 元。
+對本 repo 目前有效的寫作決策是：信義門診部「攝護腺癌 (PSA) 主動篩檢 + AI 智慧問診」在母案中需要整合；其中 AI 智慧問診母案提報額度約為新臺幣 15,000,000 元且包含 CRM 系統，但 CRM 系統由其他團隊處理，吳老師 / 陽明交大團隊目前只承作 AI 智慧問診與醫師覆核摘要，因此本 repo 的 AI-only 工作額度維持每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元。
 
 ## 一、華山門診部提報深耕計畫討論事項
 
@@ -91,7 +91,7 @@ Source: user-provided official meeting minutes for the 115 年度院外門診部
 
 信義母案可以寫成「PSA 主動篩檢 + AI 智慧問診 + CRM 支持」的整合服務路徑。
 
-吳老師 / 陽明交大團隊目前承作範圍是 AI 智慧問診、門診前症狀收集、60 秒內一頁式醫師覆核摘要、AI / data / security governance、KPI evidence 與三年新臺幣 10,000,000 元 AI-only 工作包。
+吳老師 / 陽明交大團隊目前承作範圍是 AI 智慧問診、門診前症狀收集、60 秒內一頁式醫師覆核摘要、AI / data / security governance、KPI evidence 與每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元 AI-only 工作包。
 
 CRM 系統雖然包含在母案 AI 智慧問診提報額度中，但目前不是吳老師 / 陽明交大團隊承作、規劃、採購、維運或 KPI 負責範圍。後續文件應將 CRM 寫成 parent proposal / other-team workstream，並保持與本團隊 AI-only package 的經費與責任邊界。
 
@@ -124,7 +124,7 @@ CRM 系統雖然包含在母案 AI 智慧問診提報額度中，但目前不是
 
 1. 先寫母案整合路徑：PSA 主動篩檢進入信義 / 忠孝泌尿科服務流程，AI 智慧問診支援門診前資訊整理，CRM 由另案團隊支援追蹤與管理。
 2. 再寫本團隊可交付範圍：吳老師 / 陽明交大團隊負責 AI 智慧問診與一頁式醫師覆核摘要，不承擔 CRM 系統建置、CRM 採購、CRM 維運或 CRM KPI。
-3. 經費寫法需分層：母案 AI 智慧問診提報約 NT$15M 且含 CRM；本團隊 AI-only package 先抓三年 NT$10M。
+3. 經費寫法需分層：母案 AI 智慧問診提報約 NT$15M 且含 CRM；本團隊 AI-only package 先抓每年 NT$10M，三年合計 NT$30M。
 4. KPI 寫法需分層：母案可包含 PSA 篩檢人數、異常個案追蹤完成率與 CRM 追蹤 KPI；本團隊文件只承接 summary read time、minimum-field completion、source-label completeness、missing-field visibility、unsafe wording count、staff-friction review、governance readiness 與 KPI-to-budget traceability。
 5. 文件安排需維持 source routing：`records/2026-06-02/` 保存正式會議紀錄與歷史責任澄清；`discovery/` 保存目前 AI-only proposal writing rules、KPI-to-budget table 與最新交付稿。
 
@@ -135,6 +135,6 @@ CRM 系統雖然包含在母案 AI 智慧問診提報額度中，但目前不是
 | `records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md` | 115 年度院外門診部深耕計畫正式會議紀錄與本 repo 撰寫規則來源 |
 | `records/2026-06-02/xinyi-integrated-psa-ai-crm-responsibility-record.md` | 歷史責任澄清；保留母案 15M + CRM signal，但後續以 AI-only 10M owner split 為本團隊有效邊界 |
 | `records/2026-06-02/xinyi-integrated-psa-ai-crm-v0.8-next-step-plan.md` | 歷史整合規劃；僅作母案架構參考，不作 CRM 執行指令 |
-| `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | 本團隊三年 NT$10M AI-only KPI-to-budget source |
+| `discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | 本團隊每年 NT$10M，三年合計 NT$30M AI-only KPI-to-budget source |
 | `discovery/DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md` | 官方章節、KPI、預算、年度 checkpoint 的 AI-only crosswalk |
 | `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md` | 最新可讀提案稿；需保持母案 15M context 與本團隊 10M AI-only scope 的區分 |

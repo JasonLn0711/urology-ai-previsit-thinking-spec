@@ -31,7 +31,7 @@ v0.5 turns the 2026-05-29 Prof. Wu meeting constraints into active proposal cont
 
 ```text
 三年期
-總經費新臺幣 1,000 萬元整
+每年經費新臺幣 1,000 萬元整，三年合計新臺幣 3,000 萬元整
 每一項經費均需對應 KPI
 討論版控制在 20 頁以內
 2026-06-02 前可供討論
@@ -75,7 +75,7 @@ Keep each paragraph tied to workflow value, KPI, governance, budget, or owner cl
 
 ## One-Paragraph Proposal Abstract
 
-本子計畫於信義生醫 / 院外門診部相關泌尿科服務情境導入門診前症狀蒐集與醫師覆核摘要支持流程，將病人可安全回報之主訴、症狀期間、困擾程度、排尿型態、用藥與追蹤需求，整理為具來源標記、缺漏欄位顯示與醫師覆核狀態的一頁式工作流產物。計畫以三年新臺幣 1,000 萬元為上限，將經費配置到流程建置、臨床與工作人員 reviewer evidence、AI / 資料 / 資安治理、低摩擦部署與年度 KPI 評估，並以摘要可讀時間、資訊完整性、工作摩擦降低、follow-up 可追蹤性與治理成熟度作為主要驗收指標。
+本子計畫於信義生醫 / 院外門診部相關泌尿科服務情境導入門診前症狀蒐集與醫師覆核摘要支持流程，將病人可安全回報之主訴、症狀期間、困擾程度、排尿型態、用藥與追蹤需求，整理為具來源標記、缺漏欄位顯示與醫師覆核狀態的一頁式工作流產物。計畫以每年新臺幣 1,000 萬元，三年合計新臺幣 3,000 萬元為上限，將經費配置到流程建置、臨床與工作人員 reviewer evidence、AI / 資料 / 資安治理、低摩擦部署與年度 KPI 評估，並以摘要可讀時間、資訊完整性、工作摩擦降低、follow-up 可追蹤性與治理成熟度作為主要驗收指標。
 
 ## Official Category-To-Claim Map
 
@@ -182,30 +182,30 @@ flowchart TD
 
 ## Three-Year Budget Allocation
 
-Working ceiling: NT$10,000,000.
+Working ceiling: NT$10,000,000 per year; NT$30,000,000 over three years.
 
 Annual working split:
 
 ```text
-Year 1: NT$4,000,000
-Year 2: NT$3,200,000
-Year 3: NT$2,800,000
-Total:  NT$10,000,000
+Year 1: NT$10,000,000
+Year 2: NT$10,000,000
+Year 3: NT$10,000,000
+Total:  NT$30,000,000
 ```
 
 This split is a discussion allocation. The parent budget owner may revise accounting categories.
 
 | Budget bucket | Year 1 | Year 2 | Year 3 | Total | KPI link | Evidence / owner |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Proposal coordination, PM, RA, KPI evidence | 900,000 | 1,050,000 | 1,050,000 | 3,000,000 | 20-page package, KPI evidence, annual reporting | coordinator, evaluator |
-| Intake / summary workflow and CRM-ready field design | 1,250,000 | 650,000 | 300,000 | 2,200,000 | summary read time, source labels, missing fields | engineering owner |
-| Clinician, nurse, and outpatient workflow reviewer sessions | 400,000 | 400,000 | 300,000 | 1,100,000 | usefulness, staff friction, workflow fit | clinical and workflow owners |
-| Security, privacy, AI/data governance, auditability | 450,000 | 300,000 | 150,000 | 900,000 | governance checklist, unsafe wording, audit trail | IT/security, AI/data governance |
-| Evaluation, baseline, QI/IRB preparation, limited pilot evidence | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline, approved workflow measurement, final report | evaluation and IRB/QI owners |
-| Conditional equipment / ASR / intake station support | 450,000 | 200,000 | 50,000 | 700,000 | ASR confirmation, workflow slot feasibility | budget and workflow owners |
-| Training, documentation, dissemination, review-response package | 150,000 | 100,000 | 250,000 | 500,000 | training completion, review-response readiness | proposal owner |
-| Administration and contingency within legal accounting rules | 150,000 | 100,000 | 350,000 | 600,000 | expense-to-KPI traceability maintained | budget owner |
-| Total | 4,000,000 | 3,200,000 | 2,800,000 | 10,000,000 | 100% mapped | parent budget owner |
+| Proposal coordination, PM, RA, KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | 20-page package, KPI evidence, annual reporting | coordinator, evaluator |
+| Intake / summary workflow and CRM-ready field design | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | summary read time, source labels, missing fields | engineering owner |
+| Clinician, nurse, and outpatient workflow reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | usefulness, staff friction, workflow fit | clinical and workflow owners |
+| Security, privacy, AI/data governance, auditability | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance checklist, unsafe wording, audit trail | IT/security, AI/data governance |
+| Evaluation, baseline, QI/IRB preparation, limited pilot evidence | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline, approved workflow measurement, final report | evaluation and IRB/QI owners |
+| Conditional equipment / ASR / intake station support | 500,000 | 500,000 | 1,300,000 | 2,300,000 | ASR confirmation, workflow slot feasibility | budget and workflow owners |
+| Training, documentation, dissemination, review-response package | 1,000,000 | 1,000,000 | 1,300,000 | 3,300,000 | training completion, review-response readiness | proposal owner |
+| Administration and contingency within legal accounting rules | 1,000,000 | 1,000,000 | 500,000 | 2,500,000 | expense-to-KPI traceability maintained | budget owner |
+| Total | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% mapped | parent budget owner |
 
 ## Budget Narrative
 

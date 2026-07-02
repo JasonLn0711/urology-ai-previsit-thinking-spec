@@ -6,7 +6,7 @@
 
 格式來源：`records/2026-06-18/sources/tch-zhongxiao-xinyi-deep-cultivation-plan-revised-2026-06-18.docx`。該檔為泌尿科自行提報 PSA 內容，本稿僅取其健康台灣深耕計畫章節格式，不沿用 PSA 計畫內容。
 
-會議來源：`records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`。該紀錄顯示信義母案中 AI 智慧問診提報約新臺幣 15,000,000 元且包含 CRM；本稿依後續 owner split，僅編列吳老師 / 陽明交大團隊可交付的 AI 問診與醫師覆核摘要工作包，三年新臺幣 10,000,000 元。
+會議來源：`records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`。該紀錄顯示信義母案中 AI 智慧問診提報約新臺幣 15,000,000 元且包含 CRM；本稿依後續 owner split，僅編列吳老師 / 陽明交大團隊可交付的 AI 問診與醫師覆核摘要工作包，每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元。
 
 審查來源：`records/2026-06-19/sources/nycu-ai-previsit-expert-review/`
 
@@ -20,7 +20,7 @@
 | 計畫範疇 | 主軸：範疇三「導入智慧科技醫療」；副支援：範疇一「優化醫療工作條件」 | 範疇三支撐 AI、流程效率、資料安全；範疇一支撐降低重複問診與資訊整理負擔。 |
 | 主提機構 | 待主提單位確認 | 醫事機構代碼、統一編號、負責人與函送流程由主提機構補齊。 |
 | 合作機構 | 國立陽明交通大學團隊；臺北市立聯合醫院相關院區 / 門診部依主提案確認 | NYCU 擔任 AI workflow、問診摘要 schema、KPI evidence、治理文件與 prototype 支援角色。 |
-| 申請經費 | 三年新臺幣 10,000,000 元整 | 信義母案 AI 智慧問診提報約 NT$15M 且包含 CRM；本稿只列吳老師 / 陽明交大 AI-only package 工作額度，正式補助款 / 配合款與會計科目由 budget owner 轉表。 |
+| 申請經費 | 每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元整 | 信義母案 AI 智慧問診提報約 NT$15M 且包含 CRM；本稿只列吳老師 / 陽明交大 AI-only package 工作額度，正式補助款 / 配合款與會計科目由 budget owner 轉表。 |
 | 執行期程 | 三年期；依核定年度調整 | Y1 setup、Y2 evaluation、Y3 handoff。 |
 | 計畫主持人 | 待主提單位確認 | 需與簽章、利益衝突、同意書一致。 |
 | 聯絡人 | 待主提單位確認 | 需與正式送件平台及行政窗口一致。 |
@@ -185,20 +185,20 @@ flowchart LR
 
 ## 柒、經費規劃
 
-本稿以三年新臺幣 10,000,000 元作 AI-only package 討論配置。2026-06-02 會議紀錄中的信義 AI 智慧問診母案提報約新臺幣 15,000,000 元，且包含 CRM 系統；CRM 系統由母案 / 其他團隊承接其建置、採購、維運與追蹤 KPI。本稿的經費表聚焦吳老師 / 陽明交大團隊可驗收的 AI 問診、醫師覆核摘要、governance 與 KPI evidence。正式送件前，主提單位需依健康台灣深耕計畫經費支用標準，轉成正式會計科目、單價、數量、年度、補助款 / 配合款、採購註記與支用說明。
+本稿以每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元作 AI-only package 討論配置。2026-06-02 會議紀錄中的信義 AI 智慧問診母案提報約新臺幣 15,000,000 元，且包含 CRM 系統；CRM 系統由母案 / 其他團隊承接其建置、採購、維運與追蹤 KPI。本稿的經費表聚焦吳老師 / 陽明交大團隊可驗收的 AI 問診、醫師覆核摘要、governance 與 KPI evidence。正式送件前，主提單位需依健康台灣深耕計畫經費支用標準，轉成正式會計科目、單價、數量、年度、補助款 / 配合款、採購註記與支用說明。
 
 ### 一、工作包經費表
 
 | 工作包 | 第一年 | 第二年 | 第三年 | 三年合計 | KPI / evidence |
 | --- | ---: | ---: | ---: | ---: | --- |
-| W1 Proposal coordination / PM / RA / KPI evidence | NT$900,000 | NT$900,000 | NT$700,000 | NT$2,500,000 | proposal package、KPI workbook、annual evidence |
-| W2 Clinical workflow review / reviewer sessions | NT$450,000 | NT$450,000 | NT$300,000 | NT$1,200,000 | summary read time、clinician usefulness、staff-friction |
-| W3 Question governance / intake / summary schema | NT$1,000,000 | NT$600,000 | NT$300,000 | NT$1,900,000 | question bank、source label、missing-field |
-| W4 AI prototype / summary generation / review evidence | NT$900,000 | NT$700,000 | NT$300,000 | NT$1,900,000 | prototype、trace log、safety audit |
-| W5 AI / data / security / privacy governance | NT$400,000 | NT$350,000 | NT$250,000 | NT$1,000,000 | governance checklist、procurement gate |
-| W6 Evaluation / baseline / QI / IRB / limited pilot evidence | NT$250,000 | NT$400,000 | NT$350,000 | NT$1,000,000 | baseline、QI/IRB、evaluation report |
-| W7 Optional ASR / intake station readiness | NT$350,000 | NT$150,000 | NT$0 | NT$500,000 | ASR-confirmed、intake station readiness |
-| 總計 | NT$4,250,000 | NT$3,550,000 | NT$2,200,000 | NT$10,000,000 | 100% mapped |
+| W1 Proposal coordination / PM / RA / KPI evidence | NT$2,000,000 | NT$2,000,000 | NT$2,000,000 | NT$6,000,000 | proposal package、KPI workbook、annual evidence |
+| W2 Clinical workflow review / reviewer sessions | NT$1,500,000 | NT$1,500,000 | NT$1,200,000 | NT$4,200,000 | summary read time、clinician usefulness、staff-friction |
+| W3 Question governance / intake / summary schema | NT$2,000,000 | NT$1,500,000 | NT$1,000,000 | NT$4,500,000 | question bank、source label、missing-field |
+| W4 AI prototype / summary generation / review evidence | NT$2,000,000 | NT$2,000,000 | NT$1,500,000 | NT$5,500,000 | prototype、trace log、safety audit |
+| W5 AI / data / security / privacy governance | NT$1,000,000 | NT$1,000,000 | NT$1,000,000 | NT$3,000,000 | governance checklist、procurement gate |
+| W6 Evaluation / baseline / QI / IRB / limited pilot evidence | NT$1,000,000 | NT$1,500,000 | NT$2,000,000 | NT$4,500,000 | baseline、QI/IRB、evaluation report |
+| W7 Optional ASR / intake station readiness | NT$500,000 | NT$500,000 | NT$1,300,000 | NT$2,300,000 | ASR-confirmed、intake station readiness |
+| 總計 | NT$10,000,000 | NT$10,000,000 | NT$10,000,000 | NT$30,000,000 | 100% mapped |
 
 ### 二、官方科目概算
 
@@ -254,7 +254,7 @@ flowchart LR
 1. 本稿是獨立子計畫、正式計畫內工作包，或主提計畫附錄。
 2. 主提機構、合作機構、醫事機構代碼、計畫主持人、聯絡人與簽核流程。
 3. 範疇設計是否採「範疇三主打、範疇一副支援、範疇四條件式支援」。
-4. 三年 NT$10,000,000 是否維持為 AI 問診與醫師覆核摘要 package 討論額度。
+4. 每年 NT$10,000,000，三年合計 NT$30,000,000 是否維持為 AI 問診與醫師覆核摘要 package 討論額度。
 5. ASR、APP/API、intake station 是 funded item、demo-only，或後續採購。
 6. 真實病患資料 route 為 no data、QI/service、IRB research，或 mixed route。
 7. 採購 threshold、正式會計科目、單價、數量、配合款與 negative-list 檢查。
@@ -302,7 +302,7 @@ flowchart LR
 | 主提機構、合作機構、醫事機構代碼、PI、聯絡人、簽章 | 主提單位 |
 | 送件模式與本稿角色：subproject / work package / appendix | 主提單位 |
 | 信義母案 NT$15M AI 智慧問診 allocation 與本稿 NT$10M AI-only package 的正式關係 | 主提單位 + budget owner |
-| 三年 NT$10M 是否維持為 AI-only package ceiling | 主提單位 + budget owner |
+| 每年 NT$10M，三年合計 NT$30M 是否維持為 AI-only package ceiling | 主提單位 + budget owner |
 | 真實病患資料 route：no data / QI / IRB / mixed | Clinical + IRB/QI + data governance owner |
 | ASR、APP/API、intake station status | Engineering + security + procurement owner |
 | 正式科目、配合款、採購門檻、negative-list review | Budget / procurement owner |

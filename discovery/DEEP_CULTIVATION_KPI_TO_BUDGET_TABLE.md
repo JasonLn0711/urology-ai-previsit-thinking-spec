@@ -10,7 +10,7 @@
 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
-CRM 屬於母案 / 其他團隊 workstream。本表聚焦 Jason / 陽明交大 AI-only 工作包，將三年 NT$10M 對應到 AI 問診、醫師覆核摘要、governance、KPI evidence、年度查核點與驗收資料。
+CRM 屬於母案 / 其他團隊 workstream。本表聚焦 Jason / 陽明交大 AI-only 工作包，將每年 NT$10M，三年合計 NT$30M 對應到 AI 問診、醫師覆核摘要、governance、KPI evidence、年度查核點與驗收資料。
 
 ## Parent Proposal Budget Context
 
@@ -22,14 +22,14 @@ CRM 屬於母案 / 其他團隊 workstream。本表聚焦 Jason / 陽明交大 A
 | PSA 篩檢與智慧問診 | NT$15,000,000 | parent allocation reference; Jason / 陽明交大 handles only the AI-only work package |
 | CRM 系統 | NT$15,000,000 | other-team / parent-proposal lane |
 | 信義門診部碳盤查 | NT$7,500,000 | 創新永續發展中心 support; outside this AI-only table |
-| Jason / 陽明交大 AI-only package | NT$10,000,000 | current table scope: AI 問診、醫師覆核摘要、governance、KPI evidence |
+| Jason / 陽明交大 AI-only package | NT$10,000,000 per year; NT$30,000,000 over three years | current table scope: AI 問診、醫師覆核摘要、governance、KPI evidence |
 
 Writing rule:
 
 ```text
 可以在母案背景中說明信義深耕計畫目前含 PSA 篩檢與智慧問診 NT$15M、
 CRM 系統 NT$15M、碳盤查 NT$7.5M；
-本表只編列吳老師 / 陽明交大團隊的三年 NT$10M AI-only 工作包。
+本表只編列吳老師 / 陽明交大團隊的每年 NT$10M，三年合計 NT$30M AI-only 工作包。
 ```
 
 2026-06-23 budget-control update:
@@ -43,7 +43,7 @@ CRM 系統 NT$15M、碳盤查 NT$7.5M；
 
 ## Budget Decision
 
-目前以三年新臺幣 10,000,000 元作為 AI 問診與醫師覆核摘要 package 的工作上限。
+目前以每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元作為 AI 問診與醫師覆核摘要 package 的工作上限。
 
 2026-06-19 專家審查後，本表的正式提案定位為：
 
@@ -78,17 +78,17 @@ exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md
 
 | 官方科目 | 三年概算 | 編列邏輯 |
 | --- | ---: | --- |
-| 人事費 | NT$6,140,000 | PM/RA、KPI/evaluation RA、clinical reviewer protected time、question/schema/AI engineering、QA cycle、evaluation analyst。 |
-| 業務費 | NT$3,630,000 | 外部審查、文件包、資料蒐集、workflow walkthrough、LLM/API/cloud/ASR 租金或權利使用、治理工作坊、IRB、問卷 / 訪視等。 |
-| 設備費 | NT$230,000 | clinic-owned intake station readiness；若改租用則轉業務費。設備費約占總額 2.3%，低於 30% 資本門上限。 |
-| 合計 | NT$10,000,000 | 100% mapped to KPI, owner and evidence；正式表仍需主提單位確認補助款 / 配合款、採購門檻、核銷科目與驗收文件。 |
+| 人事費 | NT$18,000,000 | PM/RA、KPI/evaluation RA、clinical reviewer protected time、question/schema/AI engineering、QA cycle、evaluation analyst。 |
+| 業務費 | NT$10,500,000 | 外部審查、文件包、資料蒐集、workflow walkthrough、LLM/API/cloud/ASR 租金或權利使用、治理工作坊、IRB、問卷 / 訪視等。 |
+| 設備費 | NT$1,500,000 | clinic-owned intake station readiness；若改租用則轉業務費。設備費約占總額 5%，低於 30% 資本門上限。 |
+| 合計 | NT$30,000,000 | 100% mapped to KPI, owner and evidence；正式表仍需主提單位確認補助款 / 配合款、採購門檻、核銷科目與驗收文件。 |
 
 ## KPI And Budget Sequence
 
 本案不應先拿金額硬湊 KPI。建議順序是：
 
 ```text
-1. 先確認暫定預算上限：目前使用 NT$10,000,000。
+1. 先確認暫定預算上限：目前使用每年 NT$10,000,000，三年合計 NT$30,000,000。
 2. 定義可交付工作：AI 問診、醫師覆核摘要、治理、評估、文件化。
 3. 設計 KPI：每個 KPI 都對應 workflow value。
 4. 把預算映射到 KPI-backed work packages。
@@ -122,18 +122,18 @@ No friction reduction -> no Health Taiwan workflow value.
 | AI/data/security governance | governance checklist completion | owners / gates named before real-data claim | 支援範疇三可信度 | AI/data/security owner | governance checklist |
 | Evaluation and annual checkpoint | yearly evidence complete | output, KPI, issue, correction, next checkpoint visible | 支援年度查核與專家評估 | evaluation owner | annual evidence packet |
 
-## Three-Year NT$10,000,000 Discussion Allocation
+## Three-Year NT$30,000,000 Discussion Allocation
 
 | 預算項目 | 第一年 | 第二年 | 第三年 | 合計 | KPI |
 | --- | ---: | ---: | ---: | ---: | --- |
-| Proposal coordination、PM、RA、KPI evidence | 900,000 | 900,000 | 700,000 | 2,500,000 | proposal package、KPI workbook、annual evidence |
-| Clinical workflow review and reviewer sessions | 450,000 | 450,000 | 300,000 | 1,200,000 | clinician usefulness、summary read time、staff-friction review |
-| Question governance、intake flow、summary schema | 1,000,000 | 600,000 | 300,000 | 1,900,000 | question set、completion、missing-field visibility |
-| AI 問診與摘要 prototype / implementation evidence | 900,000 | 700,000 | 300,000 | 1,900,000 | source label、summary generation、audit sample |
-| AI/data/security/privacy governance | 400,000 | 350,000 | 250,000 | 1,000,000 | governance checklist、unsafe wording = 0 |
-| Evaluation、baseline、QI/IRB preparation | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline、approved workflow measurement、final report |
-| Optional ASR / intake station readiness | 350,000 | 150,000 | 0 | 500,000 | ASR confirmation safety、workflow feasibility |
-| 總計 | 4,250,000 | 3,550,000 | 2,200,000 | 10,000,000 | 100% KPI-to-budget mapping |
+| Proposal coordination、PM、RA、KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | proposal package、KPI workbook、annual evidence |
+| Clinical workflow review and reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | clinician usefulness、summary read time、staff-friction review |
+| Question governance、intake flow、summary schema | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | question set、completion、missing-field visibility |
+| AI 問診與摘要 prototype / implementation evidence | 2,000,000 | 2,000,000 | 1,500,000 | 5,500,000 | source label、summary generation、audit sample |
+| AI/data/security/privacy governance | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance checklist、unsafe wording = 0 |
+| Evaluation、baseline、QI/IRB preparation | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline、approved workflow measurement、final report |
+| Optional ASR / intake station readiness | 500,000 | 500,000 | 1,300,000 | 2,300,000 | ASR confirmation safety、workflow feasibility |
+| 總計 | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% KPI-to-budget mapping |
 
 ## Formal Budget Columns Still Needed
 

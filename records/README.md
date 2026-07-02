@@ -31,6 +31,11 @@ Use:
 
 ## Current Records
 
+- `2026-07-02/README.md`:
+  7/14 合併版彙整前的專家請益與任務拆解資料包。Use this record to
+  confirm 美幸主任's 健康生活處方 direction, PSA workflow indicators, 廖醫師
+  confirmation questions, AI-only scope controls, and the before-7/14 execution
+  sequence.
 - `2026-07-01/README.md`:
   complete source hub for the 2026-07-01 merged-plan review postponement and
   the copied Health Taiwan 116-118 second-stage application guidance. Use this

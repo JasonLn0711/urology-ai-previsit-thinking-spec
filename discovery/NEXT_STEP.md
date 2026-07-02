@@ -36,7 +36,7 @@ Jason / 陽明交大 package:
 + 一頁式醫師覆核摘要
 + AI / data / security governance
 + KPI evidence
-+ 三年 NT$10,000,000 AI-only working budget
++ 每年 NT$10,000,000，三年合計 NT$30,000,000 AI-only working budget
 = 泌尿科門診前問診與醫師覆核摘要支持系統
 ```
 
@@ -98,7 +98,7 @@ The latest active follow-up comes from the 2026-05-29 Prof. Wu meeting. The work
 
 ```text
 三年期
-總經費新臺幣 1,000 萬元整
+每年經費新臺幣 1,000 萬元整，三年合計新臺幣 3,000 萬元整
 每一項經費對應 KPI
 討論版控制在 20 頁以內
 2026-06-02 前準備好討論版本

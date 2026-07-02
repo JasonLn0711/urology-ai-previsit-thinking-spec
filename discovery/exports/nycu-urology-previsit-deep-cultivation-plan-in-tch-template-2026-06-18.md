@@ -6,7 +6,7 @@
 
 格式來源：`records/2026-06-18/sources/tch-zhongxiao-xinyi-deep-cultivation-plan-revised-2026-06-18.docx`
 
-2026-06-02 official meeting context: 信義母案將「PSA 主動篩檢 + AI 智慧問診」整合提報；AI 智慧問診母案額度約新臺幣 15,000,000 元且包含 CRM。依後續 owner split，本工作稿只承接吳老師 / 陽明交大團隊 AI 問診與醫師覆核摘要工作包，三年新臺幣 10,000,000 元；CRM 由母案 / 其他團隊規劃。
+2026-06-02 official meeting context: 信義母案將「PSA 主動篩檢 + AI 智慧問診」整合提報；AI 智慧問診母案額度約新臺幣 15,000,000 元且包含 CRM。依後續 owner split，本工作稿只承接吳老師 / 陽明交大團隊 AI 問診與醫師覆核摘要工作包，每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元；CRM 由母案 / 其他團隊規劃。
 
 ## 封面填報建議
 
@@ -18,7 +18,7 @@
 | 計畫範疇 | 主打：導入智慧科技醫療；副支援：優化醫療工作條件 |
 | 主提機構 | 待主提單位確認 |
 | 合作機構 | 國立陽明交通大學團隊；臺北市立聯合醫院相關院區 / 門診部依主提案確認 |
-| 申請經費 | 信義母案 AI 智慧問診約 NT$15M 且包含 CRM；本稿只列吳老師 / 陽明交大 AI-only package，三年新臺幣 10,000,000 元整。正式會計科目待主提單位與 budget owner 確認。 |
+| 申請經費 | 信義母案 AI 智慧問診約 NT$15M 且包含 CRM；本稿只列吳老師 / 陽明交大 AI-only package，每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元整。正式會計科目待主提單位與 budget owner 確認。 |
 | 執行期程 | 待主提案年度定案；本稿先以三年期設計年度工作與 KPI |
 | 計畫主持人 | 待主提單位確認 |
 | 聯絡人 | 待主提單位確認 |
@@ -97,18 +97,18 @@
 
 ## 柒、經費規劃
 
-本稿以三年新臺幣 10,000,000 元作吳老師 / 陽明交大 AI-only 工作包討論配置。2026-06-02 會議紀錄中的信義 AI 智慧問診母案約新臺幣 15,000,000 元且包含 CRM；CRM 由母案 / 其他團隊承接，不併入下表。正式送件前，主提單位需依健康台灣深耕計畫經費支用標準，轉成正式會計科目、單價、數量、年度、補助款 / 配合款、採購註記與支用說明。
+本稿以每年新臺幣 10,000,000 元，三年合計新臺幣 30,000,000 元作吳老師 / 陽明交大 AI-only 工作包討論配置。2026-06-02 會議紀錄中的信義 AI 智慧問診母案約新臺幣 15,000,000 元且包含 CRM；CRM 由母案 / 其他團隊承接，不併入下表。正式送件前，主提單位需依健康台灣深耕計畫經費支用標準，轉成正式會計科目、單價、數量、年度、補助款 / 配合款、採購註記與支用說明。
 
 | 預算項目 | 第一年 | 第二年 | 第三年 | 合計 | KPI / evidence | 採購與治理註記 |
 | --- | ---: | ---: | ---: | ---: | --- | --- |
-| Proposal coordination、PM、RA、KPI evidence | 900,000 | 900,000 | 700,000 | 2,500,000 | proposal package、KPI workbook、annual evidence | 正式前拆成可支用人事 / 業務類別 |
-| Clinical workflow review and reviewer sessions | 450,000 | 450,000 | 300,000 | 1,200,000 | clinician usefulness、summary read time、staff-friction review | 確認不增加門診負擔 |
-| Question governance、intake flow、summary schema | 1,000,000 | 600,000 | 300,000 | 1,900,000 | question set、completion、missing-field visibility | 不含 CRM |
-| AI prototype、summary generation、review evidence | 900,000 | 700,000 | 300,000 | 1,900,000 | prototype evidence、reviewer scorecard | 不承諾 production deployment |
-| AI/data/security/privacy governance | 400,000 | 350,000 | 250,000 | 1,000,000 | governance checklist、unsafe wording = 0 | real-data route pending |
-| Evaluation、baseline、IRB/QI preparation、limited pilot evidence | 250,000 | 400,000 | 350,000 | 1,000,000 | baseline worksheet、protocol / QI note、evaluation report | real patient-data route pending |
-| Optional ASR / intake station readiness | 350,000 | 150,000 | 0 | 500,000 | ASR confirmation safety、workflow feasibility | 僅在 input-burden / accessibility KPI 成立時啟用 |
-| 總計 | 4,250,000 | 3,550,000 | 2,200,000 | 10,000,000 | 100% mapped | official accounting categories pending |
+| Proposal coordination、PM、RA、KPI evidence | 2,000,000 | 2,000,000 | 2,000,000 | 6,000,000 | proposal package、KPI workbook、annual evidence | 正式前拆成可支用人事 / 業務類別 |
+| Clinical workflow review and reviewer sessions | 1,500,000 | 1,500,000 | 1,200,000 | 4,200,000 | clinician usefulness、summary read time、staff-friction review | 確認不增加門診負擔 |
+| Question governance、intake flow、summary schema | 2,000,000 | 1,500,000 | 1,000,000 | 4,500,000 | question set、completion、missing-field visibility | 不含 CRM |
+| AI prototype、summary generation、review evidence | 2,000,000 | 2,000,000 | 1,500,000 | 5,500,000 | prototype evidence、reviewer scorecard | 不承諾 production deployment |
+| AI/data/security/privacy governance | 1,000,000 | 1,000,000 | 1,000,000 | 3,000,000 | governance checklist、unsafe wording = 0 | real-data route pending |
+| Evaluation、baseline、IRB/QI preparation、limited pilot evidence | 1,000,000 | 1,500,000 | 2,000,000 | 4,500,000 | baseline worksheet、protocol / QI note、evaluation report | real patient-data route pending |
+| Optional ASR / intake station readiness | 500,000 | 500,000 | 1,300,000 | 2,300,000 | ASR confirmation safety、workflow feasibility | 僅在 input-burden / accessibility KPI 成立時啟用 |
+| 總計 | 10,000,000 | 10,000,000 | 10,000,000 | 30,000,000 | 100% mapped | official accounting categories pending |
 
 ## 捌、人力配置表
 
@@ -130,7 +130,7 @@
 1. 本稿是 standalone subproject、work package，或 parent proposal appendix。
 2. 主提機構、合作機構、醫事機構代碼、計畫主持人、聯絡人與簽核流程。
 3. 範疇設計是否採「範疇三主打、範疇一副支援、範疇四條件式支援」。
-4. 三年 NT$10,000,000 是否維持為 AI 問診與醫師覆核摘要 package 討論額度。
+4. 每年 NT$10,000,000，三年合計 NT$30,000,000 是否維持為 AI 問診與醫師覆核摘要 package 討論額度。
 5. ASR、APP/API、intake station 是 funded item、demo-only，或後續採購。
 6. 真實病患資料 route 為 no data、QI/service、IRB research，或 mixed route。
 7. 採購 threshold、正式會計科目、單價、數量、配合款與 negative-list 檢查。

@@ -28,7 +28,7 @@
 
 - The first physician conversation should test usefulness, not promise deployment.
 - The smallest valid next artifact is a refined question tree plus a summary format.
-- The next grant-facing artifact should map AI 問診, physician-review summary, KPI, NT$10,000,000 planning budget, governance, clinical review, and security/IRB gates before adding implementation detail.
+- The next grant-facing artifact should map AI 問診, physician-review summary, KPI, NT$10,000,000 per year / NT$30,000,000 over three years planning budget, governance, clinical review, and security/IRB gates before adding implementation detail.
 - The next v0.8 grant-facing artifact should be an AI-only package; CRM should appear only as historical context if needed.
 - The next parent-proposal gate is the 2026-07-14 same-time merged Huashan /
   Xinyi plan review, updated from the original 2026-07-07 09:30 gate by the
