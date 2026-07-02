@@ -115,6 +115,9 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-06-22 信義院區門診前問診系統每年 NT$10,000,000、三年合計 NT$30,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
 - For the 2026-07-01 北市聯醫 LINE notice updating the original 2026-07-07 merged-plan review to 2026-07-14 same time, with Jason / Wu team no-conflict status: `records/2026-07-01/README.md`
 - For the copied 2026-07-01 Health Taiwan 116-118 second-stage application guidance and source-integrity record: `records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`
+- For the 2026-07-02 complete 7/14 Downloads package index, unique goal, active timeline, post-6/23 source stack, and package layout: `records/2026-07-02/xinyi-july14-complete-download-package-index.md`
+- For the 2026-07-02 LINE update connecting health-service-center advice, 三高追蹤, PSA 精準篩檢, CRM owner, carbon-inventory owner, and 廖醫師 / Jason next discussion: `records/2026-07-02/line-xinyi-deep-cultivation-health-service-center-psa-three-high-record.md`
+- For the 2026-07-02 7/14 expert-consultation task packet with 廖醫師 questions, PSA KPI candidates, healthy-lifestyle-prescription candidates, and before-7/14 execution plan: `records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
@@ -177,6 +180,22 @@ CRM is handled outside Jason / 陽明交大 current package.
 Jason / 陽明交大 uses an NT$10,000,000 per year, NT$30,000,000 three-year
 AI-only working budget.
 ```
+
+## Current 7/14 Package Signal
+
+The current 7/14 working package has one practical goal:
+
+```text
+Prepare complete proposal materials for 2026-07-14 same-time merged-plan review,
+with 腦心血管疾病防治 / 三高追蹤 as the main service story, PSA 精準篩檢與
+智慧問診 as the Xinyi feature, and CRM / carbon inventory as clearly owned
+companion workstreams.
+```
+
+Use `records/2026-07-02/xinyi-july14-complete-download-package-index.md` as the
+current control index. It links the original 6/23 daily / gate schedule, the
+7/1 postponement, 7/2 LINE updates, current exports, and the Downloads handoff
+package.
 
 The 2026-06-12 LINE conversation and 美如主任 group screenshot remain source
 evidence for the CRM ownership split.

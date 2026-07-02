@@ -64,6 +64,9 @@ For the clinical friction and workforce-burden reduction principle, use `CLINICA
 
 For the current 2026-06-19 expert-review package, use:
 
+- `../records/2026-07-02/xinyi-july14-complete-download-package-index.md`
+- `../records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md`
+- `../records/2026-07-02/line-xinyi-deep-cultivation-health-service-center-psa-three-high-record.md`
 - `../records/2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md`
 - `../records/2026-06-23/taipei-city-hospital-huashan-xinyi-deep-cultivation-official-meeting-minutes.md`
 - `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md`
@@ -76,6 +79,12 @@ For the current 2026-06-19 expert-review package, use:
 - `exports/nycu-ai-previsit-proposal-item-definitions-2026-06-19.md`
 - `DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md`
 - `DEEP_CULTIVATION_KPI_BUDGET_ANNUAL_INTEGRATION_TABLE.md`
+
+The 2026-07-02 package index is the current control index for the 7/14 handoff:
+it connects the 6/23 official meeting, 7/1 postponement, 7/2 LINE owner split,
+current proposal exports, and Downloads package. Use the task packet for
+questions to 廖醫師 and the LINE record for current owner routing before
+rewriting formal proposal sections.
 
 For historical official-format drafting context, use:
 

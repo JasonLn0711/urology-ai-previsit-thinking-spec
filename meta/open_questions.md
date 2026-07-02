@@ -1,5 +1,21 @@
 # Open Questions
 
+## 2026-07-14 Xinyi Merged-Plan Package Gates
+
+These questions connect the 2026-07-02 complete package index, 7/14 task packet,
+and latest LINE owner routing. Use
+`records/2026-07-02/xinyi-july14-complete-download-package-index.md` as the
+control index before creating a new planning note.
+
+1. Which day next week will the team show the complete application draft to 何院長 before the 2026-07-14 merged-plan review?
+2. What revised PSA / 智慧問診 content will 廖醫師 provide before Jason updates the Xinyi section?
+3. Which healthy-lifestyle-prescription items should enter the formal proposal: IPSS 後衛教、排尿日誌、夜尿 / 頻尿生活提醒、PSA 結果追蹤配合、泌尿健康資源單, or another owner-confirmed set?
+4. Which PSA workflow indicators should become formal KPI, and which should remain annual-report evidence?
+5. Does the formal Xinyi narrative lead with `腦心血管疾病防治 / 三高追蹤` and use PSA 精準篩檢與智慧問診 as the Xinyi feature?
+6. What CRM content will 吳岳霖主任 provide, and how should it be connected to 三高追蹤 without entering Jason / 陽明交大 AI-only scope?
+7. What carbon-inventory content will 趙康邑主任 / 創新永續發展中心 provide for the NT$7.5M lane?
+8. Does the current Downloads package need to be refreshed after 廖醫師, 吳岳霖主任, or 趙康邑主任 provide new files?
+
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 
 These are the active v0.8 planning questions after the 2026-06-19 owner update.
