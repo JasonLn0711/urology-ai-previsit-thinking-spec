@@ -31,6 +31,13 @@ Use:
 
 ## Current Records
 
+- `2026-07-07/README.md`:
+  source hub for the Health Taiwan Phase 2 116-118 briefing notice received by
+  email, the official announcement synthesis, and the agenda attachment. Use
+  `health-taiwan-phase2-morning-online-attendance-action-record.md` for the
+  missed-registration access path, project-office contact route, morning-session
+  capture priorities, and links back to the 2026-07-01 application-guidance
+  source.
 - `2026-07-02/README.md`:
   7/14 合併版彙整前的 source hub and Downloads handoff package. Use
   `xinyi-july14-complete-download-package-index.md` as the control index for

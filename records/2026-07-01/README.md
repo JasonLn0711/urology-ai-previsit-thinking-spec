@@ -28,6 +28,10 @@ governance planning.
 
 Status: source preserved.
 
+The 2026-07-07 briefing-notice packet now lives in
+`../2026-07-07/README.md`; use that record for the 2026-07-10 morning-session
+online access path and live briefing capture priorities.
+
 The parent-proposal review gate is now planned for:
 
 ```text
