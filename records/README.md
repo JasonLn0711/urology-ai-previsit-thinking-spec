@@ -33,11 +33,12 @@ Use:
 
 - `2026-07-09/README.md`:
   source hub for 美幸主任's capital-budget email instruction and `資本門`
-  attachment copied from Downloads, plus the copied 華山院區 plan used only as a
-  format and writing-reference packet. Use
-  `xinyi-capital-budget-liao-subproject-integration-checklist.md` as the
-  merge-time checklist when 廖醫師's subproject is folded into the full Xinyi
-  deep-cultivation plan. Use
+  attachment copied from Downloads, the 2026-07-09 廖醫師 PSA subproject package
+  copied from Downloads, and the copied 華山院區 plan used only as a format and
+  writing-reference packet. Use
+  `line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` as the
+  latest `信義門診部 深耕計畫` LINE source; the earlier capital-budget checklist is
+  now closed because the 2026-07-09 PSA package includes those materials. Use
   `huashan-plan-format-reference-analysis-for-xinyi-urology.md` for proposal
   structure, KPI / budget / governance linkage, issue queues, and 60%核刪版
   patterning without importing 華山 clinical content into the 信義 / 泌尿 scope.

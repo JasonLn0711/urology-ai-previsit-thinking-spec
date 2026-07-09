@@ -64,7 +64,8 @@ governance 與 budget mapping。CRM 由吳岳霖主任處理；碳盤查對接�
 | 2026-07-01 | `records/2026-07-01/health-taiwan-stage2-application-guidance-record.md` | 116-118 申請說明、budget / governance / negative-list preflight。 |
 | 2026-07-02 | `records/2026-07-02/line-xinyi-deep-cultivation-health-service-center-psa-three-high-record.md` | 健康服務中心建議、三高追蹤主軸、PSA 特色、CRM / 碳盤查分工。 |
 | 2026-07-02 | `records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md` | 7/14 前專家請益與任務拆解。 |
-| 2026-07-09 | `records/2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | 美幸主任 email 與 `資本門` 附件 copied source gate；合併廖醫師子計畫時確認是否已納入或需另案預算 owner 決策。 |
+| 2026-07-09 | `records/2026-07-09/line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` | 美幸主任 LINE update；廖醫師 PSA 子計畫 2026-07-09 版已 copied，PSA 篩檢目前約新臺幣 600 萬元，資本門 inclusion gate 已關閉。 |
+| 2026-07-09 | `records/2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | 早先美幸主任 email 與 `資本門` 附件 copied source record；目前只作 traceability，不再作待確認 checklist。 |
 | 2026-07-09 | `records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md` | 華山院區計畫 copied source analysis；只作格式、KPI、budget、governance、60%核刪版寫法參考，不納入信義 / 泌尿 scope。 |
 
 ## Connection Map
@@ -78,7 +79,8 @@ governance 與 budget mapping。CRM 由吳岳霖主任處理；碳盤查對接�
 | Budget / KPI table | `../../discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md` | Holds the AI-only KPI-to-budget scope; update only after owner-confirmed PSA / healthy-lifestyle-prescription indicators. |
 | Annual checkpoint table | `../../discovery/DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md` | Holds the active 2026-07-14 merged-plan review gate. |
 | Governance checklist | `../../discovery/DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | Keeps AI / cybersecurity / data governance gates separate from CRM, carbon inventory, HIS/EMR, real-data, and procurement activation. |
-| Capital-budget source gate | `../2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | Preserves 美幸主任's email / attachment copies and the merge-time checklist for 廖醫師's subproject. |
+| Latest PSA subproject | `../2026-07-09/line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` | Preserves 美幸主任's 2026-07-09 LINE update and copied 廖醫師 PSA subproject package. |
+| Capital-budget source record | `../2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | Preserves 美幸主任's email / attachment copies; the inclusion checklist is now resolved by the 2026-07-09 PSA package. |
 | Huashan format reference | `../2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md` | Uses the Huashan plan as a peer example for proposal structure and review discipline while keeping content scope separate. |
 
 ## Proposal Drafts And Exports

@@ -165,8 +165,8 @@ Use this structure when revising the 信義 / 泌尿 section:
   keep 廖醫師 questions and PSA / healthy-lifestyle-prescription gates as the
   content source; use 華山 only for form and review discipline.
 - `records/2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md`:
-  capital-budget source gate that should use the same owner-confirmation and
-  issue-queue discipline.
+  capital-budget traceability record; its inclusion checklist is closed by the
+  2026-07-09 廖醫師 PSA subproject package.
 - `discovery/DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md`: should route future
   proposal writing to this analysis as a format reference.
 - `discovery/DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md`: remains the formal

@@ -27,7 +27,7 @@ Audience: Jason 會前自用、廖醫師 / 美幸主任 / proposal coordinator
 | PSA workflow | `records/2026-06-30/sources/psa-screening-workflow-2026-06-30.md` | 3000 人、IPSS、健康生活處方、通知、追蹤、報表與核銷流程來源。 |
 | 7/1 改期通知 | `records/2026-07-01/README.md` | 會議由 2026-07-07 改至 2026-07-14 同時段。 |
 | 116-118 申請說明 | `records/2026-07-01/health-taiwan-stage2-application-guidance-record.md` | 確認第二階段申請需串接 workflow、KPI、checkpoint、budget、治理。 |
-| 7/9 資本門 source gate | `records/2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | 合併廖醫師子計畫時確認美幸主任 email 與 `資本門` 附件是否已納入，或由 budget owner 另案決策。 |
+| 7/9 廖醫師 PSA 子計畫 | `records/2026-07-09/line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` | 美幸主任 LINE update and copied PSA package；資本門內容已納入，不再列為待確認 checklist。 |
 | 既有會議包 | `records/2026-06-30/jason-2026-07-07-complete-meeting-packet.md` | 作為可重用的會前總覽；本檔只更新 7/14 前任務拆解。 |
 
 ## Current Decision Frame
@@ -122,7 +122,7 @@ NYCU / 陽明交大 AI-only 工作包是每年新臺幣 10,000,000 元，三年�
 | 確認 PSA 流程指標 6-10 項 | 廖醫師 / proposal coordinator | KPI candidate table | PSA workflow |
 | 確認 3000 人量能的性質 | 廖醫師 / proposal coordinator | 目標量能說明 | PSA workflow |
 | 確認 AI-only 預算正式科目、補助款 / 配合款、年度細目與可核銷項目 | 主提案 / budget owner | budget boundary confirmation note | 6/19, 6/22, 2026-07-02 user correction |
-| 合併廖醫師子計畫時核對美幸主任 email 與 `資本門` 附件是否已納入 | 廖醫師 / proposal coordinator / budget owner | capital-budget inclusion or separate-work-package decision | 7/9 copied source gate |
+| 彙整美幸主任 7/9 要求 Jason / 岳霖主任再提供的其他資料 | Jason / 岳霖主任 / proposal coordinator | remaining-materials list | 7/9 PSA subproject LINE update |
 | 確認 CRM、HIS/EMR、真實資料暫列 activation gate | parent proposal owner | scope-control paragraph | 6/19, 6/23, 7/1 |
 | 把確認後內容更新到合併版彙整稿 | Jason | revised merged draft section | 6/30 packet |
 
