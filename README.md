@@ -111,6 +111,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the full source-based 子計畫三 content analysis and cross-lane connection map: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/full-content-analysis-and-connection-map.md`
 - For the 2026-06-11 子計畫三 verified corrected meeting analysis, KPI/Robot/budget refinement, and cross-lane connection update: `subprojects/subproject-3-wu-chiang-sarcopenia-ai-robot/meeting-analysis-2026-06-11.md`
 - For the 2026-06-19 子計畫三 latest LINE update and v3 integrated draft source handling: `records/2026-06-19/README.md`
+- For the 2026-07-09 子計畫三 LINE update where Kevin shared the Huashan integrated 3750 萬 / 60% 調整版 after adding 副座 requirements: `records/2026-07-09/wu-chiang-subproject-three-line-update-huashan-v3750.md`
 - For the 2026-06-22 華山肌少症 / 健康艙 first-principles v2 positive-scope meeting minutes: `records/2026-06-22/meeting_minutes_260622_1629_sarcopenia_first_principles_v2.md`
 - For the 2026-06-22 信義院區門診前問診系統每年 NT$10,000,000、三年合計 NT$30,000,000 three-phase budget and workflow-boundary record: `records/2026-06-22/xinyi-previsit-nt10m-three-phase-budget-record.md`
 - For the 2026-07-01 北市聯醫 LINE notice updating the original 2026-07-07 merged-plan review to 2026-07-14 same time, with Jason / Wu team no-conflict status: `records/2026-07-01/README.md`
@@ -118,6 +119,8 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-07-02 complete 7/14 Downloads package index, unique goal, active timeline, post-6/23 source stack, and package layout: `records/2026-07-02/xinyi-july14-complete-download-package-index.md`
 - For the 2026-07-02 LINE update connecting health-service-center advice, 三高追蹤, PSA 精準篩檢, CRM owner, carbon-inventory owner, and 廖醫師 / Jason next discussion: `records/2026-07-02/line-xinyi-deep-cultivation-health-service-center-psa-three-high-record.md`
 - For the 2026-07-02 7/14 expert-consultation task packet with 廖醫師 questions, PSA KPI candidates, healthy-lifestyle-prescription candidates, and before-7/14 execution plan: `records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md`
+- For the 2026-07-09 美幸主任 capital-budget email / `資本門` attachment copied source packet and 廖醫師 subproject merge checklist: `records/2026-07-09/README.md`
+- For the 2026-07-09 華山院區 plan copied source and format-reference analysis for 信義 / 泌尿 proposal writing: `records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`

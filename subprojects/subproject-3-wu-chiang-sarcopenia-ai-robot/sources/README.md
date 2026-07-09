@@ -19,6 +19,7 @@ filenames are preserved in the table below and in each file's front matter.
 | `meeting-transcript-2026-06-11-verified-corrected.md` | `transcript_260611_1638_深耕子計劃三_verified_corrected.md` | Verified corrected transcript for the 2026-06-11 16:38 子計畫三 meeting. |
 | `meeting-integrated-2026-06-11-verified-corrected-machine-readable.md` | `deep_cultivation_subproject3_verified_corrected_machine_readable.md` | Integrated meeting evidence file with transcript correction table, external verification, source manifest, structured summary, decisions, action items, and appended source contents. |
 | `deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md` | `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` | Latest integrated v3 draft shared by Kevin on 2026-06-19, consolidating the sarcopenia service proposal, AI / APP / Dashboard workflow, smart terminal / Robot scope, cloud platform governance, and procurement-neutral technology references. |
+| `huashan-integrated-deep-cultivation-3750m-60pct-kevin-2026-07-09-ai-agent.md` | `華山深耕計畫_整合完整版_3750萬_含60%調整版.docx` | Huashan integrated version shared by Kevin on 2026-07-09 after adding 副座 requirements; also sent to 計劃1 華山承辦 for review. |
 
 ## Local Source Paths Used For Copy
 
@@ -29,6 +30,7 @@ filenames are preserved in the table below and in each file's front matter.
 /home/jnclaw/Downloads/transcript_260611_1638_深耕子計劃三_verified_corrected.md
 /home/jnclaw/Downloads/deep_cultivation_subproject3_verified_corrected_machine_readable.md
 /home/jnclaw/Downloads/深耕計畫_整合版_v3_騏任初稿_ai_agent.md
+records/2026-07-09/sources/huashan-deep-cultivation-ai-agent-readable-verified-notes-2026-07-09.md
 ```
 
 ## Citation Rule

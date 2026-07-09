@@ -27,6 +27,7 @@ subproject numbering, source routing, and scope separation.
 - `full-content-analysis-and-connection-map.md`
 - `meeting-analysis-2026-06-11.md`
 - `../../records/2026-06-19/wu-chiang-subproject-three-line-update.md`
+- `../../records/2026-07-09/wu-chiang-subproject-three-line-update-huashan-v3750.md`
 - `sources/README.md`
 
 ## Current Working Scope Signal
@@ -43,6 +44,8 @@ The LINE conversation and copied source files indicate a planning lane around:
 - 2026-06-19 v3 integrated draft review, adding 慧誠智醫 capability context and
   cloud collaboration platform / case-management app precedent as
   procurement- and contract-controlled future activation layers.
+- 2026-07-09 Huashan integrated 3750 萬 / 60% adjusted version shared by Kevin
+  after adding 副座 requirements and routing to 計劃1 華山承辦 for review.
 
 ## Source Attachment Inventory
 
@@ -59,6 +62,7 @@ The following source filenames were named in the LINE group conversation:
 | 2026-06-11 | `meet.google.com/yjn-wyhw-uji` | Meeting link; not treated as durable content evidence. |
 | 2026-06-11 | `AI Robot 市聯醫-2026-6-10.pdf` | Named source; local path not yet confirmed. |
 | 2026-06-19 | `深耕計畫_整合版_v3_騏任初稿.docx` / `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` | Latest integrated v3 draft; Markdown copy archived under `sources/`. |
+| 2026-07-09 | `華山深耕計畫_整合完整版_3750萬_含60%調整版.docx` | Kevin shared the version after adding 副座 requirements and sending it to 計劃1 華山承辦 for review; machine-readable copy archived under `sources/`. |
 
 ## Copied Machine-Readable Sources
 
@@ -70,6 +74,7 @@ The following source filenames were named in the LINE group conversation:
 | `sources/meeting-transcript-2026-06-11-verified-corrected.md` | `transcript_260611_1638_深耕子計劃三_verified_corrected.md` |
 | `sources/meeting-integrated-2026-06-11-verified-corrected-machine-readable.md` | `deep_cultivation_subproject3_verified_corrected_machine_readable.md` |
 | `sources/deep-cultivation-integrated-v3-kevin-draft-2026-06-19-ai-agent.md` | `深耕計畫_整合版_v3_騏任初稿_ai_agent.md` |
+| `sources/huashan-integrated-deep-cultivation-3750m-60pct-kevin-2026-07-09-ai-agent.md` | `華山深耕計畫_整合完整版_3750萬_含60%調整版.docx` |
 
 ## Current Analysis Summary
 
@@ -136,6 +141,24 @@ Planning interpretation:
   case-management feasibility, while 子計畫三 still needs its own owner, fields,
   access control, KPI, and deployment path.
 
+## 2026-07-09 LINE / Huashan Integrated Version Update
+
+Kevin shared `華山深耕計畫_整合完整版_3750萬_含60%調整版.docx` in the
+`深耕子計劃三-吳育德+江慧珣團隊` LINE group at 2026-07-09 10:47. He stated
+that the 副座's requirements had been added, asked the teachers for guidance,
+and said the file was also sent to the 計劃1 華山承辦 for review.
+
+Planning interpretation:
+
+- This is a later source signal than the 2026-06-19 v3 integrated draft.
+- Treat it as pending owner review until 吳育德老師 / 江慧珣老師 / Kevin /
+  華山承辦 confirm that it is the active proposal-facing source.
+- The 3750 萬 / 60% 調整版 structure is relevant to parent-proposal budget
+  resilience and review-readiness.
+- The source remains part of the Huashan / 子計畫三 lane. It is only a format
+  reference for 信義 / 泌尿 unless a parent proposal owner explicitly links the
+  scopes.
+
 ## 2026-06-22 16:29 Prof. Wu / Prof. Chiang / Ken Update
 
 Canonical record:
@@ -184,7 +207,7 @@ service workflows should remain separate until confirmed.
 
 1. Confirm whether this lane is the active `子計畫三` replacing or complementing
    the earlier ESG / carbon-accounting idea.
-2. Confirm whether the 2026-06-19 v3 integrated draft is now the active
+2. Confirm whether the 2026-07-09 3750 萬 / 60% 調整版 is now the active
    proposal-facing source of truth.
 3. Clarify the clinical/service owner split between 吳育德老師, 江慧珣老師,
    Kevin, 聯醫, and any implementation partner.

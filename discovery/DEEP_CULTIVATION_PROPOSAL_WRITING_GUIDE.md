@@ -86,6 +86,12 @@ current proposal exports, and Downloads package. Use the task packet for
 questions to 廖醫師 and the LINE record for current owner routing before
 rewriting formal proposal sections.
 
+Use `../records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md`
+as a peer-reference analysis for formatting and review discipline: agent control
+notes, issue queues, quarterly checkpoints, KPI / budget / governance linkage,
+shared-resource ownership, and 60%核刪版 planning. It is not a content source
+for the 信義 / 泌尿 AI-only scope.
+
 For historical official-format drafting context, use:
 
 - `INTENDED_USE_FREEZE.md`

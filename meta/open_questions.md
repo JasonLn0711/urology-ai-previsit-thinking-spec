@@ -14,7 +14,8 @@ control index before creating a new planning note.
 5. Does the formal Xinyi narrative lead with `腦心血管疾病防治 / 三高追蹤` and use PSA 精準篩檢與智慧問診 as the Xinyi feature?
 6. What CRM content will 吳岳霖主任 provide, and how should it be connected to 三高追蹤 without entering Jason / 陽明交大 AI-only scope?
 7. What carbon-inventory content will 趙康邑主任 / 創新永續發展中心 provide for the NT$7.5M lane?
-8. Does the current Downloads package need to be refreshed after 廖醫師, 吳岳霖主任, or 趙康邑主任 provide new files?
+8. When 廖醫師's subproject is merged into the full Xinyi plan, does it already include 美幸主任's 2026-07-03 capital-budget email instruction and `資本門` attachment content preserved in `records/2026-07-09/`, or should the proposal coordinator / budget owner activate them as a separate work package?
+9. Does the current Downloads package need to be refreshed after 廖醫師, 吳岳霖主任, 趙康邑主任, or the budget owner provide new files?
 
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 
@@ -49,7 +50,8 @@ without merging its clinical content into the current urology AI-only package
 or the historical / parent-owned PSA and CRM context.
 
 1. Is this lane now the active parent-proposal `子計畫三`, replacing or complementing the earlier ESG / carbon-accounting concept?
-2. Is the 2026-06-19 `深耕計畫_整合版_v3_騏任初稿` now the current source of truth, replacing the earlier separate 吳育德 STS5 / sarcopenia draft, Kevin expanded draft, three-year digital-rehab / robot draft, and AI Robot PDF as standalone drafting inputs?
+2. Is the 2026-07-09 `華山深耕計畫_整合完整版_3750萬_含60%調整版` now the current source of truth, replacing the 2026-06-19 `深耕計畫_整合版_v3_騏任初稿` and the earlier separate 吳育德 STS5 / sarcopenia draft, Kevin expanded draft, three-year digital-rehab / robot draft, and AI Robot PDF as standalone drafting inputs?
+2a. What exact 副座 requirements were added in the 2026-07-09 Huashan integrated version, and what did 計劃1 華山承辦 request after review?
 3. Where are the canonical local copies of the Word/PDF attachments?
 4. What is the exact project title for proposal use?
 5. Who owns the clinical/service scope: 吳育德老師, 江慧珣老師, Kevin, 聯醫總院, or a joint team?

@@ -31,6 +31,19 @@ Use:
 
 ## Current Records
 
+- `2026-07-09/README.md`:
+  source hub for 美幸主任's capital-budget email instruction and `資本門`
+  attachment copied from Downloads, plus the copied 華山院區 plan used only as a
+  format and writing-reference packet. Use
+  `xinyi-capital-budget-liao-subproject-integration-checklist.md` as the
+  merge-time checklist when 廖醫師's subproject is folded into the full Xinyi
+  deep-cultivation plan. Use
+  `huashan-plan-format-reference-analysis-for-xinyi-urology.md` for proposal
+  structure, KPI / budget / governance linkage, issue queues, and 60%核刪版
+  patterning without importing 華山 clinical content into the 信義 / 泌尿 scope.
+  Use `wu-chiang-subproject-three-line-update-huashan-v3750.md` for the
+  complete 2026-07-09 LINE capture where Kevin shared the Huashan integrated
+  3750 萬 / 60% 調整版 after adding 副座 requirements.
 - `2026-07-07/README.md`:
   source hub for the Health Taiwan Phase 2 116-118 briefing notice received by
   email, the official announcement synthesis, and the agenda attachment. Use
