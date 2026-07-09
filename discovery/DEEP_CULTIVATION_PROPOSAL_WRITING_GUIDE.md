@@ -92,6 +92,14 @@ notes, issue queues, quarterly checkpoints, KPI / budget / governance linkage,
 shared-resource ownership, and 60%核刪版 planning. It is not a content source
 for the 信義 / 泌尿 AI-only scope.
 
+Use `../records/2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md`
+before rewriting official proposal sections. It maps the copied application
+writing specification into chapter responsibilities, 20-page compression,
+KPI/budget/governance traceability, and the current 信義 / PSA / 智慧問診 package
+boundaries. It should control where facts belong: problem framing in `貳`,
+work packages in `肆`, KPI and checkpoints in `伍`, budget in `柒`, staffing in
+`捌`, and governance/risk/attachments in `玖`.
+
 For historical official-format drafting context, use:
 
 - `INTENDED_USE_FREEZE.md`
