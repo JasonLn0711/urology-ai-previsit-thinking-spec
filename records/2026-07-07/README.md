@@ -5,10 +5,10 @@ Status: captured
 ## Records
 
 - `health-taiwan-phase2-morning-online-attendance-action-record.md`:
-  action record for the 2026-07-10 morning briefing. Use it to handle the
-  missed 2026-07-07 registration deadline, request the MS Teams link through
-  the project office or Taipei City Hospital forwarding chain, and prepare the
-  morning-session capture questions.
+  original action record for the 2026-07-10 briefing. Its schedule is now
+  superseded by the 2026-07-09 `信義深耕` LINE postponement record; use it for
+  the original source packet and capture questions, not as the current calendar
+  date.
 
 ## Sources
 
@@ -28,6 +28,10 @@ d88f80a8adf3782ec52a5a7cd6dcc0d3225e2b5a64559ececca5c27a40f0b2fe  sources/health
 
 ## Connections
 
+- `../2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md`:
+  current LINE-confirmed postponement record. It moves the solicitation
+  briefing to 2026-07-13 10:00-12:00 and the budget / spending-rules /
+  digital-platform session to 2026-07-16 13:00-16:30.
 - `../2026-07-01/README.md`: preserved 116-118 application-guidance source and
   the second-stage applicant-mode, budget, KPI, checkpoint, and governance gate.
 - `../2026-07-02/xinyi-july14-complete-download-package-index.md`: current
@@ -39,8 +43,8 @@ d88f80a8adf3782ec52a5a7cd6dcc0d3225e2b5a64559ececca5c27a40f0b2fe  sources/health
 
 ## Current Gate
 
-The active gate is morning-session access for 2026-07-10. Registration closed
-on 2026-07-07, so the live path is to request the MS Teams link or supplemental
-access from the project office and the Taipei City Hospital forwarding chain,
-then capture the solicitation logic against the existing 116-118 application
-guidance record.
+The active gate is now the rescheduled 2026-07-16 13:00-16:30 afternoon session
+for `計畫經費編列及支用規範暨數位管理平台操作說明會`. Jason plans to attend
+that session. The 2026-07-13 10:00-12:00 solicitation briefing remains relevant
+for proposal-scope updates, but the explicit attendance decision is the
+2026-07-16 afternoon budget / platform session.

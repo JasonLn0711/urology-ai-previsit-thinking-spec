@@ -120,6 +120,8 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-07-02 LINE update connecting health-service-center advice, 三高追蹤, PSA 精準篩檢, CRM owner, carbon-inventory owner, and 廖醫師 / Jason next discussion: `records/2026-07-02/line-xinyi-deep-cultivation-health-service-center-psa-three-high-record.md`
 - For the 2026-07-02 7/14 expert-consultation task packet with 廖醫師 questions, PSA KPI candidates, healthy-lifestyle-prescription candidates, and before-7/14 execution plan: `records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md`
 - For the 2026-07-09 美幸主任 LINE update and copied 廖醫師 PSA subproject package, including the resolved capital-budget inclusion status: `records/2026-07-09/README.md`
+- For the 2026-07-09 copied Health Taiwan application-writing specification and analysis for 信義 / PSA / 智慧問診 section drafting: `records/2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md`
+- For the 2026-07-09 `信義深耕` LINE postponement of the Health Taiwan phase-2 briefing and Jason's 2026-07-16 afternoon attendance plan: `records/2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md`
 - For the 2026-07-09 華山院區 plan copied source and format-reference analysis for 信義 / 泌尿 proposal writing: `records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`

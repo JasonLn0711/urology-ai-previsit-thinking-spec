@@ -66,6 +66,8 @@ governance 與 budget mapping。CRM 由吳岳霖主任處理；碳盤查對接�
 | 2026-07-02 | `records/2026-07-02/xinyi-july14-pre-integration-expert-task-packet.md` | 7/14 前專家請益與任務拆解。 |
 | 2026-07-09 | `records/2026-07-09/line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` | 美幸主任 LINE update；廖醫師 PSA 子計畫 2026-07-09 版已 copied，PSA 篩檢目前約新臺幣 600 萬元，資本門 inclusion gate 已關閉。 |
 | 2026-07-09 | `records/2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | 早先美幸主任 email 與 `資本門` 附件 copied source record；目前只作 traceability，不再作待確認 checklist。 |
+| 2026-07-09 | `records/2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md` | 申請書撰寫規格 copied source analysis；作為章節順序、章節責任、KPI / budget / governance traceability、20頁壓縮的 writing control。 |
+| 2026-07-09 | `records/2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md` | `信義深耕` LINE postponement record；原 7/10 說明會延期為 7/13 上午徵求案說明與 7/16 下午經費 / 支用規範 / 數位管理平台說明，Jason 參加 7/16 下午場。 |
 | 2026-07-09 | `records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md` | 華山院區計畫 copied source analysis；只作格式、KPI、budget、governance、60%核刪版寫法參考，不納入信義 / 泌尿 scope。 |
 
 ## Connection Map
@@ -80,6 +82,8 @@ governance 與 budget mapping。CRM 由吳岳霖主任處理；碳盤查對接�
 | Annual checkpoint table | `../../discovery/DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md` | Holds the active 2026-07-14 merged-plan review gate. |
 | Governance checklist | `../../discovery/DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md` | Keeps AI / cybersecurity / data governance gates separate from CRM, carbon inventory, HIS/EMR, real-data, and procurement activation. |
 | Latest PSA subproject | `../2026-07-09/line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` | Preserves 美幸主任's 2026-07-09 LINE update and copied 廖醫師 PSA subproject package. |
+| Application writing specification | `../2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md` | Controls official-section placement, KPI/budget/governance traceability, and compression before the merged-plan rewrite. |
+| Rescheduled Health Taiwan briefing | `../2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md` | Updates attendance planning: 2026-07-16 afternoon budget / spending-rules / digital-platform session is the active commitment. |
 | Capital-budget source record | `../2026-07-09/xinyi-capital-budget-liao-subproject-integration-checklist.md` | Preserves 美幸主任's email / attachment copies; the inclusion checklist is now resolved by the 2026-07-09 PSA package. |
 | Huashan format reference | `../2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md` | Uses the Huashan plan as a peer example for proposal structure and review discipline while keeping content scope separate. |
 

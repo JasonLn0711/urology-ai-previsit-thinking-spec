@@ -34,11 +34,19 @@ Use:
 - `2026-07-09/README.md`:
   source hub for 美幸主任's capital-budget email instruction and `資本門`
   attachment copied from Downloads, the 2026-07-09 廖醫師 PSA subproject package
-  copied from Downloads, and the copied 華山院區 plan used only as a format and
+  copied from Downloads, the copied Health Taiwan application-writing
+  specification, and the copied 華山院區 plan used only as a format and
   writing-reference packet. Use
   `line-xinyi-deep-cultivation-psa-subproject-20260709-record.md` as the
   latest `信義門診部 深耕計畫` LINE source; the earlier capital-budget checklist is
   now closed because the 2026-07-09 PSA package includes those materials. Use
+  `health-taiwan-application-writing-spec-analysis-for-xinyi.md` as the
+  official-section writing control for chapter roles, KPI, budget, governance,
+  and 20-page compression. Use
+  `line-xinyi-health-taiwan-phase2-briefing-postponement-record.md` as the
+  current Health Taiwan phase-2 briefing schedule source: 2026-07-13
+  10:00-12:00 for the solicitation briefing and 2026-07-16 13:00-16:30 for the
+  budget / spending-rules / digital-platform session Jason plans to attend. Use
   `huashan-plan-format-reference-analysis-for-xinyi-urology.md` for proposal
   structure, KPI / budget / governance linkage, issue queues, and 60%核刪版
   patterning without importing 華山 clinical content into the 信義 / 泌尿 scope.

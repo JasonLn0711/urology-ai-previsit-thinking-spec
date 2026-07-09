@@ -1,6 +1,24 @@
 # Health Taiwan Phase 2 Morning Online Attendance Action Record
 
-Status: captured
+Status: captured / rescheduled by 2026-07-09 LINE update
+
+## Schedule Update
+
+This record preserves the original 2026-07-10 access plan and source packet.
+The current schedule is superseded by
+`../2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md`:
+
+```text
+2026-07-13 10:00-12:00
+健康台灣深耕計畫第二階段（116-118年度）徵求案重點說明會
+
+2026-07-16 13:00-16:30
+健康台灣深耕計畫第二階段（116-118年度）
+計畫經費編列及支用規範暨數位管理平台操作說明會
+```
+
+Jason's current attendance decision is the 2026-07-16 afternoon budget /
+spending-rules / digital-platform session.
 
 ## Purpose
 
@@ -27,6 +45,9 @@ Jason's immediate operating focus is the morning session:
 健康台灣深耕計畫第二階段（116-118年度）徵案說明會
 Format: hybrid; target access path: MS Teams
 ```
+
+This original focus is superseded for schedule purposes. Keep the capture
+priorities below, but apply them to the rescheduled sessions.
 
 The registration deadline was 2026-07-07. The source packet indicates the
 morning form was already closed during verification, while the official process
