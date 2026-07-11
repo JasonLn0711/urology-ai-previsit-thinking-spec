@@ -1,136 +1,71 @@
 # Assertive Writing Gate
 
-Status: active pre-circulation gate
-Date: 2026-05-20
+Status: mandatory pre-circulation gate  
+Effective date: 2026-07-11
 
 ## Purpose
 
-This gate operationalizes `../core/ASSERTIVE_WRITING_POLICY.md`.
+This gate operationalizes `../core/ASSERTIVE_WRITING_POLICY.md` and the repository-wide `AGENTS.md`. It applies before circulation of Health Taiwan plans, executive summaries, reviewer briefs, meeting records, paper framing, grant responses, slide narratives, and stakeholder handoffs.
 
-Use it before circulating:
+The gate produces writing that is clear, confident, evidence-backed, clinically responsible, and free of defensive organizing language.
 
-- Health Taiwan deep-cultivation drafts
-- article drafts
-- paper framing
-- lab briefs
-- reviewer briefs
-- stakeholder summaries
-- slide narratives
-
-The goal is not to make the project sound aggressive. The goal is to make the writing clear, confident, reviewable, and free of self-weakening language.
-
-## Scope
-
-Apply this gate to outward-facing writing.
-
-Do not rewrite original evidence records just because they contain cautious language. Meeting transcripts, raw source notes, quoted stakeholder language, and dated capture files may preserve the original wording.
-
-Apply this gate to:
-
-- current proposal sections
-- executive summaries
-- contribution paragraphs
-- reviewer-facing descriptions
-- paper introduction / contribution language
-- grant response language
-
-## Gate Rule
-
-Every outward-facing paragraph should follow this order:
+## Required paragraph order
 
 ```text
-contribution -> workflow value -> deliberate scope -> governance boundary -> next evidence gate
+contribution → workflow/public value → evidence → ownership → scope control → next validation layer
 ```
 
-For proposal openings, paper introductions, article leads, reviewer memos, and
-high-level summaries, use the larger attention-and-evidence sequence:
+Proposal openings also use:
 
 ```text
-cited real-world or credible near-future problem
--> fair cited current solution landscape
--> evidence-backed remaining gap
--> new viewpoint / architecture / framing / method
--> response to the opening problem
--> scope control and next validation path
+cited problem → current landscape → evidence-backed gap → integrated architecture
+→ measurable response → governance and next gate
 ```
 
-Do not begin with limitation language.
+## Mandatory checks
 
-Do not make denial, apology, or defensive posture the organizing voice of the
-document. Use direct negative wording only when legal, clinical, safety, or
-exact-source precision requires it, then pair it with the affirmative operating
-scope.
+| Check | Pass condition | Revision action |
+|---|---|---|
+| Contribution first | The opening sentence states the capability or integrated service value. | Move capability to the first sentence. |
+| Urology main axis | PSA, previsit workflow, follow-up, and carbon work read as one urology service chain. | Rewrite around the Xinyi outpatient urology patient journey. |
+| Site precision | WP2 is visibly anchored to the outpatient urology clinic at Xinyi Outpatient Department. | Replace generic cross-department or in-hospital framing with the defined site scope. |
+| Workflow value | The paragraph names visit readiness, information completeness, follow-up quality, staff-burden reduction, or low-carbon operations. | Add a concrete workflow or public-value outcome. |
+| Evidence pointer | A KPI, SOP, log, scorecard, report, source file, or verification artifact supports the claim. | Add the evidence artifact and owner. |
+| Boundary as architecture | Clinical and technical boundaries appear as authority allocation, scope control, or activation gate. | Rewrite limitation-led wording as professional design. |
+| Clinical authority | Urology physicians retain diagnosis, treatment, urgency, examination, and formal-record responsibility. | State physician authority affirmatively. |
+| Real-data governance | Real-patient use follows IRB/QI, privacy, security, clinical-owner, and institutional approval. | Name the activation route and evidence. |
+| KPI completeness | Numerator, denominator, baseline, annual target, source, frequency, owner, and evidence are visible. | Complete the KPI dictionary. |
+| Budget traceability | Each material cost maps to WP, checkpoint, KPI, deliverable, owner, and acceptance evidence. | Repair the budget mapping. |
+| Carbon integrity | Boundary, activity data, allocation method, factor version, verification, hotspot, and improvement path are visible. | Add the carbon evidence chain. |
+| Positive-scope voice | Capability, evidence, and governance organize the paragraph. | Remove apology, denial, inability, and self-weakening as the narrative frame. |
+| Next gate | The paragraph closes with a defined decision, validation, or activation condition. | Add the next gate and owner. |
 
-## Required Checks
+## Rewrite patterns
 
-| Check | Pass condition | Revise if |
-| --- | --- | --- |
-| Contribution first | The first sentence says what the system contributes. | The paragraph starts with what the system cannot do. |
-| Workflow value | The paragraph names reduced burden, better handoff, visit readiness, source traceability, or governance readiness. | The paragraph only says AI, chatbot, ASR, model, or demo. |
-| Boundary as architecture | Safety limits are written as deliberate design choices. | Safety limits sound like apology, weakness, or inability. |
-| Positive-scope design | The paragraph is organized around capability, evidence, scope, and next gate. | The paragraph is organized around what the system is not, lacks, or cannot promise. |
-| Evidence pointer | The claim points to a file, KPI, workflow map, reviewer artifact, or governance gate. | The paragraph relies on adjectives alone. |
-| Citation-backed opening | The opening problem or near-future risk cites an official source, local evidence record, stakeholder note, or measured artifact. | The opening asks for attention without evidence. |
-| No self-weakening phrasing | No unnecessary `only`, `just`, `merely`, `只是`, `僅僅`, `初步而已`, or similar wording. | The sentence lowers confidence before stating value. |
-| Governance alignment | Diagnosis, treatment, triage, EMR, real-data, and deployment language matches current scope. | The sentence either overclaims autonomy or apologizes for safe scope. |
+| Draft tendency | Release-ready move |
+|---|---|
+| Begins with what the system lacks | Begin with the workflow capability and value. |
+| Uses `只是輔助` | Name the exact governed workflow layer and clinician-review artifact. |
+| Leads with `不能診斷` | State that diagnosis and treatment decisions remain with urology physicians by design. |
+| Leads with absent real-world evidence | State the current synthetic/expert-review evidence layer and the approved route to real workflow evidence. |
+| Treats carbon as an ESG slogan | State the operating boundary, activity data, verification, hotspots, and annual improvement path. |
+| Presents three independent projects | Use the shared urology service loop, four WPs, common KPI workbook, and one governance layer. |
+| Uses adjectives without proof | Add source, KPI, owner, and acceptance evidence. |
 
-## Rewrite Pattern
-
-Use this conversion pattern:
-
-| Draft problem | Rewrite move |
-| --- | --- |
-| Starts with `本系統不...` | Start with `本系統建立...` and move boundaries to the second sentence. |
-| Says `只是輔助` | Replace with the precise workflow layer: `門診前資訊整理與醫師覆核摘要支持系統`. |
-| Says `不能診斷` | Replace with `診斷與治療決策保留於醫師端`. |
-| Says `目前沒有真實資料` | Replace with `目前採 synthetic / expert-review evidence path before governance approval`. |
-| Says `只是 demo` | Replace with `governed workflow prototype for expert review and proposal evidence`. |
-| Says `還需要更多研究` | Replace with the next evidence gate and KPI. |
-
-## Proposal Paragraph Template
+## Release template
 
 ```text
-本子計畫建立[系統/流程名稱]，在[臨床流程位置]將[病人/家屬可安全提供的資訊]整理為[醫師/護理/行政可使用的工作流產物]。此設計直接對應[工作負擔/資訊缺漏/重複問診/治理]問題，並以[具體 KPI]評估 workflow value。系統架構將[診斷/治療/正式紀錄/分流等臨床權限]保留於[醫師/院內治理流程]，下一階段以[reviewer evidence / governance gate]確認導入可行性。
+本計畫建立[能力／服務鏈]，在[信義門診部院外泌尿科流程位置]將[臨床或場域資料]轉化為[可供醫師、團隊或治理使用的成果]。此設計創造[workflow／公共／永續價值]，並以[KPI 與 evidence]驗證，由[owner]承擔。臨床權責與系統邊界透過[authority allocation／scope control／activation gate]管理，下一階段以[明確驗證或決策]推進。
 ```
 
-## Paper Contribution Template
+## Pass standard
 
-```text
-We present [system/workflow] that [compresses/structures/routes] [patient-reported previsit information] into [clinician-reviewable artifacts] while preserving [clinical authority / source traceability / governance boundary]. We evaluate the design through [synthetic walkthrough / clinician review / safety wording audit / workflow-friction metric].
-```
+A draft is ready when the reader can identify within the first page:
 
-## Review Flow
-
-```mermaid
-flowchart TD
-    A[Draft paragraph] --> B{Contribution first?}
-    B -- no --> C[Rewrite opening around system value]
-    B -- yes --> D{Workflow value explicit?}
-    D -- no --> E[Add burden reduction / handoff / KPI]
-    D -- yes --> F{Boundary framed as architecture?}
-    F -- no --> G[Rewrite limitation as design choice]
-    F -- yes --> H{Evidence pointer present?}
-    H -- no --> I[Add file / table / KPI / gate pointer]
-    H -- yes --> J[Ready for circulation]
-```
-
-## Current High-Priority Targets
-
-| Artifact | Gate status | Next action |
-| --- | --- | --- |
-| `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_3.md` | active outward-facing draft | Apply contribution-first wording to summary, scope, budget, and appendix sections before external circulation. |
-| `DEEP_CULTIVATION_PROPOSAL_WRITING_GUIDE.md` | drafting doctrine | Keep assertive method near the top and require it before section writing. |
-| `DEEP_CULTIVATION_SCORING_RUBRIC.md` | review rubric | Penalize defensive narrative when it obscures value, but preserve safety-boundary precision. |
-| `DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md` | format preflight | Treat confident, reviewable narrative as a submission-readiness check. |
-| `records/` source files | evidence archive | Do not rewrite raw or dated evidence for tone. Quote selectively in outward-facing drafts. |
-
-## Pass Standard
-
-A draft passes this gate when:
-
-- the first paragraph states the value of the system clearly
-- safety boundaries are present and precise
-- safety boundaries are not written as apology
-- proposal value is tied to workflow, staff burden, governance, and KPI
-- the draft avoids self-weakening language unless preserving a source quote
-- the reader can understand why the project is worth funding before reading the limitations
+1. the urology-led integrated contribution;
+2. the Xinyi outpatient urology site and workflow slot;
+3. the three subproject roles and four work packages;
+4. the measurable clinical, workflow, governance, and carbon value;
+5. the responsible owners and evidence artifacts;
+6. the deliberate clinical and technical scope controls;
+7. the next decision and validation layer.
