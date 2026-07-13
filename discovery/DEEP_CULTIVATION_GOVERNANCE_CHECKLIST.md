@@ -108,9 +108,22 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 
 ## IRB / Research Governance
 
+2026-07-13 LINE decision path:
+
+- The PSA adult-health-check workflow, later research use, retrospective data
+  analysis, and AI/data evaluation are described as separate purposes.
+- The proposal owner assigns a PI and IRB liaison on 2026-07-14 and requests a
+  documented general/expedited/exempt determination from Taipei City Hospital.
+- Real-data research or analysis activates after the applicable determination
+  and approval; pre-approval work owns SOP, data dictionary, training,
+  synthetic cases, governance design, and system readiness.
+
 | Question | Required answer before next phase |
 | --- | --- |
-| Is the activity research, QI, service improvement, or mixed? | pending IRB/governance review |
+| Is the activity adult-health-check service, research, QI, service improvement, or mixed? | formal IRB/governance determination with named owner |
+| Who is PI / IRB liaison? | assign at 2026-07-14 Zhongxiao-first review |
+| What review route applies? | documented general / expedited / exempt determination |
+| Is later retrospective analysis planned? | define purpose, dataset, identifiers, access path, and IRB/data approval before activation |
 | Will real patient data be collected? | not in current discovery/demo |
 | Will patient audio be recorded? | not in current proposal-prep scope |
 | Will clinician edits be analyzed? | only after governance approval |

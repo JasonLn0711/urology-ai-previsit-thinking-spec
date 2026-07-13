@@ -28,11 +28,14 @@ Wu team has no time conflict. Drafting before that meeting should support one
 merged plan with KPI, budget, partner route, owner, evidence, and procurement /
 asset-category controls.
 
-The copied 2026-07-01 116-118 application guidance adds a second-stage
-submission-prep frame: proposal writing should confirm applicant mode, funding
-ceiling, goal -> strategy -> KPI -> checkpoint -> budget linkage,
-negative-list clearance, and Scope 3 AI / data / cybersecurity governance
-before treating any packet as submission-ready.
+The copied 2026-07-01 116-118 application guidance establishes the
+second-stage submission-prep frame. The verified 2026-07-13 solicitation
+briefing is now the latest briefing-level rule layer: proposal writing confirms
+continuation/new-project status, applicant mode, funding ceiling, official
+scope/goal -> 116/117/118 target -> method -> KPI -> outcome -> budget -> owner
+linkage, block-grant and 30% capital controls, public-KPI governance, and
+platform/package readiness. Formal circulation remains gated by the latest
+official call document and digital-platform rules.
 
 All proposal writing must follow `../core/ASSERTIVE_WRITING_POLICY.md`.
 
@@ -72,6 +75,7 @@ For the current 2026-06-19 expert-review package, use:
 - `../records/2026-06-23/deep-cultivation-2026-07-07-integration-schedule.md`
 - `../records/2026-07-01/line-tch-merged-plan-review-postponement.md`
 - `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`
+- `../records/2026-07-13/README.md`
 - `exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - `../records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - `../records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`
@@ -99,6 +103,20 @@ KPI/budget/governance traceability, and the current 信義 / PSA / 智慧問診 
 boundaries. It should control where facts belong: problem framing in `貳`,
 work packages in `肆`, KPI and checkpoints in `伍`, budget in `柒`, staffing in
 `捌`, and governance/risk/attachments in `玖`.
+
+Use `../records/2026-07-13/README.md` immediately before proposal drafting as
+the current official-briefing control layer. Its source-backed checks govern
+applicant/category choice, second-stage project type, three-year targets,
+grant-interface statements, KPI/public-result stewardship, block-grant budget
+structure, application files, and the final-notice validation gate.
+
+The same-day LINE coordination record adds the active review sequence: the
+2026-07-14 meeting starts with the Zhongxiao proposal at 10:00, all subproject
+owners are expected to attend, and document work is time-critical. For PSA and
+AI/data content, write the adult-health-check service purpose separately from
+research or retrospective-analysis purposes; assign a PI/IRB liaison and obtain
+the hospital's formal general/expedited/exempt determination before research or
+real-data analysis activates.
 
 For historical official-format drafting context, use:
 
@@ -630,4 +648,4 @@ Before the June 2 follow-up, prepare:
 5. KPI-to-budget mapping.
 6. Governance gate checklist.
 7. Scope boundary paragraph.
-8. Open decision list: exact workflow slot, first patient group, clinician summary length, red-flag observation handling, vendor/internal split, IRB timing, MOU partners, and whether optional CRM/kiosk/smart-pharmacy ideas remain parked.
+8. Open decision list: exact workflow slot, first patient group, clinician summary length, red-flag observation handling, vendor/internal split, PI/IRB liaison, formal review category and timing, MOU partners, and whether optional CRM/kiosk/smart-pharmacy ideas remain parked.

@@ -15,6 +15,10 @@ control index before creating a new planning note.
 6. What CRM content will 吳岳霖主任 provide, and how should it be connected to 三高追蹤 without entering Jason / 陽明交大 AI-only scope?
 7. What carbon-inventory content will 趙康邑主任 / 創新永續發展中心 provide for the NT$7.5M lane?
 8. Does the current Downloads package need to be refreshed after Jason, 吳岳霖主任, 趙康邑主任, or the budget owner provide new files?
+9. Who will serve as PI and IRB liaison for the PSA/adult-health-check and AI/data work packages?
+10. What written TPECH determination applies to each purpose: routine service, QI/service improvement, prospective research, retrospective chart review, and AI/data evaluation?
+11. Which work can proceed before IRB determination: SOP, data dictionary, education, synthetic cases, workflow review, and governance design?
+12. What exact owner/date will close each remaining writing section after the 2026-07-14 10:00 Zhongxiao-first review?
 
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 

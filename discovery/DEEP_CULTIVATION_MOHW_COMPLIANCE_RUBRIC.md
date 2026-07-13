@@ -82,6 +82,17 @@ Local 116-118 second-stage guidance preserved on `2026-07-01`:
 - The source itself marks final 116-118 application details as subject to the
   latest MOHW / HTSprout official announcements.
 
+Latest briefing-level source preserved on `2026-07-13`:
+
+- Record: `../records/2026-07-13/README.md`.
+- Verified structured source:
+  `../records/2026-07-13/sources/health-taiwan-phase2-solicitation-briefing-116-118-verified-2026-07-13.md`.
+- Apply its continuation/new-project classification, applicant/category,
+  116/117/118 target, grant-interface, KPI-publication, block-grant, capital
+  ratio, platform/package, and correction-window controls as proposal checks.
+- Keep dates, 60-page/25MB/hardcopy details, B2 revision, block-grant scope,
+  and IRB timing behind the final call document and platform validation gate.
+
 Reference hierarchy for formal submission:
 
 1. Latest live HTSprout / MOHW / AI Center pages.
@@ -122,6 +133,7 @@ DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md
 | Official document group | Local file | Use in D layer |
 | --- | --- | --- |
 | 116-118 second-stage application guidance source | `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md` | Current local planning reference for second-stage applicant-mode, funding-ceiling, KPI/checkpoint/budget, negative-list, and Scope 3 governance checks. |
+| 2026-07-13 second-stage solicitation briefing | `../records/2026-07-13/sources/health-taiwan-phase2-solicitation-briefing-116-118-verified-2026-07-13.md` | Latest briefing-level source for application categories, three-year targets, KPI/public-result stewardship, block-grant budgeting, platform/package rules, and final-notice validation. |
 | First-stage application guidelines | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf` | Eligibility, application mode, submission flow, page / PDF / paper-copy rules, correction risk. |
 | First-stage proposal format | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx` | Official chapter order, cover fields, self-check table, KPI table, budget table, personnel table, declarations. |
 | Online platform manual | `../records/2026-05-19/policy-documents/application/health-taiwan-online-platform-user-guide.pdf` | Platform entry, export, upload, version consistency. |
@@ -441,6 +453,7 @@ Before circulating a formal draft, collect this packet:
 | AI governance self-check | AI / engineering owner | Scope 3 review |
 | Cybersecurity governance self-check | Security / IT owner | Scope 3 review |
 | Data governance self-check | Data / privacy owner | Scope 3 review |
+| PSA/service/research purpose map + IRB determination | PI / IRB liaison / data owner | 2026-07-14 review and before real-data activation |
 | Partner participation consent / MOU route | PI / hospital admin | Submission draft |
 | Conflict-of-interest and relationship disclosure decision | Admin | Submission draft |
 | No-duplicate-application declaration | PI / admin | Submission draft |
@@ -454,6 +467,9 @@ For the 北市聯醫 / urology previsit / CRM-support proposal, score D with the
 - If `urology previsit` is framed under scope 3, D9 must include AI, cybersecurity, and data-governance self-check routing.
 - If CRM, APP, API, or reminders are budgeted, D7 must show KPI and procurement/governance route.
 - If PSA/community screening is included, D6 must include follow-up/return-to-care KPI, not only screening count.
+- If PSA is paired with adult health checks, D9 must separate routine service,
+  QI/service improvement, prospective research, retrospective review, and
+  AI/data evaluation, with a documented general/expedited/exempt determination.
 - If real patient data is mentioned, D4/D9 must trigger IRB, consent, privacy, retention, access, and deletion questions.
 - If the demo repo is cited, D5/D9 must label it as synthetic prototype evidence, not clinical deployment evidence.
 - If HIS/EMR/FHIR is mentioned, D9 must distinguish future interoperability readiness from current production writeback.

@@ -15,6 +15,12 @@ Prepared date: 2026-07-09
 - Next gate: use this specification as the section-order and quality-control
   layer when rewriting the 信義 / PSA / 智慧問診 merged proposal section.
 
+2026-07-13 evidence update: use
+`../2026-07-13/README.md` as the latest briefing-level rule layer. This 7/9
+analysis continues to own chapter responsibility and traceability; the 7/13
+record adds current applicant/category, three-year target, KPI-publication,
+block-grant, platform/package, and final-notice validation controls.
+
 ## Source Capture
 
 | Source | Copied repo path | SHA-256 |
@@ -134,3 +140,6 @@ Once that table is coherent, each official chapter can be drafted by slicing the
 same facts into its assigned role. This prevents duplicate claims, inconsistent
 budget numbers, and KPI rows that cannot be audited.
 
+The 2026-07-13 briefing also requires each work package to show its official
+scope/goal, 116/117/118 target, continuation/new-project status, government-
+grant interface, public-result handling, and submission-readiness evidence.
