@@ -46,3 +46,10 @@ The 116-118 guidance source adds a second active gate: before any proposal is
 treated as submission-ready, the owner must confirm the latest official
 announcement, applicant mode, budget standard, negative list, online platform
 rule, and AI / data / cybersecurity governance requirements.
+
+The latest briefing-level update is now
+`../2026-07-13/README.md`. Use it for the 2026-07-13 solicitation briefing,
+continuation/new-project classification, 116/117/118 target design,
+KPI/public-result stewardship, block-grant budgeting, package mechanics, and
+the final-call validation queue; retain this 7/1 record as the earlier complete
+application-preparation framework.

@@ -31,6 +31,16 @@ Use:
 
 ## Current Records
 
+- `2026-07-13/README.md`:
+  canonical source hub for the verified AI-agent-readable transcription of the
+  2026-07-13 Health Taiwan Phase 2 solicitation briefing. Use it as the latest
+  briefing-level basis for 116-118 applicant/category selection, yearly
+  targets, KPI/public-result controls, block-grant budgeting, 30% capital
+  control, platform/package readiness, and the formal-notice validation gate.
+  The same-day LINE record preserves the five shared images, establishes the
+  2026-07-14 10:00 Zhongxiao-first review order and all-member attendance gate,
+  and routes PSA/adult-health-check service plus future research use through a
+  formal IRB/QI determination path.
 - `2026-07-09/README.md`:
   source hub for 美幸主任's capital-budget email instruction and `資本門`
   attachment copied from Downloads, the 2026-07-09 廖醫師 PSA subproject package

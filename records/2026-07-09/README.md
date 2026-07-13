@@ -95,14 +95,22 @@ package.
 For official section drafting, use
 `health-taiwan-application-writing-spec-analysis-for-xinyi.md` and the copied
 application-writing specification as the current chapter-role control layer.
-Formal circulation still requires a latest-template check against HTSprout /
-MOHW and any hospital-specific instruction.
+Apply `../2026-07-13/README.md` as the latest briefing-level rule layer for
+application type/category, three-year targets, KPI/public-result stewardship,
+block-grant budgeting, platform/package checks, and the final-notice validation
+queue. Formal circulation still requires a latest-template check against
+HTSprout / MOHW and any hospital-specific instruction.
 
 For Health Taiwan second-stage briefing attendance, use
 `line-xinyi-health-taiwan-phase2-briefing-postponement-record.md` as the current
 schedule source: 2026-07-13 10:00-12:00 for the solicitation briefing and
 2026-07-16 13:00-16:30 for the budget / spending-rules / digital-platform
 session Jason plans to attend.
+
+The subsequent group coordination, shared slide images, 2026-07-14 10:00
+Zhongxiao-first review order, all-member attendance request, document-acceleration
+signal, and PSA/IRB discussion are preserved in
+`../2026-07-13/line-xinyi-briefing-meeting-and-irb-coordination-record.md`.
 
 For the Huashan / 子計畫三 lane, use
 `wu-chiang-subproject-three-line-update-huashan-v3750.md` and the copied source
