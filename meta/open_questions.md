@@ -3,9 +3,11 @@
 ## 2026-07-14 Xinyi Merged-Plan Package Gates
 
 These questions connect the 2026-07-02 complete package index, 7/14 task packet,
-and latest LINE owner routing. Use
+latest LINE owner routing, and the 2026-07-14 formal instructions/template
+receipt package. Use
 `records/2026-07-02/xinyi-july14-complete-download-package-index.md` as the
-control index before creating a new planning note.
+historical 7/14 package index and `records/2026-07-14/README.md` as the current
+formal-format gate before creating a new planning note.
 
 1. Which day next week will the team show the complete application draft to 何院長 before the 2026-07-14 merged-plan review?
 2. Which other materials should Jason and 岳霖主任 provide after 美幸主任's 2026-07-09 request?
@@ -19,6 +21,10 @@ control index before creating a new planning note.
 10. What written TPECH determination applies to each purpose: routine service, QI/service improvement, prospective research, retrospective chart review, and AI/data evaluation?
 11. Which work can proceed before IRB determination: SOP, data dictionary, education, synthetic cases, workflow review, and governance design?
 12. What exact owner/date will close each remaining writing section after the 2026-07-14 10:00 Zhongxiao-first review?
+13. Who owns the attach2 parent-working DOCX, its version number, and the field-level transfer checklist?
+14. Is this application continuation or new, and which first-stage-result fields activate?
+15. Which owner signs each conditional attachment: COI disclosure, no-duplicate-funding declaration, partner consent, Scope 3 smart-healthcare statement, and B2 confirmation if applicable?
+16. Which 7/16 budget/platform clarifications change the current 7/14 formal-file interpretation?
 
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 

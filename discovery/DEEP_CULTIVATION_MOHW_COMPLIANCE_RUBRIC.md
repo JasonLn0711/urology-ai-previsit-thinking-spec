@@ -2,6 +2,10 @@
 
 Status: working compliance rubric
 
+Current formal-file baseline: 2026-07-14 verified copies of
+`1150713-attach1.pdf` application instructions and `1150713-attach2.docx`
+proposal template/attachments.
+
 2026-06-02 official minutes and 2026-06-19 owner update: the parent 信義 AI
 智慧問診 allocation is about NT$15M and includes CRM, while Jason / 陽明交大
 current package is the NT$10M AI-only workstream. Compliance review for this
@@ -82,7 +86,7 @@ Local 116-118 second-stage guidance preserved on `2026-07-01`:
 - The source itself marks final 116-118 application details as subject to the
   latest MOHW / HTSprout official announcements.
 
-Latest briefing-level source preserved on `2026-07-13`:
+Briefing-level source preserved on `2026-07-13`:
 
 - Record: `../records/2026-07-13/README.md`.
 - Verified structured source:
@@ -90,8 +94,21 @@ Latest briefing-level source preserved on `2026-07-13`:
 - Apply its continuation/new-project classification, applicant/category,
   116/117/118 target, grant-interface, KPI-publication, block-grant, capital
   ratio, platform/package, and correction-window controls as proposal checks.
-- Keep dates, 60-page/25MB/hardcopy details, B2 revision, block-grant scope,
-  and IRB timing behind the final call document and platform validation gate.
+- Its dates, 60-page/25MB/hardcopy details, B2 revision, block-grant scope and
+  IRB timing are now corroborated by the 2026-07-14 formal-file package.
+
+Current formal instructions and template preserved on `2026-07-14`:
+
+- Record and provenance: `../records/2026-07-14/README.md`.
+- PDF-derived verified copy:
+  `../records/2026-07-14/sources/health-taiwan-phase2-application-instructions-116-118-ai-agent-readable-verified-2026-07-07.md`.
+- DOCX-derived verified copy:
+  `../records/2026-07-14/sources/health-taiwan-phase2-application-template-and-attachments-116-118-ai-agent-readable-verified-2026-07-13.md`.
+- Apply the 500-character abstract, continuation-result section, 116-118 KPI
+  fields, formal attachments, IRB evidence, budget controls, 60-page/25MB rule,
+  paper-copy route and 2026-08-17 deadline as current formal checks.
+- Use the 2026-07-16 briefing and live platform as the next validation layer for
+  operating instructions and any later correction.
 
 Reference hierarchy for formal submission:
 
@@ -132,10 +149,12 @@ DEEP_CULTIVATION_ANNUAL_CHECKPOINT_TABLE.md
 
 | Official document group | Local file | Use in D layer |
 | --- | --- | --- |
+| 116-118 formal application instructions | `../records/2026-07-14/sources/health-taiwan-phase2-application-instructions-116-118-ai-agent-readable-verified-2026-07-07.md` | Current formal rules for eligibility, modes, submission, review, period, budget, IRB and required documents. |
+| 116-118 proposal template and attachments | `../records/2026-07-14/sources/health-taiwan-phase2-application-template-and-attachments-116-118-ai-agent-readable-verified-2026-07-13.md` | Current fillable section order, KPI/budget/personnel tables, declarations, Scope 3 statement and B2 conditional form. |
 | 116-118 second-stage application guidance source | `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md` | Current local planning reference for second-stage applicant-mode, funding-ceiling, KPI/checkpoint/budget, negative-list, and Scope 3 governance checks. |
 | 2026-07-13 second-stage solicitation briefing | `../records/2026-07-13/sources/health-taiwan-phase2-solicitation-briefing-116-118-verified-2026-07-13.md` | Latest briefing-level source for application categories, three-year targets, KPI/public-result stewardship, block-grant budgeting, platform/package rules, and final-notice validation. |
 | First-stage application guidelines | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-application-guidelines.pdf` | Eligibility, application mode, submission flow, page / PDF / paper-copy rules, correction risk. |
-| First-stage proposal format | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx` | Official chapter order, cover fields, self-check table, KPI table, budget table, personnel table, declarations. |
+| First-stage proposal format | `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx` | Historical format traceability; current section order and forms come from the 116-118 attach2 package. |
 | Online platform manual | `../records/2026-05-19/policy-documents/application/health-taiwan-online-platform-user-guide.pdf` | Platform entry, export, upload, version consistency. |
 | Official QA | `../records/2026-05-19/policy-documents/qa/health-taiwan-qa-1140710.pdf` | Interpretation of scope, application, governance, and execution questions. |
 | Scope 3 smart-healthcare governance guide | `../records/2026-05-19/policy-documents/execution/category3-smart-healthcare-governance-lazy-guide-1140702.pdf` | Cybersecurity governance, data governance, AI governance, FHIR, TW Core IG, SMART on FHIR. |

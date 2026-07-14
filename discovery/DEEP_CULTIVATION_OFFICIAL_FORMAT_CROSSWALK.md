@@ -2,7 +2,7 @@
 
 狀態：提案撰寫控制文件
 
-日期：2026-05-20
+日期：2026-05-20；current formal-format source update：2026-07-14
 
 2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
@@ -20,6 +20,8 @@ AI-only package at three-year NT$10M.
 
 本 repo 內已歸檔的正式格式來源：
 
+- `../records/2026-07-14/sources/health-taiwan-phase2-application-instructions-116-118-ai-agent-readable-verified-2026-07-07.md`
+- `../records/2026-07-14/sources/health-taiwan-phase2-application-template-and-attachments-116-118-ai-agent-readable-verified-2026-07-13.md`
 - `../records/2026-07-01/sources/health-taiwan-stage2-application-guidance-116-118-ai-agent-readable.md`
 - `../records/2026-07-13/sources/health-taiwan-phase2-solicitation-briefing-116-118-verified-2026-07-13.md`
 - `../records/2026-05-19/policy-documents/application/health-taiwan-phase1-proposal-format-114-115-0909.docx`
@@ -32,12 +34,11 @@ AI-only package at three-year NT$10M.
 重要提醒：
 
 ```text
-本對照表使用本地 114-115 官方歸檔作為撰寫骨架。
-2026-07-13 verified 說明會 source 是最新 briefing-level 規則層，控制
-延續／新增計畫、申請模式、分年目標、KPI / 成果亮點 / 預算串接、
-統塊式經費、資本門 30%、公開成果 stewardship 與 platform/package
-readiness。正式院內流通或送件前，parent proposal owner 必須確認最新
-正式作業須知、live template、平台截止時間、院內指引與行政流程。
+2026-07-14 保存的 attach1／attach2 verified copies 是目前 116-118 第二階段
+formal instructions + live template working layer。2026-07-13 verified 說明會
+source 提供 briefing interpretation；114-115 官方歸檔提供歷史 traceability。
+正式院內流通與送件由 parent proposal owner 進一步確認 live platform、院內
+指引、簽章流程與任何 7/16 後續修正。
 ```
 
 ## 正式提案順序
@@ -45,40 +46,42 @@ readiness。正式院內流通或送件前，parent proposal owner 必須確認�
 已歸檔的正式提案格式使用下列順序：
 
 1. Cover page
-2. Table of contents
-3. `壹、申請單位自我檢核項目表`
-4. `貳、計畫概要`
-5. `參、申請單位簡介`
-6. `肆、計畫規劃`
-7. `伍、效益評估`
-8. `陸、出國計畫書`
-9. `柒、經費規劃`
-10. `捌、人力配置表`
-11. `玖、其他`
-12. `拾、公職人員利益衝突迴避自主檢核表`
-13. `拾壹、未有重複申請計畫之聲明切結書`
-14. `拾貳、參與計畫同意書`
-15. `拾參、審查意見回復表`
+2. `計畫摘要`（500 字內）
+3. `第一階段具體成效`（延續型計畫適用）
+4. `計畫概要`
+5. `申請單位簡介`
+6. `計畫規劃`
+7. `效益評估`
+8. `出國計畫書`（範疇二適用）
+9. `經費規劃`
+10. `人力配置表`
+11. `其他`
+12. `公職人員利益衝突迴避自主檢核表`
+13. `計畫申請聲明暨未重複補助切結書`
+14. `參與計畫同意書`
+15. `智慧醫療整體執行情形聲明書`（範疇三適用）
+16. `B2 類社區醫療群申請確認切結書`（條件式）
 
 ## 對照表
 
 | 正式章節 | 正式格式期待內容 | 目前材料 | 缺口 | 下一步撰寫動作 |
 | --- | --- | --- | --- | --- |
 | Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields and 2026-06-02 official minutes | applicant、mode、institution codes、parent proposal name 尚未確認；類別設計為主打 `範疇三`、副支援 `範疇一`；parent AI 智慧問診 allocation 約 NT$15M 含 CRM；Jason / 陽明交大 AI-only working budget 為每年 NT$10,000,000，三年合計 NT$30,000,000 | 保留 placeholder；Word transfer 前詢問 hospital owner，並明確分開 parent CRM allocation 與 AI-only package |
-| TOC | official auto-generated section order | Markdown 不需另維護 | final Word/PDF step | 本 repo 不手動維護 |
-| `壹、自我檢核` | eligibility、official format、COI forms、no duplicate funding、participation consent、only one application mode | v0.2 preflight、MOHW compliance rubric | legal/administrative facts pending | 加入 applicant-owner checklist，institutional blanks 留白 |
-| `貳、計畫概要` | 簡明計畫摘要與問題 framing | v0.6 one-page positioning、clinical friction analysis、system positioning | summary still needs parent-owner approval | 使用 v0.6 摘要，聚焦範疇三 smart-healthcare workflow 與範疇一 staff-burden reduction |
-| `參、申請單位簡介` | applicant/co-applicant institutional background | role table only | institutional text pending | 提供 role-specific placeholder，不捏造 institution prose |
-| `肆、計畫規劃` | 四大範疇計畫內容、workflow、工作項目、deliverables | 2026-06-19 expert-review packet、proposal item definitions、proposal writing guide、intended-use freeze、demo-scope freeze | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成：門診前 / 候診中低摩擦症狀蒐集 -> 來源標記（source label）/ 缺漏欄位 -> 一頁式醫師覆核摘要 -> 醫師 accept / edit / ignore / return -> KPI 評估 |
-| `伍、效益評估` | KPI table by category、baseline/current data、target、annual checkpoints | v0.6 KPI table、KPI-to-budget table、annual checkpoint table | baselines still draft | 使用可驗收 targets：summary read time <= 60 秒、source label 100%、unsafe wording = 0、missing-field visibility >= 90%、clinician usefulness >= 4/5、governance owner named |
-| `陸、出國計畫書` | 只有在 scope 2 training-related overseas activity 編列時使用 | not applicable | 必須明確標示不適用 | 除非新增 overseas training plan，否則寫 N/A |
-| `柒、經費規劃` | 分年經費總表、budget category details、scope allocation、capital/personnel/business categories | v0.6 budget table, KPI-to-budget table, 2026-06-02 official minutes | NT$10,000,000 AI-only discussion allocation 已設定；parent NT$15M AI/CRM relation、formal accounting category、unit price、quantity、procurement note 仍需確認 | 每列補齊 formal accounting category / unit price / quantity / year / KPI / owner / evidence / procurement note；CRM 經費另列 parent / other-team workstream |
-| `捌、人力配置表` | subsidized-unit personnel、current post、work role | role table | named personnel pending | 保留 role-based table，姓名標示 pending |
-| `玖、其他` | attachments、quotations、cooperation materials、figure/table list | repo inclusion recommendation、governance checklist、demo/reviewer artifacts | attachment packet 尚未選定 | 列出 recommended appendices 與 do-not-attach items |
-| `拾、利衝自主檢核` | official signed form | none | 必須由 institution owner 處理 | 標示 parent owner action |
-| `拾壹、未重複補助切結` | signed statement | none | 必須由 institution owner 處理 | 標示 parent owner action |
-| `拾貳、參與計畫同意書` | partner consent forms | MOU/partner questions in meeting notes | partner list pending | 建立 partner decision question，不捏造 partner commitment |
-| `拾參、審查意見回復` | reviewer comments、response、revision location | scoring rubric and review response style | review 後才需要 | 先準備 empty response table |
+| `計畫摘要` | 必要性、核心作法、關鍵效益，500 字內 | v0.6 one-page positioning、clinical friction analysis、system positioning | summary needs parent-owner approval and 500-character check | 聚焦範疇三 workflow、範疇一 staff-burden outcome 與可驗證效益 |
+| `第一階段具體成效` | 延續型填寫質化／量化成果、1-2 項圖文亮點、問題與精進 | historical evidence records | continuation/new-project classification pending | 先確認類型；延續型由 parent owner 提供 first-stage verified evidence |
+| `計畫概要` | 辦理依據、現況及問題分析 | v0.6 positioning + policy records | parent narrative approval pending | 以實際門診工作流與 evidence-backed burden baseline 建立問題鏈 |
+| `申請單位簡介` | applicant/co-applicant institutional background | role table only | institutional text pending | 由 institution owner 提供正式文字與機構事實 |
+| `計畫規劃` | 依範疇列出 116-118 分年目標、策略、方法與成效 | expert-review packet、item definitions、writing guide、scope freezes | workflow slot 與 owner 仍需 hospital confirmation | 結構寫成低摩擦症狀蒐集 -> source label / missing fields -> clinician-review summary -> human review -> KPI evidence |
+| `效益評估` | 範疇、KPI、基準定義、115 現況、116／117／118 達成值 | KPI-to-budget table、annual checkpoint table | baselines still draft | 鎖定公式、資料源、frequency、owner 與公開／去識別審核 |
+| `出國計畫書` | 僅範疇二填列，並受 20% 經費控制 | current AI-only package has no owned overseas-training work | scope applicability confirmation | 由 parent owner 確認適用性；範例日期／地點／匯率保持 EXAMPLE |
+| `經費規劃` | 分年經費、各範疇配置、科目、單價、數量、KPI linkage | v0.6 budget + KPI-to-budget table | working ceiling and official itemization need budget-owner confirmation | 每列補齊 category / unit / quantity / year / KPI / owner / evidence / procurement note；capital ratio <= 30% |
+| `人力配置表` | 補助單位人員、現職與工作角色 | role table | named personnel pending | 保留 role-based fields，交由 institution owner 填入核實姓名／職稱 |
+| `其他` | quotations、cooperation materials、supporting artifacts | repo inclusion recommendation、governance checklist | attachment packet pending | 建立正式 attachment manifest 與 page/file-size check |
+| `利衝自主檢核` | official form and conditional identity disclosure | owner gate | applicant identity review pending | institutional admin 依身分與法規完成 |
+| `申請聲明暨未重複補助切結` | signed application, no-duplicate-funding and result obligations | funding-separation notes | signature pending | parent owner 完成 work-package/cost dedup matrix 後簽署 |
+| `參與計畫同意書` | each partner institution consent | partner route notes | partner list pending | named partner owner 完成正式同意與簽章 |
+| `智慧醫療整體執行情形聲明` | 範疇三 conditional attachment | governance checklist | AI/data/security/FHIR evidence owner review pending | 完成 governance evidence manifest 與 responsible-owner sign-off |
+| `B2 切結書` | 診所／衛生所主提 B2 時適用 | application-mode question | mode pending | 由 parent owner 確認 application mode 後 activation |
 
 ## 目前草稿包路由
 
@@ -191,6 +194,12 @@ Do not invent:
 
 ## Ready / Not Ready Gate
 
+目前已完成的 format-source gate：
+
+- 116-118 formal application instructions copied and verified
+- 116-118 live proposal template and attachments copied and verified
+- formal-format crosswalk updated to current fields
+
 符合下列條件時，提案可進入 internal clinical/admin review：
 
 - v0.6 discussion draft exists
@@ -201,9 +210,9 @@ Do not invent:
 - open administrative fields are visible
 - all unsafe claims are removed
 
-在下列事項完成前，提案還不適合 external 或 formal submission：
+External / formal submission readiness 由下列 owner gates共同建立：
 
-- latest official template is confirmed
+- current attach2 fields are transferred into the parent working DOCX
 - institutional applicant and mode are confirmed
 - budget is itemized by official category
 - COI / duplicate funding / consent forms are handled by the institution

@@ -15,11 +15,12 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 2026-07-01 北市聯醫 LINE 訊息將原訂 2026-07-07 09:30 的華山、信義門診部
 合併版計畫書審閱 gate 更新為 2026-07-14 同時段；Jason / Wu team 已確認
 無時程衝突。
-2026-07-13 verified 說明會 source 是最新 briefing-level 規則層；116-118
+2026-07-13 verified 說明會 source 提供 briefing-level 規則層；116-118
 提案準備需先確認延續／新增計畫、申請模式、經費上限、116/117/118 分年
 目標、KPI / 成果亮點 / 預算串接、統塊式經費、公開成果 stewardship、
-以及 AI / data / cybersecurity governance 要求。正式送件規則仍由最新
-作業須知與數位平台完成覆核。
+以及 AI / data / cybersecurity governance 要求。2026-07-14 保存的 attach1
+正式作業須知與 attach2 live template 已完成 formal-file gate；數位平台、
+院內流程與 7/16 後續說明形成下一個 operating-validation layer。
 ```
 
 目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
@@ -36,8 +37,9 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 第二階段說明會申請期訊號：2026-07-13 至 2026-08-17
 ```
 
-申請期、頁數、檔案與紙本規則在正式作業須知／平台覆核前維持
-`pending confirmation`；本表必須依 parent proposal 的實際申請路徑調整。
+正式作業須知確認申請期為 2026-07-13 至 2026-08-17、本文 60 頁、每檔
+25 MB、紙本 1 份；live platform 與 parent proposal 實際申請路徑維持
+送件前操作覆核。
 
 ## Checkpoint 邏輯
 
@@ -55,9 +57,12 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 
 | checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
+| 2026-07-14 formal instructions/template 收件 | attach1 作業須知、attach2 計畫書格式與附件包完成 renamed verified copies、hashes 與 crosswalk | formal-file gate complete | `../records/2026-07-14/README.md` | Jason + proposal coordinator |
+| attach2 母案轉版 | 500 字摘要、延續成果、116-118 KPI、經費、人力與附件欄位完成 owner/date mapping | current-template adoption | field-level transfer checklist | proposal coordinator + section owners |
 | 2026-07-14 10:00 忠孝案優先合併版審閱 | 全員出席；先審忠孝／信義案，確認 KPI、預算、合作單位、採購／資產類別、PI／IRB liaison 與文書 owner/date | merged-plan + governance readiness | `../records/2026-07-13/line-xinyi-briefing-meeting-and-irb-coordination-record.md` | 陳美如主任 + parent/subproject owners |
 | PSA 服務／研究用途與 IRB 分類 | 成人健檢服務、PSA 追蹤、未來研究／回溯分析、AI/data evaluation 分層，取得一般／簡易／免審正式判定 | real-data/research activation gate | 7/14 owner record + TPECH IRB determination | PI + IRB liaison + data owner |
-| 2026-07-16 經費／平台說明覆核 | 統塊式經費、支用、平台流程、送件檔案與截止規則的 dated update | final-rule validation readiness | `../records/2026-07-13/README.md` | Jason + proposal coordinator |
+| 2026-07-16 經費／平台說明覆核 | 統塊式經費、支用、平台流程、檔案產製與現場問答的 dated update | operating-validation readiness | `../records/2026-07-14/README.md` | Jason + proposal coordinator |
+| 2026-08-17 submission preflight | 平台兩份申請檔、每檔 25 MB、本文 60 頁、紙本 1 份、簽章附件與版本一致 | submission acceptance | platform receipt + submission manifest | proposal coordinator + institutional admin |
 | 116-118 申請模式 / 經費上限確認 | 延續／新增計畫、主提單位類型、A1/A2/A3/B/C/D 模式、合作機構、分年上限、資本門 30% 控制與政府補助區隔／接軌 | second-stage submission readiness | `../records/2026-07-13/README.md` | parent proposal + budget owner |
 | 116/117/118 KPI 公開與治理設計 | 分年基準／目標／驗證 artifact、公開口徑、去識別與審核 owner | KPI/public-result stewardship | `../records/2026-07-13/README.md` | evaluation + data/governance owner |
 | 合作單位洽談 | 友好單位、合作內容、簽約或合作文件路徑 | partner readiness | partner route note | Huashan + Xinyi teams |

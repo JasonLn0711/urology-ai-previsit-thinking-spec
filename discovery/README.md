@@ -18,6 +18,11 @@ the main proposal owner or budget owner revises it.
 
 Use these files first for the current expert-review package:
 
+- `../records/2026-07-14/README.md`:
+  current formal 116-118 application-instructions and proposal-template source
+  hub. Use its renamed verified copies and LINE provenance as the active format,
+  attachment, IRB, budget, page/file, and submission baseline; use 7/16 as the
+  next budget/platform interpretation layer.
 - `../records/2026-07-01/health-taiwan-stage2-application-guidance-record.md`:
   copied 116-118 second-stage application guidance source gate for application
   mode, funding ceiling, KPI / checkpoint / budget chain, negative-list checks,
