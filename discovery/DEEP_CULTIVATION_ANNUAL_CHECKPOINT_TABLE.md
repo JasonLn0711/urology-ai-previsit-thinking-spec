@@ -21,6 +21,9 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 以及 AI / data / cybersecurity governance 要求。2026-07-14 保存的 attach1
 正式作業須知與 attach2 live template 已完成 formal-file gate；數位平台、
 院內流程與 7/16 後續說明形成下一個 operating-validation layer。
+同日信義門診部會議進一步建立 7/31 IRB 撰寫、8/5 IRB 申請、8/4 再會、
+8/10 院內提前送件，以及每一合作機構的資格證明、參與計畫同意書與適用
+MOU／授權／資料協議簽署的 delivery chain。
 ```
 
 目前提案包：`exports/nycu-ai-previsit-expert-review-packet-2026-06-19.md`
@@ -61,12 +64,17 @@ NT$15,000,000、信義門診部碳盤查 NT$7,500,000。
 | attach2 母案轉版 | 500 字摘要、延續成果、116-118 KPI、經費、人力與附件欄位完成 owner/date mapping | current-template adoption | field-level transfer checklist | proposal coordinator + section owners |
 | 2026-07-14 10:00 忠孝案優先合併版審閱 | 全員出席；先審忠孝／信義案，確認 KPI、預算、合作單位、採購／資產類別、PI／IRB liaison 與文書 owner/date | merged-plan + governance readiness | `../records/2026-07-13/line-xinyi-briefing-meeting-and-irb-coordination-record.md` | 陳美如主任 + parent/subproject owners |
 | PSA 服務／研究用途與 IRB 分類 | 成人健檢服務、PSA 追蹤、未來研究／回溯分析、AI/data evaluation 分層，取得一般／簡易／免審正式判定 | real-data/research activation gate | 7/14 owner record + TPECH IRB determination | PI + IRB liaison + data owner |
+| 2026-07-31 IRB packet draft | 依適用一般／簡易／其他路徑完成 checklist、版本與文件 manifest | IRB drafting readiness | `../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md` + completed checklist | PI + IRB liaison + research team |
+| 2026-08-04 信義母案 review | 覆核母案版本、IRB 狀態、MOU、預算與 open items | internal review readiness | meeting packet + minutes | 陳美如主任 + parent/subproject owners |
+| 2026-08-05 IRB application target | 提出適用 IRB 申請並保存收件證據 | IRB submission gate | submission receipt | PI + IRB liaison |
+| 2026-08-10 院內提前送件 | 完成母案、合作機構資格／參與同意／適用補充協議、附件與版本 preflight | internal submission buffer | internal submission manifest | proposal coordinator + institutional admin + relevant owners |
+| 五張核心圖與 KPI 單一體系 | 一張整合總圖、四張子計畫圖；`KPI-子計畫-序號` 對齊定義、基準、年度目標、資料源、頻率與 owner | reviewer comprehension + evidence traceability | 7/14 integrated meeting dossier + diagram/KPI register | Jason + diagram/KPI owners + subproject owners |
 | 2026-07-16 經費／平台說明覆核 | 統塊式經費、支用、平台流程、檔案產製與現場問答的 dated update | operating-validation readiness | `../records/2026-07-14/README.md` | Jason + proposal coordinator |
 | 2026-08-17 submission preflight | 平台兩份申請檔、每檔 25 MB、本文 60 頁、紙本 1 份、簽章附件與版本一致 | submission acceptance | platform receipt + submission manifest | proposal coordinator + institutional admin |
 | 116-118 申請模式 / 經費上限確認 | 延續／新增計畫、主提單位類型、A1/A2/A3/B/C/D 模式、合作機構、分年上限、資本門 30% 控制與政府補助區隔／接軌 | second-stage submission readiness | `../records/2026-07-13/README.md` | parent proposal + budget owner |
 | 116/117/118 KPI 公開與治理設計 | 分年基準／目標／驗證 artifact、公開口徑、去識別與審核 owner | KPI/public-result stewardship | `../records/2026-07-13/README.md` | evaluation + data/governance owner |
-| 合作單位洽談 | 友好單位、合作內容、簽約或合作文件路徑 | partner readiness | partner route note | Huashan + Xinyi teams |
-| 預算 resilience | NT$37.5M annual cap、50-60% review-cut scenario、30% 硬體 / 無形資產控制 | budget review readiness | budget-resilience table | budget owner |
+| 合作單位洽談 | 每一合作機構完成資格證明與參與計畫同意書；依合作內容完成 MOU、授權、資料協議或契約 | partner readiness | signed cooperation-document manifest | parent proposal owner + institutional admin + relevant owners |
+| 預算 resilience | NT$37.5M annual cap、50-60% review-cut scenario、正式資本門比例與院內硬體＋平台軟體開發 30% 雙軌核對 | budget review readiness | budget-resilience table + 7/16 interpretation | budget owner |
 | 軟體租賃 / 健康艙買斷分類 | 軟體 service / license / rental 與 Health Cabin purchase category | asset-category readiness | procurement / asset-category note | IT/procurement + Health Cabin owners |
 | 申請路徑釐清 | 申請單位 / 申請模式 / parent proposal 關係說明 | 正式送件路徑 | 一頁 owner note | parent proposal owner |
 | Intended use 凍結 | intended use 與 non-use statement | 邊界清楚 | `INTENDED_USE_FREEZE.md` | clinical + proposal owner |

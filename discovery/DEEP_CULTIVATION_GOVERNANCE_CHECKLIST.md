@@ -34,7 +34,7 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 | AI governance owner | Pending | any AI-governance claim |
 | Cybersecurity owner | Pending | APP/API/ASR/pilot claim |
 | Data governance owner | Pending | data retention or real-data claim |
-| IRB / QI determination | Pending | any real patient workflow |
+| IRB / QI determination | Forms received; route pending | any real patient workflow |
 | Procurement owner | Pending | vendor or outsourced work |
 | Hospital workflow owner | Pending | pilot or deployment planning |
 | FHIR / TW Core IG owner | Pending | interoperability-readiness claim |
@@ -108,6 +108,18 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 
 ## IRB / Research Governance
 
+2026-07-14 meeting and form-package update:
+
+- `confirmed`: three route-specific submission checklists, the expedited-review scope form, and a 26-form IRB bundle are preserved under `../records/2026-07-14/sources/` with matching SHA-256 values.
+- `confirmed`: the team targets IRB drafting by 2026-07-31 and application by 2026-08-05 for PSA／CRM work that uses patient personal data and plans future publication.
+- `confirmed`: the meeting places carbon inventory in an environmental and operational data scope.
+- `scope change`: PI／IRB liaison now selects the applicable checklist and assembles a versioned manifest; similar-looking general and expedited checklists are handled as distinct submission routes.
+- `pending confirmation`: TPECH's documented determination controls whether each PSA, CRM, AI/data evaluation, retrospective-analysis, service, or QI purpose uses general, expedited, exempt, or another applicable path.
+- Canonical evidence: [`../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md`](../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md).
+- Current four-workstream routing: [`../records/2026-07-14/irb-jurisdiction-and-review-path-decision-record.md`](../records/2026-07-14/irb-jurisdiction-and-review-path-decision-record.md) separates service／QI／research／medical-device-validation purposes for the previsit system, PSA／PHI, CRM, and carbon inventory; the PI／IRB liaison obtains the institutional written determination before activation.
+- `scope change`: the 2026-07-14 director LINE exchange activates an integrated general-review working draft to reduce duplicate submission work and review fees. Each workstream remains separately identifiable inside the protocol, Jason confirms only the previsit-system section, and the PI／medical／IRB owners confirm the shared consent and final route.
+- `confirmed`: 陳美如主任確認四子計畫以同一整合 IRB 配合線上上傳，前一年度單一案件作法由趙康邑確認；總院長協同主持人建議與 8/7 正式報告負責人安排仍是 personnel and presentation gates.
+
 2026-07-13 LINE decision path:
 
 - The PSA adult-health-check workflow, later research use, retrospective data
@@ -129,6 +141,15 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 | Will clinician edits be analyzed? | only after governance approval |
 | Will data leave the hospital? | not allowed without explicit approval |
 | Will outputs affect clinical care? | not before pilot governance |
+
+### IRB Delivery Gate
+
+| Deliverable | Owner | Due / trigger | Evidence |
+| --- | --- | --- | --- |
+| Purpose-to-review-route determination | PI + IRB liaison + data owner | immediate | written determination / route note |
+| Applicable checklist and versioned document manifest | PI + IRB liaison + research team | 2026-07-31 | completed checklist + draft packet |
+| IRB application | PI + IRB liaison | target 2026-08-05 | submission receipt |
+| Real-data or publication activation | PI + governance owners | after applicable approval | approval and controlled protocol |
 
 ## Procurement And Vendor Governance
 

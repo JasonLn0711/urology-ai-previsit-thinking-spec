@@ -1,16 +1,16 @@
 # 2026-07-14 健康台灣深耕計畫第二階段正式申請格式收件包
 
 Status: verified source copies preserved / current format baseline activated /
-proposal transfer and owner confirmation in progress
+IRB and meeting controls connected / proposal transfer in progress
 
 ## FIRST PRINCIPLE
 
 - Scarce resource: 2026-08-17 送件前的格式正確性、規則一致性與文書轉版時間。
 - Canonical home: 本 repo `records/2026-07-14/` 保存本次 LINE 收件、來源完整性與提案影響紀錄。
-- Source ownership: `sources/` 保存 PDF 與 DOCX 的 verified AI-agent-readable copies；原始 PDF／DOCX 與主管機關最新公告維持最高文件證據層。
+- Source ownership: `sources/` 保存 verified AI-agent-readable documents 與原始格式 copies；原始來源檔、主管機關最新公告及院方現行表單維持最高文件證據層。
 - Planning role: `planning-everything-track` 僅保留 locator、status、capacity impact 與 next gate。
-- Evidence gate: 兩份 repository copies 與 Downloads 來源 SHA-256 完全一致。
-- Next gate: proposal coordinator 以本次 DOCX 格式轉入母案內容，逐欄確認主提／合作機構、申請模式、PI、預算、附件及簽章 owner；Jason 於 2026-07-16 說明會覆核經費與平台操作細節。
+- Evidence gate: 兩份正式格式 sources 與五份 IRB repository copies 均已完成來源 SHA-256 核對；IRB ZIP 完整性測試通過。
+- Next gate: proposal coordinator 以本次 DOCX 格式轉入母案內容；PI／IRB liaison 依適用核對清單推進 7/31 撰寫與 8/5 申請；Jason 於 2026-07-16 說明會覆核經費與平台操作細節。
 
 ## Source Package
 
@@ -21,12 +21,19 @@ proposal transfer and owner confirmation in progress
 
 命名以文件角色與來源日期取代聊天附件流水號，讓後續 agent 可以直接辨識 authority、用途與版本。完整來源與 copy verification 見 [sources/README.md](sources/README.md)。
 
+第二批 source package 收錄 3 份一般／簡易 IRB PDF 核對清單、1 份簡易審查範圍 ODT、1 份含 26 份表單的 ZIP bundle，以及 1 份一般審查四子計畫整合 working draft DOCX。第三批 source package 保存 3 份會議 Markdown evidence：整合查證 dossier、01:11:01 時間碼逐字稿及 executive working minutes／50-task register。原始 LINE、Jason 與莊美幸主任的審查路徑對話、會議紀錄、雜湊、文件角色與適用路徑控制見 [IRB 核對清單與 7/14 深耕會議紀錄](line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md)及 [source manifest](sources/README.md)。
+
 ## LINE Record
 
 - Canonical record: [line-health-taiwan-phase2-new-application-format-record.md](line-health-taiwan-phase2-new-application-format-record.md)
 - `confirmed`: 陳美如主任於 08:07 提醒團隊注意計畫格式。
 - `confirmed`: 趙康邑於 10:29 宣布新格式已發布，並分享 `1150713-attach1.pdf` 與 `1150713-attach2.docx`。
 - `adopted decision`: 本次 attach1 與 attach2 成為 116-118 第二階段 proposal 的 current formal-format baseline，取代 114-115 第一階段格式作為填表骨架。
+- `confirmed`: 7/14 信義門診部會議建立四子計畫架構、7/31 IRB 撰寫、8/5 IRB 申請、8/4 再會與 8/10 院內提前送件控制。
+- `confirmed`: 後續 LINE 確認四子計畫採同一整合 IRB working route；新版格式內含 MOU 範本，並新增 8/7 14:00–16:00 正式報告與機構負責人出席 gate。
+- `scope change`: 所有合作單位的 MOU 簽署／大小章成為母案 preflight gate；硬體與平台軟體開發合計 30% 的院內口徑交由 7/16 budget owner 覆核。
+- `scope change`: 完整會議 evidence 將正式合作附件校正為每一合作機構的參與計畫同意書與資格證明；MOU、授權、資料協議或契約依實際合作內容另行啟動。
+- `confirmed`: 會議要求一張整合型總圖加四張子計畫圖，並以 `KPI-子計畫-序號` 建立單一 KPI 體系。
 
 ## Activated Application Controls
 
@@ -47,6 +54,9 @@ proposal transfer and owner confirmation in progress
 - [7/13 briefing record](../2026-07-13/README.md) 提供規則摘要與 LINE 協調；本記錄提供正式作業須知與 live template evidence。
 - [7/9 writing-spec analysis](../2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md) 保留章節責任與 20 頁子案壓縮策略；最終母案欄位與附件以本次 attach2 為準。
 - [governance checklist](../../discovery/DEEP_CULTIVATION_GOVERNANCE_CHECKLIST.md) 承接 IRB、AI/data/security governance 與 real-data activation gate。
+- [7/14 IRB and meeting record](line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md) 承接四子計畫、IRB forms、MOU、院內預算控制與 8/4／8/10 delivery gates。
+- [四工作包 IRB 判定紀錄](irb-jurisdiction-and-review-path-decision-record.md) 將候診系統、PSA／PHI、CRM 與碳盤查分成服務／QI／研究／醫材驗證路徑，並連接原始筆記、官方規範、live forms 與書面判定 gate。
+- [7/14 source manifest](sources/README.md) 將 integrated dossier、timecoded transcript 與 executive working minutes 分層路由，保留 supplied verification 與 owner-confirmation boundary。
 
 ## Action Register
 
@@ -58,3 +68,7 @@ proposal transfer and owner confirmation in progress
 | HT-0714-04 | 完成 IRB/QI purpose map，取得一般／簡易／免審或送審路徑的正式意見 | PI + IRB liaison | before real-data/research activation | written determination / submission proof |
 | HT-0714-05 | 7/16 覆核經費科目、負面表列、平台操作、檔案產製與截止流程 | Jason + proposal coordinator | 2026-07-16 13:00-16:30 | dated briefing notes |
 | HT-0714-06 | 在 8/17 前完成平台檔案、紙本函送、附件簽章與版本一致性 preflight | proposal coordinator + institutional admin | 2026-08-17 | submission manifest + platform receipt |
+| HT-0714-07 | 依適用一般／簡易核對清單完成 IRB packet，並取得申請收件證據 | PI + IRB liaison + research team | draft 2026-07-31; target submit 2026-08-05 | completed checklist + submission receipt |
+| HT-0714-08 | 完成每一合作機構的資格證明、參與計畫同意書與簽章 manifest；依合作內容啟動 MOU／授權／資料協議 | parent proposal owner + institutional admin + relevant owners | before 2026-08-10 | signed cooperation-document manifest |
+| HT-0714-09 | 8/4 覆核母案、IRB、MOU、預算與附件狀態；8/10 完成院內提前送件 | proposal coordinator + all owners | 2026-08-04 / 2026-08-10 | meeting packet + internal submission manifest |
+| HT-0714-10 | 由主席與各子計畫主責確認 working minutes、PI／人員角色、暫定預算、設備數量與 50-task register owner | chair + parent/subproject owners | before 2026-08-04 final review | confirmed minutes + decision log |

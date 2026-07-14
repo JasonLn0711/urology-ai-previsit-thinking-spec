@@ -25,6 +25,12 @@ formal-format gate before creating a new planning note.
 14. Is this application continuation or new, and which first-stage-result fields activate?
 15. Which owner signs each conditional attachment: COI disclosure, no-duplicate-funding declaration, partner consent, Scope 3 smart-healthcare statement, and B2 confirmation if applicable?
 16. Which 7/16 budget/platform clarifications change the current 7/14 formal-file interpretation?
+17. Who is the named PI and IRB liaison for the PSA／CRM research-purpose route, and which TPECH checklist applies to each purpose? Owner: parent proposal owner; record by 2026-07-31 in the 7/14 IRB meeting record.
+18. Which documents, versions, signatures, training proofs, consent forms, and data-safety materials remain open in the selected IRB packet? Owner: PI／IRB liaison; evidence: completed checklist and manifest by 2026-07-31.
+19. Which partner institutions require qualification proof and participation consent, which additionally require MOU／license／data agreement, and who owns each signature／大小章 route? Owner: institutional admin + relevant owners; close before 2026-08-10 internal submission.
+20. Does the 7/14 meeting's hardware-plus-platform-software 30% control share the official capital-budget denominator, or operate as an additional internal cap? Owner: budget owner; confirm at the 2026-07-16 briefing.
+21. Is the 2026-08-04 follow-up meeting confirmed at 10:00-12:00 in B106, or does "同時段" preserve only the time slot? Owner: proposal coordinator; confirm before calendar circulation.
+22. Has the chair and each subproject owner confirmed the working minutes, four formal subproject names, five-diagram requirement, PI／research roles, provisional budgets, staffing and equipment quantities? Owner: proposal coordinator; record in the 7/14 meeting decision log before 2026-08-04.
 
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 

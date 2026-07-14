@@ -472,8 +472,9 @@ Before circulating a formal draft, collect this packet:
 | AI governance self-check | AI / engineering owner | Scope 3 review |
 | Cybersecurity governance self-check | Security / IT owner | Scope 3 review |
 | Data governance self-check | Data / privacy owner | Scope 3 review |
-| PSA/service/research purpose map + IRB determination | PI / IRB liaison / data owner | 2026-07-14 review and before real-data activation |
-| Partner participation consent / MOU route | PI / hospital admin | Submission draft |
+| PSA/service/research purpose map + IRB determination | PI / IRB liaison / data owner | Route now; packet by 2026-07-31; target submission 2026-08-05; before real-data activation |
+| Applicable TPECH IRB checklist + versioned document manifest | PI / IRB liaison / research team | 2026-07-31 |
+| Partner qualification + participation consent + applicable MOU／license／data agreement route | PI / hospital admin / relevant owners | Required official documents and applicable supplemental agreements signed before 2026-08-10 internal submission |
 | Conflict-of-interest and relationship disclosure decision | Admin | Submission draft |
 | No-duplicate-application declaration | PI / admin | Submission draft |
 | Platform/PDF/paper consistency check | Proposal coordinator | Final submission |
@@ -493,6 +494,8 @@ For the 北市聯醫 / urology previsit / CRM-support proposal, score D with the
 - If the demo repo is cited, D5/D9 must label it as synthetic prototype evidence, not clinical deployment evidence.
 - If HIS/EMR/FHIR is mentioned, D9 must distinguish future interoperability readiness from current production writeback.
 - If Aging Clock / biomarker work is included, D1/D5/D6/D7/D9 must identify whether it is a research sub-study, service add-on, or separate proposal lane.
+- Apply the 2026-07-14 internal budget control as a separate preflight line: hardware plus platform-software development stays within 30% pending 7/16 confirmation of its accounting basis; preserve the official capital-budget ratio check in parallel.
+- Use `../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md` as the concise source for the IRB checklist bundle, partner-document gate, 8/4 review, and 8/10 internal-submission target. Use its linked integrated dossier for the five-diagram requirement, KPI numbering, supplied corrections and expanded action register.
 
 Core rule:
 
