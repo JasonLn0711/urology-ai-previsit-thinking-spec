@@ -123,6 +123,7 @@ Current architecture decision: keep the thinking/governance repo and demo repo s
 - For the 2026-07-09 copied Health Taiwan application-writing specification and analysis for 信義 / PSA / 智慧問診 section drafting: `records/2026-07-09/health-taiwan-application-writing-spec-analysis-for-xinyi.md`
 - For the 2026-07-09 `信義深耕` LINE postponement of the Health Taiwan phase-2 briefing and Jason's 2026-07-16 afternoon attendance plan: `records/2026-07-09/line-xinyi-health-taiwan-phase2-briefing-postponement-record.md`
 - For the 2026-07-09 華山院區 plan copied source and format-reference analysis for 信義 / 泌尿 proposal writing: `records/2026-07-09/huashan-plan-format-reference-analysis-for-xinyi-urology.md`
+- For the 2026-07-14 LINE release of the new 116-118 formal application instructions and DOCX template/attachment bundle, including verified renamed copies, hashes, current-format activation, proposal impact, and next actions: `records/2026-07-14/README.md`
 - For the 2026-06-19 NYCU Wu-team AI previsit expert-review source analysis and complete proposal draft: `records/2026-06-19/nycu-ai-previsit-expert-review-analysis.md`
 - For the latest NYCU Wu-team AI previsit Health Taiwan proposal source: `discovery/exports/nycu-wu-team-ai-previsit-health-taiwan-complete-plan-2026-06-19.md`
 - For the copied expert-review DOCX/XLSX/ZIP source archive and checksums: `records/2026-06-19/sources/nycu-ai-previsit-expert-review/README.md`

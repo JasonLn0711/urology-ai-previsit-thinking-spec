@@ -1,6 +1,6 @@
 # 2026-07-13 健康台灣深耕計畫第二階段徵求說明會依據
 
-Status: source preserved / writing controls adopted / final-notice validation pending
+Status: source preserved / writing controls adopted / formal-file validation completed 2026-07-14
 
 ## FIRST PRINCIPLE
 
@@ -9,7 +9,7 @@ Status: source preserved / writing controls adopted / final-notice validation pe
 - Planning role: 專案定位、容量影響、下一關卡與 evidence locator。
 - Evidence path:
   `sources/health-taiwan-phase2-solicitation-briefing-116-118-verified-2026-07-13.md`。
-- Next gate: 7/14 用本文件修正合併版撰寫與申請 readiness；7/16 再以經費／平台說明會及正式作業須知覆核待確認規則。
+- Next gate: 7/14 formal instructions/template package 已完成先前待確認規則的文件層覆核；7/16 以經費／平台說明會確認操作細節與後續修正。
 
 ## Source
 
@@ -45,7 +45,8 @@ Status: source preserved / writing controls adopted / final-notice validation pe
 ## Evidence Status And Scope Controls
 
 - `confirmed`: 四大範疇、18 項目標、116－118 第二階段、各類組經費上限、數位管理平台與 2026-07-13 說明會已由來源中的官方網站交叉核實。
-- `pending confirmation`: 2026-07-13 至 2026-08-17 申請期、60 頁／25MB／紙本 1 份、B2 定義、統塊式經費細節與 IRB 補件時點，須由第二階段正式作業須知、平台與 7/16 經費／平台說明再確認。
+- `formal-file confirmed`: 2026-07-13 至 2026-08-17 申請期、60 頁／25MB／紙本 1 份、B2 定義、統塊式經費與 IRB 補件時點已由 [7/14 attach1/attach2 package](../2026-07-14/README.md) 覆核。
+- `operating validation`: live platform、院內流程及 7/16 經費／平台說明會確認實際操作與任何較新修正。
 - `scope change`: 先前「115 年第 4 季預期徵件」改由本次說明會的 7/13－8/17 申請期訊號管理；在正式公告完成覆核前，以 activation gate 呈現。
 - `scope control`: 年度經費數字是上限；三年架構仍採分年核定、分期撥付與績效評核 stewardship。
 

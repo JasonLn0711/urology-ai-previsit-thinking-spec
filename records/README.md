@@ -31,6 +31,13 @@ Use:
 
 ## Current Records
 
+- `2026-07-14/README.md`:
+  canonical receipt package for the new 116-118 Health Taiwan Phase 2 formal
+  application instructions and proposal-template attachment bundle shared in
+  LINE. Use it for the verified renamed source copies, original attachment-name
+  provenance, current-template activation, 500-character abstract, continuation
+  results, annual KPI fields, required declarations, IRB evidence, budget rules,
+  2026-08-17 submission gate, and 2026-07-16 budget/platform validation action.
 - `2026-07-13/README.md`:
   canonical source hub for the verified AI-agent-readable transcription of the
   2026-07-13 Health Taiwan Phase 2 solicitation briefing. Use it as the latest
