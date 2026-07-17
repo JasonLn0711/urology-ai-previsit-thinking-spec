@@ -6,6 +6,21 @@ It is meant to turn conversations into auditable decisions without mixing paper 
 
 ## Current Entry Point
 
+2026-07-17 application-route scope change:
+
+```text
+Xinyi status = medical-group feasibility assessment active.
+Meeting direction = urgently assess re-establishing a group, then apply via B/community-medical-group mode.
+First gate = group feasibility plus hospital submission decision.
+B2 institutional eligibility = pending written confirmation after feasibility.
+B-category annual ceiling after activation = NT$9,900,000 for the whole plan.
+Historical A3 and NT$10M/year AI-only figures remain traceability sources;
+current submission figures begin with the activated B2 whole-plan rebaseline.
+```
+
+Use `../records/2026-07-17/README.md` first for the applicant-mode, community-
+medical-group, main-applicant and budget-rebaseline gate.
+
 2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text

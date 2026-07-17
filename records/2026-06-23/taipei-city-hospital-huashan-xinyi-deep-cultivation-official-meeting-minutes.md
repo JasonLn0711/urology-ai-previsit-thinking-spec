@@ -2,6 +2,13 @@
 
 Status: captured
 
+> 2026-07-17 scope change: this record remains the source for the earlier merged
+> proposal and workstream ownership. The later minutes-for-review replaces its
+> active A-route assumption: Zhongzheng continues through an existing medical
+> group, while Xinyi is assessing re-establishment of a group for the
+> B/community-medical-group route. Current decision:
+> [2026-07-17 meeting record](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 Record date in Gregorian calendar: 2026-06-23
 
 Captured in this repository: 2026-06-23

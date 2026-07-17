@@ -2,6 +2,13 @@
 
 狀態：2026-06-19 AI 問診與醫師覆核摘要專用工作表
 
+> 2026-07-17 scope change: this table preserves the pre-pivot NT$10M/year
+> AI-only planning model. If Xinyi confirms medical-group feasibility and activates the meeting-directed B/B2 route, NT$9.9M/year is
+> the ceiling for the entire community-medical-group plan. Rebaseline all work
+> packages after medical-group feasibility, hospital submission decision and written applicant eligibility are
+> confirmed; do not transfer these figures into the formal B application. See
+> [the current decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 ## Current Scope
 
 本表只服務下列 package：

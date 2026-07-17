@@ -2,6 +2,13 @@
 
 Status: captured
 
+> 2026-07-17 scope change: this record preserves the original A-route parent
+> plan, ownership and budget history. The later emergency-meeting minutes-for-
+> review directs Zhongzheng to an existing community medical group and Xinyi to
+> assess re-establishing a group under the B/community-medical-group route, with
+> a NT$9.9M annual whole-plan ceiling. Current decision:
+> [2026-07-17 meeting record](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 Record date in Gregorian calendar: 2026-06-02
 
 Captured in this repository: 2026-06-22

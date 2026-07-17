@@ -2,6 +2,15 @@
 
 Status: working compliance rubric
 
+> 2026-07-17 release gate: Xinyi is actively assessing re-establishment of a
+> medical group; B/B2 is the meeting-directed route after the applicant-
+> eligibility interruption. Formal circulation begins after confirmed group
+> feasibility, hospital submission decision and written confirmation of the main applicant, community
+> medical group, first partner hospital, institutional identifiers/seal and
+> duplicate-application status.
+> The B-category NT$9.9M/year cap applies to the whole plan. See
+> [the current decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 Current formal-file baseline: 2026-07-14 verified copies of
 `1150713-attach1.pdf` application instructions and `1150713-attach2.docx`
 proposal template/attachments.
@@ -109,6 +118,15 @@ Current formal instructions and template preserved on `2026-07-14`:
   paper-copy route and 2026-08-17 deadline as current formal checks.
 - Use the 2026-07-16 briefing and live platform as the next validation layer for
   operating instructions and any later correction.
+
+Applicant-route verification preserved on `2026-07-17`:
+
+- Record: `../records/2026-07-17/README.md`.
+- Apply the Xinyi medical-group feasibility, submission-decision and B/B2 written-confirmation gates, clinic classification, community-
+  medical-group evidence, one-group-one-application control and NT$9.9M/year
+  whole-plan budget rebaseline before proposal transfer.
+- Keep historical A3 and NT$10M/year AI-only figures as source traceability,
+  not current submission values.
 
 Reference hierarchy for formal submission:
 

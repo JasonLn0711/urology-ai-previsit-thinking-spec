@@ -2,6 +2,17 @@
 
 狀態：2026-06-02 填報討論稿
 
+2026-07-17 application-route supersession note:
+
+```text
+本稿的 A 類脈絡與每年 NT$10,000,000 AI-only 配置保留為歷史討論證據。
+信義案目前正在評估重新成立醫療群；14:49 會後紀錄已將 B／社區醫療群列為修正方向。
+第一關卡是新群可行性與院方送件決定；正式啟用仍待主提、社區醫療群、第一合作醫院、
+關防／統編與無重複申請的書面確認。B 類每年 NT$9,900,000 是整案上限，因此本稿
+所有預算在可行性、送件決定與資格確認後重編。
+Canonical gate: ../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md
+```
+
 2026-06-19 supersession note:
 
 ```text

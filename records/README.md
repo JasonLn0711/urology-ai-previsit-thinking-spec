@@ -31,6 +31,15 @@ Use:
 
 ## Current Records
 
+- `2026-07-17/README.md`:
+  canonical packet for the 2026-07-16 eligibility shock and 2026-07-17 emergency
+  meeting. It preserves the LINE record, byte-identical corrected ASR source,
+  verified decision record and official A/B/C/D/B2 evidence. Current Xinyi
+  status is `medical_group_feasibility_assessment_active`: the minutes-for-
+  review directs an urgent assessment of re-establishing a medical group, with
+  formal submission still gated by feasibility and institutional evidence.
+  The B-category whole-plan ceiling is NT$9.9M per year. Meeting access
+  credentials remain outside tracked files.
 - `2026-07-14/README.md`:
   canonical receipt package for the new 116-118 Health Taiwan Phase 2 formal
   application instructions and proposal-template attachment bundle shared in

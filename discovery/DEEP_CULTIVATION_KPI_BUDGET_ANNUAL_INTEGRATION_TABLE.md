@@ -2,6 +2,14 @@
 
 狀態：2026-06-19 NYCU Wu-team AI previsit complete proposal draft
 
+> 2026-07-17 scope change: budget values in this pre-pivot table require full
+> rebaseline only after medical-group feasibility, a hospital submission
+> decision and B/B2 activation. The
+> B-category annual ceiling is NT$9.9M for the whole community-medical-group
+> plan. Use
+> [the current decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md)
+> before formal transfer.
+
 目前提案包：
 
 ```text

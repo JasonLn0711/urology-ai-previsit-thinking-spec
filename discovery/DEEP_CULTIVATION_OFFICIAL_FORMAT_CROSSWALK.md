@@ -4,6 +4,16 @@
 
 日期：2026-05-20；current formal-format source update：2026-07-14
 
+2026-07-17 applicant-mode update:
+
+```text
+B/B2 is the meeting-directed route; formal activation follows medical-group feasibility, hospital submission decision and written evidence for
+the main applicant, community medical group, first partner hospital, independent
+institutional identifiers/seal and duplicate-application status. NT$9.9M/year is
+the B-category whole-plan ceiling. Use ../records/2026-07-17/README.md before
+filling the cover, budget or B2 declaration.
+```
+
 2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
 ```text
@@ -66,7 +76,7 @@ source 提供 briefing interpretation；114-115 官方歸檔提供歷史 traceab
 
 | 正式章節 | 正式格式期待內容 | 目前材料 | 缺口 | 下一步撰寫動作 |
 | --- | --- | --- | --- | --- |
-| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields and 2026-06-02 official minutes | applicant、mode、institution codes、parent proposal name 尚未確認；類別設計為主打 `範疇三`、副支援 `範疇一`；parent AI 智慧問診 allocation 約 NT$15M 含 CRM；Jason / 陽明交大 AI-only working budget 為每年 NT$10,000,000，三年合計 NT$30,000,000 | 保留 placeholder；Word transfer 前詢問 hospital owner，並明確分開 parent CRM allocation 與 AI-only package |
+| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields、2026-06-02 official minutes and 2026-07-17 meeting record | 信義案正在評估重新成立醫療群；B/B2 為會後紀錄指向的 mode；主提、群員、第一合作醫院、機構資格與無重複申請待書面確認；歷史 parent/AI 預算在可行性確認後依 B 類每年 NT$9.9M 整案上限重編 | 先完成新群可行性與送件決定；eligibility owner lock 後填入 B/B2 正式資料與整案預算；保留 A3／NT$10M figures 作歷史 traceability |
 | `計畫摘要` | 必要性、核心作法、關鍵效益，500 字內 | v0.6 one-page positioning、clinical friction analysis、system positioning | summary needs parent-owner approval and 500-character check | 聚焦範疇三 workflow、範疇一 staff-burden outcome 與可驗證效益 |
 | `第一階段具體成效` | 延續型填寫質化／量化成果、1-2 項圖文亮點、問題與精進 | historical evidence records | continuation/new-project classification pending | 先確認類型；延續型由 parent owner 提供 first-stage verified evidence |
 | `計畫概要` | 辦理依據、現況及問題分析 | v0.6 positioning + policy records | parent narrative approval pending | 以實際門診工作流與 evidence-backed burden baseline 建立問題鏈 |
@@ -81,7 +91,7 @@ source 提供 briefing interpretation；114-115 官方歸檔提供歷史 traceab
 | `申請聲明暨未重複補助切結` | signed application, no-duplicate-funding and result obligations | funding-separation notes | signature pending | parent owner 完成 work-package/cost dedup matrix 後簽署 |
 | `參與計畫同意書` | each partner institution consent | partner route notes | partner list pending | named partner owner 完成正式同意與簽章 |
 | `智慧醫療整體執行情形聲明` | 範疇三 conditional attachment | governance checklist | AI/data/security/FHIR evidence owner review pending | 完成 governance evidence manifest 與 responsible-owner sign-off |
-| `B2 切結書` | 診所／衛生所主提 B2 時適用 | application-mode question | mode pending | 由 parent owner 確認 application mode 後 activation |
+| `B2 切結書` | 診所／衛生所主提 B2 時適用 | 2026-07-17 medical-group feasibility active; B2 meeting-directed route and official form | 先確認新群可行性與送件決定；再完成主提、社區醫療群與無重複申請書面 evidence | 書面資格確認後由主提機構代表全案簽署 |
 
 ## 目前草稿包路由
 

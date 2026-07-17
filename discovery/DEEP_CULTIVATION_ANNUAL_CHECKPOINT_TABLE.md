@@ -4,6 +4,17 @@
 
 日期：2026-05-29
 
+2026-07-17 application-route scope change:
+
+```text
+Current state = Xinyi medical-group feasibility assessment active.
+Meeting direction = re-establish a group and apply through B/community-medical-group mode.
+Formal activation = feasibility and submission go decision plus written applicant/group/first-partner/duplicate checks.
+Budget control after activation = NT$9,900,000 per year for the whole plan,
+replacing pre-pivot A3 and NT$10M/year AI-only figures for submission use.
+Canonical evidence = ../records/2026-07-17/README.md
+```
+
 2026-06-02 official meeting minutes + 2026-06-19 owner update + 2026-06-23
 official meeting minutes:
 
@@ -60,6 +71,9 @@ MOU／授權／資料協議簽署的 delivery chain。
 
 | checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
+| 2026-07-17 Xinyi medical-group feasibility | 完成重新成立醫療群評估與院方送件決定 | group-and-submission activation gate | `../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md` + hospital decision evidence | hospital dean + Zhongxiao/Xinyi execution team |
+| B/B2 qualification after feasibility | 主提單位、社區醫療群、第一合作醫院、關防／統編、無重複申請與 990 萬整案口徑取得書面確認 | applicant-mode activation gate | `../records/2026-07-17/README.md` | parent proposal + community-care + institutional admin + budget owners |
+| B2 whole-plan budget rebaseline if activated | PSA、AI、CRM、碳盤查在每年 NT$9.9M 整案上限內完成保留／縮編／移出決策與 KPI-owner-evidence 重編 | budget and scope readiness | approved work-package disposition + three-year budget | parent proposal + budget + workstream owners |
 | 2026-07-14 formal instructions/template 收件 | attach1 作業須知、attach2 計畫書格式與附件包完成 renamed verified copies、hashes 與 crosswalk | formal-file gate complete | `../records/2026-07-14/README.md` | Jason + proposal coordinator |
 | attach2 母案轉版 | 500 字摘要、延續成果、116-118 KPI、經費、人力與附件欄位完成 owner/date mapping | current-template adoption | field-level transfer checklist | proposal coordinator + section owners |
 | 2026-07-14 10:00 忠孝案優先合併版審閱 | 全員出席；先審忠孝／信義案，確認 KPI、預算、合作單位、採購／資產類別、PI／IRB liaison 與文書 owner/date | merged-plan + governance readiness | `../records/2026-07-13/line-xinyi-briefing-meeting-and-irb-coordination-record.md` | 陳美如主任 + parent/subproject owners |

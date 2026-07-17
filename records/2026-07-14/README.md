@@ -3,6 +3,14 @@
 Status: verified source copies preserved / current format baseline activated /
 IRB and meeting controls connected / proposal transfer in progress
 
+> 2026-07-17 scope change: the team reported a new `社區醫療群 + 院外門診部 +
+> B 計畫` direction after an applicant-eligibility interruption. The later
+> minutes-for-review directs Xinyi to assess re-establishing a medical group.
+> Use [the 7/17 canonical record](../2026-07-17/README.md) for the active
+> feasibility assessment, hospital submission decision, B/B2 evidence gate and
+> B-category NT$9.9M/year whole-plan budget rebaseline. This 7/14 packet remains the
+> authoritative formal-format and pre-pivot meeting source.
+
 ## FIRST PRINCIPLE
 
 - Scarce resource: 2026-08-17 送件前的格式正確性、規則一致性與文書轉版時間。

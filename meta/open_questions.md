@@ -1,5 +1,27 @@
 # Open Questions
 
+## 2026-07-17 Xinyi Go-No-Go And B2 Candidate-Route Gates
+
+These are the highest-priority proposal gates after the emergency meeting. Use
+`records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md`
+as the current decision layer; the LINE record remains the earlier source layer.
+
+1. What is the documented result of the requested assessment to re-establish a Xinyi community medical group, and what is 何清幼院長／忠孝院區's submission decision?
+2. Which clinics, specialty mix, first partner hospital, execution center and approval timeline make the new group feasible?
+3. Does the project office confirm in writing that 信義門診部 may serve as the B2 main applicant in its registered `一般診所（醫務室）` capacity?
+4. Does 信義門診部 have its own institutional seal, tax ID, formal-letter authority, contracting authority and accounting route in addition to medical institution code `2101170050`?
+5. What is the community medical group's official name, member roster, execution center and approval/evidence status?
+6. Which institution is the group's first partner hospital, and may it act as main applicant if 信義門診部 cannot?
+7. Has the group and proposed main applicant been checked for another B-category application?
+8. Does 健保署臺北業務組 confirm in writing the new-group deadline, review time, three-TPECH-outpatient-plus-two-external-clinic composition and specialty mix?
+9. What is the legal/payment basis of the meeting's `PSA 400 元`, who earns it, and how may it be distributed?
+10. Is LINE's `900萬` the intended annual request, a rounded description, or another budget envelope?
+11. Under the B-category NT$9.9M/year whole-plan ceiling, which PSA, AI, CRM and carbon-inventory work packages remain, shrink, migrate or activate separately?
+12. Which community-clinic, referral, result-return, back-referral and continuous-care roles and KPI belong to each participating institution?
+13. What did the missing 7/16 and 7/17 LINE images show, and when will the individual attendance list and approved 7/17 minutes be available?
+14. What IRB or service-governance determination applies to gait analysis and positive-case recruitment across hospital campuses?
+15. If cross-format proof is required for the XLSX, which official ODS/XLS should be retained for field-level comparison? The PDF already matches the official online binary by SHA-256.
+
 ## 2026-07-14 Xinyi Merged-Plan Package Gates
 
 These questions connect the 2026-07-02 complete package index, 7/14 task packet,
@@ -35,6 +57,10 @@ formal-format gate before creating a new planning note.
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 
 These are the active v0.8 planning questions after the 2026-06-19 owner update.
+
+2026-07-17 scope change: the NT$10M/year AI-only figure below is a pre-pivot
+planning question. A formal B/B2 budget must be rebuilt under the NT$9.9M/year
+whole-plan ceiling after applicant eligibility is confirmed.
 
 2026-06-19 update:
 

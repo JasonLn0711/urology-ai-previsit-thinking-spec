@@ -1,5 +1,14 @@
 # Next Step: Meeting-To-Decision Pack
 
+> 2026-07-17 first gate: complete the requested assessment for re-establishing
+> a Xinyi community medical group and record the hospital submission decision.
+> Current status is `medical_group_feasibility_assessment_active`; the meeting
+> minutes-for-review directs the B/community-medical-group route. When feasible,
+> obtain written evidence for the main applicant, group, partner hospital,
+> identifiers/seal and duplicate-application status, then rebaseline the whole
+> plan under the B-category NT$9.9M/year ceiling. Canonical packet:
+> [records/2026-07-17](../records/2026-07-17/README.md).
+
 ## Purpose
 
 The next step is to use the thinking spec as a disciplined discovery tool.

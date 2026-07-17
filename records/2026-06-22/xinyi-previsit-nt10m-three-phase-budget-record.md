@@ -2,6 +2,12 @@
 
 狀態：captured
 
+> 2026-07-17 scope change: this NT$10M/year model is preserved as the pre-pivot
+> AI-only planning record. If the hospital decides to continue and activates
+> the B/B2 route, NT$9.9M/year is the whole-plan ceiling and this model must be
+> rebuilt with every community-medical-group work package. See
+> [the current meeting decision](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 日期：2026-06-22
 
 來源：Jason 於 Codex 貼上的深耕計畫提報內容。

@@ -2,6 +2,12 @@
 
 Status: source preserved / attachments checksum-verified / integrated general-review draft connected / owner and IRB confirmation in progress
 
+> 2026-07-17 application-route update: IRB sources and preparation evidence in
+> this record remain valid. Xinyi is now assessing re-establishment of a
+> community medical group; formal proposal and IRB sequencing activate with the
+> hospital submission decision, named PI and purpose-specific governance route.
+> See [the current meeting decision](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+
 ## FIRST PRINCIPLE
 
 - Scarce resource: 2026-07-31 IRB 撰寫、2026-08-05 申請與 2026-08-10 母案送件前的文件正確性及 owner 時間。
