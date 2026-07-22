@@ -1,10 +1,20 @@
 # Open Questions
 
-## 2026-07-17 Xinyi Go-No-Go And B2 Candidate-Route Gates
+## 2026-07-22 Xinyi Pause And Restart Gates
 
-These are the highest-priority proposal gates after the emergency meeting. Use
+These are the only active Xinyi application questions after the latest group
+notice. Use `records/2026-07-22/README.md` as the current status layer.
+
+1. Does the 2026-08-07 15:00–17:00 deep-cultivation report still require the Xinyi team to attend, appoint a proxy, or provide the 10-slide-or-fewer deck?
+2. What explicit hospital/team decision would reopen the Xinyi application lane?
+3. At restart, what evidence confirms the eligible community medical group, main applicant, first partner hospital, scope owners and approved budget route?
+4. If source audit becomes necessary, when will the 7/15–7/17 images/sticker, truncated agenda remainder and approved 7/17 minutes become available?
+
+## 2026-07-17 Xinyi Go-No-Go And B2 Candidate-Route Gates — Deferred Activation
+
+These questions remain the restart checklist after the emergency meeting. Use
 `records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md`
-as the current decision layer; the LINE record remains the earlier source layer.
+as the verified B/B2 layer; the 7/22 record controls current status.
 
 1. What is the documented result of the requested assessment to re-establish a Xinyi community medical group, and what is 何清幼院長／忠孝院區's submission decision?
 2. Which clinics, specialty mix, first partner hospital, execution center and approval timeline make the new group feasible?
@@ -56,7 +66,9 @@ formal-format gate before creating a new planning note.
 
 ## 2026-06-19 AI 問診與醫師覆核摘要 Package Questions
 
-These are the active v0.8 planning questions after the 2026-06-19 owner update.
+These are preserved v0.8 technical planning questions after the 2026-06-19
+owner update. The 2026-07-22 application pause makes them deferred activation,
+not an active proposal backlog.
 
 2026-07-17 scope change: the NT$10M/year AI-only figure below is a pre-pivot
 planning question. A formal B/B2 budget must be rebuilt under the NT$9.9M/year

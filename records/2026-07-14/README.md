@@ -1,15 +1,12 @@
 # 2026-07-14 健康台灣深耕計畫第二階段正式申請格式收件包
 
-Status: verified source copies preserved / current format baseline activated /
-IRB and meeting controls connected / proposal transfer in progress
+Status: verified source copies preserved / formal-format baseline retained /
+IRB and meeting controls connected / Xinyi proposal transfer deferred
 
-> 2026-07-17 scope change: the team reported a new `社區醫療群 + 院外門診部 +
-> B 計畫` direction after an applicant-eligibility interruption. The later
-> minutes-for-review directs Xinyi to assess re-establishing a medical group.
-> Use [the 7/17 canonical record](../2026-07-17/README.md) for the active
-> feasibility assessment, hospital submission decision, B/B2 evidence gate and
-> B-category NT$9.9M/year whole-plan budget rebaseline. This 7/14 packet remains the
-> authoritative formal-format and pre-pivot meeting source.
+> 2026-07-22 scope change: the Xinyi application lane is paused. Use
+> [the complete 7/15–7/22 record](../2026-07-22/README.md) for current status.
+> The 7/17 B/B2 route remains a deferred restart checklist, while this 7/14
+> packet remains the authoritative formal-format and pre-pivot meeting source.
 
 ## FIRST PRINCIPLE
 
@@ -18,7 +15,7 @@ IRB and meeting controls connected / proposal transfer in progress
 - Source ownership: `sources/` 保存 verified AI-agent-readable documents 與原始格式 copies；原始來源檔、主管機關最新公告及院方現行表單維持最高文件證據層。
 - Planning role: `planning-everything-track` 僅保留 locator、status、capacity impact 與 next gate。
 - Evidence gate: 兩份正式格式 sources 與五份 IRB repository copies 均已完成來源 SHA-256 核對；IRB ZIP 完整性測試通過。
-- Next gate: proposal coordinator 以本次 DOCX 格式轉入母案內容；PI／IRB liaison 依適用核對清單推進 7/31 撰寫與 8/5 申請；Jason 於 2026-07-16 說明會覆核經費與平台操作細節。
+- Next gate: 保存 DOCX／IRB／meeting controls，並確認 2026-08-07 15:00–17:00 報告會是否仍要求信義團隊出席或提供簡報；明確重啟後再恢復母案轉版與送審時程。
 
 ## Source Package
 
@@ -38,12 +35,13 @@ IRB and meeting controls connected / proposal transfer in progress
 - `confirmed`: 趙康邑於 10:29 宣布新格式已發布，並分享 `1150713-attach1.pdf` 與 `1150713-attach2.docx`。
 - `adopted decision`: 本次 attach1 與 attach2 成為 116-118 第二階段 proposal 的 current formal-format baseline，取代 114-115 第一階段格式作為填表骨架。
 - `confirmed`: 7/14 信義門診部會議建立四子計畫架構、7/31 IRB 撰寫、8/5 IRB 申請、8/4 再會與 8/10 院內提前送件控制。
-- `confirmed`: 後續 LINE 確認四子計畫採同一整合 IRB working route；新版格式內含 MOU 範本，並新增 8/7 14:00–16:00 正式報告與機構負責人出席 gate。
+- `historical confirmed`: 後續 LINE 確認四子計畫採同一整合 IRB working route；新版格式內含 MOU 範本，並曾暫定 8/7 14:00–16:00 正式報告與機構負責人出席 gate。
+- `scope change`: 7/15 群組更新 8/7 報告時間為 15:00–17:00；7/22 信義案暫停後，信義團隊的出席、代理人與 10 張內簡報要求待協調端確認。
 - `scope change`: 所有合作單位的 MOU 簽署／大小章成為母案 preflight gate；硬體與平台軟體開發合計 30% 的院內口徑交由 7/16 budget owner 覆核。
 - `scope change`: 完整會議 evidence 將正式合作附件校正為每一合作機構的參與計畫同意書與資格證明；MOU、授權、資料協議或契約依實際合作內容另行啟動。
 - `confirmed`: 會議要求一張整合型總圖加四張子計畫圖，並以 `KPI-子計畫-序號` 建立單一 KPI 體系。
 
-## Activated Application Controls
+## Preserved Application Controls — Deferred Activation
 
 1. 申請期間為 2026-07-13 10:00 至 2026-08-17 23:59；紙本函送期限為 2026-08-17。
 2. 計畫本文上限 60 頁，每個上傳檔案上限 25 MB，平台產製兩份申請檔並函送紙本 1 份。

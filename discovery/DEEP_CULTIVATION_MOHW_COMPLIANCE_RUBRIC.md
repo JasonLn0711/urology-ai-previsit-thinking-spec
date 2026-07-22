@@ -1,15 +1,15 @@
 # MOHW Deep-Cultivation Compliance Rubric
 
-Status: working compliance rubric
+Status: reusable compliance rubric / Xinyi application activation deferred
 
-> 2026-07-17 release gate: Xinyi is actively assessing re-establishment of a
-> medical group; B/B2 is the meeting-directed route after the applicant-
-> eligibility interruption. Formal circulation begins after confirmed group
-> feasibility, hospital submission decision and written confirmation of the main applicant, community
-> medical group, first partner hospital, institutional identifiers/seal and
-> duplicate-application status.
-> The B-category NT$9.9M/year cap applies to the whole plan. See
-> [the current decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+> 2026-07-22 activation gate: the Xinyi application lane is paused. This rubric
+> remains the validation layer for preserved materials and a future explicit
+> restart; it does not authorize current formal circulation or submission work.
+> If reactivated, apply the 7/17 group feasibility, hospital decision, main
+> applicant, community medical group, partner hospital, institutional evidence,
+> duplicate-application and NT$9.9M/year whole-plan controls. See
+> [the current status record](../records/2026-07-22/README.md) and
+> [the deferred restart checklist](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
 
 Current formal-file baseline: 2026-07-14 verified copies of
 `1150713-attach1.pdf` application instructions and `1150713-attach2.docx`
@@ -122,7 +122,7 @@ Current formal instructions and template preserved on `2026-07-14`:
 Applicant-route verification preserved on `2026-07-17`:
 
 - Record: `../records/2026-07-17/README.md`.
-- Apply the Xinyi medical-group feasibility, submission-decision and B/B2 written-confirmation gates, clinic classification, community-
+- On explicit restart, apply the Xinyi medical-group feasibility, submission-decision and B/B2 written-confirmation gates, clinic classification, community-
   medical-group evidence, one-group-one-application control and NT$9.9M/year
   whole-plan budget rebaseline before proposal transfer.
 - Keep historical A3 and NT$10M/year AI-only figures as source traceability,

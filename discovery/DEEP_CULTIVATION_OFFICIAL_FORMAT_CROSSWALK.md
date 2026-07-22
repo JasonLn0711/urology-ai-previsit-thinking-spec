@@ -1,10 +1,19 @@
 # 健康台灣深耕計畫正式格式對照表
 
-狀態：提案撰寫控制文件
+狀態：提案撰寫控制文件／信義申請 deferred activation
 
 日期：2026-05-20；current formal-format source update：2026-07-14
 
-2026-07-17 applicant-mode update:
+2026-07-22 current status:
+
+```text
+Xinyi application work is paused. Preserve this crosswalk as a restart-ready
+field map; do not populate or circulate a B/B2 submission until an explicit
+restart decision and eligible community-medical-group evidence are recorded.
+Current evidence = ../records/2026-07-22/README.md
+```
+
+2026-07-17 historical applicant-mode update:
 
 ```text
 B/B2 is the meeting-directed route; formal activation follows medical-group feasibility, hospital submission decision and written evidence for
@@ -76,7 +85,7 @@ source 提供 briefing interpretation；114-115 官方歸檔提供歷史 traceab
 
 | 正式章節 | 正式格式期待內容 | 目前材料 | 缺口 | 下一步撰寫動作 |
 | --- | --- | --- | --- | --- |
-| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields、2026-06-02 official minutes and 2026-07-17 meeting record | 信義案正在評估重新成立醫療群；B/B2 為會後紀錄指向的 mode；主提、群員、第一合作醫院、機構資格與無重複申請待書面確認；歷史 parent/AI 預算在可行性確認後依 B 類每年 NT$9.9M 整案上限重編 | 先完成新群可行性與送件決定；eligibility owner lock 後填入 B/B2 正式資料與整案預算；保留 A3／NT$10M figures 作歷史 traceability |
+| Cover page | project name、county/city、application mode、categories、applicant/co-applicant institutions、institution codes、budget、execution period、PI、contact | `DEEP_CULTIVATION_APPLICATION_DRAFT_V0_6.md` cover/package fields、2026-06-02 official minutes and 2026-07-17 meeting record | 信義申請目前暫停；B/B2 為 7/17 保留的候選 mode；主提、群員、第一合作醫院、機構資格與無重複申請是未來重啟證據 | 保留欄位映射與 A3／NT$10M 歷史 traceability；明確重啟與 eligibility owner lock 後，再填入 B/B2 正式資料並以每年 NT$9.9M 整案上限重編 |
 | `計畫摘要` | 必要性、核心作法、關鍵效益，500 字內 | v0.6 one-page positioning、clinical friction analysis、system positioning | summary needs parent-owner approval and 500-character check | 聚焦範疇三 workflow、範疇一 staff-burden outcome 與可驗證效益 |
 | `第一階段具體成效` | 延續型填寫質化／量化成果、1-2 項圖文亮點、問題與精進 | historical evidence records | continuation/new-project classification pending | 先確認類型；延續型由 parent owner 提供 first-stage verified evidence |
 | `計畫概要` | 辦理依據、現況及問題分析 | v0.6 positioning + policy records | parent narrative approval pending | 以實際門診工作流與 evidence-backed burden baseline 建立問題鏈 |
@@ -91,7 +100,7 @@ source 提供 briefing interpretation；114-115 官方歸檔提供歷史 traceab
 | `申請聲明暨未重複補助切結` | signed application, no-duplicate-funding and result obligations | funding-separation notes | signature pending | parent owner 完成 work-package/cost dedup matrix 後簽署 |
 | `參與計畫同意書` | each partner institution consent | partner route notes | partner list pending | named partner owner 完成正式同意與簽章 |
 | `智慧醫療整體執行情形聲明` | 範疇三 conditional attachment | governance checklist | AI/data/security/FHIR evidence owner review pending | 完成 governance evidence manifest 與 responsible-owner sign-off |
-| `B2 切結書` | 診所／衛生所主提 B2 時適用 | 2026-07-17 medical-group feasibility active; B2 meeting-directed route and official form | 先確認新群可行性與送件決定；再完成主提、社區醫療群與無重複申請書面 evidence | 書面資格確認後由主提機構代表全案簽署 |
+| `B2 切結書` | 診所／衛生所主提 B2 時適用 | 2026-07-17 B2 route and official form preserved for deferred activation | 未來重啟時確認新群可行性、送件決定、主提、社區醫療群與無重複申請書面 evidence | 明確重啟且書面資格確認後，由主提機構代表全案簽署 |
 
 ## 目前草稿包路由
 

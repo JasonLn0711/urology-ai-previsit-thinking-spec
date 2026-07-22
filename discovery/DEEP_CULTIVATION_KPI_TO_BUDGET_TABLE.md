@@ -1,13 +1,14 @@
 # 健康台灣深耕計畫 KPI-To-Budget 對照表
 
-狀態：2026-06-19 AI 問診與醫師覆核摘要專用工作表
+狀態：2026-06-19 AI 問診與醫師覆核摘要歷史工作表／deferred activation
 
-> 2026-07-17 scope change: this table preserves the pre-pivot NT$10M/year
-> AI-only planning model. If Xinyi confirms medical-group feasibility and activates the meeting-directed B/B2 route, NT$9.9M/year is
-> the ceiling for the entire community-medical-group plan. Rebaseline all work
-> packages after medical-group feasibility, hospital submission decision and written applicant eligibility are
-> confirmed; do not transfer these figures into the formal B application. See
-> [the current decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+> 2026-07-22 scope change: Xinyi application work is paused. This table preserves
+> the pre-pivot NT$10M/year AI-only planning model and is not an active proposal
+> budget. If an explicit future restart activates B/B2, NT$9.9M/year is the
+> ceiling for the entire community-medical-group plan and all work packages must
+> be rebaselined after eligibility and ownership evidence. See
+> [the current status record](../records/2026-07-22/README.md) and
+> [the deferred B/B2 decision record](../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
 
 ## Current Scope
 

@@ -1,7 +1,13 @@
 # 2026-07-17 信義申請資格與臨時會議資料包
 
 Status: source preserved / minutes-for-review captured / official verification
-complete / Xinyi medical-group feasibility assessment active
+complete / superseded by 2026-07-22 Xinyi application pause
+
+> 2026-07-22 scope change: 陳美如主任公告申請仍須以醫療群提出，因此信義深耕計畫暫停；群組保留，社區福祉中心持續提供協助。
+> Current source:
+> [the complete 7/15–7/22 LINE and pause-status packet](../2026-07-22/README.md)
+> for current status. This 7/17 packet remains the restart evidence and
+> activation-checklist layer.
 
 ## Use this packet for
 
@@ -26,10 +32,12 @@ complete / Xinyi medical-group feasibility assessment active
 - `confirmed`: 官方規則允許第一合作醫院、診所或衛生所代表社區醫療群申請 B2。
 - `confirmed`: 健保公開資料把信義門診部列為一般診所（醫務室）。
 - `confirmed by minutes-for-review`: 中正加入既有鄰近醫療群，以每年 990 萬元重編後續申請。
-- `confirmed direction`: 信義須盡速評估重新成立醫療群，並以社區醫療群方式提報。
-- `active status`: `medical_group_feasibility_assessment_active`；新群是否可成立、院方是否送件仍待決定。
+- `historical 2026-07-17 direction`: 信義須盡速評估重新成立醫療群，並以社區醫療群方式提報。
+- `scope change confirmed 2026-07-22`: `xinyi_deep_cultivation_application_paused`；B/B2 提案與送件工作轉為 deferred activation。
+- `confirmed support path`: 群組暫時保留，團隊仍可向社區福祉中心提出協助需求。
 - `pending confirmation`: 主提能力、群員與專科比例、合作醫院、核定時程、無重複申請、四張照片與核定版會議紀錄。
-- `scope change`: A3 與舊預算保留為歷史；正式 B2 重寫與每年 990 萬元整案預算從新群可行性、院方送件決定與資格證據啟動。
+- `deferred activation`: A3 與舊預算保留為歷史；正式 B2 重寫與每年 990 萬元整案預算只在明確重啟、新群可行性、院方送件決定與資格證據完整後啟動。
+- `next gate`: 確認 2026-08-07 報告會是否仍要求信義團隊出席或提供簡報。
 
 ## Security boundary
 

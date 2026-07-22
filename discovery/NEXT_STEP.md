@@ -1,13 +1,12 @@
 # Next Step: Meeting-To-Decision Pack
 
-> 2026-07-17 first gate: complete the requested assessment for re-establishing
-> a Xinyi community medical group and record the hospital submission decision.
-> Current status is `medical_group_feasibility_assessment_active`; the meeting
-> minutes-for-review directs the B/community-medical-group route. When feasible,
-> obtain written evidence for the main applicant, group, partner hospital,
-> identifiers/seal and duplicate-application status, then rebaseline the whole
-> plan under the B-category NT$9.9M/year ceiling. Canonical packet:
-> [records/2026-07-17](../records/2026-07-17/README.md).
+> 2026-07-22 current gate: the Xinyi deep-cultivation application lane is
+> `xinyi_deep_cultivation_application_paused`. Preserve the completed proposal,
+> governance, KPI, budget and B/B2 verification materials without advancing
+> submission work. Confirm whether the 2026-08-07 report still applies to the
+> Xinyi team. Resume the 7/17 medical-group checklist only after an explicit
+> restart decision and eligible group/applicant evidence. Canonical packet:
+> [records/2026-07-22](../records/2026-07-22/README.md).
 
 ## Purpose
 

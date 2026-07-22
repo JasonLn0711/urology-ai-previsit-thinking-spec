@@ -1,13 +1,25 @@
 # 健康台灣深耕計畫年度 checkpoint 表
 
-狀態：提案準備 checkpoint 表
+狀態：提案準備 checkpoint 表／信義申請 deferred activation
 
 日期：2026-05-29
 
-2026-07-17 application-route scope change:
+2026-07-22 current scope change:
 
 ```text
-Current state = Xinyi medical-group feasibility assessment active.
+Current state = xinyi_deep_cultivation_application_paused.
+Active checkpoint = confirm whether the 2026-08-07 report still applies.
+Preservation control = keep proposal, KPI, budget, governance and B/B2 evidence
+without advancing formal submission work.
+Resume condition = explicit restart plus eligible group, applicant, hospital,
+scope-owner and budget-route evidence.
+Canonical evidence = ../records/2026-07-22/README.md
+```
+
+2026-07-17 historical application-route scope change:
+
+```text
+Historical state = Xinyi medical-group feasibility assessment active.
 Meeting direction = re-establish a group and apply through B/community-medical-group mode.
 Formal activation = feasibility and submission go decision plus written applicant/group/first-partner/duplicate checks.
 Budget control after activation = NT$9,900,000 per year for the whole plan,
@@ -71,8 +83,9 @@ MOU／授權／資料協議簽署的 delivery chain。
 
 | checkpoint | deliverable | KPI / gate | evidence | 需要的 owner |
 | --- | --- | --- | --- | --- |
-| 2026-07-17 Xinyi medical-group feasibility | 完成重新成立醫療群評估與院方送件決定 | group-and-submission activation gate | `../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md` + hospital decision evidence | hospital dean + Zhongxiao/Xinyi execution team |
-| B/B2 qualification after feasibility | 主提單位、社區醫療群、第一合作醫院、關防／統編、無重複申請與 990 萬整案口徑取得書面確認 | applicant-mode activation gate | `../records/2026-07-17/README.md` | parent proposal + community-care + institutional admin + budget owners |
+| 2026-07-22 Xinyi pause | 保存申請材料並確認 8/7 報告要求 | current stewardship gate | `../records/2026-07-22/README.md` + report-owner confirmation | proposal coordinator + Xinyi/Zhongxiao team |
+| 2026-07-17 Xinyi medical-group feasibility | 明確重啟後完成重新成立醫療群評估與院方送件決定 | deferred group-and-submission activation gate | `../records/2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md` + hospital decision evidence | hospital dean + Zhongxiao/Xinyi execution team |
+| B/B2 qualification after feasibility | 重啟後取得主提單位、社區醫療群、第一合作醫院、關防／統編、無重複申請與 990 萬整案口徑書面確認 | deferred applicant-mode activation gate | `../records/2026-07-17/README.md` | parent proposal + community-care + institutional admin + budget owners |
 | B2 whole-plan budget rebaseline if activated | PSA、AI、CRM、碳盤查在每年 NT$9.9M 整案上限內完成保留／縮編／移出決策與 KPI-owner-evidence 重編 | budget and scope readiness | approved work-package disposition + three-year budget | parent proposal + budget + workstream owners |
 | 2026-07-14 formal instructions/template 收件 | attach1 作業須知、attach2 計畫書格式與附件包完成 renamed verified copies、hashes 與 crosswalk | formal-file gate complete | `../records/2026-07-14/README.md` | Jason + proposal coordinator |
 | attach2 母案轉版 | 500 字摘要、延續成果、116-118 KPI、經費、人力與附件欄位完成 owner/date mapping | current-template adoption | field-level transfer checklist | proposal coordinator + section owners |

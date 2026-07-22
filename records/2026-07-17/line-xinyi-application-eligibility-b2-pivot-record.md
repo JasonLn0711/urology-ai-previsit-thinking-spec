@@ -1,17 +1,17 @@
 # 「信義深耕」LINE：申請資格中斷與 B2 社區醫療群轉向紀錄
 
 Status: source preserved / official rules verified 2026-07-17 / post-meeting
-minutes-for-review captured / Xinyi medical-group feasibility assessment active
+minutes-for-review captured / superseded by 2026-07-22 pause notice
 
-> 2026-07-17 meeting update: this record remains the canonical LINE source and
-> pre-meeting interpretation. The later LINE minutes-for-review confirms an
-> active instruction to assess re-establishing a medical group and submit via
-> the community-medical-group route; final feasibility and submission remain
-> pending. Use
-> [the meeting verification and decision record](health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md)
-> for current status.
+> 2026-07-22 scope change: this record remains the canonical 7/16–7/17 source
+> and historical B/B2 interpretation. The later group notice pauses the Xinyi
+> plan while retaining the group and support path. Use
+> [the complete 7/15–7/22 record](../2026-07-22/line-xinyi-deep-cultivation-complete-record-and-pause-status.md)
+> for current status, and use
+> [the meeting verification record](health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md)
+> as a deferred restart checklist.
 
-## FIRST PRINCIPLE
+## FIRST PRINCIPLE — 2026-07-17 historical route
 
 - Scarce resource: 2026-08-17 截止日前的合格申請主體、正式簽章能力、整案預算與重寫時間。
 - Canonical home: 本 repo `records/2026-07-17/` 保存 LINE 證據、外部分析、官方查核與 scope change。
@@ -230,9 +230,9 @@ Jul 17, 2026 Friday
 
 ## Adopted decision
 
-本 repo 自 2026-07-17 起採以下 proposal-prep 控制：
+以下保留 2026-07-17 時點的 proposal-prep 控制；2026-07-22 起轉為 deferred activation，由明確重啟決定與醫療群證據重新開啟：
 
-1. 信義案目前為 `medical_group_feasibility_assessment_active`；會後紀錄要求盡速評估是否重新成立醫療群，B/B2 是明確執行方向，A3 保留為歷史來源狀態。
+1. 信義案在 2026-07-17 為 `medical_group_feasibility_assessment_active`；會後紀錄要求盡速評估是否重新成立醫療群，B/B2 是當時的明確執行方向，A3 保留為歷史來源狀態。
 2. `可成立醫療群`、`院方同意送件` 與 `資格已解決` 是三道 gate：先完成新群可行性與院方決策，再以書面證據確認主提與醫療群。
 3. 所有每年 1,000 萬元 AI-only 與 A3 3,750 萬元母案數字標記為 pre-pivot planning figures；正式 B/B2 送件預算在三道 gate 通過後，以每年整案上限 990 萬元重編。
 4. AI 問卷與醫師覆核摘要保留為候選社區照護資訊整理能力；其啟動價值需連到診所端收案／追蹤、上轉、結果回傳、回轉與持續照護。
@@ -264,7 +264,8 @@ Jul 17, 2026 Friday
 - [KPI-to-budget table](../../discovery/DEEP_CULTIVATION_KPI_TO_BUDGET_TABLE.md): pre-pivot NT$10M/year AI-only figure now requires B2 whole-plan rebaseline.
 - [Open questions](../../meta/open_questions.md): durable unresolved institutional questions.
 - [Supplied GPT analysis](sources/user-supplied-gpt-analysis-xinyi-eligibility-b2-2026-07-17.md): preserved external interpretation before independent verification.
-- [Emergency-meeting verification and decision record](health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md): supersedes this LINE-only interpretation for current project status.
+- [7/22 complete LINE and pause-status record](../2026-07-22/line-xinyi-deep-cultivation-complete-record-and-pause-status.md): supersedes this LINE-only interpretation for current project status.
+- [Emergency-meeting verification and decision record](health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md): preserves the verified B/B2 route as a deferred restart checklist.
 - [Corrected ASR source copy](sources/health-taiwan-phase2-emergency-meeting-corrected-asr-agent-readable-2026-07-17.md): complete 799-line transcript and analysis source preserved byte-for-byte.
 
 ## Official source register

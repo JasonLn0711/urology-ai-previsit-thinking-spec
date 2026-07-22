@@ -1,12 +1,13 @@
 # 2026-07-14 信義深耕 LINE：IRB 核對清單與門診部深耕會議紀錄
 
-Status: source preserved / attachments checksum-verified / integrated general-review draft connected / owner and IRB confirmation in progress
+Status: source preserved / attachments checksum-verified / integrated general-review draft connected / Xinyi application actions deferred
 
-> 2026-07-17 application-route update: IRB sources and preparation evidence in
-> this record remain valid. Xinyi is now assessing re-establishment of a
-> community medical group; formal proposal and IRB sequencing activate with the
-> hospital submission decision, named PI and purpose-specific governance route.
-> See [the current meeting decision](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
+> 2026-07-22 application update: IRB sources and preparation evidence in this
+> record remain valid, while Xinyi proposal/IRB actions are deferred during the
+> application pause. The 7/15 LINE update supersedes the tentative 8/7
+> 14:00–16:00 report slot with 15:00–17:00; Xinyi participation remains pending
+> confirmation. See [the current status packet](../2026-07-22/README.md) and
+> [the deferred restart checklist](../2026-07-17/health-taiwan-phase2-emergency-meeting-verification-and-decision-record.md).
 
 ## FIRST PRINCIPLE
 
@@ -15,7 +16,7 @@ Status: source preserved / attachments checksum-verified / integrated general-re
 - Planning role: `planning-everything-track` 僅保存 locator、狀態、容量影響、日期與 next gate。
 - Evidence path: 本紀錄的兩段原始 LINE 文字與 [`sources/`](sources/README.md) 中 6 份 SHA-256 核對一致的 IRB 附件 copies。
 - Scope control: 本紀錄保存團隊會議決策；實際 IRB 一般／簡易／其他適用路徑由 PI 與臺北市立聯合醫院 IRB liaison 依個別研究目的確認。
-- Next gate: PI／IRB liaison 依適用案件核對清單建立送審 manifest，並在 2026-07-31 前完成 IRB 撰寫、爭取 2026-08-05 前提出申請。
+- Next gate: 保存 IRB manifest 與 working draft，先確認 2026-08-07 15:00–17:00 報告要求；明確重啟後再由 PI／IRB liaison 設定新的送審日期鏈。
 
 ## Source Context
 
@@ -158,7 +159,8 @@ PBI+2個深耕計畫
 - `confirmed`: 陳美如主任認為信義四子計畫屬同一整合計畫，配合共同線上上傳，以一件 IRB 送審即可；趙康邑回覆前一年度亦採單一案件。這項團隊確認支持目前的一般審查整合 working draft。
 - `confirmed`: 新版正式申請格式內含 MOU 範本；合作文件應直接使用 [current application template source](sources/health-taiwan-phase2-application-template-and-attachments-116-118-ai-agent-readable-verified-2026-07-13.md) 對應欄位與附件，不另自創格式。
 - `working assumption`: 陳美如主任建議邀請總院長加入 IRB 協同主持人；正式研究角色、資格、同意、訓練與利益衝突文件仍由 PI／IRB liaison 取得確認。
-- `confirmed`: 總院長於 `2026-08-07` 下午可出席，暫定 `14:00–16:00`，時段包含 PBI 與兩個深耕計畫。
+- `historical confirmed`: 總院長於 `2026-08-07` 下午可出席，7/14 時點暫定 `14:00–16:00`，時段包含 PBI 與兩個深耕計畫。
+- `scope change`: 7/15 群組將 8/7 會議更新為 `15:00–17:00`；7/22 信義案暫停後，信義是否出席、指派代理人或提供 10 張內簡報仍待確認。
 - `pending confirmation`: 正式報告須由提出計畫的機構負責人報告；陳瑞泉主任該時段有門診，信義團隊須確認機構負責人、報告人、是否全隊出席及門診衝突安排。
 - `source boundary`: 04:38 與 05:21 的撤回訊息僅保存「unsent a message」事件，沒有推測或重建被撤回內容。
 
@@ -174,6 +176,8 @@ PBI+2個深耕計畫
 
 ## Action Register
 
+2026-07-22 disposition: 信義母案的 IRB、MOU、budget、diagram、owner 與 submission actions 均轉為 deferred activation；`HT-MTG-0714-02` 保留為唯一 active coordination gate，用於確認 8/7 更新時段與信義報告要求。
+
 | ID | Action | Owner | Due / trigger | Evidence |
 | --- | --- | --- | --- | --- |
 | HT-IRB-0714-01 | 確認 PSA、CRM、AI/data evaluation 各目的與一般／簡易／其他適用路徑 | PI + IRB liaison + data owner | immediate | written determination / route note |
@@ -187,6 +191,6 @@ PBI+2個深耕計畫
 | HT-DOC-0714-01 | 完成一張整合總圖、四張子計畫圖及單一 KPI 編碼／證據表 | Jason + diagram/KPI owners + subproject owners | first draft before 2026-08-04 | five diagrams + KPI register |
 | HT-OWNER-0714-01 | 確認 PI、共同／協同主持人、研究角色、暫定預算、人力與設備數量 | chair + parent/subproject owners + IRB/budget/procurement owners | before 2026-08-04 final review | signed owner sheet + decision log |
 | HT-MTG-0714-01 | 準備 8/4 review packet：母案版本、IRB 狀態、MOU、預算與 open items | proposal coordinator + section owners | 2026-08-04 same time slot | meeting packet + minutes |
-| HT-MTG-0714-02 | 確認 8/7 14:00–16:00 正式報告之機構負責人、信義團隊出席名單、報告順序及陳瑞泉門診衝突安排 | 莊美幸主任 + 陳瑞泉主任 + proposal coordinator | before 2026-08-07 | confirmed agenda + presenter acceptance |
+| HT-MTG-0714-02 | 確認 8/7 15:00–17:00 正式報告是否仍包含信義、機構負責人／代理人、10 張內簡報、團隊出席名單、報告順序及門診衝突安排 | 莊美幸主任 + 陳瑞泉主任 + proposal coordinator | before 2026-08-07 | updated agenda + presenter/hold confirmation |
 | HT-SUB-0714-01 | 完成院內整合版送件與版本 preflight | proposal coordinator + institutional admin | before 2026-08-10 | internal submission manifest |
 | HT-SUB-0714-02 | 完成正式平台、附件、紙本與版本一致性送件 | proposal coordinator + institutional admin | 2026-08-17 | platform receipt + paper manifest |

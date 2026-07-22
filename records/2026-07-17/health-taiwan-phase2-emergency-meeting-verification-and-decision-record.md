@@ -1,16 +1,16 @@
 # 115 年健康台灣深耕計畫臨時會議：查核、決策狀態與下一步
 
 Status: source preserved / transcript reviewed / minutes-for-review captured /
-official rules verified 2026-07-17 / Xinyi medical-group feasibility active
+official rules verified 2026-07-17 / superseded by 2026-07-22 Xinyi pause
 
 ## FIRST PRINCIPLE
 
-- Scarce resource: 2026-08-17 截止日前的合格申請主體、正式醫療群治理、院方決策與整案重寫時間。
+- Scarce resource: 團隊注意力、已完成證據的可恢復性，以及未來重啟時的合格醫療群與院方決策證據。
 - Canonical home: 本 repo 保存完整逐字稿、查核結果、決策狀態與執行連結。
-- Planning role: `planning-everything-track` 只保留 `medical_group_feasibility_assessment_active`、容量影響、canonical locator 與下一關卡。
+- Planning role: `planning-everything-track` 只保留 `xinyi_deep_cultivation_application_paused`、容量影響、canonical locator 與下一關卡。
 - Evidence path: LINE 原文與會後紀錄 → 校正 ASR 逐字稿 → 官方申請須知／Q&A → 115 年家醫整合計畫 → 院方與主管機關後續書面證據。
-- Scope control: 會後紀錄已把社區醫療群列為信義案的執行方向；正式送件由新群可行性、院方決定、醫療群核定與主提資格證據共同開啟。
-- Next gate: 忠孝／信義團隊完成「重新成立醫療群」評估並取得院方送件決定，再鎖定群員、合作醫院、主提機構與工作包。
+- Scope control: 7/17 的社區醫療群路徑保留為可恢復設計；7/22 起信義申請工作暫停，正式送件只由明確重啟決定與完整資格證據共同開啟。
+- Next gate: 確認 8/7 報告會是否仍適用信義團隊；未來明確重啟時，再鎖定群員、合作醫院、主提機構與工作包。
 
 ## Source manifest
 
@@ -26,9 +26,18 @@ official rules verified 2026-07-17 / Xinyi medical-group feasibility active
 - Fidelity：repo 副本與 Downloads 原檔均為 799 行、54,099 bytes，SHA-256 完全相同；Downloads 原檔保留不動。
 - Source boundary：沒有原始音檔，因此逐句語者與低可信詞語仍保留 `推定／待確認`。14:49 紀錄標示「敬請審閱」，可提升主席、紀錄、出席單位與決議的證據層級，核定版仍是下一個 validation layer。
 
+## 2026-07-22 後續狀態
+
+- `confirmed`: 陳美如主任於群組公告，申請仍須以醫療群提出，因此信義深耕計畫暫停。
+- `scope change`: 7/17 的 `medical_group_feasibility_assessment_active` 成為歷史狀態；目前為 `xinyi_deep_cultivation_application_paused`。
+- `stewardship`: 本紀錄的官方查核、B2 路徑與 action register 完整保留，作為未來明確重啟後的 validation layer。
+- `pending confirmation`: 8/7 報告會是否仍需信義團隊出席或提供簡報。
+
+Current source: [7/15–7/22 complete LINE record](../2026-07-22/line-xinyi-deep-cultivation-complete-record-and-pause-status.md).
+
 ## 會議建立的核心決策
 
-### 1. 信義案已進入醫療群可行性評估，正式送件決策待定
+### 1. 2026-07-17 時點：信義案進入醫療群可行性評估，正式送件決策待定
 
 `00:17:12` 的「信義的部分就先暫停嗎」是一個詢問，後續沒有形成取消決議。結案前 `00:32:22–00:32:42` 的派工，以及 14:49 會後紀錄，建立了以下執行方向：
 
@@ -41,16 +50,17 @@ official rules verified 2026-07-17 / Xinyi medical-group feasibility active
 
 ```yaml
 xinyi_project:
-  status: medical_group_feasibility_assessment_active
+  historical_status_2026_07_17: medical_group_feasibility_assessment_active
+  current_status_2026_07_22: xinyi_deep_cultivation_application_paused
   application_submission: pending
   directed_route: B_community_medical_group
-  feasibility_question: reestablish_new_medical_group
+  route_activation: deferred_until_explicit_restart
   decision_owner:
     - 何清幼院長
     - 忠孝院區執行團隊
 ```
 
-現有證據支持「積極評估新群、送件尚待決定」。會後紀錄把社區醫療群確立為修正方向，同時保留「是否能重新成立」的可行性與院方 go/no-go；因此仍不等於新群已成立、B2 資格已完成或申請已送出。
+7/17 現有證據支持「積極評估新群、送件尚待決定」。7/22 最新公告把 active assessment 更新為暫停；因此目前不啟動新群成立、B2 資格完成或申請送出工作。
 
 ### 1.1 會議身分與時間證據更新
 
@@ -130,7 +140,7 @@ XLSX 的 8 個工作表可以白話理解為：
 
 | 分析主張 | 查核結果 | 採用方式 |
 | --- | --- | --- |
-| 信義案進入條件式暫停，沒有正式取消 | `refined by later minutes-for-review` | 沒有取消；最新狀態提升為「重新成立醫療群可行性評估中，正式送件待定」。 |
+| 信義案進入條件式暫停，沒有正式取消 | `refined by 2026-07-22 group notice` | 7/17 曾進入重新成立醫療群可行性評估；7/22 最新狀態為暫停，群組與協助路徑保留。 |
 | 會議核心是申請資格與治理 | `confirmed` | 採用；官方 A/B 類資格與逐字稿一致。 |
 | B2 可由第一合作醫院、診所或衛生所代表社區醫療群 | `confirmed` | 採用；正式申請時仍需鎖定實際主提。 |
 | 新群不是湊到五家就完成 | `confirmed` | 採用；專科比例、合作醫院、專線、轉診與分區業務組核定均為正式要求。 |
@@ -155,14 +165,14 @@ XLSX 的 8 個工作表可以白話理解為：
 
 | 案件 | 2026-07-17 會議狀態 | 證據層級 | 下一關卡 |
 | --- | --- | --- | --- |
-| 信義 | `medical_group_feasibility_assessment_active` | 送審會後紀錄＋ASR | 盡速評估重新成立醫療群；完成院方決定、群體核定與 B2 主提資格。 |
+| 信義 | `xinyi_deep_cultivation_application_paused` | 7/22 群組公告；7/17 送審會後紀錄＋ASR 為歷史路徑 | 確認 8/7 報告要求；未來明確重啟後再啟用醫療群與 B2 資格 checklist。 |
 | 中正／華山 | `continue_with_existing_group_and_rescope` | 送審會後紀錄確認中正方向；ASR 提供工作包細節 | 加入既有鄰近醫療群，以每年 990 萬元重整社篩擴充、肌少症／步態。 |
 | 連江 | `eligibility_not_blocked_in_meeting` | 主席會中判斷 | 由該案 owner 完成醫院主提與正式申請文件查核。 |
 | 既有 A2 延續案 | `continue_reapplication` | 會議方向明確 | 延續第一階段成果鏈，新增工作包由總院與審查策略控制。 |
 
-## 信義醫療群可行性評估的路徑
+## 信義醫療群可行性評估的 deferred activation 路徑
 
-送審會後紀錄將「重新成立醫療群」列為信義的正式評估方向。加入既有群是會中討論過的替代路徑；若新群評估未成立，需由院方重新確認是否啟用該替代方案。
+送審會後紀錄曾將「重新成立醫療群」列為信義的正式評估方向。7/22 起兩條路徑均保留為未來重啟選項，現在不構成 active assignment。
 
 | 路徑 | 能力 | 啟動證據 | 主要成本／風險 |
 | --- | --- | --- | --- |
@@ -172,6 +182,8 @@ XLSX 的 8 個工作表可以白話理解為：
 在現有時程內，加入一個願意實質合作且治理正常的既有群，具有較短的啟動路徑；這是風險與時程判斷，不取代院方與臺北業務組的正式決定。
 
 ## Action register
+
+2026-07-22 disposition: `EM-0717-01` 至 `EM-0717-07` 與信義相關的 `EM-0717-09` 轉為 deferred activation checklist；`EM-0717-08` 的中正／華山工作與 `EM-0717-10`、`EM-0717-11` 的來源完整性工作由各自 owner 決定是否續行。新增的 active gate 是 [XY-0722-01](../2026-07-22/line-xinyi-deep-cultivation-complete-record-and-pause-status.md#action-register) 的 8/7 報告確認。
 
 | ID | Action | Owner | Trigger | Completion evidence |
 | --- | --- | --- | --- | --- |
@@ -202,6 +214,7 @@ XLSX 的 8 個工作表可以白話理解為：
 
 ## Connection map
 
+- [7/15–7/22 complete LINE and pause-status record](../2026-07-22/line-xinyi-deep-cultivation-complete-record-and-pause-status.md)：提供目前暫停狀態、群組保留、支援路徑與 8/7 確認 gate。
 - [7/16–7/17 LINE 資格中斷與會後紀錄](line-xinyi-application-eligibility-b2-pivot-record.md)：保留會前、會中附件訊號與 14:49 送審紀錄原文；本紀錄據此更新最新狀態。
 - [使用者提供的早期 GPT 分析](sources/user-supplied-gpt-analysis-xinyi-eligibility-b2-2026-07-17.md)：提供 LINE 階段制度解釋；本紀錄加入會議決策與經費細節查核。
 - [6/2 院外門診部正式會議紀錄](../2026-06-02/outpatient-deep-cultivation-official-meeting-minutes.md)：保存 A-route 母案、原始預算與 owner 歷史；本紀錄提供後續 route scope change。
@@ -209,7 +222,7 @@ XLSX 的 8 個工作表可以白話理解為：
 - [7/14 正式申請資料包](../2026-07-14/README.md)：保存作業須知與模板；本紀錄決定何時才啟動 B2 欄位與切結書。
 - [官方格式 crosswalk](../../discovery/DEEP_CULTIVATION_OFFICIAL_FORMAT_CROSSWALK.md)：把新群可行性、送件決定與 B2 evidence gate 送入表單欄位控制。
 - [MOHW compliance rubric](../../discovery/DEEP_CULTIVATION_MOHW_COMPLIANCE_RUBRIC.md)：把院方 go/no-go、主提資格與實質醫療群列為 release gate。
-- [Next step](../../discovery/NEXT_STEP.md)：先完成重新成立醫療群的可行性與院方送件決定。
+- [Next step](../../discovery/NEXT_STEP.md)：目前保存材料並確認 8/7 報告要求；明確重啟後再啟用醫療群可行性與院方送件 gate。
 - [Open questions](../../meta/open_questions.md)：保存臺北業務組、主提、醫療群、400 元與 IRB 的未決證據。
 - [Planning project locator](../../../planning-everything-track/data/projects/2026-05-lianyi-deep-cultivation-plan.md)：只鏡像狀態、容量與下一關卡。
 

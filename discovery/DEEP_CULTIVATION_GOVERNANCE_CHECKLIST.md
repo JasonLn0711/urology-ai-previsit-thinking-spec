@@ -1,8 +1,15 @@
 # Deep-Cultivation Governance Checklist
 
-Status: proposal-prep governance checklist
+Status: reusable governance checklist / Xinyi application activation deferred
 
 Date: 2026-05-20
+
+2026-07-22 current control: preserve this checklist as a future validation
+layer. Xinyi proposal/IRB submission work is paused; the only active
+coordination gate is confirmation of the updated 2026-08-07 15:00–17:00 report
+requirement. Resume governance evidence assembly after an explicit restart and
+eligible medical-group/applicant decision. Canonical status:
+`../records/2026-07-22/README.md`.
 
 2026-06-02 official meeting minutes + 2026-06-19 owner update:
 
@@ -118,7 +125,7 @@ For Scope 3 smart healthcare, governance is part of the core proposal value.
 - Canonical evidence: [`../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md`](../records/2026-07-14/line-xinyi-irb-checklists-and-deep-cultivation-meeting-record.md).
 - Current four-workstream routing: [`../records/2026-07-14/irb-jurisdiction-and-review-path-decision-record.md`](../records/2026-07-14/irb-jurisdiction-and-review-path-decision-record.md) separates service／QI／research／medical-device-validation purposes for the previsit system, PSA／PHI, CRM, and carbon inventory; the PI／IRB liaison obtains the institutional written determination before activation.
 - `scope change`: the 2026-07-14 director LINE exchange activates an integrated general-review working draft to reduce duplicate submission work and review fees. Each workstream remains separately identifiable inside the protocol, Jason confirms only the previsit-system section, and the PI／medical／IRB owners confirm the shared consent and final route.
-- `confirmed`: 陳美如主任確認四子計畫以同一整合 IRB 配合線上上傳，前一年度單一案件作法由趙康邑確認；總院長協同主持人建議與 8/7 正式報告負責人安排仍是 personnel and presentation gates.
+- `historical confirmed`: 陳美如主任確認四子計畫以同一整合 IRB 配合線上上傳，前一年度單一案件作法由趙康邑確認。7/22 後 IRB／協同主持人工作轉為 deferred activation；8/7 更新為 15:00–17:00，信義報告負責人與出席要求待確認。
 
 2026-07-13 LINE decision path:
 
