@@ -31,15 +31,24 @@ Use:
 
 ## Current Records
 
+- `2026-07-22/README.md`:
+  canonical complete LINE text packet for `深耕信義／信義深耕` covering
+  2026-07-15 through 2026-07-22. It connects the 7/15 briefing and 8/7 report
+  notice, 7/16 eligibility shock, 7/17 community-medical-group pivot and 7/22
+  latest notice. Current Xinyi status is
+  `xinyi_deep_cultivation_application_paused`; the group remains available for
+  coordination and the community-welfare center continues offering support.
+  Existing B/B2, governance, KPI and budget materials are preserved as
+  deferred assets. The next active gate is confirmation of whether the 8/7
+  report still applies to the Xinyi team.
 - `2026-07-17/README.md`:
-  canonical packet for the 2026-07-16 eligibility shock and 2026-07-17 emergency
+  historical canonical packet for the 2026-07-16 eligibility shock and 2026-07-17 emergency
   meeting. It preserves the LINE record, byte-identical corrected ASR source,
   verified decision record and official A/B/C/D/B2 evidence. Current Xinyi
-  status is `medical_group_feasibility_assessment_active`: the minutes-for-
-  review directs an urgent assessment of re-establishing a medical group, with
-  formal submission still gated by feasibility and institutional evidence.
-  The B-category whole-plan ceiling is NT$9.9M per year. Meeting access
-  credentials remain outside tracked files.
+  status is supplied by `2026-07-22/README.md`; the 7/17
+  `medical_group_feasibility_assessment_active` state and B-category
+  NT$9.9M/year whole-plan controls remain preserved as the future restart
+  checklist. Meeting access credentials remain outside tracked files.
 - `2026-07-14/README.md`:
   canonical receipt package for the new 116-118 Health Taiwan Phase 2 formal
   application instructions and proposal-template attachment bundle shared in
